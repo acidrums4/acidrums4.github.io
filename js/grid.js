@@ -521,7 +521,7 @@ var Grid = (function() {
 				previewOffsetT = this.$previewEl.offset().top - scrollExtra,
 				scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
 			
-			$('div.contenido').animate( { scrollTop : scrollVal }, settings.speed );
+			$('div.contenido').animate( { scrollTop : previewOffsetT }, settings.speed );
 
 		},
 		setTransition  : function() {

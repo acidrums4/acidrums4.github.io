@@ -13,7 +13,7 @@ html,body,div.main-container{width:100%;height:100%;display:block}
 html,body,div{box-sizing:border-box}
 div.main-container{clear:both;width:100%;height:100%}
 div.main-container>div{height:100%}
-div.menu{width:12rem;background-color:#434750;float:left}
+div.menu{width:12rem;background-color:#434750;float:left;position:relative}
 div.contenido{background-color:#fff;overflow:hidden;overflow-y:scroll;position:relative}
 div.contenido-wrapper{border-width:2rem;border-style:solid;border-color:transparent;width:100%;height:100%}
 
@@ -25,6 +25,9 @@ div.borde-t,div.borde-l,div.borde-r{top:0}
 div.borde-b,div.borde-l,div.borde-r{bottom:0}
 div.borde-l,div.borde-t,div.borde-b{left:0}
 div.borde-r,div.borde-t,div.borde-b{right:0}
+
+/* Logo */
+div.logo{position:absolute;top:2rem;left:0;right:0;margin:auto;width:100px;height:100px;background-image:url(../img/logotipo.png);background-image:url(../img/logotipo.svg);background-repeat:no-repeat;background-position:0 0}
 
 /* Navegación */
 nav.navigation{height:100%;position:relative}

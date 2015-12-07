@@ -369,6 +369,7 @@ var Grid = (function() {
 				$currentItem.removeClass( 'og-expanded' );
 				this.$item.addClass( 'og-expanded' );
 				// position the preview correctly
+        console.log("Llamando desde update");
 				this.positionItem();
 			}
 
@@ -461,6 +462,7 @@ var Grid = (function() {
 
 			}, this ), 25 );
 
+      console.log("Llamando desde close");
       this.positionItem();
 			
 			return false;
@@ -516,12 +518,18 @@ var Grid = (function() {
 		positionPreview : function() {
       var previewOffsetT = this.$previewEl.offset().top - scrollExtra;
       console.log("previewOffsetT: " + previewOffsetT);
-      console.log("scrollExtra: " + scrollExtra);
+      console.log("offsetTop: " + this.$item.data('offsetTop'));
 			$('div.contenido').animate( { scrollTop : previewOffsetT }, settings.speed );
     },
 		positionItem : function() {
-			var position = this.$item.data( 'offsetTop' ) - this.height;
-      console.log("position: " + position);
+			var position = this.$item.data( 'offsetTop' ) - this.itemHeight;
+      console.log("offsetTop: " + this.$item.data('offsetTop'));
+      console.log("previewOffsetT: " + this.$previewEl.offset().top);
+      //console.log("height: " + this.height);
+      //console.log("itemHeight: " + this.itemHeight);
+      //console.log("expandedIdx: " + this.$item.index());
+      //console.log("position: " + position);
+      //console.log("marginExpanded: " + marginExpanded);
 			$('div.contenido').animate( { scrollTop : position }, settings.speed );
 		},
 		setTransition  : function() {

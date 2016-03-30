@@ -414,13 +414,13 @@ div.footer-links a{display:inline;float:left;margin:0 24px 0 0}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}
-ul.slider::before{top:100%;height:100%;width:100%;animation:normalPreview .5s cubic-bezier(0.7,0.3,1) forwards}
+ul.slider::before{top:100%;height:100%;width:100%;transition:top .5s cubic-bezier(0.7,0,0.3,1) forwards}
 ul.slider::after{top:-32px;bottom:-25%;width:32px;height:32px;background-image:url(../img/iconos.png);background-repeat:no-repeat;background-position:-256px 0;opacity:0;transition:all .5s ease-out}
 body.item-web article ul.slider::before{background-color:#3c9def}
 body.item-fto article ul.slider::before{background-color:#24c67d}
 body.item-ils article ul.slider::before{background-color:#f14398}
 body.item-otr article ul.slider::before{background-color:#f7d969}
-ul.slider:hover::before{animation:hoverPreview .5s cubic-bezier(0.7,0.3,1) forwards}
+ul.slider:hover::before{top:0}
 ul.slider:hover::after{bottom:-16px;opacity:1}
 article.slider-active ul.slider{cursor:auto}
 article.slider-active ul.slider::before,article.slider-active ul.slider::after{display:none}
@@ -440,8 +440,5 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadedLoader{from{opacity:0;transform:translate3d(0,-100%,0) scale3d(0.3,0.3,1)}}
 @keyframes animUnloadedContent{to{opacity:0;transform:translate3d(0,200px,0)}}
 @keyframes animUnloadedHeader{from{transform:translate3d(0,-100%,0)}to{transform:translate3d(0,0%,0)}}
-
-@keyframes normalPreview{0%{top:0}100%{top:100%}}
-@keyframes hoverPreview{0%{top:100%}100%{top:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}

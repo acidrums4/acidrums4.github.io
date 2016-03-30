@@ -148,7 +148,7 @@ function noscroll() {
 /*** Cambio de página ***/
 
 function setNewPageType(url){
-	if (url == 'index.html' || (url.split('/').slice(-1) == 'index.html')){
+	if (url == 'index.html' || url == '/' || (url.split('/').slice(-1) == 'index.html')){
 		console.log("URL: " + url + "\nTipo de página: INDEX");
 		$('body').removeClass('item-web item-fto item-ils item-otr item-hdv').addClass('item-all');
 	} else if (url == '404.html' || (url.split('/').slice(-1) == 'index.html')){
@@ -181,7 +181,6 @@ function changePage(url, bool) {
 	container.removeClass('loaded').addClass('unload');
 
 	container.one('animationend', function(){
-		console.log("Cuantas veces se hace esta chimbada?");
 		$('body').removeClass('layout-switch');
 		loadNewContent(url, bool);
 		newLocation = url;
@@ -192,7 +191,7 @@ function loadNewContent(url, bool) {
 	//console.log("URL: " + url.split('/').slice(-2,-1));
 	url = ('' == url) ? 'index.html' : url;
 	console.log("Cargando URL: " + url);
-	if (url.split('/').slice(-1) == 'index.html'){
+	if (url.split('/').slice(-1) == 'index.html' || url == '/'){
 		$('body').removeClass('biop-page sysp-page item-page').addClass('home-page');
 	} else if (url.split('/').slice(-1) == '404.html'){
 		$('body').removeClass('biop-page home-page item-page').addClass('sysp-page');

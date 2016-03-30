@@ -70,32 +70,32 @@ body.item-otr path.ip-loader-circlebg{stroke:#fae599}
 body.item-hdv path.ip-loader-circlebg{stroke:#dfdedd}
 
 /* Initial animation of header elements */
-.loading h1.ip-logo,.loading div.ip-loader{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-.unload h1.ip-logo,.unload div.ip-loader{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.loading h1.ip-logo,div.loading div.ip-loader{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.unload h1.ip-logo,div.unload div.ip-loader{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 
-.loading div.ip-loader{animation-delay:0.2s}
+div.loading div.ip-loader{animation-delay:0.2s}
 
 /* Header elements when loading finishes */
-.loaded h1.ip-logo,.loaded div.ip-loader{opacity:1}
-.unload h1.ip-logo,.loaded h1.ip-logo{transform-origin:50% 25%}
-.loaded h1.ip-logo{animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
-.unload h1.ip-logo{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded h1.ip-logo,div.loaded div.ip-loader{opacity:1}
+div.unload h1.ip-logo,div.loaded h1.ip-logo{transform-origin:50% 25%}
+div.loaded h1.ip-logo{animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.unload h1.ip-logo{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
-.loaded div.ip-loader{animation:animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
-.unload div.ip-loader{animation:animUnloadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded div.ip-loader{animation:animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
+div.unload div.ip-loader{animation:animUnloadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
-.loaded h1.ip-logo svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
-body.biop-page .loaded h1.ip-logo svg path,body.sysp-page .loaded h1.ip-logo svg path{fill:#afaeab}
-.unload h1.ip-logo svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}
+div.loaded h1.ip-logo svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
+body.biop-page div.loaded h1.ip-logo svg path,body.sysp-page div.loaded h1.ip-logo svg path{fill:#afaeab}
+div.unload h1.ip-logo svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}
 
 /* Header animation when loading finishes */
-.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
-.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
+div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Content animations */
-.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
-.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
+div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
+div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Change layout class for header */
 .layout-switch header{position:absolute}
@@ -108,7 +108,7 @@ body.biop-page .loaded h1.ip-logo svg path,body.sysp-page .loaded h1.ip-logo svg
 /* Contenido */
 div.ip-main{overflow:hidden;margin:0 auto;padding:160px 0 0}
 
-main{opacity:1;margin:50px auto 100px;width:100%}
+main{opacity:1;margin:50px auto 50px;width:100%}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
 main h2,main h4{text-align:center;line-height:1;opacity:1;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -158,7 +158,11 @@ nav{background-color:#2a363b;position:fixed;width:100%;height:130px;left:0;top:-
 body.nav-opened{top:128px}
 body.nav-opened nav{top:0}
 body.layout-switch nav{z-index:100;border-width:0 0 2px;border-style:solid;border-color:#243035;border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 20%,#3c9def 20%,#3c9def 40%,#24c67d 40%,#24c67d 60%,#f14398 60%,#f14398 80%,#f7d969 80%,#f7d969 100%);border-image-slice:1}
-body.layout-switch.nav-opened nav{border-image:none}
+body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:none}
+body.item-page.item-web.layout-switch nav{border-color:#3c9def}
+body.item-page.item-fto.layout-switch nav{border-color:#24c67d}
+body.item-page.item-ils.layout-switch nav{border-color:#f14398}
+body.item-page.item-otr.layout-switch nav{border-color:#f7d969}
 nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
 nav button.main-menu{right:16px;background-position:-448px 0}
@@ -217,7 +221,7 @@ body.biop-page a.footer-link-em,body.sysp-page a.footer-link-em{background-posit
 
 /* Detalle */
 article{position:relative;margin:0 50px}
-article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1;color:#fff;transition:color .5s ease-out}
+article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1;color:#2a363b;transition:color .5s ease-out}
 body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-Light',sans-serif}
 body.item-web article h1{color:#3c9def}
 body.item-fto article h1{color:#24c67d}
@@ -270,6 +274,14 @@ body.item-hdv div.item-txt>a em{color:#fff;font-weight:bold}
 body.item-hdv div.item-txt>a:hover>span{color:#4f4e4d}
 body.item-hdv div.item-txt>a:hover em{color:#afaead}
 body.item-web div.item-txt>a:hover>span,body.item-fto div.item-txt>a:hover>span,body.item-ils div.item-txt>a:hover>span,body.item-otr div.item-txt>a:hover>span{color:#fff}
+
+article blockquote,article blockquote>p{transition:all .25s cubic-bezier(0.7,0,0.3,1)}
+article blockquote{margin:16px 0 0;background-color:#243035;display:inline-block;position:relative}
+article blockquote:before{content:'';display:block;position:absolute;top:-16px;left:16px;width:0;height:0;border-style:solid;border-color:transparent transparent #243035 transparent;border-width:0 16px 16px}
+article blockquote>p{font-size:90%;letter-spacing:0.0125ex;margin:16px 16px 16px 64px;opacity:.5}
+article blockquote>p:before{display:none}
+div.item-txt>a:hover+blockquote{margin:0}
+div.item-txt>a:hover+blockquote>p{opacity:1}
 
 article svg{max-width:250px;width:100%;margin:0 auto;display:block}
 article path{fill:none;stroke:#6f6e6d}
@@ -343,9 +355,9 @@ article p{font-size:110%;line-height:1.625}
 }
 
 @media only screen and (min-width:1024px){
-.unload h1.ip-logo,.loaded h1.ip-logo{transform-origin:50% 12.5%}
+div.unload h1.ip-logo,div.loaded h1.ip-logo{transform-origin:50% 12.5%}
 
-main{width:960px}
+main{width:960px;margin:50px auto 100px}
 main h2,main.noscroll h2{font-size:350%}
 main h4,main.noscroll h4{font-size:150%}
 
@@ -386,6 +398,12 @@ body.item-page article.slider-active div.item-txt{overflow:visible;width:720px;m
 body.item-page article.slider-active div.item-txt>h1{margin:0 16px 30px}
 body.item-page article.slider-active div.item-txt>p{margin:20px 16px 0}
 body.item-page article.slider-active div.item-txt>a{margin:20px 0 0}
+
+article blockquote{margin:16px 0 0 44px}
+article.slider-active blockquote{margin:16px 0 0}
+body.item-page article blockquote>p{margin:16px 16px 16px 64px}
+div.item-txt>a:hover+blockquote{margin:0 0 0 44px}
+article.slider-active div.item-txt>a:hover+blockquote{margin:0}
 
 footer span{text-align:right}
 div.footer-wrapper{width:940px;margin:48px auto;text-align:right}

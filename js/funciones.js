@@ -168,7 +168,7 @@ $(window).on('popstate', function() {
 		setNewPageType(location.pathname);
     console.log("Historial: " + location.pathname);
 		//changePage(location.pathname.split('/'.slice(-1)), false);
-		changePage(location.pathname), false);
+		changePage(location.pathname, false);
 	}
 });
 

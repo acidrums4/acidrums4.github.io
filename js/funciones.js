@@ -166,7 +166,9 @@ $(window).on('popstate', function() {
 
 	if( !isAnimating  &&  newLocation != location.pathName ){
 		setNewPageType(location.pathname);
-		changePage(location.pathname.split('/'.slice(-1)), false);
+    console.log("Historial: " + location.pathname);
+		//changePage(location.pathname.split('/'.slice(-1)), false);
+		changePage(location.pathname), false);
 	}
 });
 

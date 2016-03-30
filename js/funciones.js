@@ -164,7 +164,7 @@ function setNewPageType(url){
 $(window).on('popstate', function() {
 	history.navigationMode = 'compatible';
 
-	if( !isAnimating  &&  newLocation != newPage ){
+	if( !isAnimating  &&  newLocation != location.pathName ){
 		setNewPageType(location.pathname);
 		changePage(location.pathname.split('/'.slice(-1)), false);
 	}

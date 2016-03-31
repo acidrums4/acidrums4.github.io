@@ -75,11 +75,11 @@ jQuery(document).ready(function(event){
     container.addClass('loading');
     isAnimating = true;
 
-    if( support.animations ) {
+    //if( support.animations ) {
       container.one('animationend', function(){
         setProgress();
       });
-    }
+    //}
   }
 
   function setProgress()

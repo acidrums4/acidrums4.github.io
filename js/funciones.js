@@ -283,8 +283,9 @@ jQuery(document).ready(function(event){
       $container.find('ul.slider li').each(function(index){
           var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),
           altText = $(this).find('img').attr('alt'),
+          altWrapper = $('<span></span>').appendTo($(this)),
           dot = $('<a href="#"></a>').appendTo(dotWrapper);
-          console.log("Alt: " + altText);
+          altWrapper.text = altText;
           dotWrapper.appendTo(wrapper);
           dot.text(index+1);
           });

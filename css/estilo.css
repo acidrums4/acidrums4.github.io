@@ -293,7 +293,9 @@ article path.eye{animation:eyes 3s ease infinite}
 ul.slider{position:relative;z-index:1;overflow:hidden}
 ul.slider::before{content:'mobile';display:none}
 ul.slider li{position:absolute;top:0;left:0;z-index:1;height:100%;width:100%;-webkit-transform:translateX(100%);-moz-transform:translateX(100%);-ms-transform:translateX(100%);-o-transform:translateX(100%);transform:translateX(100%);-webkit-transition:-webkit-transform 0.3s;-moz-transition:-moz-transform 0.3s;transition:transform 0.3s}
-ul.slider li img{display:block;width:100%}
+ul.slider li>img{display:block;width:100%}
+ul.slider li>span{display:none;margin:20px 0;color:#8a969b;line-height:1.375em;font-size:90%}
+article.slider-active ul.slider li>span{display:block}
 ul.slider li.selected{position:relative;z-index:2;-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0)}
 ul.slider li.move-left{-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);-ms-transform:translateX(-100%);-o-transform:translateX(-100%);transform:translateX(-100%)}
 

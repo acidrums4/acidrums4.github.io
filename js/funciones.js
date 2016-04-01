@@ -279,9 +279,7 @@ jQuery(document).ready(function(event){
         });
 
     function createSliderPagination($container){
-      if ($container.find('ul.slider li').length > 1){
-        var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider-navigation'));
-      }
+      var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider-navigation'));
       $container.find('ul.slider li').each(function(index){
         if ($container.find('ul.slider li').length > 1){
           var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),
@@ -293,9 +291,7 @@ jQuery(document).ready(function(event){
         altWrapper = $('<span></span>').appendTo($(this)),
         altWrapper.text(altText);
       });
-      if ($container.find('ul.slider li').length > 1){
-        return wrapper.children('li');
-      }
+      return wrapper.children('li');
     }
 
     function nextSlide($container, $pagination, $n){

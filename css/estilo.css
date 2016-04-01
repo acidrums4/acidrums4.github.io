@@ -321,10 +321,9 @@ body.item-fto div.item-img a.item-close:before,body.item-fto ul.slider-navigatio
 body.item-ils div.item-img a.item-close:before,body.item-ils ul.slider-navigation li a:before{background-color:#f14398}
 body.item-otr div.item-img a.item-close:before,body.item-otr ul.slider-navigation li a:before{background-color:#f7d969}
 
-ul.slider-pagination{position:absolute;z-index:2;bottom:-50px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%);visibility:hidden}
-ul.slider-pagination:after{content:"";display:table;clear:both}
+ul.slider-pagination{position:relative;z-index:2;text-align:center;display:block;width:100%;visibility:hidden}
 .touch ul.slider-pagination{visibility:hidden}
-ul.slider-pagination li{display:inline-block;float:left;margin:0 8px}
+ul.slider-pagination li{display:inline-block;margin:0 8px}
 ul.slider-pagination li.selected a{background:#fff}
 ul.slider-pagination a{display:block;height:16px;width:16px;border-radius:50%;border-width:1px;border-style:solid;border-color:#fff;background-color:rgba(255,255,255,0);overflow:hidden;text-indent:100%;white-space:nowrap}
 body.item-web ul.slider-pagination li.selected a{background-color:#3c9def}

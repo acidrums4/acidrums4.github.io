@@ -280,8 +280,10 @@ jQuery(document).ready(function(event){
 
     function createSliderPagination($container){
       var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider-navigation'));
-      $container.find('.slider li').each(function(index){
+      $container.find('ul.slider li').each(function(index){
           var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),
+          var altText = index.find('img').attr('alt');
+          console.log("Alt: " + alt);
           dot = $('<a href="#"></a>').appendTo(dotWrapper);
           dotWrapper.appendTo(wrapper);
           dot.text(index+1);

@@ -224,7 +224,7 @@ article{position:relative;margin:0 50px}
 article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
 body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-Light',sans-serif}
 article h1:after{content:'.'}
-article a{outline:0}
+article a{outline:0;color:#2a363b;transition:color 500 ms ease-out}
 body.item-web article h1,body.item-web article a{color:#3c9def}
 body.item-fto article h1,body.item-fto article a{color:#24c67d}
 body.item-ils article h1,body.item-ils article a{color:#f14398}

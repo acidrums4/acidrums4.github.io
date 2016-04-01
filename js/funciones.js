@@ -285,7 +285,7 @@ jQuery(document).ready(function(event){
           altText = $(this).find('img').attr('alt'),
           altWrapper = $('<span></span>').appendTo($(this)),
           dot = $('<a href="#"></a>').appendTo(dotWrapper);
-          altWrapper.text = altText;
+          altWrapper.text(altText);
           dotWrapper.appendTo(wrapper);
           dot.text(index+1);
           });

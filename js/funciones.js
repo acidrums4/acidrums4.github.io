@@ -130,9 +130,10 @@ jQuery(document).ready(function(event){
 
     loop();
 
-    /*if (imagesLoad < imageCount || imagesLoad == 0 ){
-      setTimeout('progress_bar();', 200);
-      }*/
+    if (imagesLoad < imageCount || imagesLoad == 0 ){
+      //setTimeout('progress_bar();', 200);
+      console.log("Se trabó esta chanda.");
+    }
   }
 
   function noscroll() {

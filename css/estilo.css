@@ -60,9 +60,9 @@ header svg.ip-inner{display:block;margin:0 auto}
 header h1.ip-logo svg{min-width:200px;max-width:400px;width:20%}
 header h1.ip-logo svg path{fill:#2a363b}
 header div.ip-loader svg path{fill:none;stroke-width:6}
-path.ip-loader-circle{transition:stroke-dashoffset 0.2s;stroke:#2a363b}
-path.ip-loader-circlebg{stroke:#ee7787;fill:transparent;transition:fill .25s ease-out}
-path.ip-loader-circlebg.loading{fill:#6a767b}
+path.ip-loader-circle{transition:stroke-dashoffset 0.2s;fill:none;stroke:#2a363b}
+path.ip-loader-circlebg{stroke:#ee7787;fill:none}
+path.loading{animation:loading .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-all path.ip-loader-circlebg{stroke:#ee7787}
 body.item-web path.ip-loader-circlebg{stroke:#6bb5f3}
 body.item-fto path.ip-loader-circlebg{stroke:#41dc96}
@@ -431,6 +431,8 @@ article.slider-active ul.slider::before,article.slider-active ul.slider::after{d
 ul.slider-navigation li,ul.slider-pagination{opacity:0;visibility:hidden;-webkit-transition:opacity 0.4s 0s,visibility 0s 0.4s;-moz-transition:opacity 0.4s 0s,visibility 0s 0.4s;transition:opacity 0.4s 0s,visibility 0s 0.4s}
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;visibility:visible;-webkit-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;-moz-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;transition:opacity 0.4s 0.4s,visibility 0s 0.4s}
 }
+
+@keyframes loading{0%{fill:none}50%{fill:#4a565b}100%{fill:none}}
 
 @keyframes animInitialHeader{from{opacity:0;transform:translate3d(0,800px,0)}}
 @keyframes animLoadedLogo{to{transform:translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1)}}

@@ -112,8 +112,12 @@ jQuery(document).ready(function(event){
         imagesLoad++;
 
         loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength() * ( 1 - (percentage / 100) );
-        console.log("Debería estar sirviendo lo del clip... Y: " + (100-percentage));
-        $('rect.clip').animate({y:100-percentage},100);
+
+        var pathHeight = $('rect.clip').attr('height'),
+            pathHeightValue = ((percentage * pathHeight) / 100);
+
+        console.log("Debería estar sirviendo lo del clip... height: " + (pathHeightValue));
+        $('rect.clip').attr('height',pathHeightValue);
 
         if (imagesLoad == imageCount) progressComplete();
       }

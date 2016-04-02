@@ -116,7 +116,7 @@ jQuery(document).ready(function(event){
         var pathHeight = $('rect.clip').attr('height'),
             pathHeightValue = ((percentage * pathHeight) / 100);
 
-        console.log("Debería estar sirviendo lo del clip... height: " + (pathHeightValue));
+        console.log("Debería estar sirviendo lo del clip... height: " + pathHeightValue + "\nPathHeight: " + pathHeight + "\nPercentage: " + percentage);
         $('rect.clip').attr('height',pathHeightValue);
 
         if (imagesLoad == imageCount) progressComplete();

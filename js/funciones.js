@@ -131,8 +131,10 @@ jQuery(document).ready(function(event){
     loop();
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
+      console.log("Cargando imagen...");
       $('path.ip-loader-circlebg').addClass('loading');
     } else {
+      console.log("Imagen cargada.");
       $('path.ip-loader-circlebg').removeClass('loading');
     }
   }

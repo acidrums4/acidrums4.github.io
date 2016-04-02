@@ -112,6 +112,7 @@ jQuery(document).ready(function(event){
         imagesLoad++;
 
         loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength() * ( 1 - (percentage / 100) );
+        $('path.clip').animate({y:100-percentage}),100;
 
         if (imagesLoad == imageCount) progressComplete();
       }

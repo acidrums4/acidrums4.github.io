@@ -62,7 +62,7 @@ header h1.ip-logo svg path{fill:#2a363b}
 header div.ip-loader svg path{fill:none;stroke-width:6}
 path.ip-loader-circle{transition:stroke-dashoffset 0.2s;fill:none;stroke:#2a363b}
 path.ip-loader-circlebg{stroke:#ee7787;fill:none}
-path.loading{animation:loading .5s cubic-bezier(0.7,0,0.3,1)}
+path.loading{animation:loading .5s cubic-bezier(0.7,0,0.3,1) infinite}
 body.item-all path.ip-loader-circlebg{stroke:#ee7787}
 body.item-web path.ip-loader-circlebg{stroke:#6bb5f3}
 body.item-fto path.ip-loader-circlebg{stroke:#41dc96}

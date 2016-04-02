@@ -113,8 +113,7 @@ jQuery(document).ready(function(event){
 
         loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength() * ( 1 - (percentage / 100) );
 
-        var svg = $('svg.ip-inner').get(0),
-            pathHeight = svg.viewBox.baseVal[3];
+        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
             pathHeightValue = ((percentage * pathHeight) / 100);
 
         console.log("Debería estar sirviendo lo del clip... height: " + pathHeightValue + "\nPathHeight: " + pathHeight + "\nPercentage: " + percentage);

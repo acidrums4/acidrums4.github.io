@@ -21,6 +21,9 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script>
       jQuery(document).ready(function(event){
+        var svg = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
+        //height = svg.viewBox.baseVal;
+        console.log("height: " + svg);
         $('rect.clip').attr('height',50);
       });
     </script>

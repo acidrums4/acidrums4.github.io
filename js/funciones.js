@@ -113,7 +113,7 @@ jQuery(document).ready(function(event){
 
         loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength() * ( 1 - (percentage / 100) );
 
-        var pathHeight = $('rect.clip').attr('height'),
+        var pathHeight = $('h1.ip-logo>path').attr('height'),
             pathHeightValue = ((percentage * pathHeight) / 100);
 
         console.log("Debería estar sirviendo lo del clip... height: " + pathHeightValue + "\nPathHeight: " + pathHeight + "\nPercentage: " + percentage);

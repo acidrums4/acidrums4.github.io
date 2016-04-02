@@ -130,10 +130,7 @@ jQuery(document).ready(function(event){
 
     loop();
 
-    if (imagesLoad < imageCount || imagesLoad == 0 ){
-      //setTimeout('progress_bar();', 200);
-      console.log("Se trabó esta chanda.");
-    }
+    (imagesLoad < imageCount || imagesLoad == 0 ) ? $('path.ip-loader-circlebg').addClass('loading') : $('path.ip-loader-circlebg').removeClass('loading');
   }
 
   function noscroll() {

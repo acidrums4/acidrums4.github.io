@@ -61,7 +61,8 @@ header h1.ip-logo svg{min-width:200px;max-width:400px;width:20%}
 header h1.ip-logo svg path{fill:#2a363b}
 header div.ip-loader svg path{fill:none;stroke-width:6}
 path.ip-loader-circle{transition:stroke-dashoffset 0.2s;stroke:#2a363b}
-path.ip-loader-circlebg{stroke:#ee7787}
+path.ip-loader-circlebg{stroke:#ee7787;fill:transparent;transition:fill .25s ease-out}
+path.ip-loader-circlebg.loading{fill:#6a767b}
 body.item-all path.ip-loader-circlebg{stroke:#ee7787}
 body.item-web path.ip-loader-circlebg{stroke:#6bb5f3}
 body.item-fto path.ip-loader-circlebg{stroke:#41dc96}

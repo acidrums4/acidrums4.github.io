@@ -130,7 +130,11 @@ jQuery(document).ready(function(event){
 
     loop();
 
-    (imagesLoad < imageCount || imagesLoad == 0 ) ? $('path.ip-loader-circlebg').addClass('loading') : $('path.ip-loader-circlebg').removeClass('loading');
+    if (imagesLoad < imageCount || imagesLoad == 0 ){
+      $('path.ip-loader-circlebg').addClass('loading');
+    } else {
+      $('path.ip-loader-circlebg').removeClass('loading');
+    }
   }
 
   function noscroll() {

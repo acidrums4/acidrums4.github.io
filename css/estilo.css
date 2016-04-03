@@ -430,9 +430,8 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animLoadedHeader{to{top:-200%}}
 
 @keyframes animFinalHeader{to{opacity:0;bottom:-100%}}
-@keyframes animUnloadedLogo{from{transform:translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1)}}
-@keyframes animUnloadedLoader{from{opacity:0;transform:translate3d(0,-100%,0) scale3d(0.3,0.3,1)}}
-@keyframes animUnloadedContent{to{opacity:0;transform:translate3d(0,200px,0)}}
-@keyframes animUnloadedHeader{from{transform:translate3d(0,-100%,0)}to{transform:translate3d(0,0%,0)}}
+@keyframes animUnloadedLogo{from{top:340px}}
+@keyframes animUnloadedContent{to{opacity:0;top:200px}}
+@keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}

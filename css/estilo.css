@@ -80,9 +80,11 @@ div.loaded h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cub
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
-div.loaded h1 svg path{top:50%;transition:all 0.5s ease 0.3s;fill:#7a868b}
+div.loaded h1 svg{top:50%}
+div.unload h1 svg{top:0}
+div.loaded h1 svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
+div.unload h1 svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}
 body.biop-page div.loaded h1 svg path,body.sysp-page div.loaded h1 svg path{fill:#afaeab}
-div.unload h1 svg path{top:0;transition:all 0.5s ease 0.3s;fill:#2a363b}
 
 /* Header animation when loading finishes */
 div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}

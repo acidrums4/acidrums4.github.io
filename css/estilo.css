@@ -51,7 +51,7 @@ body.item-ils header{background-color:#f14398}
 body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
 header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
-header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg path{fill:#2a363b}
@@ -71,8 +71,8 @@ body.item-otr path.logo-background{fill:#fae599}
 body.item-hdv path.logo-background{fill:#dfdedd}
 
 /* Initial animation of header elements */
-div.loading h1{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.unload h1{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.loading h1{opacity:1;top:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.unload h1{opacity:1;top:0;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Header elements when loading finishes */
 div.loaded h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}

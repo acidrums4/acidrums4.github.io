@@ -54,7 +54,7 @@ body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
 header h1{position:absolute;display:block}
 
-header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto}
+header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg path{fill:#2a363b}
 svg.loading{animation:loading .125s cubic-bezier(0.7,0,0.3,1) infinite}
 body.item-all rect.clip{fill:#e84a5f}
@@ -80,7 +80,7 @@ div.loaded h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cub
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
-div.loaded h1 svg{top:50%}
+div.loaded h1 svg{top:25%}
 div.unload h1 svg{top:0}
 div.loaded h1 svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
 div.unload h1 svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}

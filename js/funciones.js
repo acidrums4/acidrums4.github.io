@@ -108,7 +108,7 @@ jQuery(document).ready(function(event){
 
         imageIndex++;
         imagesLoad++;
-        pathHeightValue = pathHeight - ((percentage * pathHeight) / 100);
+        pathHeightValue = ((percentage * pathHeight) / 100);
 
         $('rect.clip').attr('height',pathHeightValue);
 

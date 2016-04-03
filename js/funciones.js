@@ -68,6 +68,18 @@ jQuery(document).ready(function(event){
     }
   });
 
+  function fixClipPaths(svg, restore) {
+    Array.prototype.forEach.call(svg.querySelectorAll('*[clip-path]'), function (el) {
+        var clipUrl = el.getAttribute('clip-path');
+
+        if(!el.getAttribute('data-original-clip-path')) {
+            el.setAttribute('data-original-clip-path', clipUrl);
+        }
+
+        el.setAttribute('clip-path', 'url('+ (!restore ? document.location.href : '') + el.getAttribute('data-original-clip-path').substr(4));
+    });
+  }
+
   function init() {
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
@@ -89,6 +101,8 @@ jQuery(document).ready(function(event){
     var imagesLoad = 0;
     var percentage = 0;
     var imageIndex = 0;
+
+    fixClipPaths(document.getElementsByTagName('svg')[0]);
 
     function progressComplete(){
       percentage = 100;

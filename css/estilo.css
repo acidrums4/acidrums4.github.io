@@ -91,7 +91,7 @@ div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forward
 div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Content animations */
-div.loaded main{animation:animLoadedContent 1.5s cubic-bezier(0.7,0,0.3,1) both}
+div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Change layout class for header */

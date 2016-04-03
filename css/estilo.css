@@ -58,12 +58,20 @@ header svg.ip-inner{display:block;margin:0 auto;width:66px;height:66px}
 header h1.ip-logo svg{min-width:200px;max-width:400px;width:20%}
 header h1.ip-logo svg path{fill:#2a363b}
 path.loading{animation:loading .5s cubic-bezier(0.7,0,0.3,1) infinite}
+body.item-all rect.clip{fill:#e84a5f}
+body.item-web rect.clip{fill:#3c9def}
+body.item-fto rect.clip{fill:#24c67d}
+body.item-ils rect.clip{fill:#f14398}
+body.item-otr rect.clip{fill:#f7d969}
+body.item-hdv rect.clip{fill:#fffefd}
+/*
 body.item-all rect.clip{fill:#ee7787}
 body.item-web rect.clip{fill:#6bb5f3}
 body.item-fto rect.clip{fill:#41dc96}
 body.item-ils rect.clip{fill:#f572b2}
 body.item-otr rect.clip{fill:#fae599}
 body.item-hdv rect.clip{fill:#dfdedd}
+*/
 
 /* Initial animation of header elements */
 div.loading h1.ip-logo{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}

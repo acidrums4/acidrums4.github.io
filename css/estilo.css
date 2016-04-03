@@ -52,38 +52,28 @@ body.item-ils header{background-color:#f14398}
 body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
 header h1{margin:0}
-h1.ip-logo,div.ip-loader{position:absolute;left:0;width:100%;opacity:0;cursor:default;pointer-events:none}
 h1.ip-logo{top:0;height:100%;transform:translate3d(0,25%,0)}
-div.ip-loader{bottom:20%}
 
 header svg.ip-inner{display:block;margin:0 auto;width:66px;height:66px}
 header h1.ip-logo svg{min-width:200px;max-width:400px;width:20%}
 header h1.ip-logo svg path{fill:#2a363b}
-header div.ip-loader svg path{fill:none;stroke-width:6}
-path.ip-loader-circle{transition:stroke-dashoffset 0.2s;fill:none;stroke:#2a363b}
-path.ip-loader-circlebg{stroke:#ee7787;fill:none}
 path.loading{animation:loading .5s cubic-bezier(0.7,0,0.3,1) infinite}
-body.item-all path.ip-loader-circlebg{stroke:#ee7787}
-body.item-web path.ip-loader-circlebg{stroke:#6bb5f3}
-body.item-fto path.ip-loader-circlebg{stroke:#41dc96}
-body.item-ils path.ip-loader-circlebg{stroke:#f572b2}
-body.item-otr path.ip-loader-circlebg{stroke:#fae599}
-body.item-hdv path.ip-loader-circlebg{stroke:#dfdedd}
+body.item-all rect.clip{fill:#ee7787}
+body.item-web rect.clip{fill:#6bb5f3}
+body.item-fto rect.clip{fill:#41dc96}
+body.item-ils rect.clip{fill:#f572b2}
+body.item-otr rect.clip{fill:#fae599}
+body.item-hdv rect.clip{fill:#dfdedd}
 
 /* Initial animation of header elements */
-div.loading h1.ip-logo,div.loading div.ip-loader{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.unload h1.ip-logo,div.unload div.ip-loader{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-
-div.loading div.ip-loader{animation-delay:0.2s}
+div.loading h1.ip-logo{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.unload h1.ip-logo{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Header elements when loading finishes */
-div.loaded h1.ip-logo,div.loaded div.ip-loader{opacity:1}
+div.loaded h1.ip-logo{opacity:1}
 div.unload h1.ip-logo,div.loaded h1.ip-logo{transform-origin:50% 25%}
 div.loaded h1.ip-logo{animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1.ip-logo{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
-
-div.loaded div.ip-loader{animation:animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
-div.unload div.ip-loader{animation:animUnloadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
 div.loaded h1.ip-logo svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}

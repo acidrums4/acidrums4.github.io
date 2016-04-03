@@ -5,7 +5,6 @@ jQuery(document).ready(function(event){
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
   container = $('div.main-container');
-  loaderCirc = $('path.ip-loader-circle').get(0),
   header = $('header'),
 
   // Activar el cambio de página
@@ -71,7 +70,6 @@ jQuery(document).ready(function(event){
 
   function init() {
     window.addEventListener( 'scroll', noscroll );
-    loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength();
     container.addClass('loading');
     isAnimating = true;
 
@@ -92,8 +90,6 @@ jQuery(document).ready(function(event){
     var percentage = 0;
     var imageIndex = 0;
 
-    loaderCirc.style.strokeDasharray = loaderCirc.strokeDashoffset = loaderCirc.getTotalLength();
-
     function progressComplete(){
       percentage = 100;
       container.removeClass('unload loading').addClass('loaded');
@@ -107,16 +103,13 @@ jQuery(document).ready(function(event){
 
     function countImages(){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
-        percentage = percentage + imagePperc;
+        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
+            percentage = percentage + imagePperc;
+
         imageIndex++;
         imagesLoad++;
+        pathHeightValue = pathHeight - ((percentage * pathHeight) / 100);
 
-        loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength() * ( 1 - (percentage / 100) );
-
-        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
-            pathHeightValue = pathHeight - ((percentage * pathHeight) / 100);
-
-        console.log("Debería estar sirviendo lo del clip... height: " + pathHeightValue + "\nPathHeight: " + pathHeight + "\nPercentage: " + percentage);
         $('rect.clip').attr('height',pathHeightValue);
 
         if (imagesLoad == imageCount) progressComplete();
@@ -138,10 +131,8 @@ jQuery(document).ready(function(event){
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
       console.log("Cargando imagen...");
-      $('path.ip-loader-circlebg').addClass('loading');
     } else {
       console.log("Imagen cargada.");
-      $('path.ip-loader-circlebg').removeClass('loading');
     }
   }
 
@@ -176,7 +167,6 @@ jQuery(document).ready(function(event){
     if (bool) setNewPageType(url);
     window.addEventListener('scroll',noscroll);
     $('body').removeClass('nav-opened');
-    loaderCirc.style.strokeDashoffset = loaderCirc.getTotalLength();
     container.removeClass('loaded').addClass('unload');
 
     container.one('animationend', function(){

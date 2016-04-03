@@ -44,15 +44,14 @@ html{font-size:62.5%}
 body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#2a363b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
 
 body.biop-page,body.sysp-page{background-color:#fffefd}
-header,header h1{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%}
-header{position:fixed;z-index:100;background-color:#e84a5f}
 body.item-all header{background-color:#e84a5f}
 body.item-web header{background-color:#3c9def}
 body.item-fto header{background-color:#24c67d}
 body.item-ils header{background-color:#f14398}
 body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
-header h1{position:absolute;display:block;opacity:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
+header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg path{fill:#2a363b}

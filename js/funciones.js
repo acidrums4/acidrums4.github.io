@@ -103,8 +103,8 @@ jQuery(document).ready(function(event){
 
     function countImages(){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
-        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
         var percentage = percentage + imagePperc;
+        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
 
         console.log("pathHeight: " + pathHeight + "percentage: " + percentage);
 

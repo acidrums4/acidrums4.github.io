@@ -424,7 +424,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 
 @keyframes loading{0%{fill:transparent}50%{fill:#4a565b}100%{fill:transparent}}
 
-@keyframes animInitialHeader{from{opacity:0;transform:translate3d(0,1600px,0)}}
+@keyframes animInitialHeader{from{opacity:0;transform:translate3d(0,800px,0)}}
 @keyframes animLoadedLogo{to{transform:translate3d(0,100%,0) translate3d(0,50px,0) scale3d(0.65,0.65,1)}}
 @keyframes animLoadedLoader{to{opacity:0;transform:translate3d(0,-100%,0) scale3d(0.3,0.3,1)}}
 @keyframes animLoadedContent{from{opacity:0;transform:translate3d(0,200px,0)}}

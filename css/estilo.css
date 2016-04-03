@@ -76,14 +76,13 @@ div.loading h1{opacity:1;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1
 div.unload h1{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Header elements when loading finishes */
-div.loaded h1{opacity:1;width:20%}
-div.loaded h1{animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
-div.loaded h1 svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
+div.loaded h1 svg path{top:50%;transition:all 0.5s ease 0.3s;fill:#7a868b}
 body.biop-page div.loaded h1 svg path,body.sysp-page div.loaded h1 svg path{fill:#afaeab}
-div.unload h1 svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}
+div.unload h1 svg path{top:0;transition:all 0.5s ease 0.3s;fill:#2a363b}
 
 /* Header animation when loading finishes */
 div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
@@ -425,12 +424,12 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes loading{0%{fill:transparent}50%{fill:#4a565b}100%{fill:transparent}}
 
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}}
-@keyframes animLoadedLogo{to{top:340px}}
+@keyframes animLoadedLogo{to{top:100%}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animLoadedHeader{to{top:-200%}}
 
 @keyframes animFinalHeader{to{opacity:0;bottom:-100%}}
-@keyframes animUnloadedLogo{from{top:340px}}
+@keyframes animUnloadedLogo{from{top:100%}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 

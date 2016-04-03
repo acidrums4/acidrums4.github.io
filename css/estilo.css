@@ -425,12 +425,12 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes loading{0%{fill:transparent}50%{fill:#4a565b}100%{fill:transparent}}
 
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}}
-@keyframes animLoadedLogo{to{top:100%}}
+@keyframes animLoadedLogo{to{bottom:0}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animLoadedHeader{to{top:-200%}}
 
 @keyframes animFinalHeader{to{opacity:0;bottom:-100%}}
-@keyframes animUnloadedLogo{from{top:100%}}
+@keyframes animUnloadedLogo{from{bottom:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 

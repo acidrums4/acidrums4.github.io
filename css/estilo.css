@@ -52,7 +52,7 @@ body.item-fto header{background-color:#24c67d}
 body.item-ils header{background-color:#f14398}
 body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
-header h1{position:absolute;display:block}
+header h1{position:absolute;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg path{fill:#2a363b}

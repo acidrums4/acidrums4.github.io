@@ -349,7 +349,7 @@ article p{font-size:110%;line-height:1.625}
 }
 
 @media only screen and (min-width:1024px){
-div.unload h1,div.loaded h1{transform-origin:50% 12.5%}
+/*div.unload h1,div.loaded h1{transform-origin:50% 12.5%}*/
 
 main{width:960px;margin:50px auto 100px}
 main h2,main.noscroll h2{font-size:350%}

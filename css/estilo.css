@@ -91,7 +91,7 @@ div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forward
 div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Content animations */
-div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
+div.loaded main{animation:animLoadedContent .5s cubic-bezier(0.7,0,0.3,1) both}
 div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Change layout class for header */
@@ -427,7 +427,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}}
 @keyframes animLoadedLogo{to{bottom:-250px}}
-@keyframes animLoadedContent{from{opacity:0;top:200px}}
+@keyframes animLoadedContent{from{opacity:0;top:100px}}
 @keyframes animLoadedHeader{to{transform:translate3d(0,-100%,0)}}
 
 @keyframes animFinalHeader{to{opacity:0;bottom:-100%}}

@@ -145,8 +145,10 @@ jQuery(document).ready(function(event){
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
       console.log("Cargando imagen...");
+      $('svg.ip-inner').addClass('loading');
     } else {
       console.log("Imagen cargada.");
+      $('svg.ip-inner').addClass('loading');
     }
   }
 

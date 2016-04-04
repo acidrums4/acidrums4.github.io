@@ -104,10 +104,10 @@ jQuery(document).ready(function(event){
     var imageIndex = 0;
 
     fixClipPaths(document.getElementsByTagName('svg')[0]);
+    $('rect.clip').attr('height',0);
 
     function progressComplete(){
       percentage = 100;
-      $('rect.clip').attr('height',0);
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend', function(){

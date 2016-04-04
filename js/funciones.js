@@ -6,6 +6,7 @@ jQuery(document).ready(function(event){
   support = { animations : Modernizr.cssanimations },
   container = $('div.main-container');
   header = $('header'),
+  pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){
@@ -70,13 +71,13 @@ jQuery(document).ready(function(event){
 
   function fixClipPaths(svg, restore) {
     Array.prototype.forEach.call(svg.querySelectorAll('*[clip-path]'), function (el) {
-        var clipUrl = el.getAttribute('clip-path');
+      var clipUrl = el.getAttribute('clip-path');
 
-        if(!el.getAttribute('data-original-clip-path')) {
-            el.setAttribute('data-original-clip-path', clipUrl);
-        }
+      if(!el.getAttribute('data-original-clip-path')) {
+        el.setAttribute('data-original-clip-path', clipUrl);
+      }
 
-        el.setAttribute('clip-path', 'url('+ (!restore ? document.location.href : '') + el.getAttribute('data-original-clip-path').substr(4));
+      el.setAttribute('clip-path', 'url('+ (!restore ? document.location.href : '') + el.getAttribute('data-original-clip-path').substr(4));
     });
   }
 
@@ -106,17 +107,8 @@ jQuery(document).ready(function(event){
     fixClipPaths(document.getElementsByTagName('svg')[0]);
     $('rect.clip').attr('height',0);
 
-    function updateProgress(value){
-      $('rect.clip').animate({ height:value },
-      {
-        duration: 100,
-        step: function(now){ $(this).attr("height",now); }
-      });
-    }
-
     function progressComplete(){
       percentage = 100;
-      updateProgress(100);
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend', function(){
@@ -128,7 +120,6 @@ jQuery(document).ready(function(event){
 
     function countImages(){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
-        var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
         percentage = percentage + imagePperc;
 
         $('header h1').removeClass('loading');
@@ -136,20 +127,27 @@ jQuery(document).ready(function(event){
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
 
-        updateProgress(pathHeightValue);
-        //$('rect.clip').attr('height',pathHeightValue);
+        $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
       }
     }
 
     function loop() {
       var rand = Math.round(Math.random() * (100));
-      setTimeout(function() {
+      setTimeout(function(){
         if (imagesLoad < imageCount){
           countImages();
           loop();  
         }
-        else if (imageCount == 0) progressComplete();
+        else if (imageCount == 0){
+          $('rect.clip').animate({ height:pathHeight },
+          {
+            duration: 100,
+            step: function(now){ $(this).attr("height",now); }
+          });
+
+          progressComplete();
+        }
       }, rand);
     }
 

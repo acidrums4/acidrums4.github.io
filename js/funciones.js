@@ -107,6 +107,7 @@ jQuery(document).ready(function(event){
 
     function progressComplete(){
       percentage = 100;
+      $('rect.clip').attr('height',0);
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend', function(){

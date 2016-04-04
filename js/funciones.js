@@ -188,8 +188,8 @@ jQuery(document).ready(function(event){
 
     container.one('animationend', function(){
       $('body').removeClass('layout-switch');
-      //loadNewContent(url, bool);
-      //newLocation = url;
+      loadNewContent(url, bool);
+      newLocation = url;
     });
   }
 

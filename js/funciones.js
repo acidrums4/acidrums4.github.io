@@ -122,7 +122,7 @@ jQuery(document).ready(function(event){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
-        $('svg.ip-inner').removeClass('loading');
+        $('header h1').removeClass('loading');
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
@@ -155,10 +155,10 @@ jQuery(document).ready(function(event){
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
       console.log("Cargando imagen...");
-      $('svg.ip-inner').addClass('loading');
+      $('header h1').addClass('loading');
     } else {
       console.log("Imagen cargada.");
-      $('svg.ip-inner').removeClass('loading');
+      $('header h1').removeClass('loading');
     }
   }
 

@@ -106,8 +106,17 @@ jQuery(document).ready(function(event){
     fixClipPaths(document.getElementsByTagName('svg')[0]);
     $('rect.clip').attr('height',0);
 
+    function updateProgress(value){
+      $('rect.clip').animate({ height:value },
+      {
+        duration: 100,
+        step: function(now){ $(this).attr("height",nox); }
+      });
+    }
+
     function progressComplete(){
       percentage = 100;
+      updateProgress(100);
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend', function(){
@@ -122,10 +131,13 @@ jQuery(document).ready(function(event){
         var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
         percentage = percentage + imagePperc;
 
+        $('header h1').removeClass('loading');
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
-        $('rect.clip').attr('height',pathHeightValue);
+
+        updateProgress(pathHeightValue);
+        //$('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
       }
     }

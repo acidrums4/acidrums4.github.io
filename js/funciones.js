@@ -110,7 +110,7 @@ jQuery(document).ready(function(event){
       $('rect.clip').animate({ height:value },
       {
         duration: 100,
-        step: function(now){ $(this).attr("height",nox); }
+        step: function(now){ $(this).attr("height",now); }
       });
     }
 

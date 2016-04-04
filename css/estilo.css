@@ -90,6 +90,8 @@ div.loaded path.logo{fill:#7a868b}
 body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#afaeab}
 div.loaded path.logo,div.loading path.logo{opacity:1}
 div.unload path.logo{opacity:0}
+body.layout-switch div.unload path.logo{opacity:0}
+body div.unload path.logo{opacity:1}
 
 /* Content animations */
 div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}

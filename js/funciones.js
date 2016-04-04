@@ -202,6 +202,8 @@ jQuery(document).ready(function(event){
     //url = ('' == url) ? 'index.html' : url;
     if (url.split('/').slice(-1) == 'index.html' || url == '/'){
       $('body').removeClass('biop-page sysp-page item-page').addClass('home-page');
+      $('ul.filter-menu a').removeClass('nav-filter-active');
+      $('ul.filter-menu a').first().addClass('nav-filter-active');
     } else if (url.split('/').slice(-1) == '404.html'){
       $('body').removeClass('biop-page home-page item-page').addClass('sysp-page');
     } else if (url.split('/').slice(-2,-1) == 'hdv'){

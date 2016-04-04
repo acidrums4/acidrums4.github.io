@@ -81,6 +81,7 @@ jQuery(document).ready(function(event){
   }
 
   function init() {
+    fixClipPaths(document.getElementsByTagName('svg')[0]);
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
     isAnimating = true;

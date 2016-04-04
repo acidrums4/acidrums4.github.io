@@ -180,11 +180,11 @@ jQuery(document).ready(function(event){
   });
 
   function changePage(url, bool) {
+    fixClipPaths(document.getElementsByTagName('svg')[0]);
     $('body,html').animate({'scrollTop':0},200);
     if (bool) setNewPageType(url);
     window.addEventListener('scroll',noscroll);
     $('body').removeClass('nav-opened');
-    fixClipPaths(document.getElementsByTagName('svg')[0]);
     container.removeClass('loaded').addClass('unload');
 
     container.one('animationend', function(){

@@ -76,7 +76,7 @@ div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forw
 
 /* Initial animation of header elements */
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.unload h1{opacity:1;bottom:0;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
+div.unload h1{opacity:1;bottom:100%;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.loaded header h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 /*div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s ease-out both}
 div.unload h1{opacity:1;bottom:0;animation:animFinalHeader 1s ease-out both}

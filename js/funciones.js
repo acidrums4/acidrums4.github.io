@@ -86,7 +86,7 @@ jQuery(document).ready(function(event){
     isAnimating = true;
 
     if( support.animations ) {
-      $('header h1').one('animationend', function(){
+      $('header').one('animationend', function(){
         setProgress();
       });
     }

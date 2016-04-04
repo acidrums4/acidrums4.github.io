@@ -150,7 +150,7 @@ jQuery(document).ready(function(event){
       $('svg.ip-inner').addClass('loading');
     } else {
       console.log("Imagen cargada.");
-      $('svg.ip-inner').addClass('loading');
+      $('svg.ip-inner').rempveClass('loading');
     }
   }
 

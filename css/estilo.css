@@ -55,7 +55,7 @@ header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position
 header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 header path.logo{fill:#2a363b;opacity:0}
-svg.loading{animation:loading .125s cubic-bezier(0.7,0,0.3,1) infinite}
+svg.loading{animation:loading .75s linear infinite}
 body.item-all rect.clip{fill:#e84a5f}
 body.item-web rect.clip{fill:#3c9def}
 body.item-fto rect.clip{fill:#24c67d}
@@ -426,8 +426,6 @@ ul.slider-navigation li,ul.slider-pagination{opacity:0;visibility:hidden;-webkit
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;visibility:visible;-webkit-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;-moz-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;transition:opacity 0.4s 0.4s,visibility 0s 0.4s}
 }
 
-@keyframes loading{0%{fill:transparent}50%{fill:#4a565b}100%{fill:transparent}}
-
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
 @keyframes animLoadedLogo{to{bottom:-100%}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
@@ -439,3 +437,17 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
+
+@keyframes loading{
+10%{transform: translateX(3px) rotate(2deg)}
+20%{transform: translateX(-3px) rotate(-2deg)}
+30%{transform: translateX(3px) rotate(2deg)}
+40%{transform: translateX(-3px) rotate(-2deg)}
+50%{transform: translateX(2px) rotate(1deg)}
+60%{transform: translateX(-2px) rotate(-1deg)}
+70%{transform: translateX(2px) rotate(1deg)}
+80%{transform: translateX(-2px) rotate(-1deg)}
+90%{transform: translateX(1px) rotate(0)}
+100%{transform: translateX(-1px) rotate(0)}
+}
+

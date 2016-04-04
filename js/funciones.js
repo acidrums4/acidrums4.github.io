@@ -122,8 +122,6 @@ jQuery(document).ready(function(event){
         var pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
         percentage = percentage + imagePperc;
 
-        console.log("pathHeight: " + pathHeight + "percentage: " + percentage);
-
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);

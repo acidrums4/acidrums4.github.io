@@ -83,7 +83,7 @@ div.loaded header h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Change the color of the logo */
-div.loaded h1 svg{top:100%;animation:loading .75s linear infinite}
+div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#7a868b}

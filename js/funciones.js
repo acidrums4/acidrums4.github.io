@@ -184,6 +184,7 @@ jQuery(document).ready(function(event){
     if (bool) setNewPageType(url);
     window.addEventListener('scroll',noscroll);
     $('body').removeClass('nav-opened');
+    fixClipPaths(document.getElementsByTagName('svg')[0]);
     container.removeClass('loaded').addClass('unload');
 
     container.one('animationend', function(){

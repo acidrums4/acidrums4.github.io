@@ -50,9 +50,9 @@ body.item-fto header{background-color:#24c67d}
 body.item-ils header{background-color:#f14398}
 body.item-otr header{background-color:#f7d969}
 body.item-hdv header{background-color:#fffefd}
-header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
-header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all .5s ease-out}
 
+header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
+header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 header h1 svg path{fill:#2a363b}
 svg.loading{animation:loading .125s cubic-bezier(0.7,0,0.3,1) infinite}
@@ -70,13 +70,17 @@ body.item-ils path.logo-background{fill:#f572b2}
 body.item-otr path.logo-background{fill:#fae599}
 body.item-hdv path.logo-background{fill:#dfdedd}
 
+/* Header animation when loading finishes */
+div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
+div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+
 /* Initial animation of header elements */
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload h1{opacity:1;bottom:0;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 
 /* Header elements when loading finishes */
 div.loaded h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+/*div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}*/
 
 /* Change the color of the logo */
 div.loaded h1 svg{top:25%}
@@ -84,10 +88,6 @@ div.unload h1 svg{top:0}
 div.loaded h1 svg path{transition:all 0.5s ease 0.3s;fill:#7a868b}
 div.unload h1 svg path{transition:all 0.5s ease 0.3s;fill:#2a363b}
 body.biop-page div.loaded h1 svg path,body.sysp-page div.loaded h1 svg path{fill:#afaeab}
-
-/* Header animation when loading finishes */
-div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
-div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 /* Content animations */
 div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
@@ -424,7 +424,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 
 @keyframes loading{0%{fill:transparent}50%{fill:#4a565b}100%{fill:transparent}}
 
-@keyframes animInitialHeader{from{opacity:0;bottom:-100%}}
+@keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
 @keyframes animLoadedLogo{to{bottom:0}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animLoadedHeader{to{top:-200%}}

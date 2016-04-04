@@ -109,6 +109,7 @@ jQuery(document).ready(function(event){
 
     function progressComplete(){
       percentage = 100;
+      $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend', function(){
@@ -122,7 +123,7 @@ jQuery(document).ready(function(event){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
-        $('header h1').removeClass('loading');
+        $('svg.ip-inner').removeClass('loading');
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
@@ -155,10 +156,10 @@ jQuery(document).ready(function(event){
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
       console.log("Cargando imagen...");
-      $('header h1').addClass('loading');
+      $('svg.ip-inner').addClass('loading');
     } else {
       console.log("Imagen cargada.");
-      $('header h1').removeClass('loading');
+      $('svg.ip-inner').removeClass('loading');
     }
   }
 

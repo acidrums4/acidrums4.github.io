@@ -215,7 +215,8 @@ body.biop-page a.footer-link-em,body.sysp-page a.footer-link-em{background-posit
 
 /* Detalle */
 article{position:relative;margin:0 50px}
-article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
+article h1{margin:0 16px 30px;width:font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
+div.loaded article h1{width:auto;height:auto}
 body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-Light',sans-serif}
 article h1:after{content:'.'}
 article a{outline:0;color:#2a363b;transition:color 500 ms ease-out}

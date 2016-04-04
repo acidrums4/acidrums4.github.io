@@ -154,13 +154,7 @@ jQuery(document).ready(function(event){
 
     loop();
 
-    if (imagesLoad < imageCount || imagesLoad == 0 ){
-      console.log("Cargando imagen...");
-      $('svg.ip-inner').addClass('loading');
-    } else {
-      console.log("Imagen cargada.");
-      $('svg.ip-inner').removeClass('loading');
-    }
+    (imagesLoad < imageCount || imagesLoad == 0 ) ? $('svg.ip-inner').addClass('loading') : $('svg.ip-inner').removeClass('loading');
   }
 
   function noscroll() {

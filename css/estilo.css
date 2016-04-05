@@ -56,11 +56,11 @@ header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;p
 header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 header path.logo{opacity:0}
 svg.ip-inner.loading{animation:loading .5s linear infinite}
-body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#cc1a32}
-body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#216fc1}
-body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#267f53}
-body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#e03c13}
-body.item-otr div.loading path.logo,body.item-otr div.unload path.logo{fill:#574198}
+body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#881121}
+body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#164980}
+body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#14442d}
+body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#99290d}
+body.item-otr div.loading path.logo,body.item-otr div.unload path.logo{fill:#382a62}
 
 body.item-all path.logo-background{fill:#ee7787}
 body.item-web path.logo-background{fill:#79afe8}
@@ -218,7 +218,8 @@ article{position:relative;margin:0 50px}
 article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
 body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-Light',sans-serif}
 article h1:after{content:'.'}
-article a{outline:0;color:#2a363b;transition:color 500 ms ease-out}
+article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
+article a:hover,article a:visited,article a:active{text-decoration:none}
 body.item-web article h1,body.item-web article a{color:#4d95e1}
 body.item-fto article h1,body.item-fto article a{color:#37ba7a}
 body.item-ils article h1,body.item-ils article a{color:#f07050}

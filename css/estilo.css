@@ -67,7 +67,7 @@ body.item-web path.logo-background{fill:#79afe8}
 body.item-fto path.logo-background{fill:#57cd93}
 body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#9c8ccd}
-body.item-hdv path.logo-background{fill:#e0cfd0}
+body.item-hdv path.logo-background{fill:#efeeed}
 
 /* Header animation when loading finishes */
 div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
@@ -254,12 +254,12 @@ body.item-web div.item-txt>a{border-color:#4d95e1}
 body.item-fto div.item-txt>a{border-color:#37ba7a}
 body.item-ils div.item-txt>a{border-color:#f07050}
 body.item-otr div.item-txt>a{border-color:#7d68be}
-body.item-hdv div.item-txt>a{border-color:#e0cfd0}
+body.item-hdv div.item-txt>a{border-color:#efeeed}
 body.item-web div.item-txt>a:before{background-color:#4d95e1}
 body.item-fto div.item-txt>a:before{background-color:#37ba7a}
 body.item-ils div.item-txt>a:before{background-color:#f07050}
 body.item-otr div.item-txt>a:before{background-color:#7d68be}
-body.item-hdv div.item-txt>a:before{background-color:#e0cfd0}
+body.item-hdv div.item-txt>a:before{background-color:#efeeed}
 body.item-web div.item-txt>a>span{color:#4d95e1}
 body.item-fto div.item-txt>a>span{color:#37ba7a}
 body.item-ils div.item-txt>a>span{color:#f07050}

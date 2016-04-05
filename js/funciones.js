@@ -154,7 +154,11 @@ jQuery(document).ready(function(event){
 
     loop();
 
-    (imagesLoad < imageCount || imagesLoad == 0 ) ? $('svg.ip-inner').addClass('loading') : $('svg.ip-inner').removeClass('loading');
+    if (imagesLoad < imageCount || imagesLoad == 0 ){
+      $('svg.ip-inner').addClass('loading');
+    } else {
+      $('svg.ip-inner').removeClass('loading');
+    }
   }
 
   function noscroll() {

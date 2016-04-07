@@ -74,7 +74,6 @@ div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forw
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload h1{opacity:1;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.loaded header h1{opacity:1;width:120px;height:120px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
-/*div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}*/
 
 div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
@@ -425,7 +424,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animLoadedHeader{to{top:-200%}}
 
-@keyframes animFinalHeader{to{opacity:1;bottom:0}}
+@keyframes animFinalHeader{to{opacity:1;bottom:0;top:0}}
 @keyframes animUnloadedLogo{to{bottom:0;top:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}

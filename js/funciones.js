@@ -102,7 +102,6 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
       $('header h1').one(animEndEventName, function(){
-        console.log("Se acabaron las animaciones: " + animEndEventName + ".");
         setProgress();
       });
     }
@@ -166,13 +165,13 @@ jQuery(document).ready(function(event){
       }, rand);
     }
 
-    loop();
-
     if (imagesLoad < imageCount || imagesLoad == 0 ){
       $('svg.ip-inner').addClass('loading');
     } else {
       $('svg.ip-inner').removeClass('loading');
     }
+
+    loop();
   }
 
   function noscroll() {

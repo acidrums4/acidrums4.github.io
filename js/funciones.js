@@ -143,6 +143,8 @@ jQuery(document).ready(function(event){
 
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
+      } else {
+        $('svg.ip-inner').addClass('loading');
       }
     }
 

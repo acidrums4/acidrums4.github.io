@@ -6,7 +6,13 @@ jQuery(document).ready(function(event){
   support = { animations : Modernizr.cssanimations },
   container = $('div.main-container');
   header = $('header'),
-  pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1);
+  pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
+  transEndEventNames = {
+    'WebkitTransition' : 'webkitTransitionEnd',// Saf 6, Android Browser
+    'MozTransition'    : 'transitionend',      // only for FF < 15
+    'transition'       : 'transitionend'       // IE10, Opera, Chrome, FF 15+, Saf 7+
+  },
+  transEndEventName = transEndEventNames[ Modernizr.prefixed('transition') ];
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){
@@ -89,7 +95,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
       console.log("Soportamos animaciones...");
-      $('header h1').one('transitionend', function(){
+      $('header h1').one(transEndEventName, function(){
         console.log("Se acabaron las animaciones.");
         setProgress();
       });

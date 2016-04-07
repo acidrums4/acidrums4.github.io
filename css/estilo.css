@@ -53,7 +53,7 @@ body.item-hdv header{background-color:#fffefd}
 
 header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
 header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-header h1 svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+header h1 svg{min-width:160px;max-width:400px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 header path.logo{opacity:0}
 svg.ip-inner.loading{animation:loading .5s linear infinite}
 body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#881121}
@@ -73,10 +73,10 @@ div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forward
 div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload h1{opacity:1;bottom:100%;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.loaded header h1{opacity:1;width:120px;height:120px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded header h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
-div.loaded h1 svg{top:80%}
+div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#7a868b}

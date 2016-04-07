@@ -101,9 +101,8 @@ jQuery(document).ready(function(event){
     isAnimating = true;
 
     if( support.animations ) {
-      console.log("Soportamos animaciones...");
       $('header h1').one(animEndEventName, function(){
-        console.log("Se acabaron las animaciones.");
+        console.log("Se acabaron las animaciones: " + animEndEventName + ".");
         setProgress();
       });
     }

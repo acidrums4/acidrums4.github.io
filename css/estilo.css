@@ -73,7 +73,7 @@ div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forward
 div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload h1{opacity:1;bottom:100%;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.loaded header h1{opacity:1;width:320px;height:200px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded header h1{opacity:1;width:120px;height:120px;animation:animLoadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animUnloadedLogo 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 div.loaded h1 svg{top:80%}

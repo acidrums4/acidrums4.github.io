@@ -79,11 +79,11 @@ div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#39484e}
-div.loaded path.logo-background{opacity:0}
 body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#eae9e6}
 div.loaded path.logo,div.loading path.logo{opacity:1}
 div.unload path.logo{opacity:0}
 body.layout-switch div.unload path.logo{opacity:0}
+body.layout-switch path.logo-background{opacity:0}
 body div.unload path.logo{opacity:1}
 
 div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
@@ -340,8 +340,6 @@ article p{font-size:110%;line-height:1.625}
 }
 
 @media only screen and (min-width:1024px){
-/*div.unload h1,div.loaded h1{transform-origin:50% 12.5%}*/
-
 main{width:960px;margin:50px auto 100px}
 
 nav{height:146px;top:-144px}

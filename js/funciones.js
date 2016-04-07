@@ -143,9 +143,6 @@ jQuery(document).ready(function(event){
 
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
-      } else {
-        console.log("Alguna imagen atorada...");
-        $('svg.ip-inner').addClass('loading');
       }
     }
 

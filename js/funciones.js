@@ -88,7 +88,9 @@ jQuery(document).ready(function(event){
     isAnimating = true;
 
     if( support.animations ) {
+      console.log("Soportamos animaciones...");
       $('header h1').one('transitionend', function(){
+        console.log("Se acabaron las animaciones.");
         setProgress();
       });
     }

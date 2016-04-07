@@ -78,9 +78,9 @@ div.loaded header h1{opacity:1;width:120px;height:120px;animation:animLoadedLogo
 div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
-div.loaded path.logo{fill:#7a868b}
+div.loaded path.logo{fill:#39484e}
 div.loaded path.logo-background{opacity:0}
-body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#afaeab}
+body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#eae9e6}
 div.loaded path.logo,div.loading path.logo{opacity:1}
 div.unload path.logo{opacity:0}
 body.layout-switch div.unload path.logo{opacity:0}
@@ -104,7 +104,7 @@ body.item-web main h2{color:#4d95e1}
 body.item-fto main h2{color:#37ba7a}
 body.item-ils main h2{color:#f07050}
 body.item-otr main h2{color:#7d68be}
-main h2{color:#e84a5f;margin:0.5em 0 0;font-weight:bold;font-size:250%;letter-spacing:.075ex}
+main h2{color:#e84a5f;margin:0 0 0;font-weight:bold;font-size:150%;letter-spacing:.125ex}
 main h4{color:#647075;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:250%}
 main.noscroll h4{font-size:100%}
@@ -348,8 +348,6 @@ article p{font-size:110%;line-height:1.625}
 /*div.unload h1,div.loaded h1{transform-origin:50% 12.5%}*/
 
 main{width:960px;margin:50px auto 100px}
-main h2,main.noscroll h2{font-size:350%}
-main h4,main.noscroll h4{font-size:150%}
 
 nav{height:146px;top:-144px}
 nav button{top:192px}

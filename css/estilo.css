@@ -144,7 +144,7 @@ li.item-otr>a:hover{border-color:#7d68be}
 nav{background-color:#2a363b;position:fixed;width:100%;height:130px;left:0;top:-128px;transition:all .3s ease}
 body.nav-opened{top:128px}
 body.nav-opened nav{top:0}
-body.layout-switch nav{z-index:100;border-width:0 0 2px;border-style:solid;border-color:#243035/*;border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 20%,#4d95e1 20%,#4d95e1 40%,#37ba7a 40%,#37ba7a 60%,#f07050 60%,#f07050 80%,#7d68be 80%,#7d68be 100%);border-image-slice:1*/}
+body.layout-switch nav{z-index:100;border-width:0 0 2px;border-style:solid;border-color:#243035}
 body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:none}
 body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
 body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
@@ -328,11 +328,6 @@ body.item-otr ul.slider-pagination a{border-color:#7d68be}
 /* Media queries */
 
 @media only screen and (min-width:640px) and (max-width:1023px){
-body.layout-switch nav{border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 10%,#4d95e1 10%,#4d95e1 20%,#37ba7a 20%,#37ba7a 30%,#f07050 30%,#f07050 40%,#7d68be 40%,#7d68be 50%,#e84a5f 50%,#e84a5f 60%,#4d95e1 60%,#4d95e1 70%,#37ba7a 70%,#37ba7a 80%,#f07050 80%,#f07050 90%,#7d68be 90%,#7d68be 100%);border-image-slice:1}
-
-main h2,main.noscroll h2{font-size:300%}
-main h4,main.noscroll h4{font-size:125%}
-
 footer span{text-align:right}
 div.footer-wrapper{width:unset;margin:32px;text-align:right}
 div.footer-links,footer span{display:inline}
@@ -352,7 +347,6 @@ main{width:960px;margin:50px auto 100px}
 nav{height:146px;top:-144px}
 nav button{top:192px}
 body.nav-opened{top:144px}
-/*body.layout-switch nav{border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 10%,#4d95e1 10%,#4d95e1 20%,#37ba7a 20%,#37ba7a 30%,#f07050 30%,#f07050 40%,#7d68be 40%,#7d68be 50%,#e84a5f 50%,#e84a5f 60%,#4d95e1 60%,#4d95e1 70%,#37ba7a 70%,#37ba7a 80%,#f07050 80%,#f07050 90%,#7d68be 90%,#7d68be 100%);border-image-slice:1}*/
 nav div.filter-wrapper{width:940px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:auto;margin:0 0 0 10px}

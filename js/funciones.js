@@ -8,11 +8,18 @@ jQuery(document).ready(function(event){
   header = $('header'),
   pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
   transEndEventNames = {
-    'WebkitTransition' : 'webkitTransitionEnd',// Saf 6, Android Browser
-    'MozTransition'    : 'transitionend',      // only for FF < 15
-    'transition'       : 'transitionend'       // IE10, Opera, Chrome, FF 15+, Saf 7+
+    'WebkitTransition' : 'webkitTransitionEnd',
+    'MozTransition'    : 'transitionend',
+    'transition'       : 'transitionend'
   },
-  transEndEventName = transEndEventNames[ Modernizr.prefixed('transition') ];
+  transEndEventName = transEndEventNames[ Modernizr.prefixed('transition') ],
+  animEndEventNames = {
+    'WebkitAnimation' : 'webkitAnimationEnd',
+    'OAnimation' : 'oAnimationEnd',
+    'msAnimation' : 'MSAnimationEnd',
+    'animation' : 'animationend'
+  },
+  animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){
@@ -95,7 +102,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
       console.log("Soportamos animaciones...");
-      $('header h1').one(transEndEventName, function(){
+      $('header h1').one(animEndEventName, function(){
         console.log("Se acabaron las animaciones.");
         setProgress();
       });

@@ -90,7 +90,7 @@ div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 
 body.layout-switch header{position:absolute}
-body.layout-switch header h1 svg{position:relative}
+body.layout-switch div.loaded header h1 svg{position:relative}
 
 /* Contenido */
 div.ip-main{overflow:hidden;margin:0 auto;padding:160px 0 0}

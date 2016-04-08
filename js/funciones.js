@@ -51,7 +51,7 @@ jQuery(document).ready(function(event){
       : // Y si no, pues ocúltelos mano
       $('ul.grid>li')
       .fadeOut(0)
-      .filter(function () {
+      .filter(function (){
           // Devolver los que tienen igual 'data-item-type' que el filtro
           return $("a", this).data('item-type') == $filter; 
           })
@@ -63,7 +63,7 @@ jQuery(document).ready(function(event){
     } // if
   }); // on
 
-  $(window).scroll(function() {
+  $(window).scroll(function(){
     ($(this).scrollTop() > 1) ? $('main').addClass("scrolled").removeClass("noscroll") : $('main').addClass("noscroll").removeClass("scrolled");
   });
 
@@ -94,7 +94,7 @@ jQuery(document).ready(function(event){
     });
   }
 
-  function init() {
+  function init(){
     fixClipPaths(document.getElementsByTagName('svg')[0]);
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
@@ -143,10 +143,14 @@ jQuery(document).ready(function(event){
 
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
+
+      } else if (!(imageArray[imageIndex].complete) && $('svg.ip-inner').hasClass('loading')) {
+        console.log("Se trabó la carga de imagen.");
+        $('svg.ip-inner').addClass('loading');
       }
     }
 
-    function loop() {
+    function loop(){
       var rand = Math.round(Math.random() * (100));
       setTimeout(function(){
         if (imagesLoad < imageCount){
@@ -174,7 +178,7 @@ jQuery(document).ready(function(event){
     loop();
   }
 
-  function noscroll() {
+  function noscroll(){
     window.scrollTo(0,0);
   }
 
@@ -190,7 +194,7 @@ jQuery(document).ready(function(event){
     }
   }
 
-  $(window).on('popstate', function() {
+  $(window).on('popstate', function(){
     history.navigationMode = 'compatible';
 
     if( !isAnimating  &&  newLocation != location.pathName ){

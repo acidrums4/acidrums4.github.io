@@ -48,7 +48,7 @@ body.item-all header{background-color:#e84a5f}
 body.item-web header{background-color:#4d95e1}
 body.item-fto header{background-color:#37ba7a}
 body.item-ils header{background-color:#f07050}
-body.item-otr header{background-color:#7d68be}
+body.item-otr header{background-color:#c83771}
 body.item-hdv header{background-color:#fffefd}
 
 header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
@@ -105,7 +105,7 @@ body.item-all main h2{color:#e84a5f}
 body.item-web main h2{color:#4d95e1}
 body.item-fto main h2{color:#37ba7a}
 body.item-ils main h2{color:#f07050}
-body.item-otr main h2{color:#7d68be}
+body.item-otr main h2{color:#c83771}
 main h2{color:#e84a5f;margin:0 0 0;font-weight:bold;font-size:150%;letter-spacing:.125ex}
 main h4{color:#647075;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:150%}
@@ -114,7 +114,7 @@ main.scrolled h2,main.scrolled h4{font-size:0;opacity:0;margin:0}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
 main h4.title-ils em{color:#f07050}
-main h4.title-otr em{color:#7d68be}
+main h4.title-otr em{color:#c83771}
 
 body.item-all main h4.title-web,body.item-all main h4.title-fto,body.item-all main h4.title-ils,body.item-all main h4.title-otr,
 body.item-web main h4.title-all,body.item-web main h4.title-fto,body.item-web main h4.title-ils,body.item-web main h4.title-otr,
@@ -140,7 +140,7 @@ ul.grid li>a:hover{border-width:2px}
 li.item-web>a:hover{border-color:#4d95e1}
 li.item-fto>a:hover{border-color:#37ba7a}
 li.item-ils>a:hover{border-color:#f07050}
-li.item-otr>a:hover{border-color:#7d68be}
+li.item-otr>a:hover{border-color:#c83771}
 
 /* El menú */
 nav{background-color:#2a363b;position:fixed;width:100%;height:130px;left:0;top:-128px;transition:all .3s ease}
@@ -151,7 +151,7 @@ body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:
 body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
 body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
 body.item-page.item-ils.layout-switch nav{border-color:#f07050}
-body.item-page.item-otr.layout-switch nav{border-color:#7d68be}
+body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
 nav button.main-menu{right:16px;background-position:-448px 0}
@@ -171,7 +171,7 @@ div.filter-wrapper a.nav-filter-all:before{background-color:#e84a5f}
 div.filter-wrapper a.nav-filter-web:before{background-color:#4d95e1}
 div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
 div.filter-wrapper a.nav-filter-ils:before{background-color:#f07050}
-div.filter-wrapper a.nav-filter-otr:before{background-color:#7d68be}
+div.filter-wrapper a.nav-filter-otr:before{background-color:#c83771}
 nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5}
 div.filter-wrapper a.nav-filter-all div.icon-nav-filter{background-position:0 0}
 div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32px 0}
@@ -218,7 +218,7 @@ article a:hover,article a:visited,article a:active{text-decoration:none}
 body.item-web article h1,body.item-web article a{color:#4d95e1}
 body.item-fto article h1,body.item-fto article a{color:#37ba7a}
 body.item-ils article h1,body.item-ils article a{color:#f07050}
-body.item-otr article h1,body.item-otr article a{color:#7d68be}
+body.item-otr article h1,body.item-otr article a{color:#c83771}
 body.item-hdv article h1,body.item-hdv article a{color:#7f7e7d}
 article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#fff;letter-spacing:.025ex}
 body.biop-page article p,body.sysp-page article p{margin:20px 16px 0;font-size:100%;line-height:1.5}
@@ -227,7 +227,7 @@ article p~p:before{display:none}
 body.item-web article p:before{border-color:#4d95e1;background-color:#4d95e1;background-position:-32px 0}
 body.item-fto article p:before{border-color:#37ba7a;background-color:#37ba7a;background-position:-64px 0}
 body.item-ils article p:before{border-color:#f07050;background-color:#f07050;background-position:-96px 0}
-body.item-otr article p:before{border-color:#7d68be;background-color:#7d68be;background-position:-128px 0}
+body.item-otr article p:before{border-color:#c83771;background-color:#c83771;background-position:-128px 0}
 body.item-hdv article p{color:#2f2e2d}
 body.item-hdv article p:before{display:none}
 
@@ -249,17 +249,17 @@ body.sysp-page div.item-img>span{display:block;text-align:center;color:#9f9e9d;m
 body.item-web div.item-txt>a{border-color:#4d95e1}
 body.item-fto div.item-txt>a{border-color:#37ba7a}
 body.item-ils div.item-txt>a{border-color:#f07050}
-body.item-otr div.item-txt>a{border-color:#7d68be}
+body.item-otr div.item-txt>a{border-color:#c83771}
 body.item-hdv div.item-txt>a{border-color:#efeeed}
 body.item-web div.item-txt>a:before{background-color:#4d95e1}
 body.item-fto div.item-txt>a:before{background-color:#37ba7a}
 body.item-ils div.item-txt>a:before{background-color:#f07050}
-body.item-otr div.item-txt>a:before{background-color:#7d68be}
+body.item-otr div.item-txt>a:before{background-color:#c83771}
 body.item-hdv div.item-txt>a:before{background-color:#efeeed}
 body.item-web div.item-txt>a>span{color:#4d95e1}
 body.item-fto div.item-txt>a>span{color:#37ba7a}
 body.item-ils div.item-txt>a>span{color:#f07050}
-body.item-otr div.item-txt>a>span{color:#7d68be}
+body.item-otr div.item-txt>a>span{color:#c83771}
 body.item-hdv div.item-txt>a>span{color:#988788}
 body.item-hdv div.item-txt>a em{color:#fff;font-weight:bold}
 body.item-hdv div.item-txt>a:hover>span{color:#4f4e4d}
@@ -310,7 +310,7 @@ article.slider-active ul.slider-navigation li a,article.slider-active div.item-i
 body.item-web div.item-img a.item-close:before,body.item-web ul.slider-navigation li a:before{background-color:#4d95e1}
 body.item-fto div.item-img a.item-close:before,body.item-fto ul.slider-navigation li a:before{background-color:#37ba7a}
 body.item-ils div.item-img a.item-close:before,body.item-ils ul.slider-navigation li a:before{background-color:#f07050}
-body.item-otr div.item-img a.item-close:before,body.item-otr ul.slider-navigation li a:before{background-color:#7d68be}
+body.item-otr div.item-img a.item-close:before,body.item-otr ul.slider-navigation li a:before{background-color:#c83771}
 
 ul.slider-pagination{position:relative;z-index:2;text-align:center;display:block;width:100%;visibility:hidden}
 .touch ul.slider-pagination{visibility:hidden}
@@ -320,11 +320,11 @@ ul.slider-pagination a{display:block;height:16px;width:16px;border-radius:50%;bo
 body.item-web ul.slider-pagination li.selected a{background-color:#4d95e1}
 body.item-fto ul.slider-pagination li.selected a{background-color:#37ba7a}
 body.item-ils ul.slider-pagination li.selected a{background-color:#f07050}
-body.item-otr ul.slider-pagination li.selected a{background-color:#7d68be}
+body.item-otr ul.slider-pagination li.selected a{background-color:#c83771}
 body.item-web ul.slider-pagination a{border-color:#4d95e1}
 body.item-fto ul.slider-pagination a{border-color:#37ba7a}
 body.item-ils ul.slider-pagination a{border-color:#f07050}
-body.item-otr ul.slider-pagination a{border-color:#7d68be}
+body.item-otr ul.slider-pagination a{border-color:#c83771}
 
 
 /* Media queries */
@@ -401,7 +401,7 @@ ul.slider::after{top:-32px;bottom:-25%;width:32px;height:32px;background-image:u
 body.item-web article ul.slider::before{background-color:#4d95e1}
 body.item-fto article ul.slider::before{background-color:#37ba7a}
 body.item-ils article ul.slider::before{background-color:#f07050}
-body.item-otr article ul.slider::before{background-color:#7d68be}
+body.item-otr article ul.slider::before{background-color:#c83771}
 ul.slider:hover::before{top:0}
 ul.slider:hover::after{bottom:-16px;opacity:1}
 article.slider-active ul.slider{cursor:auto}

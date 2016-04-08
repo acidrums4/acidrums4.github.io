@@ -144,7 +144,7 @@ jQuery(document).ready(function(event){
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
 
-      } else if (!(imageArray[imageIndex].complete) && $('svg.ip-inner').hasClass('loading')) {
+      } else if (!(imageArray[imageIndex].complete) && !($('svg.ip-inner').hasClass('loading'))){
         console.log("Se trabó la carga de imagen.");
         $('svg.ip-inner').addClass('loading');
       }

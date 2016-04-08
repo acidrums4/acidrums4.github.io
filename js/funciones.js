@@ -145,7 +145,6 @@ jQuery(document).ready(function(event){
         if (imagesLoad == imageCount) progressComplete();
 
       } else if (!(imageArray[imageIndex].complete) && !($('svg.ip-inner').hasClass('loading'))){
-        console.log("Se trabó la carga de imagen.");
         $('svg.ip-inner').addClass('loading');
       }
     }

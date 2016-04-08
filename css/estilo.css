@@ -60,14 +60,14 @@ svg.ip-inner.loading{animation:loading .5s linear infinite}
 body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#881121}
 body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#164980}
 body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#14442d}
-body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#99290d}
+body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#50162d}
 body.item-otr div.loading path.logo,body.item-otr div.unload path.logo{fill:#382a62}
 
 body.item-all path.logo-background{fill:#ee7787}
 body.item-web path.logo-background{fill:#79afe8}
 body.item-fto path.logo-background{fill:#57cd93}
 body.item-ils path.logo-background{fill:#f4967f}
-body.item-otr path.logo-background{fill:#9c8ccd}
+body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
 div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}

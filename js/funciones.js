@@ -102,6 +102,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
       $('header h1').one(animEndEventName, function(){
+        if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
       });
     }
@@ -234,8 +235,8 @@ jQuery(document).ready(function(event){
 
     section.load(url + ' .cd-main-content > *', function(event){
         if(url!=window.location && bool){
-        //window.history.pushState({path: url},null,url);
-        window.history.pushState(null,null,url);
+        window.history.pushState({path: url},null,url);
+        //window.history.pushState(null,null,url);
         }
 
         $('main').html(section);

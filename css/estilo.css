@@ -276,8 +276,8 @@ div.item-txt>a:hover+blockquote>p{opacity:1}
 
 article svg{max-width:250px;width:100%;margin:0 auto;display:block}
 article path{fill:none;stroke:#6f6e6d}
-article path.wide-stroke{stroke-width:8px}
-article path.narrow-stroke{stroke-width:4px}
+article path.wide-stroke{stroke-width:6px}
+article path.narrow-stroke{stroke-width:2px}
 article path.eye{animation:eyes 3s ease infinite}
 
 /* Galería de imágenes en el detalle */

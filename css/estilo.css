@@ -41,7 +41,7 @@ textarea{overflow:auto;vertical-align:top}
 *,*::after,*::before{box-sizing:border-box}
 html,body{height:100%}
 html{font-size:62.5%}
-body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#2a363b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
+body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
 
 body.biop-page,body.sysp-page{background-color:#fffefd}
 body.item-all header{background-color:#e84a5f}
@@ -106,7 +106,7 @@ body.item-web main h2{color:#4d95e1}
 body.item-fto main h2{color:#37ba7a}
 body.item-ils main h2{color:#f07050}
 body.item-otr main h2{color:#c83771}
-main h2{color:#e84a5f;margin:0 0 0;font-weight:bold;font-size:150%;letter-spacing:.125ex}
+main h2{color:#e84a5f;margin:0 0 0;font-size:150%;letter-spacing:.125ex}
 main h4{color:#647075;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:150%}
 main.noscroll h4{font-size:100%}
@@ -130,7 +130,7 @@ ul.grid>li{display:inline-block;overflow:hidden;width:310px;height:310px;text-al
 
 /** Enlace y la imagen **/
 ul.grid li>a,ul.grid li img{display:block;outline:none;border:none}
-ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:0;border-width:10px;border-style:solid;border-color:#243035;transition:border .5s ease-out}
+ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:0;border-width:10px;border-style:solid;border-color:#efedf0;transition:border .5s ease-out}
 ul.grid li>a:after{content:'';display:block;position:absolute;left:0;right:0;margin:auto;top:-32px;bottom:-25%;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;background-position:-256px 0;opacity:0;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-o-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-khtml-transition:all .25s ease-out;transition:all .25s ease-out}
 ul.grid li>a:hover:after{bottom:-16px;opacity:1}
 ul.grid li img{opacity:.75;transition:opacity 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:100%}
@@ -210,8 +210,8 @@ body.biop-page a.footer-link-em,body.sysp-page a.footer-link-em{background-posit
 
 /* Detalle */
 article{position:relative;margin:0 50px}
-article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;letter-spacing:.05ex;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
-body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-Light',sans-serif}
+article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
+body.biop-page article h1,body.sysp-page article h1{text-align:center;font-family:'Raleway-ExtraBold',sans-serif}
 article h1:after{content:'.'}
 article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}

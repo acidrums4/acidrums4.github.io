@@ -99,7 +99,7 @@ div.ip-main{overflow:hidden;margin:0 auto;padding:160px 0 0}
 main{opacity:1;margin:50px auto 50px;width:100%;top:0;position:relative}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
-main h2,main h4{text-align:left;line-height:1;opacity:1;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+main h2,main h4{text-align:left;line-height:1.1;opacity:1;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-all main h2 em{color:#e84a5f}
 body.item-web main h2 em{color:#4d95e1}
 body.item-fto main h2 em{color:#37ba7a}
@@ -194,7 +194,7 @@ footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid
 div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 footer span,div.footer-links{display:block;text-align:center}
-footer span{font-size:85%;color:#849095;font-weight:bold;margin:16px 0 0}
+footer span{font-size:85%;color:#86808a;font-weight:bold;margin:16px 0 0}
 footer span em{font-weight:normal;color#b4c0c5}
 div.footer-links a{display:inline-block;margin:0 16px;width:32px;height:32px;text-indent:-9999em;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:opacity .5s ease-out}
 div.footer-links a:hover{opacity:1}

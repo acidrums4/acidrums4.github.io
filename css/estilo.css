@@ -107,9 +107,9 @@ body.item-fto main h2 em{color:#37ba7a}
 body.item-ils main h2 em{color:#f07050}
 body.item-otr main h2 em{color:#c83771}
 main h2{color:#56505a;margin:0 10px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
-main h4{color:#56505a;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
+main h4{color:#56505a;margin:0.75em 10px 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:450%}
-main.noscroll h4{font-size:100%}
+main.noscroll h4{font-size:125%}
 main.scrolled h2,main.scrolled h4{font-size:0;opacity:0;margin:0}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
@@ -191,9 +191,7 @@ nav div.icon-nav-aboutm{opacity:.5;background-position:-160px -32px}
 div.filter-wrapper a:hover div.icon-nav-aboutm{opacity:1}
 
 /* Footer */
-footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid}
-body.home-page footer,body.item-page footer{background-color:#243035;border-color:#182429}
-body.biop-page footer,body.sysp-page footer{background-color:#fbfaf9;border-color:#efeeed}
+footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid;border-color:#e7e3d3;background-color:#f0eee4}
 div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 footer span,div.footer-links{display:block;text-align:center}

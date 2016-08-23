@@ -412,7 +412,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animFinalHeader{to{opacity:1;bottom:0;top:0}}
 @keyframes animUnloadedLogo{to{bottom:0;top:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
-@keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
+@keyframes animUnloadedHeader{from{top:0}to{top:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

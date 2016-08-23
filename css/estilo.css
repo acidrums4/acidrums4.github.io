@@ -106,9 +106,9 @@ body.item-web main h2{color:#4d95e1}
 body.item-fto main h2{color:#37ba7a}
 body.item-ils main h2{color:#f07050}
 body.item-otr main h2{color:#c83771}
-main h2{color:#e84a5f;margin:0 0 0;font-size:150%;letter-spacing:.125ex}
-main h4{color:#647075;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
-main.noscroll h2{font-size:150%}
+main h2{color:#56505a;margin:0 10px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h4{color:#56505a;margin:0.75em 0 40px;font-weight:normal;font-size:100%}
+main.noscroll h2{font-size:450%}
 main.noscroll h4{font-size:100%}
 main.scrolled h2,main.scrolled h4{font-size:0;opacity:0;margin:0}
 main h4.title-web em{color:#4d95e1}
@@ -220,7 +220,7 @@ body.item-fto article h1,body.item-fto article a{color:#37ba7a}
 body.item-ils article h1,body.item-ils article a{color:#f07050}
 body.item-otr article h1,body.item-otr article a{color:#c83771}
 body.item-hdv article h1,body.item-hdv article a{color:#7f7e7d}
-article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#fff;letter-spacing:.025ex}
+article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#56505a;letter-spacing:.025ex}
 body.biop-page article p,body.sysp-page article p{margin:20px 16px 0;font-size:100%;line-height:1.5}
 article p:before{content:'';float:left;position:relative;width:64px;height:64px;margin:10px 20px 20px 0;border-style:solid;border-width:16px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;border-color:#fff;background-color:#fff;transition:all .5s ease-out}
 article p~p:before{display:none}

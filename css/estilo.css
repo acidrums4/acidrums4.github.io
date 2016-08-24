@@ -105,8 +105,8 @@ body.item-web main h2 em{color:#4d95e1}
 body.item-fto main h2 em{color:#37ba7a}
 body.item-ils main h2 em{color:#f07050}
 body.item-otr main h2 em{color:#c83771}
-main h2{color:#56505a;margin:0 10px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
-main h4{color:#56505a;margin:0.75em 10px 40px;font-weight:normal;font-size:100%}
+main h2{color:#56505a;margin:0 20px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h4{color:#56505a;margin:1.25em 20px 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:450%}
 main.noscroll h4{font-size:125%}
 main.scrolled h2,main.scrolled h4{font-size:0;opacity:0;margin:0}
@@ -130,10 +130,10 @@ ul.grid>li{display:inline-block;overflow:hidden;width:310px;height:310px;text-al
 /** Enlace y la imagen **/
 ul.grid li>a,ul.grid li img{display:block;outline:none;border:none}
 ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:0;border-width:10px;border-style:solid;border-color:#f0eee4;transition:border .5s ease-out}
-ul.grid li>a:after{content:'';display:block;position:absolute;left:0;right:0;margin:auto;top:-32px;bottom:-25%;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;background-position:-256px 0;opacity:0;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-o-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-khtml-transition:all .25s ease-out;transition:all .25s ease-out}
+ul.grid li>a:after{content:'';display:block;position:absolute;left:0;right:0;margin:auto;top:-32px;bottom:-25%;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;background-position:-256px -32px;opacity:0;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-o-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-khtml-transition:all .25s ease-out;transition:all .25s ease-out}
 ul.grid li>a:hover:after{bottom:-16px;opacity:1}
 ul.grid li img{opacity:.75;transition:opacity 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:100%}
-ul.grid li a:hover img{opacity:.125}
+ul.grid li a:hover img{opacity:0}
 
 ul.grid li>a:hover{border-width:2px}
 li.item-web>a:hover{border-color:#4d95e1}
@@ -153,9 +153,9 @@ body.item-page.item-ils.layout-switch nav{border-color:#f07050}
 body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
-nav button.main-menu{right:16px;background-position:-448px 0}
+nav button.main-menu{right:16px;background-position:-448px -32px}
 body.nav-opened nav button.main-menu{background-position:-416px 0}
-nav button.goback-bn{left:20px;background-position:-320px 0}
+nav button.goback-bn{left:20px;background-position:-320px -32px}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.home-page.layout-switch button.main-menu,body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 

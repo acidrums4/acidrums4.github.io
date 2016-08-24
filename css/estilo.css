@@ -129,7 +129,7 @@ ul.grid>li{display:inline-block;overflow:hidden;width:310px;height:310px;text-al
 
 /** Enlace y la imagen **/
 ul.grid li>a,ul.grid li img{display:block;outline:none;border:none}
-ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:0;border-width:10px;border-style:solid;border-color:#f0eee4;transition:border .5s ease-out}
+ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:0;border-width:10px;border-style:solid;border-color:#fff;transition:border .5s ease-out}
 ul.grid li>a:after{content:'';display:block;position:absolute;left:0;right:0;margin:auto;top:-32px;bottom:-25%;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;background-position:-256px -32px;opacity:0;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-o-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-khtml-transition:all .25s ease-out;transition:all .25s ease-out}
 ul.grid li>a:hover:after{bottom:-16px;opacity:1}
 ul.grid li img{opacity:.75;transition:opacity 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:100%}
@@ -341,7 +341,7 @@ nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 nav div.about-wrapper{position:absolute;left:0;top:0}
-div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{top:16px}
+div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}
 div.filter-wrapper a.about-link span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span{bottom:-24px}
 

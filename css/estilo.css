@@ -143,7 +143,7 @@ li.item-otr>a:hover{border-color:#c83771}
 
 /* El menú */
 nav{background-color:#f9f8f4;position:relative;width:100%;height:130px}
-body.layout-switch nav{z-index:100;border-width:2px 0 0;border-style:solid;border-color:transparent}
+body.layout-switch nav{border-width:2px 0 0;border-style:solid;border-color:transparent}
 body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:none}
 body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
 body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}

@@ -152,7 +152,7 @@ body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
 nav button.main-menu{right:16px;background-position:-448px -32px}
-body.nav-opened nav button.main-menu{background-position:-416px 0}
+body.nav-opened nav button.main-menu{background-position:-416px -32px}
 nav button.goback-bn{left:20px;background-position:-320px -32px}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.home-page.layout-switch button.main-menu,body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
@@ -170,11 +170,11 @@ div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
 div.filter-wrapper a.nav-filter-ils:before{background-color:#f07050}
 div.filter-wrapper a.nav-filter-otr:before{background-color:#c83771}
 nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5}
-div.filter-wrapper a.nav-filter-all div.icon-nav-filter{background-position:0 0}
-div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32px 0}
-div.filter-wrapper a.nav-filter-fto div.icon-nav-filter{background-position:-64px 0}
-div.filter-wrapper a.nav-filter-ils div.icon-nav-filter{background-position:-96px 0}
-div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128px 0}
+div.filter-wrapper a.nav-filter-all div.icon-nav-filter{background-position:0 -32px}
+div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32px -32px}
+div.filter-wrapper a.nav-filter-fto div.icon-nav-filter{background-position:-64px -32px}
+div.filter-wrapper a.nav-filter-ils div.icon-nav-filter{background-position:-96px -32px}
+div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128px -32px}
 nav span{display:none;color:#fff;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{height:100%}
@@ -336,9 +336,7 @@ article p{font-size:110%;line-height:1.625}
 @media only screen and (min-width:1024px){
 main{width:960px;margin:50px auto 100px}
 
-nav{height:146px;top:-144px}
-nav button{top:192px}
-body.nav-opened{top:144px}
+nav{height:146px}
 nav div.filter-wrapper{width:940px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:auto;margin:0 0 0 10px}

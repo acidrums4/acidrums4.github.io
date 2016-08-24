@@ -176,7 +176,7 @@ div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128
 nav span{display:none;color:#56505a;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{height:2px}
-div.filter-wrapper a.about-link:hover span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{opacity:1}
+div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
 div.filter-wrapper a.about-link span{opacity:.5}
 
 nav div.about-wrapper{display:block;padding:0;margin:0}

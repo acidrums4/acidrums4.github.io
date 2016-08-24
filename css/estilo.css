@@ -143,7 +143,7 @@ li.item-otr>a:hover{border-color:#c83771}
 
 /* El menú */
 nav{background-color:#f9f8f4;position:relative;width:100%;height:130px}
-body.layout-switch nav{z-index:100;border-width:0 0 2px;border-style:solid}
+body.layout-switch nav{z-index:100;border-width:0 0 2px;border-style:solid;border-color:transparent}
 body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:none}
 body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
 body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
@@ -151,17 +151,15 @@ body.item-page.item-ils.layout-switch nav{border-color:#f07050}
 body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
-nav button.main-menu{right:16px;background-position:-448px -32px}
-body.nav-opened nav button.main-menu{background-position:-416px -32px}
 nav button.goback-bn{left:20px;background-position:-320px -32px}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
-body.home-page.layout-switch button.main-menu,body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
+body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
 nav div.filter-wrapper{margin:0;position:relative}
 nav ul{position:relative;list-style:none;display:block;margin:0;padding:0}
 /*nav span.filter-label{left:-200%;right:unset;bottom:-24px;text-align:right;color:#7b9ea8;opacity:1}*/
 nav li{display:inline-block;float:left;width:25%;margin:0}
-div.filter-wrapper a{display:block;background-color:#243035;width:100%;height:64px;position:relative;margin:0}
+div.filter-wrapper a{display:block;width:100%;height:64px;position:relative;margin:0}
 div.filter-wrapper a,div.filter-wrapper a *{transition:all 250ms ease-out}
 div.filter-wrapper a:before{content:'';position:absolute;display:block;width:100%;height:2px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
 div.filter-wrapper a.nav-filter-all:before{background-color:#e84a5f}
@@ -175,7 +173,7 @@ div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32p
 div.filter-wrapper a.nav-filter-fto div.icon-nav-filter{background-position:-64px -32px}
 div.filter-wrapper a.nav-filter-ils div.icon-nav-filter{background-position:-96px -32px}
 div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128px -32px}
-nav span{display:none;color:#fff;font-size:100%}
+nav span{display:none;color:#56505a;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{height:100%}
 div.filter-wrapper a.about-link:hover span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{opacity:1}
@@ -337,7 +335,7 @@ article p{font-size:110%;line-height:1.625}
 main{width:960px;margin:50px auto 100px}
 
 nav{height:146px}
-nav div.filter-wrapper{width:940px;margin:0 auto}
+nav div.filter-wrapper{width:920px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:auto;margin:0 0 0 10px}
 div.filter-wrapper a{width:64px;height:96px}
@@ -348,7 +346,6 @@ nav div.about-wrapper{position:absolute;left:0;top:0}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{top:8px}
 div.filter-wrapper a.nav-filter-active{display:block}
 div.filter-wrapper a.about-link span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span{bottom:-24px}
-body.nav-opened nav button.main-menu{z-index:101}
 
 article h1{font-size:333%}
 article p{font-size:105%;line-height:1.625}

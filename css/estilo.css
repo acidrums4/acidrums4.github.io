@@ -157,7 +157,6 @@ body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch butto
 
 nav div.filter-wrapper{margin:0;position:relative}
 nav ul{position:relative;list-style:none;display:block;margin:0;padding:0}
-/*nav span.filter-label{left:-200%;right:unset;bottom:-24px;text-align:right;color:#7b9ea8;opacity:1}*/
 nav li{display:inline-block;float:left;width:25%;margin:0}
 div.filter-wrapper a{display:block;width:100%;height:64px;position:relative;margin:0}
 div.filter-wrapper a,div.filter-wrapper a *{transition:all 250ms ease-out}
@@ -177,7 +176,6 @@ nav span{display:none;color:#56505a;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{width:100%}
 div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
-div.filter-wrapper a.about-link span{opacity:.5}
 
 nav div.about-wrapper{display:block;padding:0;margin:0}
 div.filter-wrapper a.about-link{background-color:#fffefd}

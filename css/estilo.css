@@ -161,7 +161,7 @@ nav ul{position:relative;list-style:none;display:block;margin:0;padding:0}
 nav li{display:inline-block;float:left;width:25%;margin:0}
 div.filter-wrapper a{display:block;width:100%;height:64px;position:relative;margin:0}
 div.filter-wrapper a,div.filter-wrapper a *{transition:all 250ms ease-out}
-div.filter-wrapper a:before{content:'';position:absolute;display:block;width:100%;height:0px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
+div.filter-wrapper a:before{content:'';position:absolute;display:block;width:0;height:2px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
 div.filter-wrapper a.nav-filter-all:before{background-color:#e84a5f}
 div.filter-wrapper a.nav-filter-web:before{background-color:#4d95e1}
 div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
@@ -175,7 +175,7 @@ div.filter-wrapper a.nav-filter-ils div.icon-nav-filter{background-position:-96p
 div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128px -32px}
 nav span{display:none;color:#56505a;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
-div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{height:2px}
+div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{width:100%}
 div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
 div.filter-wrapper a.about-link span{opacity:.5}
 
@@ -339,11 +339,11 @@ nav div.filter-wrapper{width:920px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:auto;margin:0 0 0 10px}
 div.filter-wrapper a{width:64px;height:96px}
-nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:32px;left:0;right:0;margin:auto}
+nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:16px;left:0;right:0;margin:auto}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 nav div.about-wrapper{position:absolute;left:0;top:0}
-div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{top:8px}
+div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter,div.filter-wrapper a.nav-filter-active div.icon-nav-filter{top:16px}
 div.filter-wrapper a.nav-filter-active{display:block}
 div.filter-wrapper a.about-link span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span{bottom:-24px}
 

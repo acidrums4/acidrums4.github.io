@@ -109,7 +109,7 @@ main h2{color:#56505a;margin:0 20px;font-size:150%;letter-spacing:.075ex;font-fa
 main h4{color:#56505a;margin:1.25em 20px 40px;font-weight:normal;font-size:100%}
 main.noscroll h2{font-size:450%;transform:scale(1,1)}
 main.noscroll h4{font-size:125%;transform:scale(1,1)}
-main.scrolled h2,main.scrolled h4{font-size:0;opacity:0;margin:0;transform:scale(1,0)}
+main.scrolled h2,main.scrolled h4{opacity:0;margin:0;transform:scale(1,0)}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
 main h4.title-ils em{color:#f07050}

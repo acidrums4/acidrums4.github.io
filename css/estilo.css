@@ -335,15 +335,16 @@ article p{font-size:110%;line-height:1.625}
 main{width:960px;margin:250px auto 100px}
 
 body.noscroll nav{height:98px}
-body.scrolled nav{height:64px}
-
+body.scrolled nav{height:66px}
 body.noscroll div.filter-wrapper a{width:64px;height:96px}
 body.scrolled div.filter-wrapper a{width:64px;height:64px}
 
 nav div.filter-wrapper{width:930px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
-nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:16px;left:0;right:0;margin:auto}
+nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
+body.noscroll nav div.icon-nav-aboutm,body.noscroll nav div.icon-nav-filter{top:16px}
+body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:0}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 nav div.about-wrapper{position:absolute;left:0;top:0}

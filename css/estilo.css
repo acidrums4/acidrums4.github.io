@@ -350,7 +350,8 @@ nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right
 nav div.about-wrapper{position:absolute;left:0;top:0}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}
-div.filter-wrapper a.about-link span,div.filter-wrapper a.nav-filter-active span,div.filter-wrapper a:hover span{bottom:-24px}
+body.noscroll div.filter-wrapper a.about-link span,body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
+body.scrolled  div.filter-wrapper a.about-link span,body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{0}
 
 article h1{font-size:333%}
 article p{font-size:105%;line-height:1.625}

@@ -58,7 +58,6 @@ jQuery(document).ready(function(event){
       .fadeIn(500); 
 
       $('body').removeClass('item-all item-web item-fto item-ils item-otr item-hdv').addClass($filter);
-      toggleMenu();
       $('body,html').animate({'scrollTop':0}, 200);
     } // if
   }); // on
@@ -71,8 +70,6 @@ jQuery(document).ready(function(event){
     event.preventDefault();
     changePage('index.html', true);
   });
-
-  $('button.main-menu').on('click', function(){toggleMenu()});
 
   $('button.goback-bn').on('click', function(){
     if ($('body').hasClass('item-page') || $('body').hasClass('biop-page')){
@@ -243,10 +240,6 @@ jQuery(document).ready(function(event){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
         });
-  }
-
-  function toggleMenu(){
-    $('body').toggleClass('nav-opened');
   }
 
   function doExpandableGallery(itemInfoWrapper){

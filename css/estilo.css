@@ -360,7 +360,7 @@ body.scrolled div.logo-wrapper svg{width:84px;top:8px}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:36px}
 div.filter-wrapper a.nav-filter-active{display:block}
 body.noscroll div.filter-wrapper a.about-link span,body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
-body.scrolled  div.filter-wrapper a.about-link span,body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{bottom:0}
+body.scrolled  div.filter-wrapper a.about-link span,body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{bottom:0;opacity:1}
 
 main h2{font-size:450%}
 main h4{font-size:125%}

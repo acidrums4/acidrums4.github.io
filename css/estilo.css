@@ -336,9 +336,9 @@ body.noscroll main{top:150px}
 body.scrolled main{top:0}
 
 main{width:960px;margin:100px auto}
-body.noscroll nav{height:98px}
+body.noscroll nav{height:130px}
 body.scrolled nav{height:66px}
-body.noscroll div.filter-wrapper a{width:64px;height:96px}
+body.noscroll div.filter-wrapper a{width:64px;height:128px}
 body.scrolled div.filter-wrapper a{width:64px;height:64px}
 
 nav div.filter-wrapper{width:930px;margin:0 auto}
@@ -350,7 +350,7 @@ body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 div.logo-wrapper{position:absolute;left:0;top:0}
-div.logo-wrapper svg{height:64px;margin:32px 0 0}
+div.logo-wrapper svg{height:64px;margin:64px 0 0}
 div.logo-wrapper path{fill:#56505a}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}

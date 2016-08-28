@@ -347,7 +347,7 @@ body.noscroll div.filter-wrapper a{width:64px;height:128px}
 body.scrolled div.filter-wrapper a{width:64px;height:64px}
 
 nav div.filter-wrapper{width:930px;margin:0 auto}
-nav ul{overflow:hidden;float:right}
+nav ul{overflow-x:hidden;float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
 body.noscroll nav div.icon-nav-aboutm,body.noscroll nav div.icon-nav-filter{top:28px}

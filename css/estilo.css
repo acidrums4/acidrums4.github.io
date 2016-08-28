@@ -350,8 +350,8 @@ body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 div.logo-wrapper{position:absolute;left:0;top:0}
-body.noscroll div.logo-wrapper svg{height:64px}
-body.scrolled  div.logo-wrapper svg{height:32px;margin:8px 0}
+body.noscroll div.logo-wrapper svg{height:64px;margin:64px 0 0}
+body.scrolled  div.logo-wrapper svg{height:48px;margin:16px 0 0}
 div.logo-wrapper path{fill:#56505a}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:36px}
 div.filter-wrapper a.nav-filter-active{display:block}

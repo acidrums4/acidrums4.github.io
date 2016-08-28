@@ -177,8 +177,8 @@ div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{width:100%}
 div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
 
-div.logo-wrapper{padding:0;margin:0}
-div.logo-wrapper svg{position:absolute;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+div.logo-wrapper{padding:0;margin:0;width:128px}
+div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 div.logo-wrapper path{fill:#56505a}
 div.filter-wrapper a.about-link{background-color:#fffefd}
 div.filter-wrapper a.about-link:before{display:none}
@@ -349,9 +349,9 @@ body.noscroll nav div.icon-nav-aboutm,body.noscroll nav div.icon-nav-filter{top:
 body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:0}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
-div.logo-wrapper{position:relative;float:left;width:128px}
-body.noscroll div.logo-wrapper svg{height:64px;top:64px}
-body.scrolled  div.logo-wrapper svg{height:48px;top:16px}
+div.logo-wrapper{position:relative;float:left}
+body.noscroll div.logo-wrapper svg{width:112px;top:64px}
+body.scrolled  div.logo-wrapper svg{width:84px;top:16px}
 div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:36px}
 div.filter-wrapper a.nav-filter-active{display:block}
 body.noscroll div.filter-wrapper a.about-link span,body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}

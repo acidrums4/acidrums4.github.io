@@ -179,12 +179,12 @@ div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.f
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
 div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-div.logo-wrapper path{fill:#56505a}
-body.item-all div.logo-wrapper a:hover path{fill:#e84a5f}
-body.item-web div.logo-wrapper a:hover path{fill:#4d95e1}
-body.item-fto div.logo-wrapper a:hover path{fill:#37ba7a}
-body.item-ils div.logo-wrapper a:hover path{fill:#f07050}
-body.item-otr div.logo-wrapper a:hover path{fill:#c83771}
+body.item-all div.logo-wrapper path{fill:#e84a5f}
+body.item-web div.logo-wrapper path{fill:#4d95e1}
+body.item-fto div.logo-wrapper path{fill:#37ba7a}
+body.item-ils div.logo-wrapper path{fill:#f07050}
+body.item-otr div.logo-wrapper path{fill:#c83771}
+div.logo-wrapper a:hover path{fill:#56505a}
 div.filter-wrapper a.about-link{background-color:#fffefd}
 div.filter-wrapper a.about-link:before{display:none}
 nav div.icon-nav-aboutm{opacity:.5;background-position:-160px -32px}

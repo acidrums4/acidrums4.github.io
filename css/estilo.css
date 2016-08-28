@@ -346,13 +346,13 @@ nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
 body.noscroll nav div.icon-nav-aboutm,body.noscroll nav div.icon-nav-filter{top:24px}
-body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:32px}
+body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:0}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 div.logo-wrapper{position:absolute;left:0;top:0}
 div.logo-wrapper svg{height:64px;margin:64px 0 0}
 div.logo-wrapper path{fill:#56505a}
-div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:0}
+div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:32px}
 div.filter-wrapper a.nav-filter-active{display:block}
 body.noscroll div.filter-wrapper a.about-link span,body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
 body.scrolled  div.filter-wrapper a.about-link span,body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{0}

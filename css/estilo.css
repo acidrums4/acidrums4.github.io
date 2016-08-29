@@ -107,7 +107,13 @@ body.item-web main h2 em{color:#4d95e1}
 body.item-fto main h2 em{color:#37ba7a}
 body.item-ils main h2 em{color:#f07050}
 body.item-otr main h2 em{color:#c83771}
-main h2{color:#56505a;margin:0 20px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h2{margin:0 20px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h2, main h2 a{color:#56505a}
+body.item-all main h2 a{text-decoration-color:#e84a5f}
+body.item-web main h2 a{text-decoration-color:#4d95e1}
+body.item-fto main h2 a{text-decoration-color:#37ba7a}
+body.item-ils main h2 a{text-decoration-color:#f07050}
+body.item-otr main h2 a{text-decoration-color:#c83771}
 main h4{color:#56505a;margin:1.25em 20px 40px;font-weight:normal;font-size:100%}
 body.scrolled h2,body.scrolled h4{opacity:0}
 main h4.title-web em{color:#4d95e1}

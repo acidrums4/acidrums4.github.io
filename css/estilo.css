@@ -343,7 +343,7 @@ body.scrolled main{top:0}
 
 main{width:960px;margin:100px auto}
 body.noscroll nav{height:130px}
-body.scrolled nav{height:66px}
+body.scrolled nav{height:98px}
 body.noscroll div.filter-wrapper a{width:64px;height:128px}
 body.scrolled div.filter-wrapper a{width:64px;height:64px}
 
@@ -352,7 +352,7 @@ nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
 body.noscroll nav div.icon-nav-filter{top:28px}
-body.scrolled nav div.icon-nav-filter{top:0}
+body.scrolled nav div.icon-nav-filter{top:32px}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 div.filter-wrapper a:hover:before{width:32px}
 div.filter-wrapper a.nav-filter-active:before{width:0}
@@ -361,12 +361,12 @@ div.filter-wrapper a:before{bottom:-24px}
 
 div.logo-wrapper{position:relative;float:left}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
-body.scrolled div.logo-wrapper svg{width:84px;top:8px}
+body.scrolled div.logo-wrapper svg{width:84px;top:24px}
 div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}
 body.noscroll div.filter-wrapper a.nav-filter-active span{bottom:0;opacity:.75}
 body.noscroll div.filter-wrapper a:hover span{bottom:0}
-body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{display:none}
+body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{opacity:0}
 
 main h2{font-size:450%}
 main h4{font-size:125%}

@@ -173,7 +173,7 @@ div.filter-wrapper a.nav-filter-web:before{background-color:#4d95e1}
 div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
 div.filter-wrapper a.nav-filter-ils:before{background-color:#f07050}
 div.filter-wrapper a.nav-filter-otr:before{background-color:#c83771}
-nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5}
+nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5}
 div.filter-wrapper a.nav-filter-all div.icon-nav-filter{background-position:0 -32px}
 div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32px -32px}
 div.filter-wrapper a.nav-filter-fto div.icon-nav-filter{background-position:-64px -32px}
@@ -182,7 +182,7 @@ div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128
 nav span{display:none;color:#56505a;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.filter-wrapper a:hover:before,div.filter-wrapper a.nav-filter-active:before{width:32px}
-div.filter-wrapper a.about-link:hover span,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
+div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
 div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -192,10 +192,6 @@ body.item-fto div.logo-wrapper path{fill:#37ba7a}
 body.item-ils div.logo-wrapper path{fill:#f07050}
 body.item-otr div.logo-wrapper path{fill:#c83771}
 div.logo-wrapper a:hover path{fill:#56505a}
-div.filter-wrapper a.about-link{background-color:#fffefd}
-div.filter-wrapper a.about-link:before{display:none}
-nav div.icon-nav-aboutm{opacity:.5;background-position:-160px -32px}
-div.filter-wrapper a:hover div.icon-nav-aboutm{opacity:1}
 
 /* Footer */
 footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid;border-color:#e7e3d3;background-color:#f0eee4}
@@ -356,18 +352,18 @@ body.scrolled div.filter-wrapper a{width:64px;height:64px}
 nav div.filter-wrapper{width:930px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
-nav div.icon-nav-aboutm,nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
-body.noscroll nav div.icon-nav-aboutm,body.noscroll nav div.icon-nav-filter{top:28px}
-body.scrolled nav div.icon-nav-aboutm,body.scrolled nav div.icon-nav-filter{top:0}
+nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
+body.noscroll nav div.icon-nav-filter{top:28px}
+body.scrolled nav div.icon-nav-filter{top:0}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 
 div.logo-wrapper{position:relative;float:left}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
 body.scrolled div.logo-wrapper svg{width:84px;top:8px}
-div.filter-wrapper a:hover div.icon-nav-aboutm,div.filter-wrapper a:hover div.icon-nav-filter{top:0}
+div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}
-body.noscroll div.filter-wrapper a.about-link span,body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
-body.scrolled  div.filter-wrapper a.about-link span,body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{display:none}
+body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
+body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{display:none}
 
 main h2{font-size:450%}
 main h4{font-size:125%}

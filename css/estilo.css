@@ -362,7 +362,8 @@ body.noscroll div.logo-wrapper svg{width:112px;top:64px}
 body.scrolled div.logo-wrapper svg{width:84px;top:8px}
 div.filter-wrapper a:hover div.icon-nav-filter{top:0}
 div.filter-wrapper a.nav-filter-active{display:block}
-body.noscroll div.filter-wrapper a.nav-filter-active span,body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
+body.noscroll div.filter-wrapper a.nav-filter-active span{bottom:0;opacity:.5}
+body.noscroll div.filter-wrapper a:hover span{bottom:-24px}
 body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{display:none}
 
 main h2{font-size:450%}

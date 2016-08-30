@@ -357,7 +357,7 @@ nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right
 div.filter-wrapper a:hover:before{width:32px}
 div.filter-wrapper a.nav-filter-active:before{width:0}
 div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
-div.filter-wrapper a:before{bottom:16px}
+div.filter-wrapper a:before{bottom:-32px}
 
 div.logo-wrapper{position:relative;float:left}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}

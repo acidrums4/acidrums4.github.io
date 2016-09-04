@@ -155,9 +155,9 @@ body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
 body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
 body.item-page.item-ils.layout-switch nav{border-color:#f07050}
 body.item-page.item-otr.layout-switch nav{border-color:#c83771}
-nav button{display:block;visibility:hidden;position:absolute;top:148px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
+nav button{display:block;visibility:hidden;position:absolute;top:84px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
-nav button.goback-bn{left:20px;background-position:-320px -32px}
+nav button.goback-bn{left:48px;background-position:-320px -32px}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
@@ -185,6 +185,7 @@ div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 div.logo-wrapper{padding:0;margin:0;width:128px}
 div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-all div.logo-wrapper path{fill:#e84a5f}
+body.item-hdv div.logo-wrapper path{fill:#16b3c2}
 body.item-web div.logo-wrapper path{fill:#4d95e1}
 body.item-fto div.logo-wrapper path{fill:#37ba7a}
 body.item-ils div.logo-wrapper path{fill:#f07050}

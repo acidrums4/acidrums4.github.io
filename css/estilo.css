@@ -355,9 +355,9 @@ body.noscroll div.icon-nav-filter{top:28px}
 body.scrolled div.icon-nav-filter{top:32px}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 div.filter-wrapper a:hover:before{width:32px}
-body.noscroll div.filter-wrapper a.nav-filter-active:before{width:0}
-body.scrolled div.filter-wrapper a.nav-filter-active:before{width:32px}
-div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
+body.noscroll a.nav-filter-active:before{width:0}
+body.scrolled a.nav-filter-active:before{width:32px}
+body.scrolled a.nav-filter-active div.icon-nav-filter,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
 div.filter-wrapper a:before{bottom:-24px}
 
 div.logo-wrapper{position:relative;float:left}

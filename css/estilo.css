@@ -157,7 +157,7 @@ body.item-page.item-ils.layout-switch nav{border-color:#f07050}
 body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:84px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,opacity .5s ease-out}
 nav button:hover{opacity:1}
-nav button.goback-bn{left:48px;background-position:-320px -32px}
+nav button.goback-bn{left:48px;background-position:-320px 0}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
@@ -190,7 +190,7 @@ body.item-web div.logo-wrapper path{fill:#4d95e1}
 body.item-fto div.logo-wrapper path{fill:#37ba7a}
 body.item-ils div.logo-wrapper path{fill:#f07050}
 body.item-otr div.logo-wrapper path{fill:#c83771}
-div.logo-wrapper a:hover path{fill:#56505a}
+div.logo-wrapper a:hover path{fill:#f9f8f4}
 
 /* Footer */
 footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid;border-color:#1a262b;background-color:#202c31}
@@ -218,7 +218,7 @@ body.item-fto article h1,body.item-fto article a{color:#37ba7a}
 body.item-ils article h1,body.item-ils article a{color:#f07050}
 body.item-otr article h1,body.item-otr article a{color:#c83771}
 body.item-hdv article h1,body.item-hdv article a{color:#56505a}
-article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#56505a;letter-spacing:.025ex}
+article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#f9f8f4;letter-spacing:.025ex}
 body.biop-page article p,body.sysp-page article p{margin:20px 16px 0;font-size:100%;line-height:1.5}
 article p:before{content:'';float:left;position:relative;width:64px;height:64px;margin:10px 20px 20px 0;border-style:solid;border-width:16px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;border-color:#fff;background-color:#fff;transition:all .5s ease-out}
 article p~p:before{display:none}

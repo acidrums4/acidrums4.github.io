@@ -156,7 +156,7 @@ body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
 body.item-page.item-ils.layout-switch nav{border-color:#f07050}
 body.item-page.item-otr.layout-switch nav{border-color:#c83771}
 nav button{display:block;visibility:hidden;position:absolute;top:84px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:all .5s ease-out,opacity .5s ease-out}
-body.scrolled nav button{top:38px}
+body.scrolled nav button{top:32px}
 nav button:hover{opacity:1}
 nav button.goback-bn{left:48px;background-position:-320px 0}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}

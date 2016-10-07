@@ -41,7 +41,7 @@ textarea{overflow:auto;vertical-align:top}
 *,*::after,*::before{box-sizing:border-box}
 html,body{height:100%}
 html{font-size:62.5%}
-body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#2a363b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
+body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#2a363b;background-image:url(../img/bg-portfolio.jpg);background-repeat:repeat;background-position:0 0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
 
 body.item-all header{background-color:#e84a5f}
 body.item-web header{background-color:#4d95e1}

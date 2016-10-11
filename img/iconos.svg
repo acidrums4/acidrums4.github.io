@@ -11,11 +11,11 @@
        id="path6515" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 1,29.0242 0,-21.9999998"
+       d="m 1,29.0242 0,-22"
        id="path6517" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 31,29.0242 0,-21.9999998"
+       d="m 31,29.0242 0,-22"
        id="path6519" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -39,11 +39,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6531"
-       d="m 9,2.5242 c 0,-1.1046 0.89543,-1.99999995 2,-1.99999995"
+       d="m 9,2.5242 c 0,-1.1046 0.89543,-2 2,-2"
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 20,0.5242 c 1.10457,0 2,0.89539995 2,1.99999995"
+       d="m 20,0.5242 c 1.10457,0 2,0.89539995 2,2"
        id="path6533" />
     <path
        id="path6535"
@@ -138,19 +138,19 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6559"
-       d="m 33,23.0242 0,-19.9999998"
+       d="m 33,23.0242 0,-20"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6561"
-       d="m 63,23.0242 0,-19.9999998"
+       d="m 63,23.0242 0,-20"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6563"
-       d="m 35,21.5242 0,-16.9999998"
+       d="m 35,21.5242 0,-17"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6565"
-       d="m 60,21.5242 0,-16.9999998"
+       d="m 60,21.5242 0,-17"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -206,19 +206,19 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6593"
-       d="m 46,17.0242 4,-7.9999998"
+       d="m 46,17.0242 4,-8"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6595"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 44,9.0242 -4,3.9999998 4,4" />
+       d="m 44,9.0242 -4,4 4,4" />
     <path
        id="path6597"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 52,9.0242 4,3.9999998 -4,4" />
+       d="m 52,9.0242 4,4 -4,4" />
   </symbol>
-  <symbol
-     id="symbol9491">
+  <symbol viewBox="64 0 32 32"
+     id="icon-fto">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 67,31.0242 26,0"
@@ -229,11 +229,11 @@
        id="path6601" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 65,29.0242 0,-19.9999998"
+       d="m 65,29.0242 0,-20"
        id="path6603" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 95,29.0242 0,-19.9999998"
+       d="m 95,29.0242 0,-20"
        id="path6605" />
     <path
        id="path6607"
@@ -356,15 +356,15 @@
        d="m 90,13.0242 0,16"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol9619">
+  <symbol viewBox="96 0 32 32"
+     id="icon-ils">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 123,20.5242 -11,0"
        id="path6481" />
     <path
        id="path6483"
-       d="m 117,8.0242 0,4.9999998"
+       d="m 117,8.0242 0,5"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6485"
@@ -373,7 +373,7 @@
     <path
        id="path6487"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 112,21.0242 0,-8.5 4,-3.9999998 2,0 4,3.9999998 0,8.5" />
+       d="m 112,21.0242 0,-8.5 4,-4 2,0 4,4 0,8.5" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 107,21.0242 0,-4"
@@ -432,11 +432,11 @@
        id="path6661" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 99,29.0242 0,-25.9999998"
+       d="m 99,29.0242 0,-26"
        id="path6663" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 127,26.0242 0,-24.9999998"
+       d="m 127,26.0242 0,-25"
        id="path6665" />
     <path
        id="path6667"
@@ -491,19 +491,19 @@
        d="m 101,6.5242 c 0,-1.1046 0.89543,-2 2,-2 1.10457,0 2,0.8954 2,2 0,1.1046 -0.89543,2 -2,2 -1.10457,0 -2,-0.8954 -2,-2 z"
        id="path6935" />
   </symbol>
-  <symbol
-     id="symbol9780">
+  <symbol viewBox="238 0 32 32"
+     id="icon-otr">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 131,29 26,0"
        id="path6713" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 129,27 0,-20.9999998"
+       d="m 129,27 0,-21"
        id="path6715" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 159,27 0,-20.9999998"
+       d="m 159,27 0,-21"
        id="path6717" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -531,7 +531,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6731"
-       d="m 1345,185 0,-11.9999998"
+       d="m 1345,185 0,-12"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6733"
@@ -572,10 +572,10 @@
     <path
        id="path6751"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 1345,65002 14,0 5,4.9999998 0,7.5" />
+       d="m 1345,65002 14,0 5,5 0,7.5" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 1485,115 0,-4.9999998"
+       d="m 1485,115 0,-5"
        id="path6753" />
     <path
        id="path6755"
@@ -583,11 +583,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6757"
-       d="m 1315,155 0,-5.9999998"
+       d="m 1315,155 0,-6"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6759"
-       d="m 1565,155 0,-5.9999998"
+       d="m 1565,155 0,-6"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -654,8 +654,8 @@
        d="m 146,22 -4,0"
        id="path6803" />
   </symbol>
-  <symbol
-     id="symbol9989">
+  <symbol viewBox="160 0 32 32"
+     id="icon-abm">
     <path
        id="path6791"
        d="m 161.01424,31 30,0"
@@ -734,15 +734,15 @@
        id="path6829" />
     <path
        id="path6831"
-       d="m 189.51424,23 0,-22.99999975"
+       d="m 189.51424,23 0,-23"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 162.51424,23 0,-22.99999975"
+       d="m 162.51424,23 0,-23"
        id="path6833" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 185.01424,12 c 0,4.9706 -4.02944,9 -9,9 -4.97056,0 -9,-4.0294 -9,-9 m 0,-2 c 0,-4.9705998 4.02944,-8.9999998 9,-8.9999998 4.97056,0 9,4.0294 9,8.9999998"
+       d="m 185.01424,12 c 0,4.9706 -4.02944,9 -9,9 -4.97056,0 -9,-4.0294 -9,-9 m 0,-2 c 0,-4.9705998 4.02944,-9 9,-9 4.97056,0 9,4.0294 9,9"
        id="path6835" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -761,8 +761,8 @@
        d="m 186.51424,17 a 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 1.5,1.5 0 0 1 1.5,1.5 z"
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol10211">
+  <symbol viewBox="192 0 32 32"
+     id="icon-fac">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 214,31.0242 7,0"
@@ -773,11 +773,11 @@
        id="path3734" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 193,29.0242 0,-25.9999998"
+       d="m 193,29.0242 0,-26"
        id="path3736" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 223,29.0242 0,-25.9999998"
+       d="m 223,29.0242 0,-26"
        id="path3738" />
     <path
        id="path3746"
@@ -821,7 +821,7 @@
        id="path3788" />
     <path
        id="path3790"
-       d="m 217.51424,11 0,-5.9999998"
+       d="m 217.51424,11 0,-6"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -860,8 +860,8 @@
        d="m 195,31.0242 13,0"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol10456">
+  <symbol viewBox="224 0 32 32"
+     id="icon-ema">
     <path
        id="path3812"
        d="m 239,1.0242 2,0"
@@ -904,11 +904,11 @@
        id="path3868" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 229,17.5242 0,-12.9999998"
+       d="m 229,17.5242 0,-13"
        id="path3870" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 250,17.5242 0,-12.9999998"
+       d="m 250,17.5242 0,-13"
        id="path3872" />
     <path
        id="path3874"
@@ -963,15 +963,15 @@
        d="m 246,28.5242 2,0"
        id="path4920" />
   </symbol>
-  <symbol
-     id="symbol10728">
+  <symbol viewBox="256 0 32 32"
+     id="icon-mag">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 269.99999,24.5243 c 0,3.5899 -2.91015,6.5 -6.5,6.5 -3.58985,0 -6.5,-2.9101 -6.5,-6.5"
+       d="m 270,24.5243 c 0,3.5899 -2.91015,6.5 -6.5,6.5 -3.58985,0 -6.5,-2.9101 -6.5,-6.5"
        id="path4922" />
     <path
        id="path4924"
-       d="m 286.99999,24.5243 c 0,3.5899 -2.91015,6.5 -6.5,6.5 -3.58985,0 -6.5,-2.9101 -6.5,-6.5"
+       d="m 287,24.5243 c 0,3.5899 -2.91015,6.5 -6.5,6.5 -3.58985,0 -6.5,-2.9101 -6.5,-6.5"
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path4926"
@@ -999,11 +999,11 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 257.99999,9.5243002 c 0,-3.0376 2.46243,-5.5 5.5,-5.5 3.03757,0 5.5,2.4624 5.5,5.5"
+       d="m 258,9.5243002 c 0,-3.0376 2.46243,-5.5 5.5,-5.5 3.03757,0 5.5,2.4624 5.5,5.5"
        id="path4942" />
     <path
        id="path4944"
-       d="m 274.99999,9.5243002 c 0,-3.0376 2.46243,-5.5 5.5,-5.5 3.03757,0 5.5,2.4624 5.5,5.5"
+       d="m 275,9.5243002 c 0,-3.0376 2.46243,-5.5 5.5,-5.5 3.03757,0 5.5,2.4624 5.5,5.5"
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path4946"
@@ -1023,11 +1023,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path4954"
-       d="m 260.59,3.5243002 c 0,-1.6569 1.34315,-2.99999995 3,-2.99999995 1.65685,0 3,1.34309995 3,2.99999995"
+       d="m 260.59,3.5243002 c 0,-1.6569 1.34315,-3 3,-3 1.65685,0 3,1.34309995 3,3"
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 277.59,3.5243002 c 0,-1.6569 1.34315,-2.99999995 3,-2.99999995 1.65685,0 3,1.34309995 3,2.99999995"
+       d="m 277.59,3.5243002 c 0,-1.6569 1.34315,-3 3,-3 1.65685,0 3,1.34309995 3,3"
        id="path4956" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1070,8 +1070,8 @@
        d="m 269.59,10.0243 c 0,-1.3806998 1.11929,-2.5998 2.5,-2.5998 1.38071,0 2.5,1.1193 2.5,2.5998"
        id="path4979" />
   </symbol>
-  <symbol
-     id="symbol11028">
+  <symbol viewBox="288 0 32 32"
+     id="icon-clo">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 317,31.0242 -26,0"
@@ -1082,11 +1082,11 @@
        id="path5108" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 319,29.0242 0,-25.9999998"
+       d="m 319,29.0242 0,-26"
        id="path5110" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 289,29.0242 0,-25.9999998"
+       d="m 289,29.0242 0,-26"
        id="path5112" />
     <path
        id="path5114"
@@ -1106,11 +1106,11 @@
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5122"
-       d="m 315,26.5242 0,-20.9999998"
+       d="m 315,26.5242 0,-21"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5124"
-       d="m 292,26.5242 0,-20.9999998"
+       d="m 292,26.5242 0,-21"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1139,13 +1139,13 @@
     <path
        id="path5140"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 2979,12.0243 4,3.9999 -4,4" />
+       d="m 2979,12.0243 4,4 -4,4" />
     <path
-       d="m 3109,12.0243 -4,3.9999 4,4"
+       d="m 3109,12.0243 -4,4 4,4"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        id="path5169" />
     <path
-       d="m 300,9.5243002 4,3.9998998 4,-3.9999998"
+       d="m 300,9.5243002 4,4 4,-4"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        id="path5171" />
     <path
@@ -1169,8 +1169,8 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        id="path5185" />
   </symbol>
-  <symbol
-     id="symbol11351">
+  <symbol viewBox="320 0 32 32"
+     id="icon-gbk">
     <path
        d="M 338,4.5243452 3269,16.0242 338,27.5242"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1205,7 +1205,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6722"
-       d="m 336,31.024199 -15,-15 15,-14.9999988"
+       d="m 336,31.024199 -15,-15 15,-15"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1257,7 +1257,7 @@
        id="path6786" />
     <path
        id="path6790"
-       d="m 351,11.024199 c 0,-1.1044988 -0.89543,-1.9999988 -2,-1.9999988"
+       d="m 351,11.024199 c 0,-1.1044988 -0.89543,-2 -2,-2"
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1285,7 +1285,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path6804"
-       d="m 324,12.524199 0,-6.9999988"
+       d="m 324,12.524199 0,-7"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1297,15 +1297,15 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 340,12.5242 0,-7.9999998"
+       d="m 340,12.5242 0,-8"
        id="path6895" />
   </symbol>
-  <symbol
-     id="symbol11715">
+  <symbol viewBox="352 0 32 32"
+     id="icon-gfw">
     <path
        id="path7038"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 366.00034,4.5243452 11.49981,11.4998548 -11.49981,11.5" />
+       d="m 366,4.5243452 11.5,11.5 -11.5,11.5" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        d="m 363.5,4.5242 2,0"
@@ -1336,7 +1336,7 @@
        id="path7052" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 368,31.024199 15,-15 -15,-14.9999988"
+       d="m 368,31.024199 15,-15 -15,-15"
        id="path7054" />
     <path
        id="path7056"
@@ -1388,7 +1388,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 353,11.024199 c 0,-1.1044988 0.89543,-1.9999988 2,-1.9999988"
+       d="m 353,11.024199 c 0,-1.1044988 0.89543,-2 2,-2"
        id="path7080" />
     <path
        id="path7082"
@@ -1412,11 +1412,11 @@
        id="path7090" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 356.5,26.524199 10e-5,-3.499855"
+       d="m 356.5,26.524199 10e-5,-3.5"
        id="path7092" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 379.5,12.524199 0,-6.9999988"
+       d="m 379.5,12.524199 0,-7"
        id="path7094" />
     <path
        id="path7096"
@@ -1428,13 +1428,13 @@
        id="path7098" />
     <path
        id="path7100"
-       d="m 363.5,12.5242 0,-7.9999998"
+       d="m 363.5,12.5242 0,-8"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol12112">
+  <symbol viewBox="384 0 32 32"
+     id="icon-gdw">
     <path
-       d="m 411,14.0243 -11.49986,11.49981 -11.5,-11.49981"
+       d="m 411,14.0242 -11.5,11.5 -11.5,-11.5"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        id="path7168" />
     <path
@@ -1471,11 +1471,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 413,8.0242 c 1.1045,0 2,0.89543 2,1.9999998"
+       d="m 413,8.0242 c 1.1045,0 2,0.89543 2,2"
        id="path7186" />
     <path
        id="path7188"
-       d="m 385,10.0242 c 0,-1.1045698 0.8954,-1.9999998 2,-1.9999998"
+       d="m 385,10.0242 c 0,-1.1045698 0.8954,-2 2,-2"
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1543,7 +1543,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path7222"
-       d="m 389.5,4.5242 3.49986,10e-5"
+       d="m 389.5,4.5242 3.5,10e-5"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path7224"
@@ -1562,8 +1562,8 @@
        d="m 403.5,11.5242 8,0"
        id="path7230" />
   </symbol>
-  <symbol
-     id="symbol12542">
+  <symbol viewBox="416 0 32 32"
+     id="icon-gup">
     <path
        id="path5042"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1598,7 +1598,7 @@
        id="path5067" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 417,16.02406 15,-14.9999998 15,14.9999998"
+       d="m 417,16.02406 15,-15 15,15"
        id="path5069" />
     <path
        id="path5074"
@@ -1666,15 +1666,15 @@
        id="path5207" />
     <path
        id="path5209"
-       d="m 443.5,12.52406 0,-6.9999998"
+       d="m 443.5,12.52406 0,-7"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 420.5,12.52406 0,-6.9999998"
+       d="m 420.5,12.52406 0,-7"
        id="path5211" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 421.5,27.52406 3.49986,-10e-5"
+       d="m 421.5,27.5242 3.5,-10e-5"
        id="path5213" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1693,19 +1693,19 @@
        d="m 435.5,20.52406 8,0"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol13005">
+  <symbol viewBox="448 0 32 32"
+     id="icon-men">
     <path
        id="path5388"
        d="m 451,1.0241952 26,0"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5390"
-       d="m 449,29.024195 0,-25.9999998"
+       d="m 449,29.024195 0,-26"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5396"
-       d="m 479,29.024195 0,-25.9999998"
+       d="m 479,29.024195 0,-26"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -1749,11 +1749,11 @@
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5438"
-       d="m 4545,10.5 c -0.55228,0 -1,-0.44769 -1,-0.9999998"
+       d="m 4545,10.5 c -0.55228,0 -1,-0.44769 -1,-1"
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 4745,9.5 c 0,0.5523098 -0.44772,0.9999998 -1,0.9999998"
+       d="m 4745,9.5 c 0,0.5523098 -0.44772,1 -1,1"
        id="path5440" />
     <path
        id="path5442"
@@ -1824,15 +1824,15 @@
        d="m 4545,24.5 19,0"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol13501">
+  <symbol viewBox="480 0 32 32"
+     id="icon-lnk">
     <path
        id="path4039"
-       d="m 495,28.0242 0,-0.9999"
+       d="m 495,28.0242 0,-1"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 511,28.0242 0,-0.9999"
+       d="m 511,28.0242 0,-1"
        id="path4043" />
     <path
        id="path4061"
@@ -1908,11 +1908,11 @@
        id="path5025" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 511,21.0242 0,-17.9999998"
+       d="m 511,21.0242 0,-18"
        id="path5028" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 481,29.0242 0,-25.9999998"
+       d="m 481,29.0242 0,-26"
        id="path5032" />
     <path
        id="path5035"
@@ -1983,15 +1983,15 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
        id="path5104" />
   </symbol>
-  <symbol
-     id="symbol14044">
+  <symbol viewBox="512 0 32 32"
+     id="icon-hdv">
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 539,21.0242 0,-15.5998"
+       d="m 539,21.0242 0,-15.6"
        id="path5492" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 516,26.5242 0,-20.9999998"
+       d="m 516,26.5242 0,-21"
        id="path5494" />
     <path
        id="path5496"
@@ -2023,11 +2023,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5510"
-       d="m 543,21.0242 0,-17.9999998"
+       d="m 543,21.0242 0,-18"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5512"
-       d="m 513,29.0242 0,-25.9999998"
+       d="m 513,29.0242 0,-26"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2055,7 +2055,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5618"
-       d="m 525.59,9.5243002 a 2,2 0 0 1 -2,1.9999998 2,2 0 0 1 -2,-1.9999998 2,2 0 0 1 2,-2 2,2 0 0 1 2,2 z"
+       d="m 525.59,9.5243002 a 2,2 0 0 1 -2,2 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 2,2 0 0 1 2,2 z"
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2106,8 +2106,8 @@
        d="m 519,24.5 11,0"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol14609">
+  <symbol viewBox="544 0 32 32"
+     id="icon-hom">
     <path
        d="M 575,21.02396 560,5.5241502 544.5,21.02396"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2122,7 +2122,7 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5696"
-       d="m 545,16.02406 15,-14.9999998 15,14.9999998"
+       d="m 545,16.02406 15,-15 15,15"
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2138,7 +2138,7 @@
        id="path5746" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 548,13.0242 0,-9.9999998"
+       d="m 548,13.0242 0,-10"
        id="path5748" />
     <path
        id="path5750"
@@ -2201,8 +2201,8 @@
        d="m 551.5,24.52406 5,0"
        id="path6592" />
   </symbol>
-  <symbol
-     id="symbol15191">
+  <symbol viewBox="576 0 32 32"
+     id="icon-net">
     <path
        id="path4860"
        d="m 606,4.0242 c 0,-1.1045 -0.89543,-2 -2,-2"
@@ -2245,11 +2245,11 @@
        id="path4886" />
     <path
        id="path4888"
-       d="m 577,26.0242 c 0,-3.5899 6.49187,-6.5 14.5,-6.5 8.00813,0 14.5,2.9101 14.5,6.5"
+       d="m 577,26.0242 c 0,-3.5899 6.49187,-6.5 14.5,-6.5 8,0 14.5,2.9101 14.5,6.5"
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 606,6.0242 c 0,3.5899 -6.49187,6.5998 -14.5,6.5998 -8.00813,0 -14.5,-2.9100998 -14.5,-6.5998"
+       d="m 606,6.0242 c 0,3.5899 -6.49187,6.5998 -14.5,6.5998 -8,0 -14.5,-2.9100998 -14.5,-6.5998"
        id="path4890" />
     <path
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2265,11 +2265,11 @@
        style="fill:none;fill-rule:evenodd;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path4884"
-       d="m 607,16.0242 a 15,15 0 0 1 -15,15 15,15 0 0 1 -15,-15 15,15 0 0 1 15,-14.9999998 15,15 0 0 1 15,14.9999998 z"
+       d="m 607,16.0242 a 15,15 0 0 1 -15,15 15,15 0 0 1 -15,-15 15,15 0 0 1 15,-15 15,15 0 0 1 15,15 z"
        style="opacity:1;fill:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
   </symbol>
-  <symbol
-     id="symbol15783">
+  <symbol viewBox="608 0 32 32"
+     id="icon-mou">
     <path
        id="path5034"
        d="m 624,31.0242 -13,0"
@@ -2296,15 +2296,15 @@
        id="path5048" />
     <path
        id="path5088"
-       d="m 617,15.0243 0,-8.9999998"
+       d="m 617,15.0243 0,-9"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5094"
-       d="m 609.,12.0243 c 0,-2.7613998 2.23858,-4.9999998 5,-4.9999998"
+       d="m 609.,12.0243 c 0,-2.7613998 2.23858,-5 5,-5"
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
-       d="m 621.,7.0243002 c 2.76142,0 5,2.2386 5,4.9999998"
+       d="m 621.,7.0243002 c 2.76142,0 5,2.2386 5,5"
        id="path5098" />
     <path
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"
@@ -2344,7 +2344,7 @@
        style="opacity:1;fill:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        id="path5178"
-       d="m 632,28.0242 0,-18.9999998"
+       d="m 632,28.0242 0,-19"
        style="fill:none;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke:#000000"

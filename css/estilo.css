@@ -170,7 +170,7 @@ nav a.nav-filter-web.nav-filter-active svg.icon,nav a.nav-filter-web:hover svg.i
 nav a.nav-filter-fto.nav-filter-active svg.icon,nav a.nav-filter-fto:hover svg.icon{stroke:#37ba7a}
 nav a.nav-filter-ils.nav-filter-active svg.icon,nav a.nav-filter-ils:hover svg.icon{stroke:#f07050}
 nav a.nav-filter-otr.nav-filter-active svg.icon,nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
-nav span{display:none;color:#f9f8f4;font-size:100%}
+nav span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{display:none;pointer-events:none}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
@@ -334,7 +334,7 @@ article p{font-size:110%;line-height:1.625}
 main{width:960px;margin:100px auto}
 body.noscroll nav{height:130px}
 body.scrolled nav{height:98px}
-body.noscroll nav a{width:64px;height:128px}
+body.noscroll nav a{width:64px;height:96px}
 body.scrolled nav a{width:64px;height:64px}
 
 header{float:left;position:relative;width:320px}

@@ -342,6 +342,7 @@ body.noscroll nav a{width:64px;height:128px}
 body.scrolled nav a{width:64px;height:64px}
 
 header{float:left;position:relative;width:320px}
+section.grid-wrap{clear:none;margin:auto;overflow:hidden}
 
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}

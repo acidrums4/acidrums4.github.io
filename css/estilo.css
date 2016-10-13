@@ -100,8 +100,8 @@ div.ip-main{overflow:hidden;margin:0 auto;padding:0}
 main{opacity:1;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
-main h2,main h4{text-align:left;line-height:1.1;opacity:1;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-main h2{margin:0 20px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h2,main h4{text-align:left;opacity:1;display:block;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+main h2{margin:0 0 20px;font-size:150%;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
 main h2, main h2 a{color:#56505a}
 main h2 a{text-decoration:underline;text-decoration-style:dotted;transition:color .25s cubic-bezier(0.7,0,0.3,1)}
 body.item-all main h2 a{text-decoration-color:#e84a5f}
@@ -114,7 +114,7 @@ body.item-web main h2 a:hover{color:#4d95e1}
 body.item-fto main h2 a:hover{color:#37ba7a}
 body.item-ils main h2 a:hover{color:#f07050}
 body.item-otr main h2 a:hover{color:#c83771}
-main h4{color:#56505a;margin:1.25em 20px 40px;font-weight:normal;font-size:100%}
+main h4{color:#56505a;margin:1.25em 0 40px;font-weight:normal;font-size:100%}
 body.scrolled h2,body.scrolled h4{opacity:0}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
@@ -180,6 +180,7 @@ nav a.nav-filter-active{display:none;pointer-events:none}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
 div.logo-wrapper svg{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+div.logo-wrapper a{display:block}
 body.item-all div.logo-wrapper path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper path{fill:#16b3c2}
 body.item-web div.logo-wrapper path{fill:#4d95e1}
@@ -356,7 +357,7 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-24px}
 
-div.logo-wrapper{position:relative;display:block;width:100%}
+div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
 body.scrolled div.logo-wrapper svg{width:84px;top:24px}
 nav a:hover div.icon-nav-filter{top:0}

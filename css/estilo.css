@@ -128,6 +128,8 @@ body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils ma
 body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
+svg.icon{vertical-align:-.5px;width:32px;height:32px}
+
 /* Ítems en la página inicial */
 section.grid-wrap{clear:both;margin:0 auto;padding:0;max-width:1260px}
 ul.grid{margin:0;padding:0;list-style:none;text-align:center}
@@ -148,12 +150,7 @@ li.item-ils>a:hover{border-color:#f07050}
 li.item-otr>a:hover{border-color:#c83771}
 
 /* El menú */
-nav{z-index:99;background-color:#f9f8f4;position:fixed;width:100%;height:130px;top:0;left:0;right:0/*;border-width:2px 0 0;border-style:solid;border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 10%,#4d95e1 10%,#4d95e1 20%,#37ba7a 20%,#37ba7a 30%,#f07050 30%,#f07050 40%,#c83771 40%,#c83771 50%,#e84a5f 50%,#e84a5f 60%,#4d95e1 60%,#4d95e1 70%,#37ba7a 70%,#37ba7a 80%,#f07050 80%,#f07050 90%,#c83771 90%,#c83771 100%);border-image-slice:1*/}
-body.item-page.layout-switch nav,body.layout-switch.nav-opened nav{border-image:none}
-body.item-page.item-web.layout-switch nav{border-color:#4d95e1}
-body.item-page.item-fto.layout-switch nav{border-color:#37ba7a}
-body.item-page.item-ils.layout-switch nav{border-color:#f07050}
-body.item-page.item-otr.layout-switch nav{border-color:#c83771}
+nav{position:fixed;;height:130px;top:0;left:0;right:0/*;border-width:2px 0 0;border-style:solid;border-image:linear-gradient(to right,#e84a5f 0%,#e84a5f 10%,#4d95e1 10%,#4d95e1 20%,#37ba7a 20%,#37ba7a 30%,#f07050 30%,#f07050 40%,#c83771 40%,#c83771 50%,#e84a5f 50%,#e84a5f 60%,#4d95e1 60%,#4d95e1 70%,#37ba7a 70%,#37ba7a 80%,#f07050 80%,#f07050 90%,#c83771 90%,#c83771 100%);border-image-slice:1*/}
 nav button{display:block;visibility:hidden;position:absolute;top:84px;border:0;padding:0;width:32px;height:32px;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:visibility .5s ease-out,top .5s ease-out,opacity .5s ease-out}
 body.scrolled nav button{top:32px}
 nav button:hover{opacity:1}
@@ -173,12 +170,12 @@ div.filter-wrapper a.nav-filter-web:before{background-color:#4d95e1}
 div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
 div.filter-wrapper a.nav-filter-ils:before{background-color:#f07050}
 div.filter-wrapper a.nav-filter-otr:before{background-color:#c83771}
-nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5}
-div.filter-wrapper a.nav-filter-all div.icon-nav-filter{background-position:0 0}
-div.filter-wrapper a.nav-filter-web div.icon-nav-filter{background-position:-32px 0}
-div.filter-wrapper a.nav-filter-fto div.icon-nav-filter{background-position:-64px 0}
-div.filter-wrapper a.nav-filter-ils div.icon-nav-filter{background-position:-96px 0}
-div.filter-wrapper a.nav-filter-otr div.icon-nav-filter{background-position:-128px 0}
+nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;opacity:.5}
+div.filter-wrapper a.nav-filter-all svg.icon{stroke:#ff0000}
+div.filter-wrapper a.nav-filter-web svg.icon{stroke:#ff0000}
+div.filter-wrapper a.nav-filter-fto svg.icon{stroke:#ff0000}
+div.filter-wrapper a.nav-filter-ils svg.icon{stroke:#ff0000}
+div.filter-wrapper a.nav-filter-otr svg.icon{stroke:#ff0000}
 nav span{display:none;color:#f9f8f4;font-size:100%}
 div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
 

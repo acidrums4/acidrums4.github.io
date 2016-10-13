@@ -158,26 +158,25 @@ nav button.goback-bn{left:48px;background-position:-320px 0}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
-nav div.filter-wrapper{margin:0;position:relative}
 nav ul{list-style:none;margin:0;padding:0}
 body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
 nav li{display:inline-block;float:left;width:25%;margin:0}
-div.filter-wrapper a{display:block;width:100%;height:64px;position:relative;margin:0}
-div.filter-wrapper a,div.filter-wrapper a *{transition:all 250ms ease-out}
-div.filter-wrapper a:before{content:'';position:absolute;display:block;width:0;height:2px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
-div.filter-wrapper a.nav-filter-all:before{background-color:#e84a5f}
-div.filter-wrapper a.nav-filter-web:before{background-color:#4d95e1}
-div.filter-wrapper a.nav-filter-fto:before{background-color:#37ba7a}
-div.filter-wrapper a.nav-filter-ils:before{background-color:#f07050}
-div.filter-wrapper a.nav-filter-otr:before{background-color:#c83771}
+nav a{display:block;width:100%;height:64px;position:relative;margin:0}
+nav a,nav a *{transition:all 250ms ease-out}
+nav a:before{content:'';position:absolute;display:block;width:0;height:2px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
+nav a.nav-filter-all:before{background-color:#e84a5f}
+nav a.nav-filter-web:before{background-color:#4d95e1}
+nav a.nav-filter-fto:before{background-color:#37ba7a}
+nav a.nav-filter-ils:before{background-color:#f07050}
+nav a.nav-filter-otr:before{background-color:#c83771}
 nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px;opacity:.5}
-div.filter-wrapper a.nav-filter-all svg.icon{stroke:#ff0000}
-div.filter-wrapper a.nav-filter-web svg.icon{stroke:#ff0000}
-div.filter-wrapper a.nav-filter-fto svg.icon{stroke:#ff0000}
-div.filter-wrapper a.nav-filter-ils svg.icon{stroke:#ff0000}
-div.filter-wrapper a.nav-filter-otr svg.icon{stroke:#ff0000}
+nav a.nav-filter-all svg.icon{stroke:#ff0000}
+nav a.nav-filter-web svg.icon{stroke:#ff0000}
+nav a.nav-filter-fto svg.icon{stroke:#ff0000}
+nav a.nav-filter-ils svg.icon{stroke:#ff0000}
+nav a.nav-filter-otr svg.icon{stroke:#ff0000}
 nav span{display:none;color:#f9f8f4;font-size:100%}
-div.filter-wrapper a.nav-filter-active{display:none;pointer-events:none}
+nav a.nav-filter-active{display:none;pointer-events:none}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
 div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -342,8 +341,8 @@ body.scrolled main{top:0}
 main{width:960px;margin:100px auto}
 body.noscroll nav{height:130px}
 body.scrolled nav{height:98px}
-body.noscroll div.filter-wrapper a{width:64px;height:128px}
-body.scrolled div.filter-wrapper a{width:64px;height:64px}
+body.noscroll nav a{width:64px;height:128px}
+body.scrolled nav a{width:64px;height:64px}
 
 nav div.filter-wrapper{width:930px;margin:0 auto}
 nav ul{float:right}
@@ -352,20 +351,20 @@ nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:au
 body.noscroll div.icon-nav-filter{top:28px}
 body.scrolled div.icon-nav-filter{top:32px}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
-div.filter-wrapper a:hover:before{width:32px}
+nav a:hover:before{width:32px}
 body.noscroll a.nav-filter-active:before{width:0}
 body.scrolled a.nav-filter-active:before{width:32px}
-body.scrolled a.nav-filter-active div.icon-nav-filter,div.filter-wrapper a:hover span,div.filter-wrapper a:hover div.icon-nav-filter{opacity:1}
-div.filter-wrapper a:before{bottom:-24px}
+body.scrolled a.nav-filter-active div.icon-nav-filter,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
+nav a:before{bottom:-24px}
 
 div.logo-wrapper{position:relative;float:left}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
 body.scrolled div.logo-wrapper svg{width:84px;top:24px}
-div.filter-wrapper a:hover div.icon-nav-filter{top:0}
-div.filter-wrapper a.nav-filter-active{display:block}
-body.noscroll div.filter-wrapper a.nav-filter-active span{bottom:0;opacity:.75}
-body.noscroll div.filter-wrapper a:hover span{bottom:0}
-body.scrolled div.filter-wrapper a.nav-filter-active span,body.scrolled div.filter-wrapper a:hover span{opacity:0}
+nav a:hover div.icon-nav-filter{top:0}
+nav a.nav-filter-active{display:block}
+body.noscroll nav a.nav-filter-active span{bottom:0;opacity:.75}
+body.noscroll nav a:hover span{bottom:0}
+body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
 main h2{font-size:450%}
 main h4{font-size:125%}

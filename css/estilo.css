@@ -349,7 +349,7 @@ nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right
 nav a:hover:before{width:32px}
 body.noscroll a.nav-filter-active:before{width:0}
 body.scrolled a.nav-filter-active:before{width:32px}
-body.scrolled a.nav-filter-active div.icon-nav-filter,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
+body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{top:16px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}

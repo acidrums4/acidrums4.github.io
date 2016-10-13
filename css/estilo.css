@@ -128,7 +128,7 @@ body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils ma
 body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
-svg.icon{vertical-align:-.5px;width:32px;height:32px}
+svg.icon{vertical-align:-.5px;margin-left:-,5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
 section.grid-wrap{clear:both;margin:0 auto;padding:0;max-width:1260px}

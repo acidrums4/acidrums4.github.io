@@ -343,14 +343,14 @@ section.grid-wrap{clear:none;margin:auto;overflow:hidden}
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-filter{display:block;position:absolute;bottom:auto;margin:auto}
-body.noscroll div.icon-nav-filter{top:-64px}
+body.noscroll div.icon-nav-filter{top:8px}
 body.scrolled div.icon-nav-filter{top:32px}
 nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 nav a:hover:before{width:32px}
 body.noscroll a.nav-filter-active:before{width:0}
 body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
-nav a:before{bottom:-24px}
+nav a:before{top:16px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}

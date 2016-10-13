@@ -43,20 +43,19 @@ html,body{height:100%}
 html{font-size:62.5%}
 body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease}
 
-body.item-all header{background-color:#e84a5f}
-body.item-web header{background-color:#4d95e1}
-body.item-fto header{background-color:#37ba7a}
-body.item-ils header{background-color:#f07050}
-body.item-otr header{background-color:#c83771}
-body.item-hdv header{background-color:#f9f8f4}
+body.item-all div.intro-container{background-color:#e84a5f}
+body.item-web div.intro-container{background-color:#4d95e1}
+body.item-fto div.intro-container{background-color:#37ba7a}
+body.item-ils div.intro-container{background-color:#f07050}
+body.item-otr div.intro-container{background-color:#c83771}
+body.item-hdv div.intro-container{background-color:#f9f8f4}
 
-header{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
-header h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-header h1 svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-header path.logo{opacity:0}
-header path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
+div.intro-container h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container path.logo{opacity:0}
+div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 svg.ip-inner.loading{animation:loading .5s linear infinite}
-/*body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#881121}*/
 body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#f9f8f4}
 body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#164980}
 body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#14442d}
@@ -71,11 +70,11 @@ body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
-div.loaded header{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
-div.unload header{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded div.intro-container{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
+div.unload div.intro-container{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.loading h1{opacity:1;bottom:0;animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload h1{opacity:1;bottom:0;animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) both}
-div.loaded header h1{opacity:1;width:120px;height:120px;bottom:0}
+div.loaded div.intro-container h1{opacity:1;width:120px;height:120px;bottom:0}
 
 div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
@@ -92,8 +91,8 @@ body div.unload path.logo{opacity:1}
 div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
 
-body.layout-switch header{position:absolute}
-body.layout-switch div.loaded header h1 svg{position:relative}
+body.layout-switch div.intro-container{position:absolute}
+body.layout-switch div.loaded div.intro-container svg{position:relative}
 
 /* Contenido */
 div.ip-main{overflow:hidden;margin:0 auto;padding:0}

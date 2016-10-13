@@ -5,7 +5,6 @@ jQuery(document).ready(function(event){
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
   container = $('div.main-container');
-  header = $('header'),
   pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
   transEndEventNames = {
     'WebkitTransition' : 'webkitTransitionEnd',
@@ -98,7 +97,7 @@ jQuery(document).ready(function(event){
     isAnimating = true;
 
     if( support.animations ) {
-      $('header h1').one(animEndEventName, function(){
+      $('div.intro-container h1').one(animEndEventName, function(){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
       });

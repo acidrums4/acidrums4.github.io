@@ -179,7 +179,7 @@ nav span{display:none;color:#f9f8f4;font-size:100%}
 nav a.nav-filter-active{display:none;pointer-events:none}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
-div.logo-wrapper svg{position:absolute;height:auto;left:0;top:0;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+div.logo-wrapper svg{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-all div.logo-wrapper path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper path{fill:#16b3c2}
 body.item-web div.logo-wrapper path{fill:#4d95e1}
@@ -344,7 +344,6 @@ body.scrolled nav{height:98px}
 body.noscroll nav a{width:64px;height:128px}
 body.scrolled nav a{width:64px;height:64px}
 
-nav div.filter-wrapper{width:930px;margin:0 auto}
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-filter{display:block;position:absolute;left:0;right:0;margin:auto}
@@ -357,7 +356,7 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-24px}
 
-div.logo-wrapper{position:relative;float:left}
+div.logo-wrapper{position:relative;display:block;width:100%}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
 body.scrolled div.logo-wrapper svg{width:84px;top:24px}
 nav a:hover div.icon-nav-filter{top:0}
@@ -366,8 +365,8 @@ body.noscroll nav a.nav-filter-active span{bottom:0;opacity:.75}
 body.noscroll nav a:hover span{bottom:0}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
-main h2{font-size:450%}
-main h4{font-size:125%}
+main h2{font-size:300%}
+main h4{font-size:110%}
 
 article h1{font-size:333%}
 article p{font-size:105%;line-height:1.625}

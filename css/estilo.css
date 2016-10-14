@@ -171,7 +171,7 @@ nav a.nav-filter-web.nav-filter-active svg.icon,nav a.nav-filter-web:hover svg.i
 nav a.nav-filter-fto.nav-filter-active svg.icon,nav a.nav-filter-fto:hover svg.icon{stroke:#37ba7a}
 nav a.nav-filter-ils.nav-filter-active svg.icon,nav a.nav-filter-ils:hover svg.icon{stroke:#f07050}
 nav a.nav-filter-otr.nav-filter-active svg.icon,nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
-nav span{display:none;color:#56505a;font-size:100%}
+ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{display:none;pointer-events:none}
 
 div.logo-wrapper{padding:0;margin:0;width:128px}
@@ -346,7 +346,7 @@ nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
 nav div.icon-nav-filter{display:block;position:absolute;bottom:auto;margin:auto}
 body.noscroll div.icon-nav-filter{top:8px}
 body.scrolled div.icon-nav-filter{top:32px}
-nav span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
+ul.filter-menu a>span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 nav a:hover:before{width:32px}
 body.noscroll a.nav-filter-active:before{width:0}
 body.scrolled a.nav-filter-active:before{width:32px}

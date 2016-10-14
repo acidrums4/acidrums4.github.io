@@ -335,13 +335,13 @@ article p{font-size:110%;line-height:1.625}
 main{width:960px;margin:100px auto}
 header{float:left;position:relative;width:320px}
 section.grid-wrap{clear:none;margin:auto;overflow:hidden}
-body.scrolled main{margin:0 auto 100px}
+body.scrolled main{margin:0 auto 100px;top:0}
 body.scrolled header{position:fixed}
 body.scrolled section.grid-wrap{margin-left:320px}
 body.scrolled ul.grid{margin-top:96px}
 
 body.noscroll nav{height:128px}
-body.scrolled nav{position:fixed;width:640px;height:96px;background-color:#f9f8f4;z-index:2}
+body.scrolled nav{position:fixed;width:640px;height:96px;top:0;background-color:#f9f8f4;z-index:2}
 body.noscroll nav a{width:64px;height:96px}
 body.scrolled nav a{width:64px;height:64px}
 
@@ -359,6 +359,7 @@ nav a:before{top:16px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
+body.scrolled div.logo-wrapper{margin:32px 0}
 body.scrolled div.logo-wrapper svg{width:84px;top:24px}
 nav a:hover div.icon-nav-filter{top:0}
 nav a.nav-filter-active{display:block}

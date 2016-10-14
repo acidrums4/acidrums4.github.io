@@ -152,7 +152,8 @@ nav button.goback-bn{left:48px;background-position:-320px 0}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
-span.filter-label{color:#86808a;text-align:right}
+div.filter-label{height:100%;float:left;position:relative}
+div.filter-label span{color:#86808a;text-align:right;position:absolute;bottom:0;right:0}
 nav ul{list-style:none;margin:0;padding:0}
 body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
 nav li{display:inline-block;float:left;width:25%;margin:0}

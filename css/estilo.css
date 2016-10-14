@@ -96,6 +96,7 @@ body.layout-switch div.loaded div.intro-container svg{position:relative}
 
 /* Contenido */
 div.ip-main{overflow:hidden;margin:0 auto;padding:0}
+div.cd-main-content{position:relative}
 
 main{opacity:1;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
@@ -332,13 +333,16 @@ article p{font-size:110%;line-height:1.625}
 
 @media only screen and (min-width:1024px){
 main{width:960px;margin:100px auto}
-body.noscroll nav{height:128px}
-body.scrolled nav{height:98px}
-body.noscroll nav a{width:64px;height:96px}
-body.scrolled nav a{width:64px;height:64px}
-
 header{float:left;position:relative;width:320px}
 section.grid-wrap{clear:none;margin:auto;overflow:hidden}
+body.scrolled header{position:fixed}
+body.scrolled section.grid-wrap{margin-left:320px}
+body.scrolled ul.grid{margin-top:96px}
+
+body.noscroll nav{height:128px}
+body.scrolled nav{position:fixed;width:640px;height:96px;background-color:#f9f8f4;z-index:2}
+body.noscroll nav a{width:64px;height:96px}
+body.scrolled nav a{width:64px;height:64px}
 
 nav ul{float:right}
 nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}

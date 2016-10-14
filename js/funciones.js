@@ -62,7 +62,7 @@ jQuery(document).ready(function(event){
   }); // on
 
   $(window).scroll(function(){
-    ($(this).scrollTop() > 1) ? $('body').addClass("scrolled").removeClass("noscroll") : $('body').addClass("noscroll").removeClass("scrolled");
+    ($(this).scrollTop() > 99) ? $('body').addClass("scrolled").removeClass("noscroll") : $('body').addClass("noscroll").removeClass("scrolled");
   });
 
   $('a.home-link').on('click', function(event){

@@ -135,9 +135,8 @@ ul.grid li>a{width:300px;height:300px;position:relative;overflow:hidden;margin:5
 ul.grid li img{opacity:.75;transition:opacity 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:100%}
 ul.grid li a:hover img{opacity:0}
 
-ul.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;stroke-dashoffset:200;stroke-dasharray:200}
-ul.grid path{stroke-dashoffset:200;stroke-dasharray:200}
-ul.grid a:hover path{animation:dash 2s linear forwards;animation-delay:.25s}
+ul.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;stroke-dashoffset:200;stroke-dasharray:200;transition:all 2s ease-out}
+ul.grid a:hover path{stroke-dashoffset:0}
 li.item-web svg.icon{stroke:#4d95e1}
 li.item-fto svg.icon{stroke:#37ba7a}
 li.item-ils svg.icon{stroke:#f07050}
@@ -425,7 +424,6 @@ ul.slider-navigation li,ul.slider-pagination{opacity:0;visibility:hidden;-webkit
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;visibility:visible;-webkit-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;-moz-transition:opacity 0.4s 0.4s,visibility 0s 0.4s;transition:opacity 0.4s 0.4s,visibility 0s 0.4s}
 }
 
-@keyframes dash{to{stroke-dashoffset:0}}
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animLoadedHeader{to{top:-200%}}

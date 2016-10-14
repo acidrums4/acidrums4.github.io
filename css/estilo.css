@@ -137,7 +137,7 @@ ul.grid li a:hover img{opacity:0}
 
 ul.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;stroke-dashoffset:200;stroke-dasharray:200}
 ul.grid path{stroke-dashoffset:200;stroke-dasharray:200}
-ul.grid a:hover path{animation:dash 1s ease-out forwards}
+ul.grid a:hover path{animation:dash 10s ease-out forwards}
 li.item-web svg.icon{stroke:#4d95e1}
 li.item-fto svg.icon{stroke:#37ba7a}
 li.item-ils svg.icon{stroke:#f07050}

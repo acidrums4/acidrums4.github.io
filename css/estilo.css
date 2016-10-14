@@ -152,6 +152,7 @@ nav button.goback-bn{left:48px;background-position:-320px 0}
 body.item-hdv nav button.goback-bn{background-position:-544px -32px}
 body.item-page.layout-switch button.goback-bn,body.biop-page.layout-switch button.goback-bn,body.sysp-page.layout-switch button.goback-bn{visibility:visible}
 
+span.filter-label{color:#86808a;text-align:right}
 nav ul{list-style:none;margin:0;padding:0}
 body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
 nav li{display:inline-block;float:left;width:25%;margin:0}
@@ -332,7 +333,7 @@ article p{font-size:110%;line-height:1.625}
 
 @media only screen and (min-width:1024px){
 main{width:960px;margin:100px auto}
-body.noscroll nav{height:130px}
+body.noscroll nav{height:128px}
 body.scrolled nav{height:98px}
 body.noscroll nav a{width:64px;height:96px}
 body.scrolled nav a{width:64px;height:64px}

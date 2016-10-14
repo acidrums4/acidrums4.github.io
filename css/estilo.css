@@ -104,7 +104,6 @@ main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 main h2,main h4{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
 main h4{line-height:1.5;font-weight:normal;font-size:100%}
-body.scrolled h2,body.scrolled h4{opacity:0}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
 main h4.title-ils em{color:#f07050}
@@ -359,7 +358,7 @@ nav a:before{top:16px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
 body.noscroll div.logo-wrapper svg{width:112px;top:64px}
-body.scrolled div.logo-wrapper{margin:32px 0}
+body.scrolled div.logo-wrapper{margin:23px 0}
 body.scrolled div.logo-wrapper svg{width:84px;top:24px}
 nav a:hover div.icon-nav-filter{top:0}
 nav a.nav-filter-active{display:block}

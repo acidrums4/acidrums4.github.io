@@ -190,17 +190,11 @@ body.item-otr div.logo-wrapper path{fill:#c83771}
 div.logo-wrapper a:hover path{fill:#f9f8f4}
 
 /* Footer */
-footer{display:table;width:100%;margin:0;border-width:1px 0 0;border-style:solid;border-color:#1a262b;background-color:#e9e8e4}
+footer{display:block;width:100%;margin:0}
 div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
-footer span,div.footer-links{display:block;text-align:center}
-footer span{font-size:85%;color:#a9a8a4;font-weight:bold;margin:16px 0 0}
-footer span em{font-weight:normal;color#b4c0c5}
-div.footer-links a{display:inline-block;margin:0 16px;width:32px;height:32px;text-indent:-9999em;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;opacity:.5;transition:opacity .5s ease-out}
-div.footer-links a:hover{opacity:1}
-a.footer-link-cv{background-position:-160px 0}
-a.footer-link-fb{background-position:-192px 0}
-a.footer-link-em{background-position:-224px 0}
+div.footer-links{display:block;text-align:center}
+div.footer-links a{display:inline-block;margin:0 16px;width:32px;height:32px;text-indent:-9999em}
 body.biop-page a.footer-link-cv,body.sysp-page a.footer-link-cv{display:none}
 
 /* Detalle */
@@ -324,10 +318,8 @@ body.item-otr ul.slider-pagination a{border-color:#c83771}
 /* Media queries */
 
 @media only screen and (min-width:640px) and (max-width:1023px){
-footer span{text-align:right}
 div.footer-wrapper{width:unset;margin:32px;text-align:right}
-div.footer-links,footer span{display:inline}
-footer span{line-height:32px;margin:0}
+div.footer-links{display:inline}
 div.footer-links{overflow:hidden;text-align:left;float:left}
 div.footer-links a{display:inline;float:left;margin:0 24px 0 0}
 
@@ -397,11 +389,9 @@ body.item-page article blockquote>p{margin:16px 16px 16px 64px}
 div.item-txt>a:hover+blockquote{margin:0 0 0 44px}
 article.slider-active div.item-txt>a:hover+blockquote{margin:0}
 
-footer span{text-align:right}
-div.footer-wrapper{width:940px;margin:48px auto;text-align:right}
-div.footer-links,footer span{display:inline}
-footer span{line-height:32px;margin:0}
-div.footer-links{overflow:hidden;text-align:left;float:left}
+footer{position:fixed;bottom:0}
+div.footer-wrapper{width:960px;margin:24px auto}
+div.footer-links{width:320px;float:left}
 div.footer-links a{display:inline;float:left;margin:0 24px 0 0}
 
 ul.slider{cursor:pointer}

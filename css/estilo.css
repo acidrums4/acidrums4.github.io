@@ -340,7 +340,7 @@ main{width:960px;margin:100px auto}
 header{float:left;position:relative;width:320px}
 section.grid-wrap{clear:none;margin:auto;overflow:hidden}
 body.scrolled main{margin:0 auto 100px;top:0}
-body.scrolled header{position:fixed}
+body.scrolled header{position:fixed;top:100}
 body.scrolled section.grid-wrap{margin-left:320px}
 body.scrolled ul.grid{margin-top:96px}
 
@@ -362,9 +362,7 @@ body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active sp
 nav a:before{bottom:-32px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
-body.noscroll div.logo-wrapper svg{width:112px;top:64px}
-body.scrolled div.logo-wrapper{margin:23px 0}
-body.scrolled div.logo-wrapper svg{width:84px;top:24px}
+div.logo-wrapper svg{width:112px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}
 nav a.nav-filter-active{display:block}

@@ -338,9 +338,8 @@ article p{font-size:110%;line-height:1.625}
 @media only screen and (min-width:1024px){
 main{width:960px;margin:100px auto}
 header{float:left;position:fixed;width:320px;top:100px}
-section.grid-wrap{clear:none;margin:auto;overflow:hidden}
+section.grid-wrap{clear:none;margin:auto;overflow:hidden;margin-left:320px}
 body.scrolled main{margin:0 auto 100px;top:0}
-body.scrolled section.grid-wrap{margin-left:320px}
 body.scrolled ul.grid{margin-top:96px}
 
 body.noscroll nav{height:128px}

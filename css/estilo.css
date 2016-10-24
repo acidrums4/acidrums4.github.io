@@ -334,11 +334,12 @@ body.scrolled ul.grid{margin-top:96px}
 
 body.noscroll nav{height:128px}
 body.scrolled nav{position:fixed;width:640px;height:96px;top:0;background-color:#f9f8f4;z-index:2}
-body.noscroll nav a{width:64px;height:96px}
-body.scrolled nav a{width:64px;height:64px}
 
 nav ul{float:right}
-nav li{display:inline;float:left;width:64px;margin:0 0 0 10px}
+nav li{display:inline;float:left;width:32px;margin:0 0 0 32px}
+nav a{width:32px}
+body.noscroll nav a{height:96px}
+body.scrolled nav a{height:64px}
 nav div.icon-nav-filter{display:block;position:absolute;bottom:auto;margin:auto}
 body.noscroll div.icon-nav-filter{top:8px}
 body.scrolled div.icon-nav-filter{top:32px}

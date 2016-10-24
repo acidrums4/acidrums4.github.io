@@ -116,7 +116,7 @@ body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils ma
 body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
-header hr{height:0;width:4em;margin:30px 0;float:left;border-width:1px 0 0 0;border-style:solid;border-color:#bcb7bf}
+header hr{height:0;width:4em;margin:30px 0;float:left;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 svg.icon{vertical-align:-.5px;margin-left:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
@@ -164,12 +164,13 @@ nav a.nav-filter-fto:before{background-color:#37ba7a}
 nav a.nav-filter-ils:before{background-color:#f07050}
 nav a.nav-filter-otr:before{background-color:#c83771}
 nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px}
-nav svg.icon{stroke:#d6d2d7}
-nav a.nav-filter-all.nav-filter-active svg.icon,nav a.nav-filter-all:hover svg.icon{stroke:#e84a5f}
-nav a.nav-filter-web.nav-filter-active svg.icon,nav a.nav-filter-web:hover svg.icon{stroke:#4d95e1}
-nav a.nav-filter-fto.nav-filter-active svg.icon,nav a.nav-filter-fto:hover svg.icon{stroke:#37ba7a}
-nav a.nav-filter-ils.nav-filter-active svg.icon,nav a.nav-filter-ils:hover svg.icon{stroke:#f07050}
-nav a.nav-filter-otr.nav-filter-active svg.icon,nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
+nav svg.icon{opacity:.35}
+nav a:hover svg.icon,nav a.nav-filter-active svg.icon{opacity:1}
+nav a.nav-filter-all:hover svg.icon{stroke:#e84a5f}
+nav a.nav-filter-web:hover svg.icon{stroke:#4d95e1}
+nav a.nav-filter-fto:hover svg.icon{stroke:#37ba7a}
+nav a.nav-filter-ils:hover svg.icon{stroke:#f07050}
+nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
 ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{display:none;pointer-events:none}
 

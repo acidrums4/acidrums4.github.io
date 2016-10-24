@@ -164,7 +164,7 @@ nav a.nav-filter-fto:before{background-color:#37ba7a}
 nav a.nav-filter-ils:before{background-color:#f07050}
 nav a.nav-filter-otr:before{background-color:#c83771}
 nav div.icon-nav-filter{display:block;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:32px;height:32px}
-nav svg.icon{opacity:.35}
+nav svg.icon{stroke:#56505a;opacity:.35}
 nav a:hover svg.icon,nav a.nav-filter-active svg.icon{opacity:1}
 nav a.nav-filter-all:hover svg.icon{stroke:#e84a5f}
 nav a.nav-filter-web:hover svg.icon{stroke:#4d95e1}

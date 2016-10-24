@@ -335,7 +335,7 @@ body.scrolled ul.grid{margin-top:96px}
 body.noscroll nav{height:128px}
 body.scrolled nav{position:fixed;width:640px;height:96px;top:0;background-color:#f9f8f4;z-index:2}
 
-nav ul{float:right}
+nav ul{float:right;margin:0 15px}
 nav li{display:inline;float:left;width:32px;margin:0 0 0 32px}
 nav a{width:32px}
 body.noscroll nav a{height:96px}

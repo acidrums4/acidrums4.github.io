@@ -191,7 +191,7 @@ div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 div.footer-links{display:block;text-align:center}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px;text-indent:-9999em}
-footer svg{display:block;stroke:#56505a;opacity:.75;transition:stroke .25s cubic-bezier(0.7,0,0.3,1)}
+footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}
 body.biop-page a.footer-link-cv,body.sysp-page a.footer-link-cv{display:none}
 
@@ -350,7 +350,7 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-32px}
 
-div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 72px}
+div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 84px}
 div.logo-wrapper svg{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}

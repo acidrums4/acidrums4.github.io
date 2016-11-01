@@ -191,8 +191,8 @@ div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 div.footer-links{display:block;text-align:center}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px;text-indent:-9999em}
-footer svg{display:block;stroke:#56505a;transition:stroke .25s cubic-bezier(0.7,0,0.3,1)}
-footer a:hover svg{stroke:#16b3c2}
+footer svg{display:block;stroke:#56505a;opacity:.75;transition:stroke .25s cubic-bezier(0.7,0,0.3,1)}
+footer a:hover svg{opacity:1}
 body.biop-page a.footer-link-cv,body.sysp-page a.footer-link-cv{display:none}
 
 /* Detalle */

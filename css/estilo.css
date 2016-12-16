@@ -389,14 +389,14 @@ body.item-page article blockquote>p{margin:16px 16px 16px 64px}
 div.item-txt>a:hover+blockquote{margin:0 0 0 44px}
 article.slider-active div.item-txt>a:hover+blockquote{margin:0}
 
-footer{width:80px;height:100%;order:1;flex-basis:auto}
+footer{width:80px;height:100%;overflow:hidden;order:1;flex-basis:auto}
 div.footer-wrapper{display:block;width:80px;height:100%;position:fixed;top:0;bottom:0;left:0;margin:0;border-width:0 1px 0 0;border-style:dashed;border-color:#d6d0da}
 footer,footer>div{transition:width .5s cubic-bezier(0.7,0,0.3,1)}
 footer:hover,footer:hover>div{width:320px}
 div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{overflow:hidden;float:left;line-height:32px;height:32px;margin-left:24px;width:260px}
+footer span{font-weight:bold;color:#56505a;overflow:hidden;float:left;line-height:32px;height:32px;margin-left:24px;width:240px}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}

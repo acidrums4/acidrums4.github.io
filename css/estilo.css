@@ -391,7 +391,7 @@ article.slider-active div.item-txt>a:hover+blockquote{margin:0}
 
 footer{width:80px;height:100%;order:1;flex-basis:auto}
 div.footer-wrapper{display:block;width:80px;height:100%;position:fixed;top:0;bottom:0;left:0;margin:0;border-width:0 1px 0 0;border-style:dashed;border-color:#d6d0da}
-footer,footer>div{transition:width .5s cubic-bezier(0.7,0,0.3,1)}
+footer>div{transition:width .5s cubic-bezier(0.7,0,0.3,1)}
 footer:hover,footer:hover>div{width:320px}
 div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 24px 24px}

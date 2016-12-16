@@ -187,9 +187,9 @@ body.item-otr div.logo-wrapper a:hover path{fill:#c83771}
 
 /* Footer */
 footer{display:block;width:100%;margin:0}
-div.footer-wrapper{display:block;width:100%;text-align:center;margin:32px auto}
+div.footer-wrapper{display:block;width:100%;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
-div.footer-links{display:block;text-align:center}
+div.footer-links{display:block}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px}
 footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}

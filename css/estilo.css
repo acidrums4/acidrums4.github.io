@@ -117,7 +117,7 @@ body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr ma
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
 header hr{height:0;width:4em;margin:30px 0;float:left;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
-svg.icon{vertical-align:-.5px;margin-left:-.5px;width:32px;height:32px}
+svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
 section.grid-wrap{clear:both;margin:0 auto;padding:0;max-width:1260px}

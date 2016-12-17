@@ -101,7 +101,7 @@ div.cd-main-content{position:relative}
 main{opacity:1;order:1;;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
-main h2,main h4{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+main h2,main h4,header hr{display:none}
 main h2{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
 main h4{line-height:1.5;font-weight:normal;font-size:100%}
 main h4.title-web em{color:#4d95e1}
@@ -116,7 +116,6 @@ body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils ma
 body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
-header hr{height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
@@ -166,7 +165,7 @@ nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
 ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{display:none;pointer-events:none}
 
-div.logo-wrapper{padding:0;margin:0;width:128px}
+div.logo-wrapper{padding:0;width:96px;margin:0 auto 32px}
 div.logo-wrapper a{display:block}
 div.logo-wrapper svg{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-all div.logo-wrapper path{fill:#56505a}
@@ -362,7 +361,9 @@ body.noscroll nav a.nav-filter-active span{bottom:0}
 body.noscroll nav a:hover span{bottom:0}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
+main h2,main h4{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2{font-size:300%}
+header hr{height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{text-align:right}
 
 article h1{font-size:333%}

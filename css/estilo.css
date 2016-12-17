@@ -185,7 +185,15 @@ div.footer-links{display:block}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px}
 footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}
-body.biop-page a.footer-link-cv,body.sysp-page a.footer-link-cv{display:none}
+body.biop-page a.footer-link-cv,
+body.sysp-page a.footer-link-cv,
+body.biop-page a.footer-link-gb,
+body.sysp-page a.footer-link-gb,
+body.item-page a.footer-link-hm,
+body.home-page a.footer-link-hm,
+body.home-page a.footer-link-gb,
+body.home-page footer hr
+{display:none}
 
 /* Detalle */
 article{position:relative;margin:0 15px}

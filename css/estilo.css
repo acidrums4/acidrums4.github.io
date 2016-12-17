@@ -116,12 +116,12 @@ body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils ma
 body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
 body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
 
-header hr{height:0;width:4em;margin:30px 0;float:left;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+header hr{height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
 section.grid-wrap{clear:both;margin:0 auto;padding:0;max-width:1260px}
-ul.grid{margin:0;padding:0;list-style:none;text-align:right}
+ul.grid{margin:0;padding:0;list-style:none;text-align:center}
 ul.grid>li{display:inline-block;overflow:hidden;width:310px;height:310px;text-align:center;vertical-align:top}
 
 /** Enlace y la imagen **/
@@ -181,7 +181,7 @@ body.item-otr div.logo-wrapper a:hover path{fill:#c83771}
 footer{display:block;width:100%;margin:0;order:2}
 div.footer-wrapper{display:block;width:100%;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
-div.footer-links{display:block}
+div.footer-links{display:block;text-align:center}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px}
 footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}
@@ -192,7 +192,8 @@ body.sysp-page a.footer-link-gb,
 body.item-page a.footer-link-hm,
 body.home-page a.footer-link-hm,
 body.home-page a.footer-link-gb,
-body.home-page footer hr
+body.home-page footer hr,
+footer span
 {display:none}
 
 /* Detalle */
@@ -362,6 +363,7 @@ body.noscroll nav a:hover span{bottom:0}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
 main h2{font-size:300%}
+ul.grid{text-align:right}
 
 article h1{font-size:333%}
 article p{font-size:105%;line-height:1.625}
@@ -399,7 +401,7 @@ div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{color:#56505a;overflow:hidden;float:left;line-height:32px;height:32px;margin-left:24px;width:240px}
+footer span{display:inline;color:#56505a;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin-left:24px;width:240px}
 footer a:hover span{color:#26202a;text-decoration:underline}
 
 ul.slider{cursor:pointer}

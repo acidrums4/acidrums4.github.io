@@ -396,6 +396,7 @@ footer:hover{width:320px}
 footer:hover>div{width:240px}
 div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
+footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
 footer span{color:#56505a;overflow:hidden;float:left;line-height:32px;height:32px;margin-left:24px;width:240px}
 footer a:hover span{color:#26202a;text-decoration:underline}

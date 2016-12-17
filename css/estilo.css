@@ -347,9 +347,9 @@ body.scrolled div.icon-nav-filter{top:32px}
 ul.filter-menu a>span{position:absolute;display:block;width:200%;bottom:-12px;left:-50%;right:-50%;text-align:center;opacity:0;pointer-events:none}
 nav a:hover:before{width:32px}
 body.noscroll a.nav-filter-active:before{width:0}
-body.scrolled a.nav-filter-active:before{width:32px}
+body.scrolled a.nav-filter-active:before{width:8px;height:8px;border-radius:4px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
-nav a:before{bottom:-32px}
+nav a:before{bottom:-20px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 84px}
 div.logo-wrapper svg{width:83px;top:64px}

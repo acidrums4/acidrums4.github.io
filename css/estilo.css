@@ -145,7 +145,7 @@ li.item-otr>a:hover{border-color:#c83771}
 /* El menú */
 nav ul{list-style:none;margin:0;padding:0}
 body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
-nav li{display:inline-block;float:left;width:25%;margin:0}
+nav li{display:inline-block;float:left;width:20%;margin:0}
 nav a{display:block;width:100%;height:64px;position:relative;margin:0}
 nav a,nav a *{transition:all 250ms ease-out}
 nav a:before{content:'';position:absolute;display:block;width:0;height:1px;bottom:0;left:0;right:0;margin:auto;transition:all 250ms ease-out}
@@ -163,7 +163,7 @@ nav a.nav-filter-fto:hover svg.icon{stroke:#37ba7a}
 nav a.nav-filter-ils:hover svg.icon{stroke:#f07050}
 nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
 ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
-nav a.nav-filter-active{display:none;pointer-events:none}
+nav a.nav-filter-active{pointer-events:none}
 
 div.logo-wrapper{padding:0;width:96px;margin:0 auto 32px}
 div.logo-wrapper a{display:block}

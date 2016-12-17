@@ -143,6 +143,7 @@ li.item-ils>a:hover{border-color:#f07050}
 li.item-otr>a:hover{border-color:#c83771}
 
 /* El menú */
+body.scrolled nav{position:fixed;top:0;background-color:#f9f8f4;z-index:2}
 nav ul{list-style:none;margin:0;padding:0}
 body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
 nav li{display:inline-block;float:left;width:20%;margin:0}
@@ -363,7 +364,7 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 
 main h2,main h4{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2{font-size:300%}
-header hr{height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{text-align:right}
 
 article h1{font-size:333%}

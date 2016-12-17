@@ -95,10 +95,10 @@ body.layout-switch div.intro-container{position:absolute}
 body.layout-switch div.loaded div.intro-container svg{position:relative}
 
 /* Contenido */
-div.ip-main{display:flex;width:100%}
+div.ip-main{display:flex;width:100%;flex-direction:column}
 div.cd-main-content{position:relative}
 
-main{opacity:1;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
+main{opacity:1;order:1;;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
 main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
 main h2,main h4{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -178,7 +178,7 @@ body.item-ils div.logo-wrapper a:hover path{fill:#f07050}
 body.item-otr div.logo-wrapper a:hover path{fill:#c83771}
 
 /* Footer */
-footer{display:block;width:100%;margin:0}
+footer{display:block;width:100%;margin:0;order:2}
 div.footer-wrapper{display:block;width:100%;margin:32px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 div.footer-links{display:block}
@@ -327,6 +327,7 @@ article p{font-size:110%;line-height:1.625}
 
 @media only screen and (min-width:1024px){
 main{order:2}
+div.ip-main{flex-direction:row}
 div.cd-main-content{max-width:960px;margin:50px auto}
 header{float:left;position:fixed;width:320px;top:100px}
 section.grid-wrap{clear:none;margin:auto;overflow:hidden;margin-left:320px}

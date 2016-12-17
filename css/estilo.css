@@ -317,10 +317,7 @@ body.item-otr ul.slider-pagination a{border-color:#c83771}
 /* Media queries */
 
 @media only screen and (min-width:640px) and (max-width:1023px){
-div.footer-wrapper{width:unset;margin:32px;text-align:right}
-div.footer-links{display:inline}
-div.footer-links{overflow:hidden;text-align:left;float:left}
-div.footer-links a{display:inline;float:left;margin:0 24px 0 0}
+div.footer-wrapper{width:unset;margin:32px}
 
 article h1{font-size:275%}
 article p{font-size:110%;line-height:1.625}

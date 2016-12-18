@@ -185,6 +185,8 @@ div.footer-links{display:block;text-align:center}
 footer a{display:inline-block;margin:0 16px;width:32px;height:32px}
 footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}
+footer span{display:block;text-align:center;font-size:75%;width:200%;height:auto;margin:0 auto -50%;text-decoration:none;color:#56505a}
+footer a:hover span{color:#26202a;text-decoration:underline}
 body.biop-page a.footer-link-cv,
 body.sysp-page a.footer-link-cv,
 body.biop-page a.footer-link-gb,
@@ -400,8 +402,7 @@ div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{display:inline;color:#56505a;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin-left:24px;width:240px}
-footer a:hover span{color:#26202a;text-decoration:underline}
+footer span{display:inline;font-size:75%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}

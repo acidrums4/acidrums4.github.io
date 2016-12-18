@@ -401,7 +401,7 @@ div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{display:inline;font-size:75%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
+footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}

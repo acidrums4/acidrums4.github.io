@@ -194,8 +194,7 @@ body.sysp-page a.footer-link-gb,
 body.item-page a.footer-link-hm,
 body.home-page a.footer-link-hm,
 body.home-page a.footer-link-gb,
-body.home-page footer hr,
-footer span
+body.home-page footer hr
 {display:none}
 
 /* Detalle */

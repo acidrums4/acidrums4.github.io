@@ -169,7 +169,7 @@ nav a.nav-filter-active{pointer-events:none}
 div.logo-wrapper{padding:0;width:96px;margin:0 auto 32px}
 div.logo-wrapper a{display:block}
 div.logo-wrapper svg{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-body.item-all div.logo-wrapper path{fill:#56505a}
+div.logo-wrapper path{fill:#56505a}
 body.item-all div.logo-wrapper a:hover path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper a:hover path{fill:#16b3c2}
 body.item-web div.logo-wrapper a:hover path{fill:#4d95e1}
@@ -204,11 +204,6 @@ body.biop-page article h1,body.sysp-page article h1{text-align:center;font-famil
 article h1:after{content:'.'}
 article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}
-body.item-web article h1,body.item-web article a{color:#4d95e1}
-body.item-fto article h1,body.item-fto article a{color:#37ba7a}
-body.item-ils article h1,body.item-ils article a{color:#f07050}
-body.item-otr article h1,body.item-otr article a{color:#c83771}
-body.item-hdv article h1,body.item-hdv article a{color:#56505a}
 article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#f9f8f4;letter-spacing:.025ex}
 body.biop-page article p,body.sysp-page article p{margin:20px 16px 0;font-size:100%;line-height:1.5}
 article p:before{content:'';float:left;position:relative;width:64px;height:64px;margin:10px 20px 20px 0;border-style:solid;border-width:16px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;border-color:#fff;background-color:#fff;transition:all .5s ease-out}
@@ -367,18 +362,7 @@ ul.grid{text-align:right}
 
 article h1{font-size:333%}
 article p{font-size:105%;line-height:1.625}
-/*body.item-page div.item-img{width:50%;float:left;display:inline;margin-bottom:0}
-body.item-page article div.item-txt{overflow:hidden}
-body.biop-page div.item-img,body.biop-page div.item-txt,body.sysp-page div.item-img,body.sysp-page div.item-txt{width:720px;display:block;float:none}
-body.biop-page div.item-img,body.sysp-page div.item-img{margin:0 auto 50px}
-body.biop-page div.item-txt,body.sysp-page div.item-txt{margin:0 auto}*/
-body.item-page article h1{margin:0 0 30px 60px}
-body.item-page article p{margin:20px 0 0 60px}
-body.biop-page article h1{margin:0 0 50px}
-body.sysp-page article h1{margin:0 0 15px}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
-body.biop-page div.item-txt>a,body.sysp-page div.item-txt>a{margin:20px 0 0}
-body.item-page div.item-txt>a{margin:20px 0 0 44px}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}
 body.item-page article.slider-active div.item-img{width:100%;margin-bottom:80px}
 body.item-page article.slider-active div.item-txt{overflow:visible;width:720px;margin:0 auto}

@@ -202,15 +202,7 @@ article{position:relative}
 article h1:after{content:'.'}
 article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}
-article p{margin:20px 16px 0;font-size:100%;line-height:1.5;color:#f9f8f4;letter-spacing:.025ex}
-body.biop-page article p,body.sysp-page article p{margin:20px 16px 0;font-size:100%;line-height:1.5}
-article p:before{content:'';float:left;position:relative;width:64px;height:64px;margin:10px 20px 20px 0;border-style:solid;border-width:16px;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat;border-color:#fff;background-color:#fff;transition:all .5s ease-out}
-article p~p:before{display:none}
-body.item-web article p:before{border-color:#4d95e1;background-color:#4d95e1;background-position:-32px 0}
-body.item-fto article p:before{border-color:#37ba7a;background-color:#37ba7a;background-position:-64px 0}
-body.item-ils article p:before{border-color:#f07050;background-color:#f07050;background-position:-96px 0}
-body.item-otr article p:before{border-color:#c83771;background-color:#c83771;background-position:-128px 0}
-body.item-hdv article p:before{display:none}
+article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 
 div.item-img{margin-bottom:50px;position:relative;z-index:1;-webkit-transition:width 0.4s;-moz-transition:width 0.4s;transition:width 0.4s;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);-webkit-backface-visibility:hidden;backface-visibility:hidden;will-change:width}
 div.item-txt>a{display:block;position:relative;margin:20px 0 0;overflow:hidden;text-decoration:none;overflow:hidden;border-width:0 0 2px;border-style:solid}
@@ -322,7 +314,8 @@ div.ip-main{flex-direction:row}
 div.cd-main-content{max-width:960px;margin:50px auto}
 header,div.item-txt{float:left;position:fixed;width:320px}
 header{top:100px}
-section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden;margin-left:320px}
+section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden}
+section.grid-wrap{margin-left:320px}
 body.scrolled main{margin:0 auto 100px;top:0}
 body.scrolled ul.grid{margin-top:96px}
 
@@ -358,7 +351,8 @@ main h2,article h1{font-size:300%}
 header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{text-align:right}
 
-div.item-txt{top:250px}
+div.item-txt{top:236px}
+div.item-img{margin-left:350px}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}

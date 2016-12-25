@@ -199,7 +199,6 @@ body.home-page footer hr
 
 /* Detalle */
 article{position:relative}
-article h1{margin:0 16px 30px;font-family:'Raleway-ExtraBold',sans-serif;font-size:225%;font-weight:normal;line-height:1.375;color:#2a363b;transition:color .5s ease-out}
 article h1:after{content:'.'}
 article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}
@@ -321,7 +320,8 @@ article p{font-size:110%;line-height:1.625}
 main{order:2}
 div.ip-main{flex-direction:row}
 div.cd-main-content{max-width:960px;margin:50px auto}
-header,div.item-txt{float:left;position:fixed;width:320px;top:100px}
+header,div.item-txt{float:left;position:fixed;width:320px}
+header{top:100px}
 section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden;margin-left:320px}
 body.scrolled main{margin:0 auto 100px;top:0}
 body.scrolled ul.grid{margin-top:96px}
@@ -358,6 +358,7 @@ main h2,article h1{font-size:300%}
 header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{text-align:right}
 
+div.item-txt{top:250px}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}

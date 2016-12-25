@@ -257,11 +257,11 @@ article blockquote>p:before{display:none}
 div.item-txt>a:hover+blockquote{margin:0}
 div.item-txt>a:hover+blockquote>p{opacity:1}
 
-article svg{max-width:250px;width:100%;margin:0 auto;display:block}
-article path{fill:none;stroke:#56505a}
-article path.wide-stroke{stroke-width:6px}
-article path.narrow-stroke{stroke-width:2px}
-article path.eye{animation:eyes 3s ease infinite}
+div.item-img svg{max-width:250px;width:100%;margin:0 auto;display:block}
+div.item-img path{fill:none;stroke:#56505a}
+div.item-img path.wide-stroke{stroke-width:6px}
+div.item-img path.narrow-stroke{stroke-width:2px}
+div.item-img path.eye{animation:eyes 3s ease infinite}
 
 /* Galería de imágenes en el detalle */
 ul.slider{position:relative;z-index:1;overflow:hidden}

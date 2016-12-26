@@ -314,8 +314,8 @@ article p{font-size:110%;line-height:1.625}
 main{order:2}
 div.ip-main{flex-direction:row}
 div.cd-main-content{max-width:960px;margin:50px auto}
-header,div.item-txt{float:left;position:relative;width:320px}
-header{top:100px}
+header,div.item-txt{float:left;width:320px}
+header{position:fixed;top:100px}
 section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden}
 section.grid-wrap{margin-left:320px}
 body.scrolled main{margin:0 auto;top:0}

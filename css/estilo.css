@@ -50,6 +50,9 @@ body.item-ils div.intro-container{background-color:#f07050}
 body.item-otr div.intro-container{background-color:#c83771}
 body.item-hdv div.intro-container{background-color:#f9f8f4}
 
+/* Clearfix */
+main:after,div.item-img:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
+
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f}
 div.intro-container h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
@@ -99,7 +102,6 @@ div.ip-main{display:flex;width:100%;flex-direction:column}
 div.cd-main-content{position:relative}
 
 main{opacity:1;order:1;;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
-main:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
 main h2,main h4,header hr{display:none}
 main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
@@ -317,7 +319,7 @@ header,div.item-txt{float:left;position:fixed;width:320px}
 header{top:100px}
 section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden}
 section.grid-wrap{margin-left:320px}
-body.scrolled main{margin:0 auto 100px;top:0}
+body.scrolled main{margin:0 auto;top:0}
 body.scrolled ul.grid{margin-top:96px}
 
 body.noscroll nav{height:128px}

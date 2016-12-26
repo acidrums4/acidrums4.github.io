@@ -340,7 +340,8 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-16px}
 
-div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 84px}
+body.noscroll div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 84px}
+body.scrolled div.logo-wrapper{position:fixed;top:0}
 div.logo-wrapper svg{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}

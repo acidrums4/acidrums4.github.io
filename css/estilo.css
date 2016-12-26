@@ -200,7 +200,7 @@ body.home-page footer hr
 {display:none}
 
 /* Detalle */
-article{position:relative;transition:margin-top .5s cubic-bezier(0.7,0,0.3,1)}
+article{position:relative}
 article h1:after{content:'.'}
 article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}

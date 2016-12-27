@@ -392,8 +392,8 @@ footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:
 
 body.item-page div.item-img{animation:item-img-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
 body.item-page div.item-txt{animation:item-txt-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
-body.item-page article.slider-active div.item-img{animation:item-img-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
-body.item-page article.slider-active div.item-txt{animation:item-txt-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;animation:item-img-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page article.slider-active div.item-txt{order:2;flex-basis:100%;animation:item-txt-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}

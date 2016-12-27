@@ -326,7 +326,7 @@ header{position:fixed;top:100px}
 section.grid-wrap,div.item-img{clear:none;margin:auto;overflow:hidden}
 section.grid-wrap{margin-left:320px}
 body.scrolled main{margin:0 auto;top:0}
-body.scrolled ul.grid{margin-top:96px}
+body.scrolled ul.grid{margin-top:160px}
 
 body.noscroll nav{height:128px}
 body.scrolled nav{width:640px;height:96px}
@@ -348,8 +348,8 @@ nav a:before{bottom:-16px}
 
 div.logo-wrapper{position:relative;display:block;width:100%;margin:0 0 84px}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
-body.scrolled.item-page div.logo-wrapper a{margin:8px 0}
-body.scrolled.item-page div.logo-wrapper svg{width:55px}
+body.scrolled.item-page div.logo-wrapper a{margin:16px 0}
+body.scrolled.item-page div.logo-wrapper svg{width:62px}
 div.logo-wrapper svg{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}

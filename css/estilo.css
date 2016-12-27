@@ -122,7 +122,6 @@ body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv ma
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
-section.grid-wrap{clear:both;margin:0 auto;padding:0;max-width:1260px}
 ul.grid{margin:0;padding:0;list-style:none;text-align:center}
 ul.grid>li{display:inline-block;overflow:hidden;width:310px;height:310px;text-align:center;vertical-align:top}
 
@@ -324,7 +323,7 @@ div.cd-main-content{max-width:960px;margin:50px auto}
 header,div.item-txt{flex-basis:320px;order:1}
 header{width:320px;position:fixed;top:100px}
 section.grid-wrap,div.item-img{order:2;align-self:flex-end;flex-basis:610px;margin-left:30px}
-section.grid-wrap{margin-left:320px}
+section.grid-wrap{max-width:1260px}
 body.scrolled main{margin:0 auto;top:0}
 body.scrolled ul.grid{margin-top:160px}
 

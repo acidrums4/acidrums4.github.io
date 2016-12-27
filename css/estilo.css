@@ -242,7 +242,7 @@ body.item-hdv div.item-txt>a:hover em{color:#afaead}
 body.item-web div.item-txt>a:hover>span,body.item-fto div.item-txt>a:hover>span,body.item-ils div.item-txt>a:hover>span,body.item-otr div.item-txt>a:hover>span{color:#fff}
 
 div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:28px;border-width:0 1px 0 0;border-style:dashed}
-div.item-cat-icon svg{margin-right:16px;stroke:#56505a;opacity:.75}
+div.item-cat-icon svg{margin-right:16px;stroke:#56505a;opacity:.75;vertical-align:0}
 body.item-web div.item-cat-icon{border-color:#4d95e1}
 body.item-fto div.item-cat-icon{border-color:#37ba7a}
 body.item-ils div.item-cat-icon{border-color:#f07050}

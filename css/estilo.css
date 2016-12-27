@@ -421,10 +421,10 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 
-@keyframes item-img-flex-ini{to{flex-order:1;flex-basis:100%}}
-@keyframes item-txt-flex-ini{to{flex-order:2;flex-basis:0}}
-@keyframes item-img-flex-end{to{flex-order:2;flex-basis:610px}}
-@keyframes item-txt-flex-end{to{flex-order:1;flex-basis:320px}}
+@keyframes item-img-flex-ini{to{flex-basis:610px}}
+@keyframes item-txt-flex-ini{to{flex-basis:320px}}
+@keyframes item-img-flex-end{to{flex-basis:100%}}
+@keyframes item-txt-flex-end{to{flex-basis:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

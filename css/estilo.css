@@ -205,7 +205,6 @@ article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 
-div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
 div.item-txt>a{display:block;position:relative;margin:20px 0 0;overflow:hidden;text-decoration:none;overflow:hidden;border-width:0 0 2px;border-style:solid}
 body.item-page div.item-txt>a{background-color:#202c31}
@@ -391,6 +390,11 @@ footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;bor
 footer svg.icon{display:inline;float:left;margin-left:0}
 footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
 
+body.item-page div.item-img{animation:item-img-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page div.item-txt{animation:item-txt-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page article.slider-active div.item-img{animation:item-img-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page article.slider-active div.item-txt{animation:item-txt-flex-end .5s cubic-bezier(0.7,0,0.3,1)}
+
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}
 ul.slider::before{top:100%;height:100%;width:100%;transition:top .5s cubic-bezier(0.7,0,0.3,1)}
@@ -416,6 +420,11 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadedLogo{to{bottom:0;top:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
+
+@keyframes item-img-flex-ini{to{flex-order:1;flex-basis:100%}}
+@keyframes item-txt-flex-ini{to{flex-order:2;flex-basis:0}}
+@keyframes item-img-flex-end{to{flex-order:2;flex-basis:610px}}
+@keyframes item-txt-flex-end{to{flex-order:1;flex-basis:320px}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

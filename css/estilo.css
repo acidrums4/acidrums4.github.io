@@ -367,8 +367,8 @@ body.scrolled article{margin-top:200px}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}
-body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}
-body.item-page article.slider-active div.item-txt{order:2;flex-basis:100%;overflow:visible;width:720px;margin:0 auto}
+body.item-page article.slider-active div.item-img{margin-left:0;margin-bottom:80px}
+body.item-page article.slider-active div.item-txt{overflow:visible;width:720px;margin:0 auto}
 body.item-page article.slider-active div.item-txt>h1{margin:0 16px 30px}
 body.item-page article.slider-active div.item-txt>p{margin:20px 16px 0}
 body.item-page article.slider-active div.item-txt>a{margin:20px 0 0}

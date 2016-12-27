@@ -205,7 +205,8 @@ article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 
-div.item-img{margin-bottom:50px;position:relative;z-index:1;transition:width 0.4s;transform:translateZ(0);backface-visibility:hidden;will-change:width}
+div.item-img,div.item-txt{transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
+div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
 div.item-txt>a{display:block;position:relative;margin:20px 0 0;overflow:hidden;text-decoration:none;overflow:hidden;border-width:0 0 2px;border-style:solid}
 body.item-page div.item-txt>a{background-color:#202c31}
 body.biop-page div.item-txt>a{background-color:#fff}

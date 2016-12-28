@@ -390,8 +390,8 @@ footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;bor
 footer svg.icon{display:inline;float:left;margin-left:0}
 footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
 
-body.item-page div.item-img{animation:item-img-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
-body.item-page div.item-txt{animation:item-txt-flex-ini .5s cubic-bezier(0.7,0,0.3,1)}
+body.item-page div.item-img{animation:item-img-flex-ini .5s cubic-bezier(0.7,0,0.3,1) forwards}
+body.item-page div.item-txt{animation:item-txt-flex-ini .5s cubic-bezier(0.7,0,0.3,1) forwards}
 body.item-page article.slider-active div.item-img{animation:item-img-flex-end .5s cubic-bezier(0.7,0,0.3,1) forwards}
 body.item-page article.slider-active div.item-txt{animation:item-txt-flex-end .5s cubic-bezier(0.7,0,0.3,1) forwards}
 

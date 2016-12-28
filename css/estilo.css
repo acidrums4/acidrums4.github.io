@@ -136,7 +136,7 @@ li.item-fto svg.icon{stroke:#37ba7a}
 li.item-ils svg.icon{stroke:#f07050}
 li.item-otr svg.icon{stroke:#c83771}
 
-ul.grid li>a:hover{border-width:1px}
+ul.grid li>a:hover{border-width:1px;width:298px;height:298px}
 li.item-web>a:hover{border-color:#4d95e1}
 li.item-fto>a:hover{border-color:#37ba7a}
 li.item-ils>a:hover{border-color:#f07050}

@@ -123,7 +123,7 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
 ul.grid{margin:0;padding:0;list-style:none;text-align:center}
-ul.grid>li{display:inline-block;overflow:hidden;width:300px;height:300px;text-align:center;vertical-align:top}
+ul.grid>li{display:inline-block;float:left;overflow:hidden;width:300px;height:300px;text-align:center;vertical-align:top}
 
 /** Enlace y la imagen **/
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
@@ -360,7 +360,6 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 main h2,main h4,article h1{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2,article h1{font-size:300%}
 header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
-ul.grid{text-align:right}
 
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}

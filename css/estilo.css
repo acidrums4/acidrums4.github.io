@@ -389,11 +389,8 @@ footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
 footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
-
-body.item-page div.item-img{animation:item-img-flex-ini .5s cubic-bezier(0.7,0,0.3,1) forwards}
-body.item-page div.item-txt{animation:item-txt-flex-ini .5s cubic-bezier(0.7,0,0.3,1) forwards}
-body.item-page article.slider-active div.item-img{animation:item-img-flex-end .5s cubic-bezier(0.7,0,0.3,1) forwards}
-body.item-page article.slider-active div.item-txt{animation:item-txt-flex-end .5s cubic-bezier(0.7,0,0.3,1) forwards}
+div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
+div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 
 ul.slider{cursor:pointer}
 ul.slider::before,ul.slider::after{content:'';display:block;position:absolute;left:0;right:0;z-index:4;margin:auto}
@@ -420,11 +417,6 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadedLogo{to{bottom:0;top:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
 @keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
-
-@keyframes item-img-flex-ini{to{flex-order:2;flex-basis:610px}}
-@keyframes item-txt-flex-ini{to{flex-order:1;flex-basis:320px}}
-@keyframes item-img-flex-end{to{flex-order:1;flex-basis:100%}}
-@keyframes item-txt-flex-end{to{flex-order:2;flex-basis:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

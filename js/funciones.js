@@ -124,10 +124,10 @@ jQuery(document).ready(function(event){
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
-			alert("4 Al fin?");
-
-
       container.one('animationend transitionend', function(e){
+
+				alert("5 Al fin?");
+
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;

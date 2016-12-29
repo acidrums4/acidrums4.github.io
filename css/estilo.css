@@ -409,8 +409,8 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
 
 /* Indicador de progreso / Logo */
-@keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
-@keyframes animFinalHeader{from{opacity:1;bottom:0}to{opacity:0;bottom:-100%}}
+@keyframes animInitialHeader{from{opacity:0;bottom:0}to{opacity:1;bottom:-100%}}
+@keyframes animFinalHeader{from{opacity:1;bottom:-100%}to{opacity:0;bottom:0}}
 
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}

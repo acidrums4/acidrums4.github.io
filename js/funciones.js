@@ -106,6 +106,8 @@ jQuery(document).ready(function(event){
 
   function setProgress()
   {
+    alert("setProgress");
+
     var imageCount = document.getElementsByTagName("img").length;
     var imageArray = document.getElementsByTagName("img");
     var imagePperc = (100 / imageCount);
@@ -130,7 +132,6 @@ jQuery(document).ready(function(event){
     }
 
     function countImages(){
-      alert("countImages");
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 

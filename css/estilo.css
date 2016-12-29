@@ -407,8 +407,8 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 }
 
 /* Contenedor de la animación de intro */
-@keyframes animLoadedCourtain{from{top:0}to{top:-100%}}
-@keyframes animUnloadCourtain{from{top:-100%}to{top:0}}
+@keyframes animLoadedCourtain{from{top:0}to{top:-200%}}
+@keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
 
 /* Indicador de progreso / Logo */
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}

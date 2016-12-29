@@ -4,7 +4,7 @@ jQuery(document).ready(function(event){
   newLocation = '';
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
-  container = $('div.main-container');
+  container = $('div.main-container'),
   pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
   transEndEventNames = {
     'WebkitTransition' : 'webkitTransitionEnd',
@@ -18,7 +18,7 @@ jQuery(document).ready(function(event){
     'msAnimation' : 'MSAnimationEnd',
     'animation' : 'animationend'
   },
-  animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
+  animEndEventName = animEndEventNames[ Modernizr.prefixed('animation') ];
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){
@@ -98,7 +98,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('div.intro-container h1').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+      $('div.intro-container h1').one(animEndEventName, function(){
         alert("animEventName");
 
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));

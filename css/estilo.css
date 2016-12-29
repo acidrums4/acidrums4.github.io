@@ -77,7 +77,7 @@ div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,
 div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.loaded h1{opacity:1;width:120px;height:120px;bottom:0}
+/*div.loaded h1{opacity:1;width:120px;height:120px;bottom:0}*/
 
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#e84a5f}

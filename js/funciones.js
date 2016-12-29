@@ -98,8 +98,8 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('div.intro-container h1').one('webkitanimationEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-        alert("1 animEventName");
+      $('div.intro-container h1').one('webkitAnimationEnd oanimationend oAnimationEnd msAnimationEnd animationend', function(){
+        alert("animEventName");
 
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();

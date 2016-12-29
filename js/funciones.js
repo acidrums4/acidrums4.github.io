@@ -91,12 +91,12 @@ jQuery(document).ready(function(event){
   }
 
   function init(){
-    alert("init");
-
     fixClipPaths(document.getElementsByTagName('svg')[0]);
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
     isAnimating = true;
+
+    alert("init");
 
     if( support.animations ) {
       $('div.intro-container h1').one(animEndEventName, function(){

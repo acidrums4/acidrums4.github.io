@@ -120,10 +120,11 @@ jQuery(document).ready(function(event){
     $('rect.clip').attr('height',0);
 
     function progressComplete(){
-			alert("2 Al fin?");
-
       percentage = 100;
       $('svg.ip-inner').removeClass('loading');
+
+			alert("3 Al fin?");
+
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){

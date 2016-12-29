@@ -98,9 +98,9 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      alert("support.animations");
-
       $('div.intro-container h1').one(animEndEventName, function(){
+        alert("animEventName");
+
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
       });

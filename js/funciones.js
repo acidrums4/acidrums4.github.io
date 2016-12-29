@@ -18,7 +18,7 @@ jQuery(document).ready(function(event){
     'msAnimation' : 'MSAnimationEnd',
     'animation' : 'animationend'
   },
-  animEndEventName = animEndEventNames[ Modernizr.prefixed('animation') ],
+  animEndEventName = animEndEventNames[ Modernizr.prefixed('animation') ];
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){

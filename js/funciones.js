@@ -120,12 +120,13 @@ jQuery(document).ready(function(event){
     $('rect.clip').attr('height',0);
 
     function progressComplete(){
+			alert("1 Al fin?");
+
       percentage = 100;
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
-				alert("1 Al fin?");
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;

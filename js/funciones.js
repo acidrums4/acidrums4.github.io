@@ -98,7 +98,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('div.intro-container h1').one(animEndEventName, function(){
+      $('div.intro-container h1').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
         alert("animEventName");
 
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));

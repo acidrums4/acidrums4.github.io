@@ -91,6 +91,8 @@ jQuery(document).ready(function(event){
   }
 
   function init(){
+    alert("init");
+
     fixClipPaths(document.getElementsByTagName('svg')[0]);
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
@@ -106,8 +108,6 @@ jQuery(document).ready(function(event){
 
   function setProgress()
   {
-    alert("setProgress");
-
     var imageCount = document.getElementsByTagName("img").length;
     var imageArray = document.getElementsByTagName("img");
     var imagePperc = (100 / imageCount);

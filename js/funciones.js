@@ -125,9 +125,6 @@ jQuery(document).ready(function(event){
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
-
-				alert("5 Al fin?");
-
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;

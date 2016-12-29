@@ -96,9 +96,10 @@ jQuery(document).ready(function(event){
     container.addClass('loading');
     isAnimating = true;
 
-    alert("init");
-
     if( support.animations ) {
+
+      alert("support.animations");
+
       $('div.intro-container h1').one(animEndEventName, function(){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();

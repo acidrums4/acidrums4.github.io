@@ -122,10 +122,10 @@ jQuery(document).ready(function(event){
     function progressComplete(){
       percentage = 100;
       $('svg.ip-inner').removeClass('loading');
-
-			alert("3 Al fin?");
-
       container.removeClass('unload loading').addClass('loaded');
+
+			alert("4 Al fin?");
+
 
       container.one('animationend transitionend', function(e){
         $('body').addClass('layout-switch');

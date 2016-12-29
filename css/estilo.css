@@ -54,7 +54,7 @@ body.item-hdv div.intro-container{background-color:#f9f8f4}
 main:after,div.item-img:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-div.intro-container h1{top:0;top:100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container h1{top:0;top:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container path.logo{opacity:0}
 div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -409,8 +409,8 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 @keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
 
 /* Indicador de progreso / Logo */
-@keyframes animInitialHeader{from{opacity:0;bottom:0}to{opacity:1;bottom:-100%}}
-@keyframes animFinalHeader{from{opacity:1;bottom:-100%}to{opacity:0;bottom:0}}
+@keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
+@keyframes animFinalHeader{from{opacity:1;bottom:0}to{opacity:0;bottom:-100%}}
 
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}

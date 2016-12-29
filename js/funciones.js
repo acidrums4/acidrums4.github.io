@@ -120,11 +120,11 @@ jQuery(document).ready(function(event){
     $('rect.clip').attr('height',0);
 
     function progressComplete(){
+			alert("2 Al fin?");
+
       percentage = 100;
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
-
-			alert("1 Al fin?");
 
       container.one('animationend transitionend', function(e){
         $('body').addClass('layout-switch');
@@ -135,7 +135,6 @@ jQuery(document).ready(function(event){
     }
 
     function countImages(){
-			alert("1 Progresando?");
 
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;

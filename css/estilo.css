@@ -73,11 +73,11 @@ body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
-div.loaded div.intro-container{animation:animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1)forwards}
-div.unload div.intro-container{animation:animUnloadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,0,0.3,1)forwards}
+div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.loaded div.intro-container h1{opacity:1;width:120px;height:120px;bottom:0}
+div.loaded h1{opacity:1;width:120px;height:120px;bottom:0}
 
 div.loaded h1 svg{top:100%}
 div.unload h1 svg{top:0}
@@ -406,14 +406,15 @@ ul.slider-navigation li,ul.slider-pagination{opacity:0;visibility:hidden;;transi
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;visibility:visible;transition:opacity 0.4s 0.4s,visibility 0s 0.4s}
 }
 
+@keyframes animLoadedCourtain{from{bottom:0}to{bottom:100%}}
+@keyframes animUnloadCourtain{from{bottom:100%}to{bottom:0}}
+
 @keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
-@keyframes animLoadedHeader{from{opacity:1;bottom:0}to{opacity:1;bottom:100%}}
 
 @keyframes animFinalHeader{from{opacity:1;bottom:0}to{opacity:0;bottom:100%}}
 @keyframes animUnloadedLogo{to{bottom:0;top:0}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}
-@keyframes animUnloadedHeader{from{top:-200%}to{top:0}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

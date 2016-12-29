@@ -135,6 +135,8 @@ jQuery(document).ready(function(event){
     }
 
     function countImages(){
+			alert("1 Progresando?");
+
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 

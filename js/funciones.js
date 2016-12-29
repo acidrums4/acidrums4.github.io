@@ -99,7 +99,6 @@ jQuery(document).ready(function(event){
     if( support.animations ) {
 
       $('div.intro-container h1').one('animationend transitionend', function(e){
-				alert("Al fin?");
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
 				$(this).off(e);
@@ -126,6 +125,7 @@ jQuery(document).ready(function(event){
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
+				alert("1 Al fin?");
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;

@@ -99,8 +99,7 @@ jQuery(document).ready(function(event){
     if( support.animations ) {
 
       $('div.intro-container h1').one('animationend transitionend', function(e){
-        alert("5 animEventName");
-
+				alert("Al fin?");
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
 				$(this).off(e);
@@ -126,7 +125,7 @@ jQuery(document).ready(function(event){
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
-      container.one('animationend', function(e){
+      container.one('animationend transitionend', function(e){
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
@@ -213,7 +212,7 @@ jQuery(document).ready(function(event){
     $('body').removeClass('nav-opened');
     container.removeClass('loaded').addClass('unload');
 
-    container.one('animationend', function(e){
+    container.one('animationend transitionend', function(e){
       $('body').removeClass('layout-switch');
       loadNewContent(url, bool);
       newLocation = url;
@@ -260,7 +259,7 @@ jQuery(document).ready(function(event){
             //enlarge slider images 
             if( !container.hasClass('slider-active') && $(event.target).is('.slider')) {
             itemInfoWrapper.removeClass('slider-active');
-            container.addClass('slider-active').one('transitionend', function(e){
+            container.addClass('slider-active').one('animationend transitionend', function(e){
                 $('body,html').animate({'scrollTop':container.offset().top}, 200);
 								$(this).off(e);
                 });

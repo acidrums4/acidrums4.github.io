@@ -96,12 +96,12 @@ jQuery(document).ready(function(event){
     container.addClass('loading');
     isAnimating = true;
 
-    //if( support.animations ) {
+    if( support.animations ) {
       $('div.intro-container h1').one(animEndEventName, function(){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
       });
-    //}
+    }
   }
 
   function setProgress()
@@ -130,6 +130,7 @@ jQuery(document).ready(function(event){
     }
 
     function countImages(){
+      alert("countImages");
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 

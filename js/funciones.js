@@ -98,11 +98,12 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('div.intro-container h1').one('webkitAnimationEnd oanimationend oAnimationEnd msAnimationEnd animationend', function(){
-        alert("animEventName");
+      $('div.intro-container h1').one('animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd', function(e){
+        alert("1 animEventName");
 
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
+				$(this).off(e);
       });
     }
   }
@@ -125,10 +126,11 @@ jQuery(document).ready(function(event){
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
-      container.one('animationend', function(){
+      container.one('animationend', function(e){
         $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
+				$(this).off(e);
       });
     }
 
@@ -211,10 +213,11 @@ jQuery(document).ready(function(event){
     $('body').removeClass('nav-opened');
     container.removeClass('loaded').addClass('unload');
 
-    container.one('animationend', function(){
+    container.one('animationend', function(e){
       $('body').removeClass('layout-switch');
       loadNewContent(url, bool);
       newLocation = url;
+			$(this).off(e);
     });
   }
 
@@ -257,8 +260,9 @@ jQuery(document).ready(function(event){
             //enlarge slider images 
             if( !container.hasClass('slider-active') && $(event.target).is('.slider')) {
             itemInfoWrapper.removeClass('slider-active');
-            container.addClass('slider-active').one('transitionend', function(){
+            container.addClass('slider-active').one('transitionend', function(e){
                 $('body,html').animate({'scrollTop':container.offset().top}, 200);
+								$(this).off(e);
                 });
             }
             });

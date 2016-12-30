@@ -116,7 +116,7 @@ body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv ma
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
-ul.grid{list-style:none}
+ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block}
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
 ul.grid a{width:300px;height:auto;position:relative;overflow:hidden;border-width:0px;border-style:solid;border-color:#f9f8f4;transition:border .5s ease-out}

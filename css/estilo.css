@@ -72,8 +72,8 @@ body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
-div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0);opacity:1}
-div.loaded div.intro-container{transform:translateY(-100%);opacity:0}
+div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
+div.loaded div.intro-container{transform:translateY(-100%)}
 
 div.unload div.intro-container h1,div.loading div.intro-container h1{opacity:1;transform:translateY(-50%)}
 div.loaded div.intro-container h1{opacity:0;transform:translateY(-50%)}

@@ -73,7 +73,7 @@ body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
-div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,0,0.3,1)forwards}
+div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
 
 div.intro-container h1{opacity:0;bottom:-100%}
@@ -407,7 +407,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 }
 
 /* Contenedor de la animación de intro */
-@keyframes animLoadedCourtain{from{transform:translateY(0)}to{transform:translateY(-100%);opacity:0}}
+@keyframes animLoadedCourtain{from{transform:translateY(0);opacity:0}to{transform:translateY(-100%);opacity:1}}
 @keyframes animUnloadCourtain{from{transform:translateY(-100%)}to{transform:translateY(0)}}
 
 @keyframes animLoadedContent{from{opacity:0;transform:translateY(250px)}to{opacity:1;transform:translateY(0)}}

@@ -78,7 +78,7 @@ div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,
 
 div.intro-container h1{opacity:0;bottom:-100%}
 div.loading div.intro-container h1{opacity:1;bottom:0}
-div.loading div.intro-container h1{opacity:0;bottom:0}
+div.loaded div.intro-container h1{opacity:0;bottom:0}
 div.unload div.intro-container h1{opacity:0;bottom:0}
 /*div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
 div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}*/

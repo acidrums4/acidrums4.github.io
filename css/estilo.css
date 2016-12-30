@@ -102,7 +102,7 @@ div.ip-main{display:flex;width:100%;flex-direction:column}
 div.cd-main-content{position:relative}
 div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}
 
-main{opacity:1;order:1;;margin:50px auto 50px;width:100%;top:0;position:relative;transition:top .25s cubic-bezier(0.7,0,0.3,1)}
+main{opacity:1;order:1;margin:50px auto 50px;width:100%;position:relative}
 
 main h2,main h4,header hr{display:none}
 main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
@@ -322,7 +322,7 @@ header,div.item-txt{flex-basis:320px;order:1}
 header{width:320px;position:fixed;top:100px}
 section.grid-wrap,div.item-img{order:2;align-self:flex-end;flex-basis:610px;margin-left:30px}
 section.grid-wrap{max-width:1260px}
-body.scrolled main{margin:0 auto;top:0}
+body.scrolled main{margin:0 auto}
 body.scrolled ul.grid{margin-top:160px}
 
 body.noscroll nav{height:128px}

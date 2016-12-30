@@ -53,7 +53,7 @@ body.item-hdv div.intro-container{background-color:#f9f8f4}
 /* Clearfix */
 main:after,div.item-img:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
-div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container h1{top:0;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container path.logo{opacity:0}
@@ -76,13 +76,9 @@ body.item-hdv path.logo-background{fill:#efeeed}
 div.loading div.intro-container{transform:translateY(0)}
 div.loaded div.intro-container{transform:translateY(-100%)}
 div.unload div.intro-container{transform:translateY(0)}
-/*div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}*/
 
-div.intro-container h1{opacity:0;bottom:-100%}
-div.loading div.intro-container h1{opacity:1;transform:translateY(-50%)}
+div.unload div.intro-container h1,div.loading div.intro-container h1{opacity:1;transform:translateY(-50%)}
 div.loaded div.intro-container h1{opacity:0;transform:translateY(-50%)}
-div.unload div.intro-container h1{opacity:1;transform:translateY(-50%)}
 
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#e84a5f}
@@ -94,18 +90,14 @@ body.layout-switch path.logo-background{opacity:0}
 div.unload path.logo-background{opacity:1}
 body div.unload path.logo{opacity:1}
 
-div.loaded main{animation:animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
-div.unload main{animation:animUnloadedContent 1s cubic-bezier(0.7,0,0.3,1) both}
-
-/*body.layout-switch div.intro-container{position:absolute}
-body.layout-switch div.loaded div.intro-container svg{position:relative}*/
-
 /* Contenido */
 div.ip-main{display:flex;width:100%;flex-direction:column}
 div.cd-main-content{position:relative}
 div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}
 
-main{opacity:1;order:1;margin:50px auto 50px;width:100%;position:relative}
+main{opacity:1;order:1;margin:50px auto 50px;width:100%;position:relative;transition:transform 1s cubic-bezier(0.7,0,0.3,1)}
+div.loading main,div.unload main{opacity:0;transform:translateY(250px)}
+div.loaded main{opacity:1;transform:translateY(0)}
 
 main h2,main h4,header hr{display:none}
 main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
@@ -125,7 +117,7 @@ body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv ma
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
-ul.grid{list-style:none;-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
+ul.grid{list-style:none}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block}
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
 ul.grid a{width:300px;height:auto;position:relative;overflow:hidden;border-width:0px;border-style:solid;border-color:#f9f8f4;transition:border .5s ease-out}
@@ -361,6 +353,7 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 main h2,main h4,article h1{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2,article h1{font-size:300%}
 header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
@@ -408,13 +401,6 @@ article.slider-active ul.slider::before,article.slider-active ul.slider::after{d
 ul.slider-navigation li,ul.slider-pagination{opacity:0;visibility:hidden;;transition:opacity 0.4s 0s,visibility 0s 0.4s}
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;visibility:visible;transition:opacity 0.4s 0.4s,visibility 0s 0.4s}
 }
-
-/* Contenedor de la animación de intro */
-@keyframes animLoadedCourtain{from{transform:translateY(0)}to{transform:translateY(-100%)}}
-@keyframes animUnloadCourtain{from{transform:translateY(-100%)}to{transform:translateY(0)}}
-
-@keyframes animLoadedContent{from{opacity:0;transform:translateY(250px)}to{opacity:1;transform:translateY(0)}}
-@keyframes animUnloadedContent{to{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(250px)}}
 
 @keyframes eyes{0%{opacity:1}96%{opacity:1}98%{opacity:0}100%{opacity:100}}
 

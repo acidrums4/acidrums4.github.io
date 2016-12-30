@@ -129,6 +129,7 @@ jQuery(document).ready(function(event){
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);
+        alert("Llegamos aquí?");
       });
     }
 

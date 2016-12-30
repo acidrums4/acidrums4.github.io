@@ -80,10 +80,6 @@ div.intro-container h1{opacity:0;bottom:-100%}
 div.loading div.intro-container h1{opacity:1;bottom:0}
 div.loaded div.intro-container h1{opacity:0;bottom:0}
 div.unload div.intro-container h1{opacity:1;bottom:100%}
-/*div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}*/
-
-/*div.loaded h1{opacity:1;width:120px;height:120px;bottom:0}*/
 
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
 div.loaded path.logo{fill:#e84a5f}
@@ -413,10 +409,6 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 /* Contenedor de la animación de intro */
 @keyframes animLoadedCourtain{from{top:0}to{top:-200%}}
 @keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
-
-/* Indicador de progreso / Logo */
-@keyframes animInitialHeader{from{opacity:0;bottom:-100%}to{opacity:1;bottom:0}}
-@keyframes animFinalHeader{from{opacity:1;bottom:0}to{opacity:0;bottom:-100%}}
 
 @keyframes animLoadedContent{from{opacity:0;top:200px}}
 @keyframes animUnloadedContent{to{opacity:0;top:200px}}

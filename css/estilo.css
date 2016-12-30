@@ -54,7 +54,7 @@ body.item-hdv div.intro-container{background-color:#f9f8f4}
 main:after,div.item-img:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-div.intro-container h1{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container h1{top:0;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container path.logo{opacity:0}
 div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -75,8 +75,14 @@ body.item-hdv path.logo-background{fill:#efeeed}
 
 div.loaded div.intro-container{animation:animLoadedCourtain 1s cubic-bezier(0.7,0,0.3,1)forwards}
 div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
-div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+
+div.intro-container h1{opacity:0;bottom:-100%}
+div.loading h1{opacity:1;bottom:0}
+div.loading h1{opacity:0;bottom:0}
+div.unload h1{opacity:0;bottom:0}
+/*div.loading h1{animation:animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}
+div.unload h1{animation:animFinalHeader 1s cubic-bezier(0.7,0,0.3,1) forwards}*/
+
 /*div.loaded h1{opacity:1;width:120px;height:120px;bottom:0}*/
 
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}

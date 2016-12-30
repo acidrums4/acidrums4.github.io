@@ -79,7 +79,7 @@ div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,
 div.intro-container h1{opacity:0;bottom:-100%}
 div.loading div.intro-container h1{opacity:1;transform:translateY(-50%)}
 div.loaded div.intro-container h1{opacity:0;transform:translateY(-50%)}
-div.unload div.intro-container h1{opacity:1;transform:translateY(-100%)}
+div.unload div.intro-container h1{opacity:1;transform:translateY(-50%)}
 /*div.loading div.intro-container h1{opacity:1;bottom:0}
 div.loaded div.intro-container h1{opacity:0;bottom:0}
 div.unload div.intro-container h1{opacity:1;bottom:100%}*/

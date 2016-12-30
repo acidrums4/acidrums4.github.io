@@ -126,7 +126,7 @@ jQuery(document).ready(function(event){
 
       container.one('animationend transitionend', function(e){
         $('body').addClass('layout-switch');
-        //window.removeEventListener( 'scroll', noscroll );
+        window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);
       });

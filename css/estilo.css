@@ -53,8 +53,8 @@ body.item-hdv div.intro-container{background-color:#f9f8f4}
 /* Clearfix */
 main:after,div.item-img:after{content:'';width:100%;height:0;margin:0;display:table;clear:both}
 
-div.intro-container{top:0;bottom:-100%;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:0;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-div.intro-container h1{top:0;left:0;right:0;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:1;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+div.intro-container h1{top:0;left:0;right:0;bottom:-100%;margin:auto;width:100%;height:100%;position:absolute;display:block;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container path.logo{opacity:0}
 div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
@@ -65,7 +65,6 @@ body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#144
 body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#99290d}
 body.item-otr div.loading path.logo,body.item-otr div.unload path.logo{fill:#50162d}
 
-/*body.item-all path.logo-background{fill:#ee7787}*/
 body.item-all path.logo-background{fill:#881121}
 body.item-web path.logo-background{fill:#79afe8}
 body.item-fto path.logo-background{fill:#57cd93}
@@ -73,9 +72,8 @@ body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#efeeed}
 
-div.loading div.intro-container{transform:translateY(0)}
+div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
 div.loaded div.intro-container{transform:translateY(-100%)}
-div.unload div.intro-container{transform:translateY(0)}
 
 div.unload div.intro-container h1,div.loading div.intro-container h1{opacity:1;transform:translateY(-50%)}
 div.loaded div.intro-container h1{opacity:0;transform:translateY(-50%)}

@@ -123,6 +123,7 @@ jQuery(document).ready(function(event){
       percentage = 100;
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
+      container.attr('class','loaded');
 
       container.one('animationend transitionend', function(e){
         $('body').addClass('layout-switch');

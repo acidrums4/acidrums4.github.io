@@ -407,7 +407,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 }
 
 /* Contenedor de la animación de intro */
-@keyframes animLoadedCourtain{from{top:0}to{top:50%}}
+@keyframes animLoadedCourtain{from{top:0}to{top:-200%}}
 @keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
 
 @keyframes animLoadedContent{from{opacity:0;top:200px}}

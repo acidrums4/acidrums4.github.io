@@ -78,7 +78,7 @@ div.unload div.intro-container{animation:animUnloadCourtain 1s cubic-bezier(0.7,
 
 div.intro-container h1{opacity:0;bottom:-100%}
 div.loading div.intro-container h1{opacity:1;bottom:0}
-div.loaded div.intro-container h1{opacity:0;bottom:50%}
+div.loaded div.intro-container h1{opacity:0;bottom:0}
 div.unload div.intro-container h1{opacity:1;bottom:100%}
 
 div.unload path.logo,div.loaded path.logo{transition:all 0.5s ease 0.3s}
@@ -407,7 +407,7 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 }
 
 /* Contenedor de la animación de intro */
-@keyframes animLoadedCourtain{from{top:0}to{top:-200%}}
+@keyframes animLoadedCourtain{from{top:0}to{top:50%}}
 @keyframes animUnloadCourtain{from{top:-200%}to{top:0}}
 
 @keyframes animLoadedContent{from{opacity:0;top:200px}}

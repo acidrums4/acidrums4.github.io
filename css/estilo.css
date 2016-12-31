@@ -120,12 +120,12 @@ ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block}
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
 ul.grid a{width:300px;height:auto;position:relative;overflow:hidden}
-ul.grid a.title-web{background-color:#4d95e1}
-ul.grid a.title-fto{background-color:#37ba7a}
-ul.grid a.title-ils{background-color:#f07050}
-ul.grid a.title-otr{background-color:#c83771}
+ul.grid a.item-web{background-color:#4d95e1}
+ul.grid a.item-fto{background-color:#37ba7a}
+ul.grid a.item-ils{background-color:#f07050}
+ul.grid a.item-otr{background-color:#c83771}
 ul.grid img{transition:all 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:auto}
-ul.grid a:hover img{transform:translateY(64px)}
+ul.grid a:hover img{transform:translateY(-64px)}
 
 ul.grid svg.icon{position:absolute;display:block;bottom:32px;left:0;right:0;margin:auto;stroke:#f9f8f4;stroke-dashoffset:50;stroke-dasharray:50;opacity:0;transition:all 1s ease-out}
 ul.grid a:hover svg.icon{stroke-dashoffset:0;stroke-dasharray:0;opacity:1}

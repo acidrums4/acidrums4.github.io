@@ -119,16 +119,16 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block}
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
-ul.grid a{width:300px;height:auto;position:relative;overflow:hidden;border-width:0px;border-style:solid;border-color:#f9f8f4;transition:border .5s ease-out}
-ul.grid img{opacity:1;margin:0;transition:all 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:auto}
-ul.grid a:hover img{opacity:0;width:284px;height:auto;margin:8px}
+ul.grid a{width:300px;height:auto;position:relative;overflow:hidden}
+ul.grid a.title-web{background-color:#4d95e1}
+ul.grid a.title-fto{background-color:#37ba7a}
+ul.grid a.title-ils{background-color:#f07050}
+ul.grid a.title-otr{background-color:#c83771}
+ul.grid img{transition:all 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:auto}
+ul.grid a:hover img{transform:translateY(64px)}
 
-ul.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;stroke-dashoffset:50;stroke-dasharray:50;opacity:0;transition:all 1s ease-out}
+ul.grid svg.icon{position:absolute;display:block;bottom:32px;left:0;right:0;margin:auto;stroke:#f9f8f4;stroke-dashoffset:50;stroke-dasharray:50;opacity:0;transition:all 1s ease-out}
 ul.grid a:hover svg.icon{stroke-dashoffset:0;stroke-dasharray:0;opacity:1}
-li.item-web svg.icon{stroke:#4d95e1}
-li.item-fto svg.icon{stroke:#37ba7a}
-li.item-ils svg.icon{stroke:#f07050}
-li.item-otr svg.icon{stroke:#c83771}
 
 ul.grid li>a:hover{border-width:1px;width:298px;height:auto}
 li.item-web>a:hover{border-color:#4d95e1}

@@ -120,10 +120,10 @@ ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block}
 ul.grid a,ul.grid img{display:block;outline:none;margin:0}
 ul.grid a{width:300px;height:auto;position:relative;overflow:hidden}
-ul.grid a.item-web{background-color:#4d95e1}
-ul.grid a.item-fto{background-color:#37ba7a}
-ul.grid a.item-ils{background-color:#f07050}
-ul.grid a.item-otr{background-color:#c83771}
+ul.grid li.item-web a{background-color:#4d95e1}
+ul.grid li.item-fto a{background-color:#37ba7a}
+ul.grid li.item-ils a{background-color:#f07050}
+ul.grid li.item-otr a{background-color:#c83771}
 ul.grid img{transition:all 250ms ease-out;object-fit:cover;object-position:50% 50%;width:100%;height:auto}
 ul.grid a:hover img{transform:translateY(-64px)}
 

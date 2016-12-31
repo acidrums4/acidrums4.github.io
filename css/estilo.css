@@ -123,8 +123,8 @@ ul.grid li.item-web{background-color:#4d95e1}
 ul.grid li.item-fto{background-color:#37ba7a}
 ul.grid li.item-ils{background-color:#f07050}
 ul.grid li.item-otr{background-color:#c83771}
-ul.grid img{transition:transform 250ms  cubic-bezier(0.7,0,0.3,1)}
-ul.grid a:hover img{translateY(-64px)}
+ul.grid img{transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
+ul.grid a:hover img{transform:translateY(-64px)}
 
 ul.grid svg.icon{position:absolute;display:block;bottom:16px;left:0;right:0;margin:auto;stroke:#f9f8f4;stroke-dashoffset:50;stroke-dasharray:50;transition:all 1s ease-out}
 ul.grid a:hover svg.icon{stroke-dashoffset:0;stroke-dasharray:0}

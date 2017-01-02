@@ -1,3 +1,9 @@
+@font-face{font-family:'Affogato';src:url('../fonts/Affogato-Regular.eot');src:url('../fonts/Affogato-Regular.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Regular.woff')format('woff'),url('../fonts/Affogato-Regular.woff2')format('woff2'),url('../fonts/Affogato-Regular.ttf')format('truetype'),url('../fonts/Affogato-Regular.svg')format('svg')}
+@font-face{font-family:'Affogato';src:url('../fonts/Affogato-Bold.eot');src:url('../fonts/Affogato-Bold.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Bold.woff')format('woff'),url('../fonts/Affogato-Bold.woff2')format('woff2'),url('../fonts/Affogato-Bold.ttf')format('truetype'),url('../fonts/Affogato-Bold.svg')format('svg');font-weight:bold;font-style:normal}
+@font-face{font-family:'Affogato-Black';src:url('../fonts/Affogato-Black.eot');src:url('../fonts/Affogato-Black.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Black.woff')format('woff'),url('../fonts/Affogato-Black.woff2')format('woff2'),url('../fonts/Affogato-Black.ttf')format('truetype'),url('../fonts/Affogato-Black.svg')format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'Affogato-Medium';src:url('../fonts/Affogato-Medium.eot');src:url('../fonts/Affogato-Medium.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Medium.woff')format('woff'),url('../fonts/Affogato-Medium.woff2')format('woff2'),url('../fonts/Affogato-Medium.ttf')format('truetype'),url('../fonts/Affogato-Medium.svg')format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'Affogato-Light';src:url('../fonts/Affogato-Light.eot');src:url('../fonts/Affogato-Light.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Light.woff')format('woff'),url('../fonts/Affogato-Light.woff2')format('woff2'),url('../fonts/Affogato-Light.ttf')format('truetype'),url('../fonts/Affogato-Light.svg')format('svg');font-weight:normal;font-style:normal}
+
 @font-face{font-family:'Raleway';src:url('../fonts/Raleway-Regular.eot');src:url('../fonts/Raleway-Regular.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Regular.woff')format('woff'),url('../fonts/Raleway-Regular.ttf')format('truetype'),url('../fonts/Raleway-Regular.svg#Raleway')format('svg');font-weight:normal;font-style:normal}
 @font-face{font-family:'Raleway';src:url('../fonts/Raleway-Bold.eot');src:url('../fonts/Raleway-Bold.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Bold.woff')format('woff'),url('../fonts/Raleway-Bold.ttf')format('truetype'),url('../fonts/Raleway-Bold.svg#Raleway-Bold')format('svg');font-weight:bold;font-style:normal}
 @font-face{font-family:'Raleway-ExtraBold';src:url('../fonts/Raleway-ExtraBold.eot');src:url('../fonts/Raleway-ExtraBold.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-ExtraBold.woff')format('woff'),url('../fonts/Raleway-ExtraBold.ttf')format('truetype'),url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold')format('svg');font-weight:normal;font-style:normal} 
@@ -17,7 +23,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}
 ol,ul{list-style:none}
-html{font-family:'Raleway',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html{font-family:'Affogato',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 h1{font-size:2em;margin:0.67em 0}
 a:hover,a:active,a:focus{outline:0}
 b,strong{font-weight:bold}
@@ -41,7 +47,7 @@ textarea{overflow:auto;vertical-align:top}
 *,*::after,*::before{box-sizing:border-box}
 html,body{height:100%}
 html{font-size:62.5%}
-body{margin:0;font-size:1.6rem;line-height:1;font-family:"Raleway",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;overflow:hidden}
+body{margin:0;font-size:1.6rem;line-height:1;font-family:"Affogato",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;overflow:hidden}
 
 body.layout-switch{overflow:visible}
 body.item-all div.intro-container{background-color:#e84a5f}
@@ -100,7 +106,7 @@ div.loaded main{opacity:1;margin-top:50px}
 header{width:100%}
 
 main h2,main h4,header hr{display:none}
-main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Raleway-ExtraBold",sans-serif}
+main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Affogato-Black",sans-serif}
 main h4{line-height:1.5;font-weight:normal;font-size:100%}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}

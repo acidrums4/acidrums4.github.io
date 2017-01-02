@@ -4,17 +4,6 @@
 @font-face{font-family:'Affogato-Medium';src:url('../fonts/Affogato-Medium.eot');src:url('../fonts/Affogato-Medium.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Medium.woff')format('woff'),url('../fonts/Affogato-Medium.woff2')format('woff2'),url('../fonts/Affogato-Medium.ttf')format('truetype'),url('../fonts/Affogato-Medium.svg')format('svg');font-weight:normal;font-style:normal}
 @font-face{font-family:'Affogato-Light';src:url('../fonts/Affogato-Light.eot');src:url('../fonts/Affogato-Light.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Light.woff')format('woff'),url('../fonts/Affogato-Light.woff2')format('woff2'),url('../fonts/Affogato-Light.ttf')format('truetype'),url('../fonts/Affogato-Light.svg')format('svg');font-weight:normal;font-style:normal}
 
-@font-face{font-family:'Raleway';src:url('../fonts/Raleway-Regular.eot');src:url('../fonts/Raleway-Regular.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Regular.woff')format('woff'),url('../fonts/Raleway-Regular.ttf')format('truetype'),url('../fonts/Raleway-Regular.svg#Raleway')format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'Raleway';src:url('../fonts/Raleway-Bold.eot');src:url('../fonts/Raleway-Bold.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Bold.woff')format('woff'),url('../fonts/Raleway-Bold.ttf')format('truetype'),url('../fonts/Raleway-Bold.svg#Raleway-Bold')format('svg');font-weight:bold;font-style:normal}
-@font-face{font-family:'Raleway-ExtraBold';src:url('../fonts/Raleway-ExtraBold.eot');src:url('../fonts/Raleway-ExtraBold.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-ExtraBold.woff')format('woff'),url('../fonts/Raleway-ExtraBold.ttf')format('truetype'),url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-ExtraLight';src:url('../fonts/Raleway-ExtraLight.eot');src:url('../fonts/Raleway-ExtraLight.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-ExtraLight.woff')format('woff'),url('../fonts/Raleway-ExtraLight.ttf')format('truetype'),url('../fonts/Raleway-ExtraLight.svg#Raleway-ExtraLight')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-Heavy';src:url('../fonts/Raleway-Heavy.eot');src:url('../fonts/Raleway-Heavy.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Heavy.woff')format('woff'),url('../fonts/Raleway-Heavy.ttf')format('truetype'),url('../fonts/Raleway-Heavy.svg#Raleway-Heavy')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-Light';src:url('../fonts/Raleway-Light.eot');src:url('../fonts/Raleway-Light.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Light.woff')format('woff'),url('../fonts/Raleway-Light.ttf')format('truetype'),url('../fonts/Raleway-Light.svg#Raleway-Light')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-Medium';src:url('../fonts/Raleway-Medium.eot');src:url('../fonts/Raleway-Medium.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Medium.woff')format('woff'),url('../fonts/Raleway-Medium.ttf')format('truetype'),url('../fonts/Raleway-Medium.svg#Raleway-Medium')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-SemiBold';src:url('../fonts/Raleway-SemiBold.eot');src:url('../fonts/Raleway-SemiBold.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-SemiBold.woff')format('woff'),url('../fonts/Raleway-SemiBold.ttf')format('truetype'),url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'Raleway-Thin';src:url('../fonts/Raleway-Thin.eot');src:url('../fonts/Raleway-Thin.eot?#iefix')format('embedded-opentype'),url('../fonts/Raleway-Thin.woff')format('woff'),url('../fonts/Raleway-Thin.ttf')format('truetype'),url('../fonts/Raleway-Thin.svg#Raleway-Thin')format('svg');font-weight:normal;font-style:normal} 
-@font-face{font-family:'RalewayDots-Regular';src:url('../fonts/RalewayDots-Regular.eot');src:url('../fonts/RalewayDots-Regular.eot?#iefix')format('embedded-opentype'),url('../fonts/RalewayDots-Regular.woff')format('woff'),url('../fonts/RalewayDots-Regular.ttf')format('truetype'),url('../fonts/RalewayDots-Regular.svg#RalewayDots-Regular')format('svg');font-weight:normal;font-style:normal}
-
 /* Reset */
 *,*::after,*::before{box-sizing:border-box}
 ::selection{background:transparent}
@@ -106,8 +95,8 @@ div.loaded main{opacity:1;margin-top:50px}
 header{width:100%}
 
 main h2,main h4,header hr{display:none}
-main h2,article h1{font-size:150%;line-height:1.25;letter-spacing:.075ex;font-family:"Affogato-Black",sans-serif}
-main h4{line-height:1.5;font-weight:normal;font-size:100%}
+main h2,article h1{font-size:150%;line-height:1.25;font-weight:bold}
+main h4{line-height:1.5;font-weight:normal;font-size:105%}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
 main h4.title-ils em{color:#f07050}
@@ -211,7 +200,7 @@ body.home-page footer hr
 
 /* Detalle */
 article h1:after{content:'.'}
-article a{text-decoration:underline;outline:0;color:#2a363b;transition:color 500 ms ease-out}
+article a{font-family:"Affogato-Regular",sans-serif;text-decoration:underline;outline:0;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 
@@ -404,7 +393,7 @@ div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{display:inline;font-size:100%;overflow:hidden;float:left;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
+footer span{display:inline;font-size:100%;overflow:hidden;float:left;font-family:"Affogato-Medium",sans-serif;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
 div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 

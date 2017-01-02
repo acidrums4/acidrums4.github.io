@@ -117,7 +117,7 @@ body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv ma
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
-div.grid{margin:0 16px}
+div.grid{padding:0 16px}
 div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden}
 div.grid img{width:100%;height:auto}
 

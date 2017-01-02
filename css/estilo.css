@@ -119,7 +119,7 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 /* Ítems en la página inicial */
 div.grid{margin:0 16px}
 div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden}
-div.grid picture{width:100%;height:auto}
+div.grid img{width:100%;height:auto}
 
 ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block;position:relative;overflow:hidden}

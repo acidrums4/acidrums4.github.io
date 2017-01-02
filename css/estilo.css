@@ -312,7 +312,7 @@ div.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-colum
 
 @media only screen and (min-width:640px) and (max-width:1023px){
 div.grid{text-align:center}
-div.grid>img{max-width:480px}
+div.grid img{max-width:480px}
 div.footer-wrapper{width:unset;margin:32px}
 article p{font-size:110%;line-height:1.625}
 }

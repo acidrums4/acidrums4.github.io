@@ -306,6 +306,10 @@ body.item-otr ul.slider-pagination a{border-color:#c83771}
 
 /* Media queries */
 
+@media only screen and (min-width:640px){
+div.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
+}
+
 @media only screen and (min-width:640px) and (max-width:1023px){
 div.footer-wrapper{width:unset;margin:32px}
 

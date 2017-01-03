@@ -97,6 +97,7 @@ header{width:100%}
 main h2,main h4,header hr{display:none}
 main h2,article h1{font-size:150%;line-height:1.25;font-weight:bold}
 main h4{line-height:1.5;font-weight:normal;font-size:105%}
+main h4 em{font-family:"Affogato-Medium",sans-serif}
 main h4.title-web em{color:#4d95e1}
 main h4.title-fto em{color:#37ba7a}
 main h4.title-ils em{color:#f07050}
@@ -200,7 +201,7 @@ body.home-page footer hr
 
 /* Detalle */
 article h1:after{content:'.'}
-article a{font-family:"Affogato-Regular",sans-serif;text-decoration:underline;outline:0;transition:color 500 ms ease-out}
+article a{font-family:"Affogato-Medium",sans-serif;text-decoration:underline;outline:0;transition:color 500 ms ease-out}
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 
@@ -362,7 +363,7 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 
 main h2,main h4,article h1{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h2,article h1{font-size:300%}
-header hr{display:block;height:0;width:4em;margin:30px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+header hr{display:block;height:0;width:4em;margin:24px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 div.grid{padding:0}
 
@@ -392,7 +393,7 @@ div.footer-links{width:80px;height:168px;position:absolute;top:244px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}
-footer span{display:inline;font-size:100%;overflow:hidden;float:left;font-family:"Affogato-Medium",sans-serif;text-align:left;line-height:32px;height:32px;margin:0;margin-left:24px;width:240px}
+footer span{display:inline;font-size:100%;overflow:hidden;float:left;font-family:"Affogato-Medium",sans-serif;text-align:left;line-height:32px;height:32px;color:#86808a;margin:0;margin-left:24px;width:240px}
 div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 div.item-img,div.item-txt{transition:flex-basis .5s cubic-bezier(0.7,0,0.3,1)}
 

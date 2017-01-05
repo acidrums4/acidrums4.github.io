@@ -135,13 +135,15 @@ jQuery(document).ready(function(event){
     function countImages(){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
-        console.log("Percentage: " + percentage);
-        console.log("imagePperc: " + imagePperc);
 
         $('svg.ip-inner').removeClass('loading');
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
+
+        console.log("Percentage: " + percentage);
+        console.log("imagePperc: " + imagePperc);
+        console.log("pathHeightValue: " + pathHeightValue);
 
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();

@@ -120,7 +120,7 @@ jQuery(document).ready(function(event){
     $('rect.clip').attr('height',0);
 
     function progressComplete(){
-      /*percentage = 100;
+      percentage = 100;
       $('svg.ip-inner').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
@@ -129,7 +129,7 @@ jQuery(document).ready(function(event){
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);
-      });*/
+      });
     }
 
     function countImages(){
@@ -140,10 +140,6 @@ jQuery(document).ready(function(event){
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
-
-        console.log("Percentage: " + percentage);
-        console.log("imagePperc: " + imagePperc);
-        console.log("pathHeightValue: " + pathHeightValue);
 
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();

@@ -114,7 +114,7 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
 /* Ítems en la página inicial */
 div.grid{padding:0 16px}
-div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden}
+div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden;line-height:0}
 div.grid a.item-web{background-color:#4d95e1}
 div.grid a.item-fto{background-color:#37ba7a}
 div.grid a.item-ils{background-color:#f07050}

@@ -44,11 +44,11 @@ jQuery(document).ready(function(event){
       var $filter = $this.data('filter'); 
       // Si uno selecciona 'Todos', pues mostrar todos
       $filter == 'item-all' ? 
-      $('ul.grid>li')
+      $('div.grid>li')
       .not(':visible')
       .fadeIn() 
       : // Y si no, pues ocúltelos mano
-      $('ul.grid>li')
+      $('div.grid>li')
       .fadeOut(0)
       .filter(function (){
           // Devolver los que tienen igual 'data-item-type' que el filtro

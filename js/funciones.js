@@ -108,8 +108,8 @@ jQuery(document).ready(function(event){
 
   function setProgress()
   {
-    var imageCount = document.getElementsByTagName("picture").length;
-    var imageArray = document.getElementsByTagName("picture");
+    var imageCount = document.getElementsByTagName("img").length;
+    var imageArray = document.getElementsByTagName("img");
     var imagePperc = (100 / imageCount);
 
     var imagesLoad = 0;
@@ -133,9 +133,10 @@ jQuery(document).ready(function(event){
     }
 
     function countImages(){
-
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
+        console.log("Percentage: " + percentage);
+        console.log("imagePperc: " + imagePperc);
 
         $('svg.ip-inner').removeClass('loading');
         imageIndex++;

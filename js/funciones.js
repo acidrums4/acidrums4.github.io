@@ -108,8 +108,8 @@ jQuery(document).ready(function(event){
 
   function setProgress()
   {
-    var imageCount = document.getElementsByTagName("img").length;
-    var imageArray = document.getElementsByTagName("img");
+    var imageCount = document.getElementsByTagName("picture").length;
+    var imageArray = document.getElementsByTagName("picture");
     var imagePperc = (100 / imageCount);
 
     var imagesLoad = 0;

@@ -4,8 +4,8 @@ jQuery(document).ready(function(event){
   newLocation = '';
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
-  container = $('div.main-container'),
-  pathHeight = $('svg.ip-inner').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
+  container = $('div.body-wrapper'),
+  pathHeight = $('svg.logo').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
   transEndEventNames = {
     'WebkitTransition' : 'webkitTransitionEnd',
     'MozTransition'    : 'transitionend',
@@ -98,7 +98,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('div.intro-container h1').one('animationend transitionend', function(e){
+      $('span.logo-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         setProgress();
 				$(this).off(e);
@@ -121,7 +121,7 @@ jQuery(document).ready(function(event){
 
     function progressComplete(){
       percentage = 100;
-      $('svg.ip-inner').removeClass('loading');
+      $('svg.logo').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
@@ -136,7 +136,7 @@ jQuery(document).ready(function(event){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
-        $('svg.ip-inner').removeClass('loading');
+        $('svg.logo').removeClass('loading');
         imageIndex++;
         imagesLoad++;
         pathHeightValue = ((percentage * pathHeight) / 100);
@@ -144,8 +144,8 @@ jQuery(document).ready(function(event){
         $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
 
-      } else if (!(imageArray[imageIndex].complete) && !($('svg.ip-inner').hasClass('loading'))){
-        $('svg.ip-inner').addClass('loading');
+      } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
+        $('svg.logo').addClass('loading');
       }
     }
 
@@ -169,9 +169,9 @@ jQuery(document).ready(function(event){
     }
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
-      $('svg.ip-inner').addClass('loading');
+      $('svg.logo').addClass('loading');
     } else {
-      $('svg.ip-inner').removeClass('loading');
+      $('svg.logo').removeClass('loading');
     }
 
     loop();
@@ -231,9 +231,9 @@ jQuery(document).ready(function(event){
       $('body').removeClass('home-page item-page').addClass('biop-page');
     } else $('body').removeClass('home-page biop-page sysp-page').addClass('item-page');
 
-    var section = $('div.cd-main-content');
+    var section = $('div.main-wrapper');
 
-    section.load(url + ' .cd-main-content > *', function(event){
+    section.load(url + ' .main-wrapper > *', function(event){
         if(url!=window.location && bool){
         window.history.pushState({path: url},null,url);
         //window.history.pushState(null,null,url);

@@ -201,7 +201,12 @@ body.home-page footer hr
 
 /* Detalle */
 article h1:after{content:'.'}
-article a{font-family:"Affogato-Medium",sans-serif;text-decoration:underline;outline:0;transition:color 500 ms ease-out}
+article a{font-family:"Affogato-Medium",sans-serif;color:#56505a;text-decoration:underline;text-decoration-skip:ink;text-decoration-style:dashed;outline:0;transition:color 500 ms ease-out}
+body.item-hdv article a{text-decoration-color:#16b3c2}
+body.item-web article a{text-decoration-color:#4d95e1}
+body.item-fto article a{text-decoration-color:#37ba7a}
+body.item-ils article a{text-decoration-color:#f07050}
+body.item-otr article a{text-decoration-color:#c83771}
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
 

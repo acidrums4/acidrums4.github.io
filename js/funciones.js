@@ -52,7 +52,7 @@ jQuery(document).ready(function(event){
       .fadeOut(0)
       .filter(function (){
           // Devolver los que tienen igual 'data-item-type' que el filtro
-          return $("a", this).data('item-type') == $filter; 
+          return $(this).data('item-type') == $filter; 
           })
       .fadeIn(500); 
 

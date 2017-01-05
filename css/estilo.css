@@ -331,6 +331,7 @@ section.grid-wrap,div.item-img{order:2;align-self:flex-end;flex-basis:610px;marg
 section.grid-wrap{max-width:1260px}
 body.scrolled main{margin:0 auto}
 body.scrolled ul.grid{margin-top:160px}
+body.scrolled div.grid{margin-top:160px}
 
 body.noscroll nav{height:128px}
 body.scrolled nav{width:620px;height:96px}

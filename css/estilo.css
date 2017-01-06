@@ -259,8 +259,8 @@ body.item-ils div.item-cat-icon{border-color:#f07050}
 body.item-otr div.item-cat-icon{border-color:#c83771}
 
 article blockquote,article blockquote>p{transition:all .25s cubic-bezier(0.7,0,0.3,1)}
-article blockquote{margin:16px 0 0;background-color:#202c31;display:inline-block;position:relative}
-article blockquote:before{content:'';display:block;position:absolute;top:-16px;left:16px;width:0;height:0;border-style:solid;border-color:transparent transparent #202c31 transparent;border-width:0 16px 16px}
+article blockquote{margin:16px 0 0;display:inline-block;position:relative}
+article blockquote:before{content:'';display:block;position:absolute;top:-16px;left:16px;width:0;height:0;border-style:solid;border-color:transparent transparent red transparent;border-width:0 16px 16px}
 article blockquote>p{font-size:90%;letter-spacing:0.0125ex;margin:16px 16px 16px 64px;opacity:.5}
 article blockquote>p:before{display:none}
 div.item-txt>a:hover+blockquote{margin:0}
@@ -390,7 +390,7 @@ body.item-page article.slider-active div.item-txt>h1{margin:0 16px 30px}
 body.item-page article.slider-active div.item-txt>p{margin:20px 16px 0}
 body.item-page article.slider-active div.item-txt>a{margin:20px 0 0}
 
-article blockquote{margin:16px 0 0 44px}
+article blockquote{margin:16px 0 0}
 article.slider-active blockquote{margin:16px 0 0}
 body.item-page article blockquote>p{margin:16px 16px 16px 64px}
 div.item-txt>a:hover+blockquote{margin:0 0 0 44px}

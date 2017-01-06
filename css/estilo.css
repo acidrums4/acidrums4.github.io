@@ -226,7 +226,7 @@ body.item-page div.item-txt>a>button{background-position:-480px 0}
 body.biop-page div.item-txt>a>button{background-position:-512px -32px}
 body.sysp-page div.item-txt>a>button{background-position:-544px -32px}
 div.item-txt>a>span,div.item-txt>a em{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-div.item-txt>a>span{word-wrap:break-word;font-size:100%;background-color:#f9f8f4;z-index:1;display:flex;order:2;flex-grow:2;flex-direction:column;justify-content:space-around;padding-left:16px}
+div.item-txt>a>span{word-wrap:break-word;font-size:100%;z-index:1;display:flex;order:2;flex-grow:2;flex-direction:column;justify-content:space-around;padding-left:16px}
 div.item-txt>a:hover>span{color:#f9f8f4}
 div.item-txt>a>svg{order:1;z-index:1;stroke:#f9f8f4;flex-basis:32px;margin:16px}
 body.sysp-page div.item-img>span{display:block;text-align:center;color:#9f9e9d;margin:0 0 50px}

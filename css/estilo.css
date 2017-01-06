@@ -378,11 +378,11 @@ body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
 article p{font-size:105%;line-height:1.625}
 article p:last-child:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
-body.item-web article p.last-child:after{background-color:#4d95e1}
-body.item-fto article p.last-child:after{background-color:#37ba7a}
-body.item-ils article p.last-child:after{background-color:#f07050}
-body.item-otr article p.last-child:after{background-color:#c83771}
-body.item-hdv article p.last-child:after{background-color:#9f9e9d}
+body.item-web article p:last-child:after{background-color:#4d95e1}
+body.item-fto article p:last-child:after{background-color:#37ba7a}
+body.item-ils article p:last-child:after{background-color:#f07050}
+body.item-otr article p:last-child:after{background-color:#c83771}
+body.item-hdv article p:last-child:after{background-color:#9f9e9d}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

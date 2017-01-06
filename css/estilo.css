@@ -201,7 +201,7 @@ body.home-page footer hr
 
 /* Detalle */
 article h1:after{content:'.'}
-article h2{font-weight:normal;font-size:133%;letter-spacing:0.125ex;line-height:1.5em}
+article h2{font-weight:normal;font-size:100%;letter-spacing:0.125ex;text-transform:uppercase;line-height:1.5em}
 article a{font-family:"Affogato-Medium",sans-serif;color:#56505a;text-decoration:underline;text-decoration-skip:ink;text-decoration-style:dashed;outline:0;transition:color 500 ms ease-out}
 body.item-hdv article a{text-decoration-color:#16b3c2}
 body.item-web article a{text-decoration-color:#4d95e1}
@@ -377,6 +377,12 @@ div.grid{padding:0}
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
 article p{font-size:105%;line-height:1.625}
+article p:last-child:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
+body.item-web article p.last-child:after{background-color:#4d95e1}
+body.item-fto article p.last-child:after{background-color:#37ba7a}
+body.item-ils article p.last-child:after{background-color:#f07050}
+body.item-otr article p.last-child:after{background-color:#c83771}
+body.item-hdv article p.last-child:after{background-color:#9f9e9d}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

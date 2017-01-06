@@ -13,7 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}
 ol,ul{list-style:none}
 html{font-family:'Affogato',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-h1{font-size:2em;margin:0.67em 0}
+h1{font-size:2em;margin:0}
 a:hover,a:active,a:focus{outline:0}
 b,strong{font-weight:bold}
 hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
@@ -87,7 +87,7 @@ body div.unload path.logo{opacity:1}
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}
-div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}
+div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
 
 main{opacity:1;order:1;margin:50px auto 50px;width:100%;position:relative;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.loading main,div.unload main{opacity:0;margin-top:300px}
@@ -211,15 +211,19 @@ body.item-otr article a{text-decoration-color:#c83771}
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:2em 0 0;font-size:100%;line-height:1.5;color:#56505a}
 article p+p{margin:.75em 0 0}
+div.item-txt>p:last-child:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
+body.item-web div.item-txt>p:last-child:after{background-color:#4d95e1}
+body.item-fto div.item-txt>p:last-child:after{background-color:#37ba7a}
+body.item-ils div.item-txt>p:last-child:after{background-color:#f07050}
+body.item-otr div.item-txt>p:last-child:after{background-color:#c83771}
+body.item-hdv div.item-txt>p:last-child:after{background-color:#9f9e9d}
 
 div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
-div.item-txt>a{display:block;position:relative;margin:20px 0 0;overflow:hidden;text-decoration:none;overflow:hidden;border-width:0 0 2px;border-style:solid}
-body.item-page div.item-txt>a{background-color:#202c31}
-body.biop-page div.item-txt>a{background-color:#fff}
+div.item-txt>a{display:block;position:relative;margin:20px 0 0;text-decoration:none;overflow:hidden;border-width:0 0 1px;border-style:solid}
 div.item-txt>a:before{content:'';display:block;position:absolute;width:100%;height:2px;bottom:-2px;left:0;right:0;transition:all .5s cubic-bezier(0.7,0,0.3,1);z-index:0}
 div.item-txt>a:hover:before{height:100%;bottom:0}
 div.item-txt>a>*{float:left;z-index:2;position:relative}
-div.item-txt>a>button{display:inline;opacity:.5;width:32px;height:32px;margin:16px;border:0;padding:0;transition:opacity .5s ease-out;background-color:transparent;background-image:url(../img/iconos.png);background-image:url(../img/iconos.svg);background-repeat:no-repeat}
+div.item-txt>a>button{display:inline;opacity:.5;margin:16px;transition:opacity .5s ease-out}
 body.item-page div.item-txt>a>button{background-position:-480px 0}
 body.biop-page div.item-txt>a>button{background-position:-512px -32px}
 body.sysp-page div.item-txt>a>button{background-position:-544px -32px}
@@ -334,7 +338,7 @@ div.main-container{flex-direction:row}
 div.main-wrapper{max-width:960px;margin:50px auto}
 header,div.item-txt{flex-basis:320px;order:1}
 header{width:320px;position:fixed;top:100px}
-section.grid-wrap,div.item-img{order:2;align-self:flex-start;flex-basis:610px;margin-left:30px}
+section.grid-wrap,div.item-img{order:2;flex-basis:610px;margin-left:30px}
 section.grid-wrap{max-width:1260px}
 body.scrolled main{margin:0 auto}
 body.scrolled ul.grid{margin-top:160px}
@@ -378,12 +382,6 @@ div.grid{padding:0}
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
 article p{font-size:105%;line-height:1.625}
-article p:last-child:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
-body.item-web article p:last-child:after{background-color:#4d95e1}
-body.item-fto article p:last-child:after{background-color:#37ba7a}
-body.item-ils article p:last-child:after{background-color:#f07050}
-body.item-otr article p:last-child:after{background-color:#c83771}
-body.item-hdv article p:last-child:after{background-color:#9f9e9d}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 div.item-txt>a>span{overflow:hidden;font-size:125%;line-height:64px;top:0}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

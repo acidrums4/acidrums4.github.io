@@ -94,21 +94,21 @@ div.loading main,div.unload main{opacity:0;margin-top:300px}
 div.loaded main{opacity:1;margin-top:50px}
 header{width:100%}
 
-main h2,main h4,header hr{display:none}
-main h2,article h1{font-size:150%;line-height:1.25;font-weight:bold}
-main h4{line-height:1.5;font-weight:normal;font-size:105%}
-main h4 em{font-family:"Affogato-Medium",sans-serif}
-main h4.title-web em{color:#4d95e1}
-main h4.title-fto em{color:#37ba7a}
-main h4.title-ils em{color:#f07050}
-main h4.title-otr em{color:#c83771}
+main h1,main h3,header hr{display:none}
+main h1{font-size:150%;line-height:1.25;font-weight:bold}
+main h3{line-height:1.5;font-weight:normal;font-size:105%}
+main h3 em{font-family:"Affogato-Medium",sans-serif}
+main h3.title-web em{color:#4d95e1}
+main h3.title-fto em{color:#37ba7a}
+main h3.title-ils em{color:#f07050}
+main h3.title-otr em{color:#c83771}
 
-body.item-all main h4.title-web,body.item-all main h4.title-fto,body.item-all main h4.title-ils,body.item-all main h4.title-otr,
-body.item-web main h4.title-all,body.item-web main h4.title-fto,body.item-web main h4.title-ils,body.item-web main h4.title-otr,
-body.item-fto main h4.title-all,body.item-fto main h4.title-web,body.item-fto main h4.title-ils,body.item-fto main h4.title-otr,
-body.item-ils main h4.title-all,body.item-ils main h4.title-web,body.item-ils main h4.title-fto,body.item-ils main h4.title-otr,
-body.item-otr main h4.title-all,body.item-otr main h4.title-web,body.item-otr main h4.title-fto,body.item-otr main h4.title-ils,
-body.item-hdv main h4.title-all,body.item-hdv main h4.title-web,body.item-hdv main h4.title-fto,body.item-hdv main h4.title-ils,body.item-hdv main h4.title-otr{display:none}
+body.item-all main h3.title-web,body.item-all main h3.title-fto,body.item-all main h3.title-ils,body.item-all main h3.title-otr,
+body.item-web main h3.title-all,body.item-web main h3.title-fto,body.item-web main h3.title-ils,body.item-web main h3.title-otr,
+body.item-fto main h3.title-all,body.item-fto main h3.title-web,body.item-fto main h3.title-ils,body.item-fto main h3.title-otr,
+body.item-ils main h3.title-all,body.item-ils main h3.title-web,body.item-ils main h3.title-fto,body.item-ils main h3.title-otr,
+body.item-otr main h3.title-all,body.item-otr main h3.title-web,body.item-otr main h3.title-fto,body.item-otr main h3.title-ils,
+body.item-hdv main h3.title-all,body.item-hdv main h3.title-web,body.item-hdv main h3.title-fto,body.item-hdv main h3.title-ils,body.item-hdv main h3.title-otr{display:none}
 
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
@@ -368,8 +368,8 @@ nav a.nav-filter-active{display:block}
 body.noscroll nav a:hover span,body.noscroll nav a.nav-filter-active span{bottom:20px}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
-main h2,main h4,article h1{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-main h2,article h1{font-size:300%}
+main h1,main h2,main h3{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+main h1{font-size:300%}
 header hr,article hr{display:block;height:0;width:4em;margin:24px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 div.grid{padding:0}

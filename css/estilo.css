@@ -209,7 +209,8 @@ body.item-fto article a{text-decoration-color:#37ba7a}
 body.item-ils article a{text-decoration-color:#f07050}
 body.item-otr article a{text-decoration-color:#c83771}
 article a:hover,article a:visited,article a:active{text-decoration:none}
-article p{margin:20px 0 0;font-size:100%;line-height:1.5;color:#56505a}
+article p{margin:2em 0 0;font-size:100%;line-height:1.5;color:#56505a}
+article p+p{margin:.75em 0 0}
 
 div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
 div.item-txt>a{display:block;position:relative;margin:20px 0 0;overflow:hidden;text-decoration:none;overflow:hidden;border-width:0 0 2px;border-style:solid}
@@ -246,7 +247,7 @@ body.item-hdv div.item-txt>a:hover>span{color:#4f4e4d}
 body.item-hdv div.item-txt>a:hover em{color:#afaead}
 body.item-web div.item-txt>a:hover>span,body.item-fto div.item-txt>a:hover>span,body.item-ils div.item-txt>a:hover>span,body.item-otr div.item-txt>a:hover>span{color:#fff}
 
-div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:28px;border-width:0 1px 0 0;border-style:dashed}
+div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:calc(2em + 10px);border-width:0 1px 0 0;border-style:dashed}
 div.item-cat-icon svg{margin-right:16px;stroke:#56505a;opacity:.75;vertical-align:0}
 body.item-web div.item-cat-icon{border-color:#4d95e1}
 body.item-fto div.item-cat-icon{border-color:#37ba7a}
@@ -370,7 +371,9 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 
 main h1,main h2,main h3{text-align:left;margin:0;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h1{font-size:300%}
-header hr,article hr{display:block;height:0;width:4em;margin:24px 0;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+header hr,article hr{display:block;height:0;width:4em;float:left;clear:both;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+header hr{margin:24px 0}
+article hr{margin:1em 0 .5em}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 div.grid{padding:0}
 

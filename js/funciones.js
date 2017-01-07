@@ -321,7 +321,7 @@ jQuery(document).ready(function(event){
         });
 
     function createSliderPagination($container){
-      var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider-navigation'));
+      var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider'));
       $container.find('ul.slider li').each(function(index){
         if ($container.find('ul.slider li').length > 1){
           var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),

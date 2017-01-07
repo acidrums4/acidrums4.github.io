@@ -169,9 +169,7 @@ ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{pointer-events:none}
 
 div.logo-wrapper{width:84px;margin:0 auto 32px}
-div.logo-wrapper a{display:block}
-div.logo-wrapper svg{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-div.logo-wrapper path{fill:#56505a}
+div.logo-wrapper path{transition:all .5s cubic-bezier(0.7,0,0.3,1);fill:#56505a}
 body.item-all div.logo-wrapper a:hover path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper a:hover path{fill:#16b3c2}
 body.item-web div.logo-wrapper a:hover path{fill:#4d95e1}

@@ -249,12 +249,12 @@ body.item-ils div.item-cat-icon{border-color:#f07050}
 body.item-otr div.item-cat-icon{border-color:#c83771}
 
 article blockquote,article blockquote>p{transition:all .25s cubic-bezier(0.7,0,0.3,1)}
-article blockquote{margin:16px 0 0;display:inline-block;position:relative;padding-left:1em;border-width:0 0 0 1px;border-style;dashed}
+article blockquote{margin:2em 0 0;display:inline-block;position:relative;padding-left:2em;border-width:0 0 0 1px;border-style:dashed}
 body.item-web article blockquote{border-color:#4d95e1}
 body.item-fto article blockquote{border-color:#37ba7a}
 body.item-ils article blockquote{border-color:#f07050}
 body.item-otr article blockquote{border-color:#c83771}
-article blockquote>p{font-size:90%;opacity:.5}
+article blockquote>p{font-size:90%;opacity:.5;margin:0}
 div.item-txt>a:hover+blockquote>p{opacity:1}
 
 div.item-img svg{max-width:250px;width:100%;margin:0 auto;display:block}

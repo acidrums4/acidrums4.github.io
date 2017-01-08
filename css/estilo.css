@@ -168,7 +168,7 @@ nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
 ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{pointer-events:none}
 
-div.logo-wrapper{width:84px;margin:0 auto 32px}
+div.logo-wrapper{order:1;display:flex;flex-basis:100%;flex-direction:row;margin:0 auto 32px}
 div.logo-wrapper path{transition:all .5s cubic-bezier(0.7,0,0.3,1);fill:#56505a}
 body.item-all div.logo-wrapper a:hover path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper a:hover path{fill:#16b3c2}
@@ -199,7 +199,7 @@ body.home-page footer hr
 
 /* Detalle */
 article h1:after{content:'.'}
-article h2{font-weight:normal;font-size:100%;margin-bottom:1.5em;letter-spacing:0.125ex;text-transform:uppercase;line-height:1.5em}
+article h2{order:2;flex-shrink:0;font-weight:normal;font-size:100%;letter-spacing:0.125ex;text-transform:uppercase;line-height:1.5em}
 article a{font-family:"Affogato-Medium",sans-serif;color:#56505a;text-decoration:underline;text-decoration-skip:ink;text-decoration-style:dashed;outline:0;transition:color 500 ms ease-out}
 body.item-hdv article a{text-decoration-color:#16b3c2}
 body.item-web article a{text-decoration-color:#4d95e1}
@@ -334,8 +334,9 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-16px}
 
-div.logo-wrapper{flex-basis:100%;margin:0 0 84px;order:0}
-div.logo-wrapper>a{float:left;display:inline}
+div.logo-wrapper{margin:0 0 84px}
+div.logo-wrapper>a{order:1;flex-shrink:0;flex-basis:83px}
+div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
 ul.slider-navigation{overflow:hidden;text-align:right;margin-top:12px}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
@@ -347,7 +348,8 @@ nav a.nav-filter-active{display:block}
 body.noscroll nav a:hover span,body.noscroll nav a.nav-filter-active span{bottom:20px}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
-main h1,main h2,main h3{text-align:left;color:#56505a;opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+main h1,main h2,main h3{text-align:left;color:#56505a}
+main h1,main h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 main h1{font-size:300%}
 header hr{display:block;height:0;width:4em;float:left;clear:both;margin:24px 0;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
@@ -355,6 +357,7 @@ div.grid{padding:0}
 
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
+body.scrolled article h2{margin:18px 0 24px 2em}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

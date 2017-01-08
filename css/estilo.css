@@ -168,7 +168,7 @@ nav a.nav-filter-otr:hover svg.icon{stroke:#c83771}
 ul.filter-menu a>span{display:none;color:#56505a;font-size:100%}
 nav a.nav-filter-active{pointer-events:none}
 
-div.logo-wrapper{order:1;display:flex;flex-basis:100%;flex-direction:row;margin:0 auto 32px}
+div.logo-wrapper{order:1;display:flex;flex-basis:100%;flex-direction:row;justify-content:flex-start;margin:0 auto 32px}
 div.logo-wrapper path{transition:all .5s cubic-bezier(0.7,0,0.3,1);fill:#56505a}
 body.item-all div.logo-wrapper a:hover path{fill:#e84a5f}
 body.item-hdv div.logo-wrapper a:hover path{fill:#16b3c2}
@@ -176,6 +176,7 @@ body.item-web div.logo-wrapper a:hover path{fill:#4d95e1}
 body.item-fto div.logo-wrapper a:hover path{fill:#37ba7a}
 body.item-ils div.logo-wrapper a:hover path{fill:#f07050}
 body.item-otr div.logo-wrapper a:hover path{fill:#c83771}
+ul.slider-navigation{order:3;flex-grow:2}
 
 /* Footer */
 footer{display:block;z-index:1;width:100%;margin:0;order:2;position:fixed;bottom:0;left:0;right:0;background-color:#f9f8f4;border-top:1px dashed #bcb7bf}
@@ -337,7 +338,7 @@ nav a:before{bottom:-16px}
 div.logo-wrapper{margin:0 0 84px}
 div.logo-wrapper>a{order:1;flex-shrink:0;flex-basis:83px}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
-ul.slider-navigation{overflow:hidden;text-align:right;margin-top:12px}
+ul.slider-navigation{margin-top:12px}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
 body.scrolled.item-page svg.logo-item{width:62px}

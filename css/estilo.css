@@ -358,7 +358,7 @@ div.grid{padding:0}
 
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
-body.scrolled article h2{margin:18px 0 24px 2em}
+body.scrolled article h2{margin:18px 0 24px}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

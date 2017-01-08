@@ -199,6 +199,7 @@ body.home-page footer hr
 {display:none}
 
 /* Detalle */
+svg.logo-item{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 article h1:after{content:'.'}
 article h2{order:2;flex-shrink:0;font-weight:normal;font-size:100%;letter-spacing:0.375ex;text-transform:uppercase;line-height:1.5em}
 article a{font-family:"Affogato-Medium",sans-serif;color:#56505a;text-decoration:underline;text-decoration-skip:ink;text-decoration-style:dashed;outline:0;transition:color 500 ms ease-out}

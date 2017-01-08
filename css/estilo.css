@@ -334,7 +334,9 @@ nav a:before{bottom:-16px}
 
 div.logo-wrapper{flex-basis:100%;margin:0 0 84px;order:0}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
-body.scrolled.item-page div.logo-wrapper a{margin:16px 0}
+body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
+body.scrolled.item-page div.logo-wrapper>a{float:left;display:inline}
+body.scrolled.item-page div.logo-wrapper>ul{overflow:hidden;text-align:right}
 body.scrolled.item-page div.logo-wrapper svg{width:62px}
 div.logo-wrapper svg{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}

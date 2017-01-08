@@ -272,6 +272,7 @@ ul.slider li.selected{position:relative;z-index:2;transform:translateX(0)}
 ul.slider li.move-left{transform:translateX(-100%)}
 
 ul.slider-navigation li{display:inline;z-index:2;margin:0}
+ul.slider-navigation a{display:block;}
 article.slider-active ul.slider-navigation li a.inactive{opacity:0;visibility:hidden;transition:opacity 0.2s 0s,visibility 0s 0.2s}
 
 ul.slider-pagination{position:relative;z-index:2;text-align:center;display:block;width:100%;visibility:hidden}
@@ -333,12 +334,12 @@ body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active sp
 nav a:before{bottom:-16px}
 
 div.logo-wrapper{flex-basis:100%;margin:0 0 84px;order:0}
+div.logo-wrapper>a{float:left;display:inline}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
-body.scrolled.item-page div.logo-wrapper>a{float:left;display:inline}
-body.scrolled.item-page div.logo-wrapper>ul{overflow:hidden;text-align:right}
-body.scrolled.item-page div.logo-wrapper svg{width:62px}
-div.logo-wrapper svg{width:83px;top:64px}
+body.scrolled.item-page ul.slider-navigation{overflow:hidden;text-align:right}
+body.scrolled.item-page svg.logo-item{width:62px}
+svg.logo-item{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}
 nav a.nav-filter-active{display:block}

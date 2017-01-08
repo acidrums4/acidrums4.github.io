@@ -271,7 +271,7 @@ article.slider-active ul.slider li>span{display:block}
 ul.slider li.selected{position:relative;z-index:2;transform:translateX(0)}
 ul.slider li.move-left{transform:translateX(-100%)}
 
-ul.slider-navigation li{display:inline;float:right;z-index:2;margin-right:32px}
+ul.slider-navigation li{display:inline;float:right;z-index:2;margin-left:32px}
 ul.slider-navigation a{display:block}
 ul.slider-navigation path{stroke:#56505a}
 article.slider-active ul.slider-navigation li a.inactive{opacity:0;visibility:hidden;transition:opacity 0.2s 0s,visibility 0s 0.2s}
@@ -336,7 +336,7 @@ nav a:before{bottom:-16px}
 
 div.logo-wrapper{flex-basis:100%;margin:0 0 84px;order:0}
 div.logo-wrapper>a{float:left;display:inline}
-ul.slider-navigation{overflow:hidden;text-align:right}
+ul.slider-navigation{overflow:hidden;text-align:right;margin-top:12px}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
 body.scrolled.item-page svg.logo-item{width:62px}

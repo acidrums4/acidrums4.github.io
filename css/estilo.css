@@ -201,7 +201,7 @@ body.home-page footer hr
 /* Detalle */
 svg.logo-item{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 article h1:after{content:'.'}
-article h2{order:2;flex-shrink:0;font-weight:normal;font-size:100%;letter-spacing:0.375ex;text-transform:uppercase;line-height:1.5em}
+article h2{order:2;flex-shrink:0;font-weight:normal;font-size:100%;letter-spacing:0.375ex;text-transform:uppercase;line-height:1.5em;transition:margin .5s cubic-bezier(0.7,0,0.3,1)}
 article a{font-family:"Affogato-Medium",sans-serif;color:#56505a;text-decoration:underline;text-decoration-skip:ink;text-decoration-style:dashed;outline:0;transition:color 500 ms ease-out}
 body.item-hdv article a{text-decoration-color:#16b3c2}
 body.item-web article a{text-decoration-color:#4d95e1}
@@ -276,7 +276,12 @@ ul.slider li.move-left{transform:translateX(-100%)}
 ul.slider-navigation{order:3;flex-grow:2;display:flex;flex-direction-row;justify-content:flex-end}
 ul.slider-navigation li{margin-left:32px}
 ul.slider-navigation a{display:block}
-ul.slider-navigation path{stroke:#56505a}
+ul.slider-navigation path{stroke:#968f9b}
+body.item-web ul.slider-navigation a:hover path{stroke:#4d95e1}
+body.item-fto ul.slider-navigation a:hover path{stroke:#37ba7a}
+body.item-ils ul.slider-navigation a:hover path{stroke:#f07050}
+body.item-otr ul.slider-navigation a:hover path{stroke:#c83771}
+body.item-hdv ul.slider-navigation a:hover path{stroke:#9f9e9d}
 article.slider-active ul.slider-navigation li a.inactive{opacity:0;visibility:hidden;transition:opacity 0.2s 0s,visibility 0s 0.2s}
 
 ul.slider-pagination{position:relative;z-index:2;text-align:center;display:block;width:100%;visibility:hidden}

@@ -211,12 +211,12 @@ body.item-otr article a{text-decoration-color:#c83771}
 article a:hover,article a:visited,article a:active{text-decoration:none}
 article p{margin:2em 0 0;font-size:100%;line-height:1.5;color:#56505a}
 article p+p{margin:.75em 0 0}
-div.item-txt>p:last-of-type:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
-body.item-web div.item-txt>p:last-of-type:after{background-color:#4d95e1}
-body.item-fto div.item-txt>p:last-of-type:after{background-color:#37ba7a}
-body.item-ils div.item-txt>p:last-of-type:after{background-color:#f07050}
-body.item-otr div.item-txt>p:last-of-type:after{background-color:#c83771}
-body.item-hdv div.item-txt>p:last-of-type:after{background-color:#9f9e9d}
+div.item-details>p:last-of-type:after{content:'';width:1ex;height:1ex;display:inline-block;margin-left:.5ex}
+body.item-web div.item-details>p:last-of-type:after{background-color:#4d95e1}
+body.item-fto div.item-details>p:last-of-type:after{background-color:#37ba7a}
+body.item-ils div.item-details>p:last-of-type:after{background-color:#f07050}
+body.item-otr div.item-details>p:last-of-type:after{background-color:#c83771}
+body.item-hdv div.item-details>p:last-of-type:after{background-color:#9f9e9d}
 
 div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
 div.item-txt{display:flex;flex-direction:column;order:2}
@@ -283,7 +283,8 @@ body.item-fto ul.slider-navigation a:hover path{stroke:#37ba7a}
 body.item-ils ul.slider-navigation a:hover path{stroke:#f07050}
 body.item-otr ul.slider-navigation a:hover path{stroke:#c83771}
 body.item-hdv ul.slider-navigation a:hover path{stroke:#9f9e9d}
-article.slider-active ul.slider-navigation li a.inactive{opacity:0;visibility:hidden;transition:opacity 0.2s 0s,visibility 0s 0.2s}
+article.slider-active ul.slider-navigation a{opacity:1;visibility:visible;transition:opacity 0.2s 0s,visibility 0s 0.2s}
+article.slider-active ul.slider-navigation a.inactive{opacity:0;visibility:hidden}
 
 ul.slider-pagination{position:relative;z-index:2;text-align:center;display:block;width:100%;visibility:hidden}
 .touch ul.slider-pagination{visibility:hidden}
@@ -365,6 +366,7 @@ div.grid{padding:0}
 
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
+body.scrolled article.slider-active{margin-top:170px}
 body.scrolled article h2{margin:22px 0}
 article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}

@@ -219,7 +219,7 @@ body.item-otr div.item-txt>p:last-of-type:after{background-color:#c83771}
 body.item-hdv div.item-txt>p:last-of-type:after{background-color:#9f9e9d}
 
 div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
-div.item-txt{display:flex;flex-direction:column}
+div.item-txt{display:flex;flex-direction:column;order:2}
 div.item-txt>a{display:flex;position:relative;margin:2em 0 0;text-decoration:none;overflow:hidden;align-items:stretch;flex-direction:row;justify-content:center}
 div.item-txt>a:before{content:'';display:block;position:absolute;width:64px;height:100%;top:0;bottom:0;left:0;transition:all .5s cubic-bezier(0.7,0,0.3,1);z-index:0}
 div.item-txt>a:hover:before{width:100%}
@@ -242,7 +242,7 @@ body.item-otr div.item-txt>a>span{color:#c83771}
 body.item-hdv div.item-txt>a>span{color:#9f9e9d}
 body.item-web div.item-txt>a:hover>span,body.item-fto div.item-txt>a:hover>span,body.item-ils div.item-txt>a:hover>span,body.item-otr div.item-txt>a:hover>span,body.item-hdv div.item-txt>a:hover>span{color:#f9f8f4}
 
-div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:10px;border-width:0 1px 0 0;border-style:dashed}
+div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:calc(2em + 10px);border-width:0 1px 0 0;border-style:dashed}
 div.item-cat-icon svg{margin-right:16px;stroke:#56505a;opacity:.75;vertical-align:0}
 body.item-web div.item-cat-icon{border-color:#4d95e1}
 body.item-fto div.item-cat-icon{border-color:#37ba7a}
@@ -370,8 +370,9 @@ article p{font-size:105%;line-height:1.625}
 body.biop-page article p,body.sysp-page article p{font-size:120%;line-height:1.625}
 body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}
 body.item-page article.slider-active div.item-txt{order:2;flex-basis:100%;flex-direction:row}
-body.item-page article.slider-active div.item-txt>h1{order:1;flex-basis:320px}
+body.item-page article.slider-active div.item-txt>h1{order:1;flex-basis:320px;flex-shrink:0}
 body.item-page article.slider-active div.item-details{order:2;flex-grow:1}
+body.item-page article.slider-active div.item-cat-icon{margin-top:10px}
 body.item-page article.slider-active div.item-details>p{margin:0 0 1em}
 
 footer{width:80px;height:100%;order:1;position:relative;bottom:unset;left:unset;right:unset;background-color:transparent;border-top:none}

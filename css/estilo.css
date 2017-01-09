@@ -327,7 +327,7 @@ body.scrolled ul.grid{margin-top:160px}
 body.scrolled div.grid{margin-top:160px}
 
 body.noscroll nav{height:128px}
-body.scrolled nav{width:620px;height:96px}
+body.scrolled nav{width:610px;height:96px}
 
 nav ul{float:right}
 nav li{display:inline;float:left;width:32px;margin:0 0 0 40px}
@@ -344,7 +344,7 @@ body.scrolled a.nav-filter-active:before{width:32px}
 body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active span,nav a:hover span,nav a:hover div.icon-nav-filter{opacity:1}
 nav a:before{bottom:-16px}
 
-div.logo-wrapper{margin:0 0 84px}
+div.logo-wrapper{margin:0 0 78px}
 div.logo-wrapper>a{order:1;flex-shrink:0;flex-basis:83px}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
 body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}

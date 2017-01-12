@@ -250,12 +250,12 @@ body.item-ils div.item-cat-icon{border-color:#f07050}
 body.item-otr div.item-cat-icon{border-color:#c83771}
 
 article blockquote,article blockquote>p{transition:all .25s cubic-bezier(0.7,0,0.3,1)}
-article blockquote{margin:2em 0 0;display:inline-block;position:relative;padding-left:2em;border-width:0 0 0 1px;border-style:dashed}
+article blockquote{margin:2em 0 0;display:inline-block;position:relative;border-width:0 0 0 1px;border-style:dashed}
 body.item-web article blockquote{border-color:#4d95e1}
 body.item-fto article blockquote{border-color:#37ba7a}
 body.item-ils article blockquote{border-color:#f07050}
 body.item-otr article blockquote{border-color:#c83771}
-article blockquote>p{font-size:90%;opacity:.5;margin:0}
+article blockquote>p{font-size:90%;opacity:.5;margin:0 0 0 1.5em}
 div.item-details>a:hover+blockquote>p{opacity:1}
 
 div.item-img svg{max-width:250px;width:100%;margin:0 auto;display:block}
@@ -381,7 +381,7 @@ div.footer-wrapper{display:block;overflow:hidden;;width:80px;height:100%;positio
 footer,footer>div{transition:width .5s cubic-bezier(0.7,0,0.3,1)}
 footer:hover{width:320px}
 footer:hover>div{width:240px}
-div.footer-links{width:80px;height:168px;position:absolute;top:244px}
+div.footer-links{width:80px;height:168px;position:absolute;top:238px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}
 footer svg.icon{display:inline;float:left;margin-left:0}

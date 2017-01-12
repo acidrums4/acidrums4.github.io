@@ -258,7 +258,7 @@ body.item-otr article blockquote{border-color:#c83771}
 article blockquote>p{font-size:90%;opacity:.5;margin:0 0 0 1.5em}
 div.item-details>a:hover+blockquote>p{opacity:1}
 
-div.item-img svg{max-width:250px;width:100%;margin:0 auto;display:block}
+div.item-img svg{width:100%;margin:0 auto;display:block}
 div.item-img path{fill:none;stroke:#56505a}
 div.item-img path.wide-stroke{stroke-width:6px}
 div.item-img path.narrow-stroke{stroke-width:2px}

@@ -147,7 +147,7 @@ li.item-otr>a:hover{border-color:#c83771}
 /* El menú */
 body.scrolled nav{position:fixed;width:100%;top:0;background-color:#f9f8f4;z-index:2}
 nav ul{list-style:none;margin:0;padding:0}
-body.item-page nav ul,body.sysp-page nav ul,body.biop-page nav ul{display:none}
+body:not(home-page) nav ul{display:none}
 nav li{display:inline-block;float:left;width:20%;margin:0}
 nav a{display:block;width:100%;height:64px;position:relative;margin:0}
 nav a,nav a *{transition:all 250ms ease-out}
@@ -189,12 +189,9 @@ footer a:hover svg{opacity:1}
 footer span{display:block;text-align:center;font-size:75%;width:200%;height:auto;margin:8px auto 0 -50%;color:#56505a}
 footer a:hover span{color:#26202a;text-decoration:underline}
 body.biop-page a.footer-link-cv,
-body.sysp-page a.footer-link-cv,
-body.biop-page a.footer-link-gb,
-body.sysp-page a.footer-link-gb,
+body:not(home-page) a.footer-link-gb,
 body.item-page a.footer-link-hm,
 body.home-page a.footer-link-hm,
-body.home-page a.footer-link-gb,
 body.home-page footer hr
 {display:none}
 
@@ -223,9 +220,6 @@ div.item-txt{display:flex;flex-direction:column;order:2}
 div.item-details>a{display:flex;position:relative;margin:2em 0 0;text-decoration:none;overflow:hidden;align-items:stretch;flex-direction:row;justify-content:center}
 div.item-details>a:before{content:'';display:block;position:absolute;width:64px;height:100%;top:0;bottom:0;left:0;transition:all .5s cubic-bezier(0.7,0,0.3,1);z-index:0}
 div.item-details>a:hover:before{width:100%}
-body.item-page div.item-details>a>button{background-position:-480px 0}
-body.biop-page div.item-details>a>button{background-position:-512px -32px}
-body.sysp-page div.item-details>a>button{background-position:-544px -32px}
 div.item-details>a>span,div.item-details>a em{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 div.item-details>a>span{word-wrap:break-word;font-size:100%;z-index:1;display:flex;order:2;flex-grow:2;flex-direction:column;justify-content:space-around;padding-left:16px}
 div.item-details>a>svg{order:1;z-index:1;stroke:#f9f8f4;flex-basis:32px;margin:16px}
@@ -348,8 +342,8 @@ div.logo-wrapper{margin:0 0 78px}
 div.logo-wrapper>a{order:1;flex-shrink:0;flex-basis:83px}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
 body.scrolled:not(home-page) div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
-body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
-body.scrolled.item-page svg.logo-item{width:62px}
+body.scrolled:not(home-page) div.logo-wrapper>a,body.scrolled:not(home-page) div.logo-wrapper>ul{margin:16px 0}
+body.scrolled svg.logo-item{width:62px}
 svg.logo-item{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}
@@ -369,12 +363,12 @@ body.scrolled article{margin-top:200px}
 body.scrolled article.slider-active{margin-top:170px}
 body.scrolled article h2{margin:22px 0}
 article p{font-size:105%;line-height:1.625}
-body.item-page article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}
-body.item-page article.slider-active div.item-txt{order:2;flex-basis:100%;flex-direction:row}
-body.item-page article.slider-active div.item-txt>h1{order:1;flex-basis:320px;flex-shrink:0}
-body.item-page article.slider-active div.item-details{order:2;flex-grow:1}
-body.item-page article.slider-active div.item-cat-icon{margin-top:10px}
-body.item-page article.slider-active div.item-details>p{margin:0 0 1em}
+article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}
+article.slider-active div.item-txt{order:2;flex-basis:100%;flex-direction:row}
+article.slider-active div.item-txt>h1{order:1;flex-basis:320px;flex-shrink:0}
+article.slider-active div.item-details{order:2;flex-grow:1}
+article.slider-active div.item-cat-icon{margin-top:10px}
+article.slider-active div.item-details>p{margin:0 0 1em}
 
 footer{width:80px;height:100%;order:1;position:relative;bottom:unset;left:unset;right:unset;background-color:transparent;border-top:none}
 div.footer-wrapper{display:block;overflow:hidden;;width:80px;height:100%;position:fixed;top:0;bottom:0;left:0;margin:0;border-width:0 1px 0 0;border-style:dashed;border-color:#d6d0da}

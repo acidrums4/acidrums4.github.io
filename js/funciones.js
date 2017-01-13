@@ -100,6 +100,7 @@ jQuery(document).ready(function(event){
 
       $('span.logo-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
+        if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();
 				$(this).off(e);
       });

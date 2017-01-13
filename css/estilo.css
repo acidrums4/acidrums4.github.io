@@ -347,7 +347,7 @@ nav a:before{bottom:-16px}
 div.logo-wrapper{margin:0 0 78px}
 div.logo-wrapper>a{order:1;flex-shrink:0;flex-basis:83px}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
-body.scrolled.item-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
+body.scrolled.item-page div.logo-wrapper,body.scrolled.sysp-page div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled.item-page div.logo-wrapper>a,body.scrolled.item-page div.logo-wrapper>ul{margin:16px 0}
 body.scrolled.item-page svg.logo-item{width:62px}
 svg.logo-item{width:83px;top:64px}

@@ -100,6 +100,7 @@ jQuery(document).ready(function(event){
 
       $('span.logo-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
+        if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();
 				$(this).off(e);
       });
@@ -311,14 +312,14 @@ jQuery(document).ready(function(event){
 
     //keyboard slider navigation
     $(document).keyup(function(event){
-        if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is(':first-child')) {
-        prevSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
-        } else if( event.which=='39' && $('.slider-active').length && !$('.slider-active .slider .selected').is(':last-child')) {
-        nextSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
-        } else if(event.which=='27') {
-        itemInfoWrapper.removeClass('slider-active');
-        }
-        });
+      if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is(':first-child')) {
+      prevSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
+      } else if( event.which=='39' && $('.slider-active').length && !$('.slider-active .slider .selected').is(':last-child')) {
+      nextSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
+      } else if(event.which=='27') {
+      itemInfoWrapper.removeClass('slider-active');
+      }
+    });
 
     function createSliderPagination($container){
       var wrapper = $('<ul class="slider-pagination"></ul>').insertAfter($container.find('ul.slider'));
@@ -371,4 +372,24 @@ jQuery(document).ready(function(event){
 
   init();
 
+  function animateAvatar(){
+    eyeL = document.getElementById('eye-l');
+    eyeR = document.getElementById('eye-r');
+		var animateL = document.createElementNS("http://www.w3.org/2000/svg","animate");
+		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
+    animateL.setAttribute('attributeName', 'd');
+    animateR.setAttribute('attributeName', 'd');
+    animateL.setAttribute('dur', '1s');
+    animateR.setAttribute('dur', '1s');
+    animateL.setAttribute('repeatDur', '1s');
+    animateR.setAttribute('repeatDur', '1s');
+    animateL.setAttribute('repeatCount', 'indefinite');
+    animateR.setAttribute('repeatCount', 'indefinite');
+    animateL.setAttribute('values', 'm 179,168 -36.75,-19 37.375,0 37.375,0 z; m 179,168 142.25,149 179.625,159 217,149 z; m 179,168 -36.75,-19 37.375,0 37.375,0 z');
+    animateR.setAttribute('values', 'm 291,168 36.75,-19 -37.375,0 -37.375,0 z; M 291,168 327.75,149 290.375,159 253,149 Z; m 291,168 36.75,-19 -37.375,0 -37.375,0 z');
+		eyeL.appendChild(animateL);
+		eyeR.appendChild(animateR);
+		animateL.beginElement();
+		animateR.beginElement();
+  }
 });

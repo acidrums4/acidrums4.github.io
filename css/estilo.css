@@ -252,12 +252,6 @@ body.item-otr article blockquote{border-color:#c83771}
 article blockquote>p{font-size:90%;opacity:.5;margin:0 0 0 1.5em}
 div.item-details>a:hover+blockquote>p{opacity:1}
 
-div.item-img svg{width:100%;margin:0 auto;display:block}
-div.item-img path{fill:none;stroke:#56505a}
-div.item-img path.wide-stroke{stroke-width:6px}
-div.item-img path.narrow-stroke{stroke-width:2px}
-div.item-img path.eye{animation:eyes 3s ease infinite}
-
 /* Galería de imágenes en el detalle */
 ul.slider{position:relative;z-index:1;overflow:hidden}
 ul.slider::before{content:'mobile';display:none}
@@ -295,6 +289,8 @@ body.item-ils ul.slider-pagination a{border-color:#f07050}
 body.item-otr ul.slider-pagination a{border-color:#c83771}
 
 /* Avatar */
+svg.avatar{width:100%;height:auto;display:block;margin:0 auto}
+svg.avatar path{stroke-width:0;stroke:none}
 svg.avatar path.a{fill:#3c383f}
 svg.avatar path.b{fill:#56505a}
 svg.avatar path.c{fill:#7d7483}

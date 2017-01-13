@@ -100,7 +100,6 @@ jQuery(document).ready(function(event){
 
       $('span.logo-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
-        if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();
 				$(this).off(e);
       });
@@ -242,6 +241,7 @@ jQuery(document).ready(function(event){
 
         $('main').html(section);
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
+        if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();
         });
   }
@@ -377,16 +377,16 @@ jQuery(document).ready(function(event){
     eyeR = document.getElementById('eye-r');
 		var animateL = document.createElementNS("http://www.w3.org/2000/svg","animate");
 		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
-    animateL.setAttribute('attributeName', 'd');
-    animateR.setAttribute('attributeName', 'd');
-    animateL.setAttribute('dur', '4s');
-    animateR.setAttribute('dur', '4s');
-    animateL.setAttribute('repeatCount', 'indefinite');
-    animateR.setAttribute('repeatCount', 'indefinite');
-		animateL.setAttribute('keyTimes', '0;0.02;0.04;1');
-		animateR.setAttribute('keyTimes', '0;0.02;0.04;1');
-    animateL.setAttribute('values', 'M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-    animateR.setAttribute('values', 'M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+    animateL.setAttribute('attributeName','d');
+    animateR.setAttribute('attributeName','d');
+    animateL.setAttribute('dur','3s');
+    animateR.setAttribute('dur','3s');
+    animateL.setAttribute('repeatCount','indefinite');
+    animateR.setAttribute('repeatCount','indefinite');
+		animateL.setAttribute('keyTimes','0;0.02;0.04;1');
+		animateR.setAttribute('keyTimes','0;0.02;0.04;1');
+    animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
+    animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
 		eyeL.appendChild(animateL);
 		eyeR.appendChild(animateR);
 		animateL.beginElement();

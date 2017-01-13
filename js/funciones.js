@@ -379,8 +379,8 @@ jQuery(document).ready(function(event){
 		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
     animateL.setAttribute('attributeName', 'd');
     animateR.setAttribute('attributeName', 'd');
-    animateL.setAttribute('dur', '1s');
-    animateR.setAttribute('dur', '1s');
+    animateL.setAttribute('dur', '10s');
+    animateR.setAttribute('dur', '10s');
     animateL.setAttribute('repeatDur', '1s');
     animateR.setAttribute('repeatDur', '1s');
     animateL.setAttribute('repeatCount', 'indefinite');

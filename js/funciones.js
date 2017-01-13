@@ -381,8 +381,6 @@ jQuery(document).ready(function(event){
     animateR.setAttribute('attributeName', 'd');
     animateL.setAttribute('dur', '10s');
     animateR.setAttribute('dur', '10s');
-    animateL.setAttribute('repeatDur', '1s');
-    animateR.setAttribute('repeatDur', '1s');
     animateL.setAttribute('repeatCount', 'indefinite');
     animateR.setAttribute('repeatCount', 'indefinite');
 		animateL.setAttribute('keyTimes', '0;0.1;1');

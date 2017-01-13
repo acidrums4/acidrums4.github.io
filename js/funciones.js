@@ -385,7 +385,7 @@ jQuery(document).ready(function(event){
     animateR.setAttribute('repeatCount', 'indefinite');
 		animateL.setAttribute('keyTimes', '0;0.02;0.04;1');
 		animateR.setAttribute('keyTimes', '0;0.02;0.04;1');
-    animateL.setAttribute('values', 'M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z';M179 168l-36.75-19l36.75,0l38,0z');
+    animateL.setAttribute('values', 'M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
     animateR.setAttribute('values', 'M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
 		eyeL.appendChild(animateL);
 		eyeR.appendChild(animateR);

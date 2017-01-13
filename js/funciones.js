@@ -379,12 +379,12 @@ jQuery(document).ready(function(event){
 		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
     animateL.setAttribute('attributeName', 'd');
     animateR.setAttribute('attributeName', 'd');
-    animateL.setAttribute('dur', '10s');
-    animateR.setAttribute('dur', '10s');
+    animateL.setAttribute('dur', '4s');
+    animateR.setAttribute('dur', '4s');
     animateL.setAttribute('repeatCount', 'indefinite');
     animateR.setAttribute('repeatCount', 'indefinite');
-		animateL.setAttribute('keyTimes', '0;0.1;1');
-		animateR.setAttribute('keyTimes', '0;0.1;1');
+		animateL.setAttribute('keyTimes', '0;0.05;1');
+		animateR.setAttribute('keyTimes', '0;0.05;1');
     animateL.setAttribute('values', 'M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z');
     animateR.setAttribute('values', 'M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z');
 		eyeL.appendChild(animateL);

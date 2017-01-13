@@ -98,7 +98,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('span.logo-wrapper').one('animationend transitionend', function(e){
+      $('span.loader-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();

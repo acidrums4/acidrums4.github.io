@@ -100,7 +100,7 @@ jQuery(document).ready(function(event){
 
       $('span.logo-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
-        //if ($('body').hasClass('biop-page')) animateAvatar();
+        if ($('body').hasClass('biop-page')) animateAvatar();
         setProgress();
 				$(this).off(e);
       });
@@ -387,8 +387,8 @@ jQuery(document).ready(function(event){
     animateR.setAttribute('repeatCount', 'indefinite');
 		animateL.setAttribute('keyTimes', '0;0.1;1');
 		animateR.setAttribute('keyTimes', '0;0.1;1');
-    animateL.setAttribute('values', 'm 179,168 -36.75,-19 37.375,0 37.375,0 z; m 179,168 142.25,149 179.625,159 217,149 z; m 179,168 -36.75,-19 37.375,0 37.375,0 z');
-    animateR.setAttribute('values', 'm 291,168 36.75,-19 -37.375,0 -37.375,0 z; M 291,168 327.75,149 290.375,159 253,149 Z; m 291,168 36.75,-19 -37.375,0 -37.375,0 z');
+    animateL.setAttribute('values', 'M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z');
+    animateR.setAttribute('values', 'M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z');
 		eyeL.appendChild(animateL);
 		eyeR.appendChild(animateR);
 		animateL.beginElement();

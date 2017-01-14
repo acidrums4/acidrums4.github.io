@@ -95,7 +95,7 @@ jQuery(document).ready(function(event){
 
       $('span.loader-wrapper').one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
-        if ($('body').hasClass('biop-page')) animateAvatar();
+        if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();
         setProgress();
 				$(this).off(e);
       });
@@ -237,7 +237,7 @@ jQuery(document).ready(function(event){
 
         $('main').html(section);
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
-        if ($('body').hasClass('biop-page')) animateAvatar();
+        if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();
         setProgress();
         });
   }
@@ -366,8 +366,6 @@ jQuery(document).ready(function(event){
     }
   }
 
-  init();
-
   function animateAvatar(){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
@@ -375,17 +373,32 @@ jQuery(document).ready(function(event){
 		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
     animateL.setAttribute('attributeName','d');
     animateR.setAttribute('attributeName','d');
-    animateL.setAttribute('dur','3s');
-    animateR.setAttribute('dur','3s');
     animateL.setAttribute('repeatCount','indefinite');
     animateR.setAttribute('repeatCount','indefinite');
-		animateL.setAttribute('keyTimes','0;0.02;0.04;1');
-		animateR.setAttribute('keyTimes','0;0.02;0.04;1');
-    animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-    animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+
+    if ($('body').hasClass('biop-page')){
+      animateL.setAttribute('dur','3s');
+      animateR.setAttribute('dur','3s');
+      animateL.setAttribute('keyTimes','0;0.02;0.04;1');
+      animateR.setAttribute('keyTimes','0;0.02;0.04;1');
+      animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
+      animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+    }
+    else if ($('body').hasClass('sysp-page')){
+      animateL.setAttribute('dur','3s');
+      animateR.setAttribute('dur','3s');
+      animateL.setAttribute('keyTimes','0;0.48;0.5;;0.98;1');
+      animateR.setAttribute('keyTimes','0;0.48;0.5;;0.98;1');
+      animateL.setAttribute('values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
+      animateR.setAttribute('values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
+    }
+
 		eyeL.appendChild(animateL);
 		eyeR.appendChild(animateR);
 		animateL.beginElement();
 		animateR.beginElement();
   }
+
+  init();
+
 });

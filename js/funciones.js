@@ -387,8 +387,8 @@ jQuery(document).ready(function(event){
     else if ($('body').hasClass('sysp-page')){
       animateL.setAttribute('dur','3s');
       animateR.setAttribute('dur','3s');
-      animateL.setAttribute('keyTimes','0;0.48;0.5;;0.98;1');
-      animateR.setAttribute('keyTimes','0;0.48;0.5;;0.98;1');
+      animateL.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
+      animateR.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
       animateL.setAttribute('values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
       animateR.setAttribute('values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
     }

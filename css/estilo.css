@@ -94,22 +94,22 @@ div.loading main,div.unload main{opacity:0;margin-top:300px}
 div.loaded main{opacity:1;margin-top:24px}
 header{width:100%}
 
-body:not(.home-page) main h1,body:not(.home-page) main h3,body:not(.home-page) header hr{display:none}
-main h1,main h2,main h3{text-align:left;color:#56505a}
-main h1{font-size:175%;line-height:1.25;font-weight:bold}
-main h3{line-height:1.5;font-weight:normal;font-size:105%}
-main h3 em{font-family:"Affogato-Medium",sans-serif}
-main h3.title-web em{color:#4d95e1}
-main h3.title-fto em{color:#37ba7a}
-main h3.title-ils em{color:#f07050}
-main h3.title-otr em{color:#c83771}
+body.home-page h1,body.home-page h3,body.home-page hr{display:none}
+h1,h2,h3{text-align:left;color:#56505a}
+h1{font-size:175%;line-height:1.25;font-weight:bold}
+h3{line-height:1.5;font-weight:normal;font-size:105%}
+h3 em{font-family:"Affogato-Medium",sans-serif}
+h3.title-web em{color:#4d95e1}
+h3.title-fto em{color:#37ba7a}
+h3.title-ils em{color:#f07050}
+h3.title-otr em{color:#c83771}
 
-body.item-all main h3.title-web,body.item-all main h3.title-fto,body.item-all main h3.title-ils,body.item-all main h3.title-otr,
-body.item-web main h3.title-all,body.item-web main h3.title-fto,body.item-web main h3.title-ils,body.item-web main h3.title-otr,
-body.item-fto main h3.title-all,body.item-fto main h3.title-web,body.item-fto main h3.title-ils,body.item-fto main h3.title-otr,
-body.item-ils main h3.title-all,body.item-ils main h3.title-web,body.item-ils main h3.title-fto,body.item-ils main h3.title-otr,
-body.item-otr main h3.title-all,body.item-otr main h3.title-web,body.item-otr main h3.title-fto,body.item-otr main h3.title-ils,
-body.item-hdv main h3.title-all,body.item-hdv main h3.title-web,body.item-hdv main h3.title-fto,body.item-hdv main h3.title-ils,body.item-hdv main h3.title-otr{display:none}
+body.item-all h3.title-web,body.item-all h3.title-fto,body.item-all h3.title-ils,body.item-all h3.title-otr,
+body.item-web h3.title-all,body.item-web h3.title-fto,body.item-web h3.title-ils,body.item-web h3.title-otr,
+body.item-fto h3.title-all,body.item-fto h3.title-web,body.item-fto h3.title-ils,body.item-fto h3.title-otr,
+body.item-ils h3.title-all,body.item-ils h3.title-web,body.item-ils h3.title-fto,body.item-ils h3.title-otr,
+body.item-otr h3.title-all,body.item-otr h3.title-web,body.item-otr h3.title-fto,body.item-otr h3.title-ils,
+body.item-hdv h3.title-all,body.item-hdv h3.title-web,body.item-hdv h3.title-fto,body.item-hdv h3.title-ils,body.item-hdv h3.title-otr{display:none}
 
 svg.icon{vertical-align:-.5px;width:32px;height:32px}
 
@@ -185,7 +185,7 @@ footer{display:block;z-index:2;width:100%;margin:0;order:2;position:fixed;bottom
 div.footer-wrapper{display:block;width:100%;margin:16px auto}
 div.footer-wrapper:after{content:'';display:table;width:100%;height:0;margin:0;clear:both}
 div.footer-links{display:block;text-align:center}
-footer a{display:inline-block;margin:0 24px;width:32px;height:32px;text-decoration:none}
+footer a{display:inline-block;margin:0 16px;width:32px;height:32px;text-decoration:none}
 footer svg{display:block;stroke:#56505a;opacity:.75;transition:opacity .25s cubic-bezier(0.7,0,0.3,1)}
 footer a:hover svg{opacity:1}
 footer span{display:block;text-align:center;font-size:75%;width:200%;height:auto;margin:8px auto 0 -50%;color:#56505a}
@@ -359,8 +359,8 @@ nav a.nav-filter-active{display:block}
 body.noscroll nav a:hover span,body.noscroll nav a.nav-filter-active span{bottom:20px}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
-main h1,main h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-main h1{font-size:300%}
+h1,h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+h1{font-size:300%}
 header hr{display:block;height:0;width:4em;float:left;clear:both;margin:24px 0;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 div.grid{padding:0}

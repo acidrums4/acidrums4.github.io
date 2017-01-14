@@ -359,7 +359,7 @@ nav a.nav-filter-active{display:block}
 body.noscroll nav a:hover span,body.noscroll nav a.nav-filter-active span{bottom:20px}
 body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacity:0}
 
-h1,h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
+body.home-page h1,body.home-page h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 h1{font-size:300%}
 header hr{display:block;height:0;width:4em;float:left;clear:both;margin:24px 0;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}

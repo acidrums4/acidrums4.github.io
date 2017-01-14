@@ -351,7 +351,7 @@ div.logo-wrapper>a{flex-basis:83px;margin:0}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
 body.scrolled:not(.home-page) div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled:not(.home-page) div.logo-wrapper>a,body.scrolled:not(home-page) div.logo-wrapper>ul{margin:16px 0}
-body.scrolled svg.logo-item{width:62px}
+body.scrolled.not(.home-page) svg.logo-item{width:62px}
 svg.logo-item{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}
 body.scrolled nav a:hover div.icon-nav-filter{top:28px}
@@ -361,7 +361,7 @@ body.scrolled nav a.nav-filter-active span,body.scrolled nav a:hover span{opacit
 
 body.home-page h1,body.home-page h3{opacity:1;display:block;clear:both;transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 h1{font-size:300%}
-header hr{display:block;height:0;width:4em;float:left;clear:both;margin:24px 0;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
+body.home-page header hr{display:block;height:0;width:4em;float:left;clear:both;margin:24px 0;border-width:1px 0 0 0;border-style:dashed;border-color:#bcb7bf}
 ul.grid{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 div.grid{padding:0}
 

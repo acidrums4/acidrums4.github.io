@@ -65,11 +65,6 @@ jQuery(document).ready(function(event){
     ($(this).scrollTop() > 99) ? $('body').addClass("scrolled").removeClass("noscroll") : $('body').addClass("noscroll").removeClass("scrolled");
   });
 
-  $('a.home-link').on('click', function(event){
-    event.preventDefault();
-    changePage('index.html', true);
-  });
-
   $('button.goback-bn').on('click', function(){
     if ($('body').hasClass('item-page') || $('body').hasClass('biop-page')){
       changePage('../../index.html', true);

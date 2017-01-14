@@ -217,8 +217,8 @@ body.item-ils div.item-details>p:last-of-type:after{background-color:#f07050}
 body.item-otr div.item-details>p:last-of-type:after{background-color:#c83771}
 body.item-hdv div.item-details>p:last-of-type:after{background-color:#9f9e9d}
 
-div.item-img{margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
-div.item-txt{display:flex;flex-direction:column;order:2}
+div.item-img{order:2;margin-bottom:50px;position:relative;z-index:1;transform:translateZ(0);backface-visibility:hidden;will-change:width}
+div.item-txt{display:flex;flex-direction:column;order:3}
 div.item-details>a{display:flex;position:relative;margin:2em 0 0;text-decoration:none;overflow:hidden;align-items:stretch;flex-direction:row;justify-content:center}
 div.item-details>a:before{content:'';display:block;position:absolute;width:64px;height:100%;top:0;bottom:0;left:0;transition:all .5s cubic-bezier(0.7,0,0.3,1);z-index:0}
 div.item-details>a:hover:before{width:100%}
@@ -346,7 +346,7 @@ body.scrolled a.nav-filter-active div.icon-nav-filter,nav a.nav-filter-active sp
 nav a:before{bottom:-16px}
 
 div.logo-wrapper{margin:0 0 78px}
-div.logo-wrapper>a{flex-basis:83px}
+div.logo-wrapper>a{flex-basis:83px;margin:0}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
 body.scrolled:not(.home-page) div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
 body.scrolled:not(.home-page) div.logo-wrapper>a,body.scrolled:not(home-page) div.logo-wrapper>ul{margin:16px 0}

@@ -89,12 +89,12 @@ div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}
 div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
 
-main{opacity:1;order:1;margin:50px auto 50px;width:100%;position:relative;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+main{opacity:1;order:1;margin:50px auto 84px;width:100%;position:relative;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.loading main,div.unload main{opacity:0;margin-top:300px}
 div.loaded main{opacity:1;margin-top:24px}
 header{width:100%}
 
-body:not(.home-page)main h1,body:not(.home-page)main h3,body:not(.home-page)header hr{display:none}
+body:not(.home-page) main h1,body:not(.home-page) main h3,body:not(.home-page) header hr{display:none}
 main h1,main h2,main h3{text-align:left;color:#56505a}
 main h1{font-size:175%;line-height:1.25;font-weight:bold}
 main h3{line-height:1.5;font-weight:normal;font-size:105%}
@@ -148,7 +148,7 @@ li.item-otr>a:hover{border-color:#c83771}
 /* El menú */
 body.scrolled nav{position:fixed;width:100%;top:0;background-color:#f9f8f4;z-index:2}
 nav ul{list-style:none;margin:0;padding:0}
-body:not(.home-page)nav ul{display:none}
+body:not(.home-page) nav ul{display:none}
 nav li{display:inline-block;float:left;width:20%;margin:0}
 nav a{display:block;width:100%;height:64px;position:relative;margin:0}
 nav a,nav a *{transition:all 250ms ease-out}
@@ -198,7 +198,7 @@ footer hr
 {display:none}
 
 /* Detalle */
-article{margin:0 16px}
+article{margin:0 16px 24px}
 svg.logo-item{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 article h1:after{content:'.'}
 article h2{order:2;flex-shrink:0;font-weight:normal;font-size:100%;letter-spacing:0.375ex;text-transform:uppercase;line-height:1.5em;transition:margin .5s cubic-bezier(0.7,0,0.3,1)}
@@ -349,8 +349,8 @@ nav a:before{bottom:-16px}
 div.logo-wrapper{margin:0 0 78px}
 div.logo-wrapper>a{flex-basis:83px;margin:0}
 div.logo-wrapper>h2{margin:4px 0 18px 2em;padding-left:1em;border-left:1px dashed #c6c0ca}
-body.scrolled:not(.home-page)div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
-body.scrolled:not(.home-page)div.logo-wrapper>a,body.scrolled:not(home-page)div.logo-wrapper>ul{margin:16px 0}
+body.scrolled:not(.home-page) div.logo-wrapper{position:fixed;z-index:2;top:0;width:960px;background-color:#f9f8f4}
+body.scrolled:not(.home-page) div.logo-wrapper>a,body.scrolled:not(home-page) div.logo-wrapper>ul{margin:16px 0}
 body.scrolled svg.logo-item{width:62px}
 svg.logo-item{width:83px;top:64px}
 body.noscroll nav a:hover div.icon-nav-filter{top:0}

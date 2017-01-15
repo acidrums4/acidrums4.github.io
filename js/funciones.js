@@ -334,11 +334,9 @@ jQuery(document).ready(function(event){
     function nextSlide($container, $pagination, $n){
       var visibleSlide = $container.find('ul.slider li.selected'),
           navigationDot = $container.find('ul.slider-pagination .selected');
-      if(typeof $n === 'undefined') $n = visibleSlide.index() + 1;
-      console.log("visibleSlide.index()" + visibleSlide.index());
-      console.log("$n" + $n);
+      if(typeof $n === 'undefined') $n = visibleSlide.index('li') + 1;
       visibleSlide.removeClass('selected');
-      $container.find('ul.slider li').eq($n).addClass('selected').prevAll().addClass('move-left');
+      $container.find('ul.slider li').eq($n).addClass('selected').prevAll('li').addClass('move-left');
       navigationDot.removeClass('selected')
         $pagination.eq($n).addClass('selected');
       updateNavigation($container, $container.find('ul.slider li').eq($n));
@@ -347,11 +345,9 @@ jQuery(document).ready(function(event){
     function prevSlide($container, $pagination, $n){
       var visibleSlide = $container.find('ul.slider li.selected'),
           navigationDot = $container.find('ul.slider-pagination .selected');
-      if(typeof $n === 'undefined') $n = visibleSlide.index() - 1;
-      console.log("visibleSlide.index()" + visibleSlide.index());
-      console.log("$n" + $n);
+      if(typeof $n === 'undefined') $n = visibleSlide.index('li') - 1;
       visibleSlide.removeClass('selected')
-        $container.find('ul.slider li').eq($n).addClass('selected').removeClass('move-left').nextAll().removeClass('move-left');
+        $container.find('ul.slider li').eq($n).addClass('selected').removeClass('move-left').nextAll('li').removeClass('move-left');
       navigationDot.removeClass('selected');
       $pagination.eq($n).addClass('selected');
       updateNavigation($container, $container.find('ul.slider li').eq($n));

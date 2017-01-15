@@ -228,80 +228,80 @@ jQuery(document).ready(function(event){
     var section = $('div.main-wrapper');
 
     section.load(url + ' .main-wrapper > *', function(event){
-        if(url!=window.location && bool){
-        window.history.pushState({path: url},null,url);
-        //window.history.pushState(null,null,url);
-        }
+      if(url!=window.location && bool){
+      window.history.pushState({path: url},null,url);
+      //window.history.pushState(null,null,url);
+      }
 
-        $('main').html(section);
-        if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
-        if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();
-        setProgress();
-        });
+      $('main').html(section);
+      if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
+      if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();
+      setProgress();
+    });
   }
 
   function doExpandableGallery(itemInfoWrapper){
     itemInfoWrapper.each(function(){
-        var container = $(this),
-        // create slider pagination
-        sliderPagination = createSliderPagination(container);
+      var container = $(this),
+      // create slider pagination
+      sliderPagination = createSliderPagination(container);
 
-        //update slider navigation visibility
-        updateNavigation(container, container.find('.slider li').eq(0));
+      //update slider navigation visibility
+      updateNavigation(container, container.find('ul.slider li').eq(0));
 
-        container.find('.slider').on('click', function(event){
-            //enlarge slider images 
-            if( !container.hasClass('slider-active') && $(event.target).is('.slider')) {
-            itemInfoWrapper.removeClass('slider-active');
-            container.addClass('slider-active').one('animationend transitionend', function(e){
-                $('body,html').animate({'scrollTop':container.offset().top}, 200);
-								$(this).off(e);
-                });
-            }
-            });
+      container.find('ul.slider').on('click', function(event){
+        //enlarge slider images 
+        if( !container.hasClass('slider-active') && $(event.target).is('ul.slider')){
+          itemInfoWrapper.removeClass('slider-active');
+          container.addClass('slider-active').one('animationend transitionend', function(e){
+            $('body,html').animate({'scrollTop':container.offset().top}, 200);
+            $(this).off(e);
+          });
+        }
+      });
 
-        container.find('a.item-close').on('click', function(event){
-            //shrink slider images 
-            event.preventDefault();
-            container.removeClass('slider-active');
-            });
+      container.find('a.item-close').on('click', function(event){
+        //shrink slider images 
+        event.preventDefault();
+        container.removeClass('slider-active');
+        });
 
-        //update visible slide
-        container.find('a.slide-next').on('click', function(event){
-            event.preventDefault();
-            nextSlide(container, sliderPagination);
-            });
+      //update visible slide
+      container.find('a.slide-next').on('click', function(event){
+        event.preventDefault();
+        nextSlide(container, sliderPagination);
+        });
 
-        container.find('a.slide-prev').on('click', function(event){
-            event.preventDefault();
-            prevSlide(container, sliderPagination);
-            });
+      container.find('a.slide-prev').on('click', function(event){
+        event.preventDefault();
+        prevSlide(container, sliderPagination);
+        });
 
-        container.find('.slider').on('swipeleft', function(){
-            var wrapper = $(this),
-            bool = enableSwipe(container);
-            if(!wrapper.find('.selected').is(':last-child') && bool) {nextSlide(container, sliderPagination);}
-            });
+      container.find('ul.slider').on('swipeleft', function(){
+        var wrapper = $(this),
+        bool = enableSwipe(container);
+        if(!wrapper.find('li.selected').is(':last-of-type') && bool) {nextSlide(container, sliderPagination);}
+        });
 
-        container.find('.slider').on('swiperight', function(){
-            var wrapper = $(this),
-            bool = enableSwipe(container);
-            if(!wrapper.find('.selected').is(':first-child') && bool) {prevSlide(container, sliderPagination);}
-            });
+      container.find('ul.slider').on('swiperight', function(){
+        var wrapper = $(this),
+        bool = enableSwipe(container);
+        if(!wrapper.find('li.selected').is(':first-of-type') && bool) {prevSlide(container, sliderPagination);}
+        });
 
-        sliderPagination.on('click', function(event){
-            event.preventDefault();
-            var selectedDot = $(this);
-            if(!selectedDot.hasClass('selected')) {
-            var selectedPosition = selectedDot.index(),
-            activePosition = container.find('.slider .selected').index();
-            if( activePosition < selectedPosition) {
-            nextSlide(container, sliderPagination, selectedPosition);
-            } else {
-            prevSlide(container, sliderPagination, selectedPosition);
-            }
-            }
-            });
+      sliderPagination.on('click', function(event){
+        event.preventDefault();
+        var selectedDot = $(this);
+        if(!selectedDot.hasClass('selected')) {
+        var selectedPosition = selectedDot.index(),
+        activePosition = container.find('.slider .selected').index();
+        if( activePosition < selectedPosition) {
+        nextSlide(container, sliderPagination, selectedPosition);
+        } else {
+        prevSlide(container, sliderPagination, selectedPosition);
+        }
+        }
+        });
     });	
 
     //keyboard slider navigation
@@ -336,10 +336,10 @@ jQuery(document).ready(function(event){
           navigationDot = $container.find('ul.slider-pagination .selected');
       if(typeof $n === 'undefined') $n = visibleSlide.index() + 1;
       visibleSlide.removeClass('selected');
-      $container.find('.slider li').eq($n).addClass('selected').prevAll().addClass('move-left');
+      $container.find('ul.slider li').eq($n).addClass('selected').prevAll().addClass('move-left');
       navigationDot.removeClass('selected')
         $pagination.eq($n).addClass('selected');
-      updateNavigation($container, $container.find('.slider li').eq($n));
+      updateNavigation($container, $container.find('ul.slider li').eq($n));
     }
 
     function prevSlide($container, $pagination, $n){
@@ -347,10 +347,10 @@ jQuery(document).ready(function(event){
           navigationDot = $container.find('ul.slider-pagination .selected');
       if(typeof $n === 'undefined') $n = visibleSlide.index() - 1;
       visibleSlide.removeClass('selected')
-        $container.find('.slider li').eq($n).addClass('selected').removeClass('move-left').nextAll().removeClass('move-left');
+        $container.find('ul.slider li').eq($n).addClass('selected').removeClass('move-left').nextAll().removeClass('move-left');
       navigationDot.removeClass('selected');
       $pagination.eq($n).addClass('selected');
-      updateNavigation($container, $container.find('.slider li').eq($n));
+      updateNavigation($container, $container.find('ul.slider li').eq($n));
     }
 
     function updateNavigation($container, $active) {

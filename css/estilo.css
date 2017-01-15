@@ -110,7 +110,7 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 /* Ítems en la página inicial */
 div.grid{padding:0 16px}
 div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden;line-height:0}
-div.grid>a:after{content:'';width:100%;height:100%;position:absolute;top:100%;left:0;right:0;opacity:0;transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
+div.grid>a:after{content:'';width:100%;height:100%;position:absolute;top:100%;left:0;right:0;transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
 div.grid>a:hover:after{transform:translateY(-100%)}
 div.grid a.item-web:before,div.grid a.item-web:after{background-color:#4d95e1}
 div.grid a.item-fto:before,div.grid a.item-fto:after{background-color:#37ba7a}

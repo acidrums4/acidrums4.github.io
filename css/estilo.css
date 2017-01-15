@@ -36,9 +36,9 @@ textarea{overflow:auto;vertical-align:top}
 *,*:after,*:before{box-sizing:border-box}
 html,body{height:100%}
 html{font-size:62.5%}
-body{margin:0;font-size:1.6rem;line-height:1;font-family:"Affogato",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0;overflow:hidden}
+body{margin:0;font-size:1.6rem;line-height:1;font-family:"Affogato",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0}
 
-body.layout-switch{overflow:visible}
+/*body.layout-switch{overflow:visible}*/
 body.item-all div.intro-container{background-color:#e84a5f}
 body.item-web div.intro-container{background-color:#4d95e1}
 body.item-fto div.intro-container{background-color:#37ba7a}
@@ -79,8 +79,8 @@ div.loaded path.logo{fill:#e84a5f}
 body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#eae9e6}
 div.loading path.logo{opacity:1}
 div.unload path.logo{opacity:0}
-body.layout-switch div.unload path.logo{opacity:0}
-body.layout-switch path.logo-background{opacity:0}
+/*body.layout-switch div.unload path.logo{opacity:0}
+body.layout-switch path.logo-background{opacity:0}*/
 div.unload path.logo-background{opacity:1}
 body div.unload path.logo{opacity:1}
 

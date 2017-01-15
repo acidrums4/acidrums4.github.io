@@ -123,7 +123,7 @@ jQuery(document).ready(function(event){
       container.one('animationend transitionend', function(e){
         window.removeEventListener( 'scroll', noscroll );
         //$('body').addClass('layout-switch');
-				$('body').css(overflow:'visible');
+				$('body').css({overflow:'visible'});
         isAnimating = false;
 				$(this).off(e);
       });
@@ -210,7 +210,7 @@ jQuery(document).ready(function(event){
 
     container.one('animationend transitionend', function(e){
       //$('body').removeClass('layout-switch');
-			$('body').css(overflow:'hidden');
+			$('body').css({overflow:'hidden'});
       loadNewContent(url, bool);
       newLocation = url;
 			$(this).off(e);

@@ -89,9 +89,9 @@ div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}
 div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
 
-main{opacity:1;order:1;margin:50px auto 84px;width:100%;position:relative;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+/*main{opacity:1;order:1;margin:50px auto 84px;width:100%;position:relative;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
 div.loading main,div.unload main{opacity:0;margin-top:300px}
-div.loaded main{opacity:1;margin-top:24px}
+div.loaded main{opacity:1;margin-top:24px}*/
 header{width:100%}
 
 body.home-page h1,body.home-page h3,body.home-page hr{display:none}

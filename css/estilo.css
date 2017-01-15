@@ -407,7 +407,7 @@ article.slider-active ul.slider:before,article.slider-active ul.slider:after{dis
 
 ul.slider-navigation{order:3;flex-grow:2;display:flex;flex-direction-row;justify-content:flex-end}
 ul.slider-navigation,ul.slider-pagination li{opacity:0;transition:opacity 0.4s 0s}
-article.slider-active ul.slider-navigation,article.slider-active ul.slider-pagination li{opacity:0;transition:opacity 0.4s 0s}
+article.slider-active ul.slider-navigation,article.slider-active ul.slider-pagination li{opacity:1}
 ul.slider-pagination{margin:0}
 ul.slider-pagination a{width:16px;height:16px}
 article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pagination{opacity:1;transition:opacity 0.4s 0.4s}

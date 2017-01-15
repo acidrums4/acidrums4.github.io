@@ -238,7 +238,7 @@ body.item-otr div.item-details>a>span{color:#c83771}
 body.item-hdv div.item-details>a>span{color:#9f9e9d}
 body.item-web div.item-details>a:hover>span,body.item-fto div.item-details>a:hover>span,body.item-ils div.item-details>a:hover>span,body.item-otr div.item-details>a:hover>span,body.item-hdv div.item-details>a:hover>span{color:#f9f8f4}
 
-div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:calc(2em + 10px);border-width:0 1px 0 0;border-style:dashed}
+div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:calc(1em + 10px);border-width:0 1px 0 0;border-style:dashed}
 div.item-cat-icon svg{margin-right:16px;stroke:#56505a;opacity:.75;vertical-align:0}
 body.item-web div.item-cat-icon{border-color:#4d95e1}
 body.item-fto div.item-cat-icon{border-color:#37ba7a}
@@ -368,6 +368,7 @@ body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
 body.scrolled article.slider-active{margin-top:170px}
 body.scrolled article h2{margin:22px 0}
+div.item-cat-icon{margin-top:calc(2em + 10px)}
 article h2{flex-grow:1;text-align:left;transition:all .5s ease-out}
 article p{font-size:105%;line-height:1.625;margin:2em 0 0}
 article.slider-active div.item-img{order:1;flex-basis:100%;margin-left:0;margin-bottom:80px}

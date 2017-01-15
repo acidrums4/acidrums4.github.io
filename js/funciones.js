@@ -294,7 +294,7 @@ jQuery(document).ready(function(event){
         var selectedDot = $(this);
         if(!selectedDot.hasClass('selected')) {
           var selectedPosition = selectedDot.index(),
-          activePosition = container.find('.slider .selected').index();
+          activePosition = container.find('ul.slider li.selected').index();
           if( activePosition < selectedPosition) {
             nextSlide(container, sliderPagination, selectedPosition);
           } else {
@@ -332,9 +332,11 @@ jQuery(document).ready(function(event){
     }
 
     function nextSlide($container, $pagination, $n){
-      var visibleSlide = $container.find('.slider .selected'),
+      var visibleSlide = $container.find('ul.slider li.selected'),
           navigationDot = $container.find('ul.slider-pagination .selected');
       if(typeof $n === 'undefined') $n = visibleSlide.index() + 1;
+      console.log("visibleSlide.index()" + visibleSlide.index());
+      console.log("$n" + $n);
       visibleSlide.removeClass('selected');
       $container.find('ul.slider li').eq($n).addClass('selected').prevAll().addClass('move-left');
       navigationDot.removeClass('selected')
@@ -343,9 +345,11 @@ jQuery(document).ready(function(event){
     }
 
     function prevSlide($container, $pagination, $n){
-      var visibleSlide = $container.find('.slider .selected'),
+      var visibleSlide = $container.find('ul.slider li.selected'),
           navigationDot = $container.find('ul.slider-pagination .selected');
       if(typeof $n === 'undefined') $n = visibleSlide.index() - 1;
+      console.log("visibleSlide.index()" + visibleSlide.index());
+      console.log("$n" + $n);
       visibleSlide.removeClass('selected')
         $container.find('ul.slider li').eq($n).addClass('selected').removeClass('move-left').nextAll().removeClass('move-left');
       navigationDot.removeClass('selected');

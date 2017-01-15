@@ -51,6 +51,7 @@ div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;po
 div.intro-container path.logo{opacity:0}
 div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
 svg.logo.loading{animation:loading .5s linear infinite}
+/*
 body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#f9f8f4}
 body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#164980}
 body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#14442d}
@@ -62,6 +63,14 @@ body.item-web path.logo-background{fill:#79afe8}
 body.item-fto path.logo-background{fill:#57cd93}
 body.item-ils path.logo-background{fill:#f4967f}
 body.item-otr path.logo-background{fill:#d35f8d}
+body.item-hdv path.logo-background{fill:#16b3c2}
+*/
+div.loading path.logo,div.unload path.logo{fill:#f9f8f4}
+body.item-all path.logo-background{fill:#881121}
+body.item-web path.logo-background{fill:#164980}
+body.item-fto path.logo-background{fill:#14442d}
+body.item-ils path.logo-background{fill:#99290d}
+body.item-otr path.logo-background{fill:#50162d}
 body.item-hdv path.logo-background{fill:#16b3c2}
 
 div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}

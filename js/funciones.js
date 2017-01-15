@@ -121,7 +121,7 @@ jQuery(document).ready(function(event){
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
-        //$('body').addClass('layout-switch');
+        $('body').addClass('layout-switch');
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);
@@ -208,7 +208,7 @@ jQuery(document).ready(function(event){
     container.removeClass('loaded').addClass('unload');
 
     container.one('animationend transitionend', function(e){
-      //$('body').removeClass('layout-switch');
+      $('body').removeClass('layout-switch');
       loadNewContent(url, bool);
       newLocation = url;
 			$(this).off(e);

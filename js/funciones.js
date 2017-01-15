@@ -264,51 +264,51 @@ jQuery(document).ready(function(event){
         //shrink slider images 
         event.preventDefault();
         container.removeClass('slider-active');
-        });
+      });
 
       //update visible slide
       container.find('a.slide-next').on('click', function(event){
         event.preventDefault();
         nextSlide(container, sliderPagination);
-        });
+      });
 
       container.find('a.slide-prev').on('click', function(event){
         event.preventDefault();
         prevSlide(container, sliderPagination);
-        });
+      });
 
       container.find('ul.slider').on('swipeleft', function(){
         var wrapper = $(this),
         bool = enableSwipe(container);
         if(!wrapper.find('li.selected').is(':last-of-type') && bool) {nextSlide(container, sliderPagination);}
-        });
+      });
 
       container.find('ul.slider').on('swiperight', function(){
         var wrapper = $(this),
         bool = enableSwipe(container);
         if(!wrapper.find('li.selected').is(':first-of-type') && bool) {prevSlide(container, sliderPagination);}
-        });
+      });
 
       sliderPagination.on('click', function(event){
         event.preventDefault();
         var selectedDot = $(this);
         if(!selectedDot.hasClass('selected')) {
-        var selectedPosition = selectedDot.index(),
-        activePosition = container.find('.slider .selected').index();
-        if( activePosition < selectedPosition) {
-        nextSlide(container, sliderPagination, selectedPosition);
-        } else {
-        prevSlide(container, sliderPagination, selectedPosition);
+          var selectedPosition = selectedDot.index(),
+          activePosition = container.find('.slider .selected').index();
+          if( activePosition < selectedPosition) {
+            nextSlide(container, sliderPagination, selectedPosition);
+          } else {
+            prevSlide(container, sliderPagination, selectedPosition);
+          }
         }
-        }
-        });
+      });
     });	
 
     //keyboard slider navigation
     $(document).keyup(function(event){
-      if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is(':first-child')) {
+      if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is':first-of-type')) {
       prevSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
-      } else if( event.which=='39' && $('.slider-active').length && !$('.slider-active .slider .selected').is(':last-child')) {
+      } else if( event.which=='39' && $('.slider-active').length && !$('.slider-active .slider .selected').is(':last-of-type')) {
       nextSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
       } else if(event.which=='27') {
       itemInfoWrapper.removeClass('slider-active');
@@ -354,8 +354,8 @@ jQuery(document).ready(function(event){
     }
 
     function updateNavigation($container, $active) {
-      $container.find('a.slide-prev').toggleClass('inactive', $active.is(':first-child'));
-      $container.find('a.slide-next').toggleClass('inactive', $active.is(':last-child'));
+      $container.find('a.slide-prev').toggleClass('inactive', $active.is(':first-of-type'));
+      $container.find('a.slide-next').toggleClass('inactive', $active.is(':last-of-type'));
     }
 
     function enableSwipe($container) {

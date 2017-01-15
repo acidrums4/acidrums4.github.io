@@ -340,7 +340,7 @@ jQuery(document).ready(function(event){
       visibleSlide.removeClass('selected');
       $container.find('ul.slider li').eq($n).addClass('selected').prevAll('li').addClass('move-left');
       navigationDot.removeClass('selected')
-        $pagination.eq($n).addClass('selected');
+      $pagination.eq($n).addClass('selected');
       updateNavigation($container, $container.find('ul.slider li').eq($n));
     }
 

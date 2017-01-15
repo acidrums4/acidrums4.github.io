@@ -301,12 +301,12 @@ jQuery(document).ready(function(event){
             prevSlide(container, sliderPagination, selectedPosition);
           }
         }
-      });
+        });
     });	
 
     //keyboard slider navigation
     $(document).keyup(function(event){
-      if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is':first-of-type')) {
+      if(event.which=='37' && $('.slider-active').length > 0 && !$('.slider-active .slider .selected').is(':first-of-type')) {
       prevSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));
       } else if( event.which=='39' && $('.slider-active').length && !$('.slider-active .slider .selected').is(':last-of-type')) {
       nextSlide($('.slider-active'), $('.slider-active').find('ul.slider-pagination li'));

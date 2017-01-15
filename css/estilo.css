@@ -113,9 +113,8 @@ svg.icon{vertical-align:-.5px;width:32px;height:32px}
 /* Ítems en la página inicial */
 div.grid{padding:0 16px}
 div.grid>a{margin:0 0 16px;display:inline-block;position:relative;overflow:hidden;line-height:0}
-div.grid>a:before{content:'';position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;width:96px;height:96px;border-radius:50%;opacity:0;transition:opacity .25s ease-out}
-div.grid>a:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0;right:0;bottom:0;opacity:0;mix-blend-mode:color;transition:opacity .5s cubic-bezier(0.7,0,0.3,1)}
-div.grid a:hover svg.icon,div.grid>a:hover:before,div.grid>a:hover:after{opacity:1}
+div.grid>a:after{content:'';width:100%;height:100%;position:absolute;top:100%;left:0;right:0;opacity:0;mix-blend-mode:color;transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
+div.grid>a:hover:after{transform:translateY(100%)}
 div.grid a.item-web:before,div.grid a.item-web:after{background-color:#4d95e1}
 div.grid a.item-fto:before,div.grid a.item-fto:after{background-color:#37ba7a}
 div.grid a.item-ils:before,div.grid a.item-ils:after{background-color:#f07050}
@@ -123,6 +122,7 @@ div.grid a.item-otr:before,div.grid a.item-otr:after{background-color:#c83771}
 div.grid img{width:100%;height:auto}
 
 div.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:2;stroke:#f9f8f4;opacity:0;transition:opacity .5s ease-out}
+div.grid a:hover svg.icon{opacity:1}
 
 ul.grid{list-style:none;text-align:center}
 ul.grid>li{width:300px;margin:0 0 20px;display:inline-block;position:relative;overflow:hidden}

@@ -83,7 +83,7 @@ div.unload path.logo,div.loaded path.logo{transition:all .25s ease-out}
 /*div.loaded path.logo{fill:#e84a5f}
 body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#eae9e6}*/
 div.loading path.logo{opacity:1}
-div.unload path.logo{opacity:0}
+div.unload path.logo{opacity:1}
 div.unload path.logo-background{opacity:1}
 div.loaded path.logo{opacity:1}
 

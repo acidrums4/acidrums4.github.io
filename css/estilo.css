@@ -66,12 +66,12 @@ body.item-otr path.logo-background{fill:#d35f8d}
 body.item-hdv path.logo-background{fill:#16b3c2}
 */
 div.loading path.logo,div.unload path.logo{fill:#f9f8f4}
-body.item-all path.logo-background{fill:#881121}
-body.item-web path.logo-background{fill:#164980}
-body.item-fto path.logo-background{fill:#14442d}
-body.item-ils path.logo-background{fill:#99290d}
-body.item-otr path.logo-background{fill:#50162d}
-body.item-hdv path.logo-background{fill:#118994}
+body.item-all div.loaded path.logo-background,body.item-all path.logo-background{fill:#881121}
+body.item-web div.loaded path.logo-background,body.item-web path.logo-background{fill:#164980}
+body.item-fto div.loaded path.logo-background,body.item-fto path.logo-background{fill:#14442d}
+body.item-ils div.loaded path.logo-background,body.item-ils path.logo-background{fill:#99290d}
+body.item-otr div.loaded path.logo-background,body.item-otr path.logo-background{fill:#50162d}
+body.item-hdv div.loaded path.logo-background,body.item-hdv path.logo-background{fill:#118994}
 
 div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
 div.loaded div.intro-container{transform:translateY(-100%)}

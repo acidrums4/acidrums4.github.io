@@ -73,20 +73,7 @@ jQuery(document).ready(function(event){
     }
   });
 
-  function fixClipPaths(svg, restore) {
-    Array.prototype.forEach.call(svg.querySelectorAll('*[clip-path]'), function (el) {
-      var clipUrl = el.getAttribute('clip-path');
-
-      if(!el.getAttribute('data-original-clip-path')) {
-        el.setAttribute('data-original-clip-path', clipUrl);
-      }
-
-      el.setAttribute('clip-path', 'url('+ (!restore ? document.location.href : '') + el.getAttribute('data-original-clip-path').substr(4));
-    });
-  }
-
   function init(){
-    fixClipPaths(document.getElementsByTagName('svg')[0]);
     window.addEventListener( 'scroll', noscroll );
     container.addClass('loading');
     isAnimating = true;
@@ -113,21 +100,19 @@ jQuery(document).ready(function(event){
     var percentage = 0;
     var imageIndex = 0;
 
-    //fixClipPaths(document.getElementsByTagName('svg')[0]);
-    //$('rect.clip').attr('height',0);
 		loadingCrc.style.strokeDasharray = loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
 
     function progressComplete(){
       percentage = 100;
-			loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
-      /*$('svg.logo').removeClass('loading');
+			loadingCrc.style.strokeDashoffset = 0);
+      $('svg.logo').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);
-      });*/
+      });
     }
 
     function countImages(){
@@ -157,10 +142,10 @@ jQuery(document).ready(function(event){
           loop();  
         }
         else if (imageCount == 0){
-          $('rect.clip').animate({ height:pathHeight },
+          $('path.circle-fg').animate({ 'stroke-dashoffset':0 },
           {
-            duration: 100,
-            step: function(now){ $(this).attr("height",now); }
+            duration: 500,
+            step: function(now){ $(this).attr('stroke-dashoffset',now); }
           });
 
           progressComplete();
@@ -204,7 +189,6 @@ jQuery(document).ready(function(event){
   });
 
   function changePage(url, bool) {
-    fixClipPaths(document.getElementsByTagName('svg')[0]);
     $('body,html').animate({'scrollTop':0},200);
     if (bool) setNewPageType(url);
     window.addEventListener('scroll',noscroll);

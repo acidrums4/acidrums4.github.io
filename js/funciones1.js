@@ -115,6 +115,7 @@ jQuery(document).ready(function(event){
 
     //fixClipPaths(document.getElementsByTagName('svg')[0]);
     //$('rect.clip').attr('height',0);
+		loadingCrc.style.strokeDasharray = loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
 
     function progressComplete(){
       percentage = 100;

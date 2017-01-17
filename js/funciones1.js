@@ -138,7 +138,7 @@ jQuery(document).ready(function(event){
         imagesLoad++;
         percentageValue = (percentage / 100);
         
-				loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentage );
+				loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentageValue );
 				loadingCrc.strokeDashoffset = loadingCrcValue;
 
 				console.log("percentage     : " + percentage);

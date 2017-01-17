@@ -143,10 +143,6 @@ jQuery(document).ready(function(event){
 				else {
 					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - ( percentage / 100 ) );
 					loadingCrc.style.strokeDashoffset = loadingCrcValue;
-
-					console.log("percentage     : " + percentage);
-					console.log("percentageValue: " + percentageValue);
-					console.log("loadingCrcValue: " + loadingCrcValue);
 				}
       } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
         $('svg.logo').addClass('loading');

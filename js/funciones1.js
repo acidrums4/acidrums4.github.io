@@ -119,6 +119,7 @@ jQuery(document).ready(function(event){
 
     function progressComplete(){
       percentage = 100;
+			loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
       /*$('svg.logo').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 
@@ -140,9 +141,7 @@ jQuery(document).ready(function(event){
         if ((imagesLoad == imageCount) || (percentage >= 100) ) progressComplete();
 
 				else {
-					percentageValue = (percentage / 100);
-					
-					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentageValue );
+					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - ( percentage / 100 ) );
 					loadingCrc.style.strokeDashoffset = loadingCrcValue;
 
 					console.log("percentage     : " + percentage);

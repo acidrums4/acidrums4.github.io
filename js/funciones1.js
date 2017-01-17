@@ -137,7 +137,7 @@ jQuery(document).ready(function(event){
         imageIndex++;
         imagesLoad++;
 
-        if ((imagesLoad == imageCount) || percentage => 100 ) progressComplete();
+        if ((imagesLoad == imageCount) || (percentage >= 100) ) progressComplete();
 
 				else {
 					percentageValue = (percentage / 100);

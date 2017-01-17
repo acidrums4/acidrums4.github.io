@@ -104,7 +104,7 @@ jQuery(document).ready(function(event){
 
     function progressComplete(){
       percentage = 100;
-			loadingCrc.style.strokeDashoffset = 0);
+			loadingCrc.style.strokeDashoffset = 0;
       $('svg.logo').removeClass('loading');
       container.removeClass('unload loading').addClass('loaded');
 

@@ -143,7 +143,7 @@ jQuery(document).ready(function(event){
 					percentageValue = (percentage / 100);
 					
 					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentageValue );
-					loadingCrc.strokeDashoffset = loadingCrcValue;
+					loadingCrc.style.strokeDashoffset = loadingCrcValue;
 
 					console.log("percentage     : " + percentage);
 					console.log("percentageValue: " + percentageValue);

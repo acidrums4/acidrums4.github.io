@@ -50,14 +50,14 @@ div.intro-container svg{width:112px;height:auto;position:absolute;display:block;
 path.logo.loading{animation:loading .5s linear infinite}
 svg.logo circle{fill:none;stroke-width:4px;stroke-linecap:round;transform-origin:50% 50%}
 
-body.item-all svg.logo circle{stroke:#881121}
+body.item-all svg.logo circle{stroke:#c82a3f}
 body.item-web svg.logo circle{stroke:#164980}
 body.item-fto svg.logo circle{stroke:#14442d}
 body.item-ils svg.logo circle{stroke:#99290d}
 body.item-otr svg.logo circle{stroke:#50162d}
 body.item-hdv svg.logo circle{stroke:#118994}
 
-body.item-all path.logo{fill:#881121}
+body.item-all path.logo{fill:#c82a3f}
 body.item-web path.logo{fill:#164980}
 body.item-fto path.logo{fill:#14442d}
 body.item-ils path.logo{fill:#99290d}

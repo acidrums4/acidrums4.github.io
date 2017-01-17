@@ -53,6 +53,9 @@ svg.logo path#circle-bg,svg.logo path#circle-fg{fill:none;stroke-linecap:round}
 path#circle-bg{stroke-width:2px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .25s cubic-bezier(0.7,0,0.3,1)}
 path#circle-fg{stroke-width:4px}
 
+div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
+div.loaded div.intro-container{transform:translateY(-100%)}
+
 div.loading path#circle-bg,div.unload path#circle-bg{transform:scale(1,1)}
 div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}
 

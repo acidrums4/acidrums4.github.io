@@ -107,13 +107,14 @@ jQuery(document).ready(function(event){
     var imageCount = document.getElementsByTagName("img").length;
     var imageArray = document.getElementsByTagName("img");
     var imagePperc = (100 / imageCount);
+		var loadingCrc = document.getElementById('circle-fg');
 
     var imagesLoad = 0;
     var percentage = 0;
     var imageIndex = 0;
 
-    fixClipPaths(document.getElementsByTagName('svg')[0]);
-    $('rect.clip').attr('height',0);
+    //fixClipPaths(document.getElementsByTagName('svg')[0]);
+    //$('rect.clip').attr('height',0);
 
     function progressComplete(){
       percentage = 100;
@@ -134,9 +135,10 @@ jQuery(document).ready(function(event){
         $('svg.logo').removeClass('loading');
         imageIndex++;
         imagesLoad++;
-        pathHeightValue = ((percentage * pathHeight) / 100);
+        percentageValue = (percentage / 100);
+        
+				loadingCrc.strokeDashoffset = loadingCrc.getTotalLength() * ( 1 - percentageValue );
 
-        $('rect.clip').attr('height',pathHeightValue);
         if (imagesLoad == imageCount) progressComplete();
 
       } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){

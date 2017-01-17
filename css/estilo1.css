@@ -47,35 +47,35 @@ body.item-hdv div.intro-container{background-color:#16b3c2}
 
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:1;transition:transform 1s cubic-bezier(0.7,0,0.3,1)}
 div.intro-container svg{width:112px;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-svg.logo circle.circle-fg,path.logo{opacity:0;transition:opacity .5s cubic-bezier(0.7,0,0.3,1)}
-path.logo.loading{animation:loading .5s linear infinite}
+svg.logo circle#circle-fg,path#logo-fg{opacity:0;transition:opacity .5s cubic-bezier(0.7,0,0.3,1)}
+path#logo-fg.loading{animation:loading .5s linear infinite}
 svg.logo circle{fill:none;stroke-linecap:round}
-circle.circle-bg{stroke-width:4px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .25s cubic-bezier(0.7,0,0.3,1)}
-circle.circle-fg{stroke-width:2px}
+circle#circle-bg{stroke-width:4px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .25s cubic-bezier(0.7,0,0.3,1)}
+circle#circle-fg{stroke-width:2px}
 
-div.loading svg.logo circle,div.unload svg.logo circle{transform:scale(1,1)}
-div.loading circle.circle-fg,div.unload circle.circle-fg,div.loading path.logo,div.unload path.logo{opacity:1}
+div.loading circle#circle-bg,div.unload circle#circle-bg{transform:scale(1,1)}
+div.loading circle#circle-fg,div.unload circle#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}
 
-body.item-all svg.logo circle.circle-bg{stroke:#c82a3f}
-body.item-web svg.logo circle.circle-bg{stroke:#164980}
-body.item-fto svg.logo circle.circle-bg{stroke:#14442d}
-body.item-ils svg.logo circle.circle-bg{stroke:#99290d}
-body.item-otr svg.logo circle.circle-bg{stroke:#50162d}
-body.item-hdv svg.logo circle.circle-bg{stroke:#118994}
+body.item-all circle#circle-bg{stroke:#c82a3f}
+body.item-web circle#circle-bg{stroke:#164980}
+body.item-fto circle#circle-bg{stroke:#14442d}
+body.item-ils circle#circle-bg{stroke:#99290d}
+body.item-otr circle#circle-bg{stroke:#50162d}
+body.item-hdv circle#circle-bg{stroke:#118994}
 
-body.item-all svg.logo circle.circle-bg{stroke:#a80a1f}
-body.item-web svg.logo circle.circle-bg{stroke:#164980}
-body.item-fto svg.logo circle.circle-bg{stroke:#14442d}
-body.item-ils svg.logo circle.circle-bg{stroke:#99290d}
-body.item-otr svg.logo circle.circle-bg{stroke:#50162d}
-body.item-hdv svg.logo circle.circle-bg{stroke:#118994}
+body.item-all circle#circle-fg{stroke:#a80a1f}
+body.item-web circle#circle-fg{stroke:#164980}
+body.item-fto circle#circle-fg{stroke:#14442d}
+body.item-ils circle#circle-fg{stroke:#99290d}
+body.item-otr circle#circle-fg{stroke:#50162d}
+body.item-hdv circle#circle-fg{stroke:#118994}
 
-body.item-all path.logo{fill:#c82a3f}
-body.item-web path.logo{fill:#164980}
-body.item-fto path.logo{fill:#14442d}
-body.item-ils path.logo{fill:#99290d}
-body.item-otr path.logo{fill:#50162d}
-body.item-hdv path.logo{fill:#118994}
+body.item-all path#logo-fg{fill:#c82a3f}
+body.item-web path#logo-fg{fill:#164980}
+body.item-fto path#logo-fg{fill:#14442d}
+body.item-ils path#logo-fg{fill:#99290d}
+body.item-otr path#logo-fg{fill:#50162d}
+body.item-hdv path#logo-fg{fill:#118994}
 
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}

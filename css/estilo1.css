@@ -50,8 +50,8 @@ div.intro-container svg{width:112px;height:auto;position:absolute;display:block;
 svg.logo path#circle-fg,path#logo-fg{opacity:0;transition:opacity .5s cubic-bezier(0.7,0,0.3,1)}
 path#logo-fg.loading{animation:loading .5s linear infinite}
 svg.logo path#circle-bg,svg.logo path#circle-fg{fill:none;stroke-linecap:round}
-path#circle-bg{stroke-width:4px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .25s cubic-bezier(0.7,0,0.3,1)}
-path#circle-fg{stroke-width:2px}
+path#circle-bg{stroke-width:2px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .25s cubic-bezier(0.7,0,0.3,1)}
+path#circle-fg{stroke-width:4px}
 
 div.loading path#circle-bg,div.unload path#circle-bg{transform:scale(1,1)}
 div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}

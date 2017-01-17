@@ -136,17 +136,19 @@ jQuery(document).ready(function(event){
         $('svg.logo').removeClass('loading');
         imageIndex++;
         imagesLoad++;
-        percentageValue = (percentage / 100);
-        
-				loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentageValue );
-				loadingCrc.strokeDashoffset = loadingCrcValue;
 
-				console.log("percentage     : " + percentage);
-				console.log("percentageValue: " + percentageValue);
-				console.log("loadingCrcValue: " + loadingCrcValue);
+        if ((imagesLoad == imageCount) || percentage => 100 ) progressComplete();
 
-        if (imagesLoad == imageCount) progressComplete();
+				else {
+					percentageValue = (percentage / 100);
+					
+					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentageValue );
+					loadingCrc.strokeDashoffset = loadingCrcValue;
 
+					console.log("percentage     : " + percentage);
+					console.log("percentageValue: " + percentageValue);
+					console.log("loadingCrcValue: " + loadingCrcValue);
+				}
       } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
         $('svg.logo').addClass('loading');
       }

@@ -136,8 +136,9 @@ jQuery(document).ready(function(event){
         $('svg.logo').removeClass('loading');
         imageIndex++;
         imagesLoad++;
+        percentageValue = (percentage / 100);
         
-				loadingCrc.strokeDashoffset = ( 1 - ( percentage / 100 ) );
+				loadingCrc.strokeDashoffset = loadingCrc.getTotalLength() * ( 1 - percentage );
 
         if (imagesLoad == imageCount) progressComplete();
 

@@ -135,7 +135,7 @@ jQuery(document).ready(function(event){
     }
 
     function loop(){
-      var rand = Math.round(Math.random() * (100));
+      var rand = Math.round(Math.random() * (40));
       setTimeout(function(){
         if (imagesLoad < imageCount){
           countImages();

@@ -64,10 +64,6 @@ body.item-ils path.logo{fill:#99290d}
 body.item-otr path.logo{fill:#50162d}
 body.item-hdv path.logo{fill:#118994}
 
-div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
-div.loaded div.intro-container{transform:translateY(-100%)}
-div.unload path.logo,div.loaded path.logo{transition:all .25s ease-out}
-
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}

@@ -138,7 +138,12 @@ jQuery(document).ready(function(event){
         imagesLoad++;
         percentageValue = (percentage / 100);
         
-				loadingCrc.strokeDashoffset = loadingCrc.getTotalLength() * ( 1 - percentage );
+				loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - percentage );
+				loadingCrc.strokeDashoffset = loadingCrcValue;
+
+				console.log("percentage     : " + percentage);
+				console.log("percentageValue: " + percentageValue);
+				console.log("loadingCrcValue: " + loadingCrcValue);
 
         if (imagesLoad == imageCount) progressComplete();
 

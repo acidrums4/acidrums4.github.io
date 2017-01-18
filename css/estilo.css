@@ -114,10 +114,10 @@ div.grid img{width:100%;height:auto}
 div.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:2;opacity:0;transition:opacity .5s ease-out}
 div.grid a:hover svg.icon{opacity:1}
 
-body.item-web div.grid svg.icon{stroke:#0d55a1}
-body.item-fto div.grid svg.icon{stroke:#007a3a}
-body.item-ils div.grid svg.icon{stroke:#b03010}
-body.item-otr div.grid svg.icon{stroke:#880031}
+div.grid a.item-web svg.icon{stroke:#0d55a1}
+div.grid a.item-fto svg.icon{stroke:#007a3a}
+div.grid a.item-ils svg.icon{stroke:#b03010}
+div.grid a.item-otr svg.icon{stroke:#880031}
 
 /* El menú */
 body.scrolled nav{position:fixed;width:100%;top:0;background-color:#f9f8f4;z-index:2}

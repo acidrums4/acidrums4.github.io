@@ -132,6 +132,7 @@ jQuery(document).ready(function(event){
           $('path.circle-fg').animate({ 'stroke-dashoffset':loadingCrcValue },
           {
             duration : time,
+            step: function(now){ $(this).attr('stroke-dashoffset',now); }
           });
 
 					//loadingCrc.style.strokeDashoffset = loadingCrcValue;
@@ -145,7 +146,7 @@ jQuery(document).ready(function(event){
       var rand = Math.round(Math.random() * (40));
       setTimeout(function(){
         if (imagesLoad < imageCount){
-          countImages();
+          countImages(rand);
           loop();  
         }
         else if (imageCount == 0){

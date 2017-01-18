@@ -58,6 +58,7 @@ div.loaded div.intro-container{transform:translateY(-100%)}
 
 div.loading path#circle-bg,div.unload path#circle-bg{transform:scale(1,1)}
 div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}
+div.loaded path#circle-fg,div.loaded path#logo-fg{opacity:0}
 
 body.item-all path#logo-fg{fill:#c82a3f}
 body.item-web path#logo-fg{fill:#2d75c1}

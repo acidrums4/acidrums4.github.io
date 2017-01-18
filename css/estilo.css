@@ -23,17 +23,6 @@ sup{top:-0.5em}
 sub{bottom:-0.25em}
 img{border:0}
 svg:not(:root){overflow:hidden}
-button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
-button,input{line-height:normal}
-button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
-button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
-input[type="search"]{box-sizing:content-box}
-input[type="search"]:-webkit-search-cancel-button,input[type="search"]:-webkit-search-decoration{-webkit-appearance:none}
-button:-moz-focus-inner,input:-moz-focus-inner{border:0;padding:0}
-textarea{overflow:auto;vertical-align:top}
-*,*:after,*:before{box-sizing:border-box}
 html,body{height:100%}
 html{font-size:62.5%}
 body{margin:0;font-size:1.6rem;line-height:1;font-family:"Affogato",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0}
@@ -60,11 +49,6 @@ div.loaded div.intro-container{transform:translateY(-100%)}
 
 svg.loading path#logo-fg,svg.loading path#circle-bg{transform:scale(1,1)}
 svg.loading path#circle-fg{opacity:1}
-
-/*div.loading path#logo-fg,div.unload path#logo-fg,div.loading path#circle-bg,div.unload path#circle-bg{transform:scale(1,1)}
-div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}
-div.loaded path#circle-fg,div.loaded path#logo-fg{opacity:0}
-div.loaded path#logo-fg{transform:scale(0,0)}*/
 
 body.item-all path#circle-bg{stroke:#c82a3f}
 body.item-web path#circle-bg{stroke:#2d75c1}
@@ -127,27 +111,13 @@ div.grid a.item-ils:before,div.grid a.item-ils:after{background-color:#f07050}
 div.grid a.item-otr:before,div.grid a.item-otr:after{background-color:#c83771}
 div.grid img{width:100%;height:auto}
 
-div.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:2;stroke:#f9f8f4;opacity:0;transition:opacity .5s ease-out}
+div.grid svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:2;opacity:0;transition:opacity .5s ease-out}
 div.grid a:hover svg.icon{opacity:1}
 
-ul.grid{list-style:none;text-align:center}
-ul.grid>li{width:300px;margin:0 0 20px;display:inline-block;position:relative;overflow:hidden}
-ul.grid a,ul.grid img{display:block;outline:none;margin:0}
-ul.grid li.item-web{background-color:#4d95e1}
-ul.grid li.item-fto{background-color:#37ba7a}
-ul.grid li.item-ils{background-color:#f07050}
-ul.grid li.item-otr{background-color:#c83771}
-ul.grid img{transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
-ul.grid a:hover img{transform:translateY(-64px)}
-
-ul.grid svg.icon{position:absolute;display:block;bottom:16px;left:0;right:0;margin:auto;stroke:#f9f8f4;stroke-dashoffset:50;stroke-dasharray:50;transition:all 1s ease-out}
-ul.grid a:hover svg.icon{stroke-dashoffset:0;stroke-dasharray:0}
-
-ul.grid li>a:hover{border-width:1px;width:298px;height:auto}
-li.item-web>a:hover{border-color:#4d95e1}
-li.item-fto>a:hover{border-color:#37ba7a}
-li.item-ils>a:hover{border-color:#f07050}
-li.item-otr>a:hover{border-color:#c83771}
+body.item-web div.grid svg.icon{stroke:#0d55a1}
+body.item-fto div.grid svg.icon{stroke:#007a3a}
+body.item-ils div.grid svg.icon{stroke:#b03010}
+body.item-otr div.grid svg.icon{stroke:#880031}
 
 /* El menú */
 body.scrolled nav{position:fixed;width:100%;top:0;background-color:#f9f8f4;z-index:2}
@@ -412,8 +382,13 @@ ul.slider:hover:before{transform:translateY(-100%)}
 article.slider-active ul.slider{cursor:auto}
 article.slider-active ul.slider svg.icon,article.slider-active ul.slider:before{display:none}
 
-ul.slider svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:5;stroke:#f9f8f4;opacity:0;transition:opacity .5s ease-out}
+ul.slider svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:5;opacity:0;transition:opacity .5s ease-out}
 ul.slider:hover svg.icon{opacity:1}
+
+body.item-web ul.slider svg.icon{stroke:#0d55a1}
+body.item-fto ul.slider svg.icon{stroke:#007a3a}
+body.item-ils ul.slider svg.icon{stroke:#b03010}
+body.item-otr ul.slider svg.icon{stroke:#880031}
 
 ul.slider-navigation{order:3;flex-grow:2;display:flex;flex-direction-row;justify-content:flex-end}
 ul.slider-navigation,ul.slider-pagination li{opacity:0;transition:opacity 0.4s 0s}

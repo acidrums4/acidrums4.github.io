@@ -5,7 +5,8 @@ jQuery(document).ready(function(event){
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
   container = $('div.body-wrapper'),
-  pathHeight = $('svg.logo').get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
+  loader = $('svg.logo'),
+  pathHeight = loader.get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
   transEndEventNames = {
     'WebkitTransition' : 'webkitTransitionEnd',
     'MozTransition'    : 'transitionend',
@@ -105,8 +106,11 @@ jQuery(document).ready(function(event){
     function progressComplete(){
       percentage = 100;
 			loadingCrc.style.strokeDashoffset = 0;
-      $('svg.logo').removeClass('loading');
-      container.removeClass('unload loading').addClass('loaded');
+      loader.removeClass('waiting loading');
+      loader.one('animationend transitionend', function(e){
+        container.removeClass('unload loading').addClass('loaded');
+				$(this).off(e);
+      });
 
       container.one('animationend transitionend', function(e){
         loadingCrc.style.strokeDasharray = loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
@@ -120,7 +124,7 @@ jQuery(document).ready(function(event){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
-        $('svg.logo').removeClass('loading');
+        loader.removeClass('waiting');
         imageIndex++;
         imagesLoad++;
 
@@ -130,8 +134,8 @@ jQuery(document).ready(function(event){
 					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - ( percentage / 100 ) );
 					loadingCrc.style.strokeDashoffset = loadingCrcValue;
 				}
-      } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
-        $('svg.logo').addClass('loading');
+      } else if (!(imageArray[imageIndex].complete) && !(loader.hasClass('waiting'))){
+        loader.addClass('waiting');
       }
     }
 
@@ -155,12 +159,16 @@ jQuery(document).ready(function(event){
     }
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
-      $('svg.logo').addClass('loading');
+      loader.addClass('waiting');
     } else {
-      $('svg.logo').removeClass('loading');
+      loader.removeClass('waiting');
     }
 
-    loop();
+    loader.addClass('loading');
+    loader.one('animationend transitionend', function(e){
+      loop();
+      $(this).off(e);
+    });
   }
 
   function noscroll(){

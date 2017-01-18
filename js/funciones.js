@@ -109,6 +109,7 @@ jQuery(document).ready(function(event){
       container.removeClass('unload loading').addClass('loaded');
 
       container.one('animationend transitionend', function(e){
+        loadingCrc.style.strokeDasharray = loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
         window.removeEventListener( 'scroll', noscroll );
         isAnimating = false;
 				$(this).off(e);

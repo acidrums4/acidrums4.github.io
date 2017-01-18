@@ -63,13 +63,6 @@ div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,di
 div.loaded path#circle-fg,div.loaded path#logo-fg{opacity:0}
 div.loaded path#logo-fg{transform:scale(0,0)}
 
-body.item-all path#logo-fg{fill:#a80a1f}
-body.item-web path#logo-fg{fill:#2d75c1}
-body.item-fto path#logo-fg{fill:#179a5a}
-body.item-ils path#logo-fg{fill:#d05030}
-body.item-otr path#logo-fg{fill:#a81751}
-body.item-hdv path#logo-fg{fill:#0093a2}
-
 body.item-all path#circle-bg{stroke:#c82a3f}
 body.item-web path#circle-bg{stroke:#2d75c1}
 body.item-fto path#circle-bg{stroke:#179a5a}
@@ -83,6 +76,13 @@ body.item-fto path#circle-fg{stroke:#007a3a}
 body.item-ils path#circle-fg{stroke:#b03010}
 body.item-otr path#circle-fg{stroke:#880031}
 body.item-hdv path#circle-fg{stroke:#007382}
+
+body.item-all path#logo-fg{fill:#a80a1f}
+body.item-web path#logo-fg{fill:#0d55a1}
+body.item-fto path#logo-fg{fill:#007a3a}
+body.item-ils path#logo-fg{fill:#b03010}
+body.item-otr path#logo-fg{fill:#880031}
+body.item-hdv path#logo-fg{fill:#007382}
 
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}

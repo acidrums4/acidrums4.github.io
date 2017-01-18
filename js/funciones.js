@@ -116,7 +116,7 @@ jQuery(document).ready(function(event){
       });
     }
 
-    function countImages(){
+    function countImages(time){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
@@ -128,7 +128,14 @@ jQuery(document).ready(function(event){
 
 				else {
 					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - ( percentage / 100 ) );
-					loadingCrc.style.strokeDashoffset = loadingCrcValue;
+
+          $('path.circle-fg').animate({ 'stroke-dashoffset':loadingCrcValue },
+          {
+            duration : time,
+            step: function(now){ $(this).attr('stroke-dashoffset',now); }
+          });
+
+					//loadingCrc.style.strokeDashoffset = loadingCrcValue;
 				}
       } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
         $('svg.logo').addClass('loading');

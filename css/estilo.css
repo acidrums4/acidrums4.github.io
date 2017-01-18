@@ -46,47 +46,39 @@ body.item-otr div.intro-container{background-color:#c83771}
 body.item-hdv div.intro-container{background-color:#16b3c2}
 
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:1;transition:transform 1s cubic-bezier(0.7,0,0.3,1)}
-span.loader-wrapper{top:0;left:0;right:0;bottom:-100%;margin:auto;opacity:0;width:100%;height:100%;position:absolute;display:block;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-div.intro-container svg{min-width:120px;max-width:200px;width:20%;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
-div.intro-container path.logo{opacity:0}
-div.intro-container path.logo-background{transition:all .5s cubic-bezier(0.7,0,0.3,1)}
-svg.logo.loading{animation:loading .5s linear infinite}
-/*
-body.item-all div.loading path.logo,body.item-all div.unload path.logo{fill:#f9f8f4}
-body.item-web div.loading path.logo,body.item-web div.unload path.logo{fill:#164980}
-body.item-fto div.loading path.logo,body.item-fto div.unload path.logo{fill:#14442d}
-body.item-ils div.loading path.logo,body.item-ils div.unload path.logo{fill:#99290d}
-body.item-otr div.loading path.logo,body.item-otr div.unload path.logo{fill:#50162d}
-
-body.item-all path.logo-background{fill:#881121}
-body.item-web path.logo-background{fill:#79afe8}
-body.item-fto path.logo-background{fill:#57cd93}
-body.item-ils path.logo-background{fill:#f4967f}
-body.item-otr path.logo-background{fill:#d35f8d}
-body.item-hdv path.logo-background{fill:#16b3c2}
-*/
-div.loading path.logo,div.unload path.logo{fill:#f9f8f4}
-body.item-all path.logo-background{fill:#881121}
-body.item-web path.logo-background{fill:#164980}
-body.item-fto path.logo-background{fill:#14442d}
-body.item-ils path.logo-background{fill:#99290d}
-body.item-otr path.logo-background{fill:#50162d}
-body.item-hdv path.logo-background{fill:#118994}
+div.intro-container svg{width:112px;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}
+svg.logo path#circle-fg,path#logo-fg{opacity:0;transition:opacity .5s cubic-bezier(0.7,0,0.3,1)}
+path#logo-fg.loading{animation:loading .5s linear infinite}
+svg.logo path#circle-bg,svg.logo path#circle-fg{fill:none;stroke-linecap:round}
+path#circle-bg{stroke-width:2px;stroke-linecap:round;transform-origin:50% 50%;transform:scale(0,0);transition:transform .5s cubic-bezier(0.7,0,0.3,1)}
+path#circle-fg{stroke-width:4px}
 
 div.unload div.intro-container,div.loading div.intro-container{transform:translateY(0)}
 div.loaded div.intro-container{transform:translateY(-100%)}
 
-div.unload span.loader-wrapper,div.loading span.loader-wrapper{opacity:1;transform:translateY(-50%)}
-div.loaded span.loader-wrapper{opacity:0;transform:translateY(-50%)}
+div.loading path#circle-bg,div.unload path#circle-bg{transform:scale(1,1)}
+div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,div.unload path#logo-fg{opacity:1}
 
-div.unload path.logo,div.loaded path.logo{transition:all .25s ease-out}
-/*div.loaded path.logo{fill:#e84a5f}
-body.biop-page div.loaded path.logo,body.sysp-page div.loaded path.logo{fill:#eae9e6}*/
-div.loading path.logo{opacity:1}
-div.unload path.logo{opacity:1}
-div.unload path.logo-background{opacity:1}
-div.loaded path.logo-background{opacity:0}
-div.loaded path.logo{opacity:1}
+body.item-all path#circle-bg{stroke:#c82a3f}
+body.item-web path#circle-bg{stroke:#164980}
+body.item-fto path#circle-bg{stroke:#14442d}
+body.item-ils path#circle-bg{stroke:#99290d}
+body.item-otr path#circle-bg{stroke:#50162d}
+body.item-hdv path#circle-bg{stroke:#118994}
+
+body.item-all path#circle-fg{stroke:#a80a1f}
+body.item-web path#circle-fg{stroke:#164980}
+body.item-fto path#circle-fg{stroke:#14442d}
+body.item-ils path#circle-fg{stroke:#99290d}
+body.item-otr path#circle-fg{stroke:#50162d}
+body.item-hdv path#circle-fg{stroke:#118994}
+
+body.item-all path#logo-fg{fill:#c82a3f}
+body.item-web path#logo-fg{fill:#164980}
+body.item-fto path#logo-fg{fill:#14442d}
+body.item-ils path#logo-fg{fill:#99290d}
+body.item-otr path#logo-fg{fill:#50162d}
+body.item-hdv path#logo-fg{fill:#118994}
 
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}

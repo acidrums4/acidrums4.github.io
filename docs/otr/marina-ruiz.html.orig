@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Íconos para Circular :: El portafolio de Miler</title>
+    <title>Marina Ruiz :: El portafolio de Miler</title>
     <base href="http://acidrums4.github.io/" />
     <meta name="keywords" content="portafolio, diseño, web, portfolio, design" />
     <meta name="author" content="Miler Moreno P." />
@@ -12,17 +12,21 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <script src="js/modernizr.js"></script>
   </head>
-  <body class="noscroll item-page item-ils">
+  <body class="noscroll item-page item-otr">
     <div class="body-wrapper">
       <div class="intro-container">
-				<svg class="logo" width="100%" height="100%" viewBox="0 0 112 112" preserveAspectRatio="xMidYMin meet">
-					<title>El portafolio de Miler.</title>
-					<path id="logo-fg" d="m80,32 l-12,6.93 v20.783 l18,10.394 l12,-6.928 l-18,-10.394
-					v-20.784 z m-54,10.392 l-12,6.93 l18,10.39 v20.785 l12,-6.93 v-20.783 l-18,-10.392
-					z m36,0 l-12,6.93 v20.783 l12,-6.93 v-20.783 z" />
-					<path id="circle-bg" d="m 56,2 a 54,54 0 0 1 54,54 54,54 0 0 1 -54,54 54,54 0 0 1 -54,-54 54,54 0 0 1 54,-54 z" />
-					<path id="circle-fg" d="m 56,2 a 54,54 0 0 1 54,54 54,54 0 0 1 -54,54 54,54 0 0 1 -54,-54 54,54 0 0 1 54,-54 z" />
-				</svg>
+        <span class="loader-wrapper">
+          <svg class="logo" width="100%" height="100%" viewBox="0 0 560 324" preserveAspectRatio="xMidYMin meet" aria-labelledby="logo_title">
+            <title>El portafolio de Miler.</title>
+            <defs>
+              <clipPath id="clip">
+                <rect class="clip" x="0" y="0" width="560" height="0" style="stroke:none;fill:#ffffff" />
+              </clipPath>
+            </defs>
+            <path class="logo-background" d="M440 0 360 46.19 360 184.75 480 254.04 560 207.85 440 138.56 440 0ZM80 69.28 0 115.47l120 69.28 0 138.56 80-46.19 0-138.56L80 69.28Zm240 0-80 46.19 0 138.56 80-46.19 0-138.56z" />
+            <path class="logo" d="M440 0 360 46.19 360 184.75 480 254.04 560 207.85 440 138.56 440 0ZM80 69.28 0 115.47l120 69.28 0 138.56 80-46.19 0-138.56L80 69.28Zm240 0-80 46.19 0 138.56 80-46.19 0-138.56z" clip-path="url(#clip)" />
+          </svg>
+        </span>
       </div>
       <div class="main-container">
         <main>
@@ -35,7 +39,7 @@
                     <path d="M440 0 360 46.19 360 184.75 480 254.04 560 207.85 440 138.56 440 0ZM80 69.28 0 115.47l120 69.28 0 138.56 80-46.19 0-138.56L80 69.28Zm240 0-80 46.19 0 138.56 80-46.19 0-138.56z" />
                   </svg>
                 </a>
-                <h2>Ilustración</h2>
+                <h2>Otros</h2>
                 <ul class="slider-navigation">
                   <li>
                     <a href="#" class="slide-prev inactive">
@@ -55,25 +59,38 @@
                 </ul>
               </div>
               <div class="item-txt">
-                <h1>Íconos para Circular</h1>
+                <h1>Marina Ruiz</h1>
                 <div class="item-details">
                   <div class="item-cat-icon">
-                    <svg class="icon"><use xlink:href="img/iconos.svg#icon-ils"></use></svg>
+                    <svg class="icon"><use xlink:href="img/iconos.svg#icon-otr"></use></svg>
                   </div>
-                  <p>Propuestas para el ícono de la aplicación móvil <a href="http://circular.unal.edu.co/" target="_blank">Circular</a>, para las implementaciones en Android e iOS.</p>
+                  <p>Identificación visual para una micro-empresa de confección local. La
+                  cliente, la señora Marina Ruiz, deseaba ver trazos cursivos que
+                  identificaran sus confecciones.</p>
+                  <p>Se demoraron más de 3 años en pagar, pero fue bonito ver los mamarrachos
+                  de uno en prendas tipo exportación.</p>
                 </div>
               </div>
               <div class="item-img">
                 <ul class="slider">
                   <svg class="icon"><use xlink:href="img/iconos.svg#icon-mag"></use></svg>
                   <li class="selected">
-                    <img src="img/ils/large/circular-iconos-1.jpg" alt="Propuestas de íconos para la aplicación Circular." />
+                    <img src="img/otr/large/marina-ruiz-1.jpg" alt="" />
                   </li>
                   <li>
-                    <img src="img/ils/large/circular-iconos-2.jpg" alt="Propuesta 1." />
+                    <img src="img/otr/large/marina-ruiz-2.jpg" alt="Aplicación en la marquilla
+                    de una prenda." />
                   </li>
                   <li>
-                    <img src="img/ils/large/circular-iconos-3.jpg" alt="Propuesta 2." />
+                    <img src="img/otr/large/marina-ruiz-3.jpg" alt="" />
+                  </li>
+                  <li>
+                    <img src="img/otr/large/marina-ruiz-4.jpg" alt="Aplicación en estantería
+                    (¡No había foto sin modelo!)." />
+                  </li>
+                  <li>
+                    <img src="img/otr/large/marina-ruiz-5.jpg" alt="Aplicación en la etiqueta
+                    de las prendas." />
                   </li>
                 </ul>
               </div>

@@ -12,17 +12,21 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <script src="js/modernizr.js"></script>
   </head>
-  <body class="noscroll sysp-page item-hdv">
+  <body class="noscroll biop-page item-hdv">
     <div class="body-wrapper">
       <div class="intro-container">
-				<svg class="logo" width="100%" height="100%" viewBox="0 0 112 112" preserveAspectRatio="xMidYMin meet">
-					<title>El portafolio de Miler.</title>
-					<path id="logo-fg" d="m80,32 l-12,6.93 v20.783 l18,10.394 l12,-6.928 l-18,-10.394
-					v-20.784 z m-54,10.392 l-12,6.93 l18,10.39 v20.785 l12,-6.93 v-20.783 l-18,-10.392
-					z m36,0 l-12,6.93 v20.783 l12,-6.93 v-20.783 z" />
-					<path id="circle-bg" d="m 56,2 a 54,54 0 0 1 54,54 54,54 0 0 1 -54,54 54,54 0 0 1 -54,-54 54,54 0 0 1 54,-54 z" />
-					<path id="circle-fg" d="m 56,2 a 54,54 0 0 1 54,54 54,54 0 0 1 -54,54 54,54 0 0 1 -54,-54 54,54 0 0 1 54,-54 z" />
-				</svg>
+        <span class="loader-wrapper">
+          <svg class="logo" width="100%" height="100%" viewBox="0 0 560 324" preserveAspectRatio="xMidYMin meet" aria-labelledby="logo_title">
+            <title>El portafolio de Miler.</title>
+            <defs>
+              <clipPath id="clip">
+                <rect class="clip" x="0" y="0" width="560" height="0" style="stroke:none;fill:#ffffff" />
+              </clipPath>
+            </defs>
+            <path class="logo-background" d="M440 0 360 46.19 360 184.75 480 254.04 560 207.85 440 138.56 440 0ZM80 69.28 0 115.47l120 69.28 0 138.56 80-46.19 0-138.56L80 69.28Zm240 0-80 46.19 0 138.56 80-46.19 0-138.56z" />
+            <path class="logo" d="M440 0 360 46.19 360 184.75 480 254.04 560 207.85 440 138.56 440 0ZM80 69.28 0 115.47l120 69.28 0 138.56 80-46.19 0-138.56L80 69.28Zm240 0-80 46.19 0 138.56 80-46.19 0-138.56z" clip-path="url(#clip)" />
+          </svg>
+        </span>
       </div>
       <div class="main-container">
         <main>
@@ -37,16 +41,17 @@
                 </a>
               </div>
               <div class="item-txt">
-								<h1>404</h1>
+								<h1>Me llamo Miler</h1>
                 <div class="item-details">
-                  <p>¡Jum! Esta página está mas perdida que diseñador hipster sin un
-                  Mac<sup>1</sup>.</p>
-                  <p>Esperemos que solo haya escrito mal la dirección a la que quería ir, por que... por que el portafolio de un diseñador web, ¿y con enlaces rotos?</p>
-                  <p>(<sup>1</sup> ¡No, no soy uno de esos diseñadores!)</p>
-                  <a data-item-type="item-all" href="index.html">
-                    <svg class="icon"><use xlink:href="img/iconos.svg#icon-hom"></use></svg>
-                    <span>¡Sáquenme de aquí!</span>
-                  </a>
+									<p>Soy un diseñador gráfico que se esmera en los detalles, tanto como su mala
+                  memoria y terrible capacidad trasnochadora se lo permiten. Además de
+                  aprender, cacharrear y deshacerme las neuronas con las cosas del diseño web,
+                  también me gusta hacer mamarrachos y tomar fotos de vez en cuando.</p>
+									<p>Baterista sin batería, tan hablador como mechudo y ando en bicicleta.</p>
+									<a href="docs/hdv/curriculum.pdf" target="_blank">
+                    <svg class="icon"><use xlink:href="img/iconos.svg#icon-hdv"></use></svg>
+										<span>Currículum vitae (en PDF)</span>
+									</a>
 								</div>
 							</div>
 							<div class="item-img">
@@ -82,9 +87,9 @@
                   <path d="M235 0S126 0 126 127l-21 40v-37C105 55 168 0 235 0z" class="f"/>
                   <path d="M265 215l40 35v76l-70 17v-65h12v12c0 10.5 8.5 19 19 19s19-8.5 19-19v-23l-20-17h-25v-35z" class="a"/>
                   <path d="M251.91 143l1.09 6 52 56 32.75-56h-10l-3.75-6z" class="d"/>
-                  <path d="M271 168l56.75-19l-36.75,0l-38,0z" class="a" id="eye-r"/>
+                  <path d="M291 168l36.75-19l-36.75,0l-38,0z" class="a" id="eye-r"/>
                   <path d="M218.09 143l-1.09 6-52 56-32.75-56h10l3.75-6z" class="f"/>
-                  <path d="M159 168l-16.75-19l36.75,0l38,0z" class="a" id="eye-l"/>
+                  <path d="M179 168l-36.75-19l36.75,0l38,0z" class="a" id="eye-l"/>
                   <path d="M235 215h-5v35h5z" class="f"/>
                   <path d="M240 215h-5v35h5zM365 231v4c4.418 0 8 3.582 8 8s-3.582 8-8 8v4c6.627 0 12-5.373 12-12s-5.373-12-12-12z" class="g"/>
                   <path d="M353 243c0 6.627 5.373 12 12 12v-4c-4.418 0-8-3.582-8-8z" class="d"/>

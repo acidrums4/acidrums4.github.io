@@ -63,7 +63,7 @@ div.loading path#circle-fg,div.unload path#circle-fg,div.loading path#logo-fg,di
 div.loaded path#circle-fg,div.loaded path#logo-fg{opacity:0}
 div.loaded path#logo-fg{transform:scale(0,0)}
 
-body.item-all path#logo-fg{fill:#c82a3f}
+body.item-all path#logo-fg{fill:#a80a1f}
 body.item-web path#logo-fg{fill:#2d75c1}
 body.item-fto path#logo-fg{fill:#179a5a}
 body.item-ils path#logo-fg{fill:#d05030}

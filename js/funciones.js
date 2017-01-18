@@ -80,7 +80,7 @@ jQuery(document).ready(function(event){
 
     if( support.animations ) {
 
-      $('span.loader-wrapper').one('animationend transitionend', function(e){
+      container.one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();
         setProgress();
@@ -128,7 +128,6 @@ jQuery(document).ready(function(event){
 				else {
 					loadingCrcValue = loadingCrc.getTotalLength() * ( 1 - ( percentage / 100 ) );
 					loadingCrc.style.strokeDashoffset = loadingCrcValue;
-          console.log("loadingCrcValue: " + loadingCrcValue);
 				}
       } else if (!(imageArray[imageIndex].complete) && !($('svg.logo').hasClass('loading'))){
         $('svg.logo').addClass('loading');

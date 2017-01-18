@@ -132,7 +132,6 @@ jQuery(document).ready(function(event){
           $('path.circle-fg').animate({ 'stroke-dashoffset':loadingCrcValue },
           {
             duration : time,
-            step: function(now){ $(this).attr('stroke-dashoffset',now); }
           });
 
 					//loadingCrc.style.strokeDashoffset = loadingCrcValue;

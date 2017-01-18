@@ -108,7 +108,7 @@ jQuery(document).ready(function(event){
     function progressComplete(){
       percentage = 100;
 			loadingCrc.style.strokeDashoffset = 0;
-      loader.classList.remove('waiting loading');
+      loader.attr('class', 'logo');
       loader.one('animationend transitionend', function(e){
         container.removeClass('unload loading').addClass('loaded');
 				$(this).off(e);
@@ -126,7 +126,7 @@ jQuery(document).ready(function(event){
       if ((imageCount > 0) && imageArray[imageIndex].complete){
         percentage = percentage + imagePperc;
 
-        loader.classList.remove('waiting');
+        loader.attr('class', 'logo loading');
         imageIndex++;
         imagesLoad++;
 
@@ -137,7 +137,7 @@ jQuery(document).ready(function(event){
 					loadingCrc.style.strokeDashoffset = loadingCrcValue;
 				}
       } else if (!(imageArray[imageIndex].complete) && !(loader.hasClass('waiting'))){
-        loader.classList.add('waiting');
+        loader.attr('class', 'logo loading waiting');
       }
     }
 
@@ -161,12 +161,12 @@ jQuery(document).ready(function(event){
     }
 
     if (imagesLoad < imageCount || imagesLoad == 0 ){
-      loader.classList.add('waiting');
+      loader.attr('class', 'logo loading waiting');
     } else {
-      loader.classList.remove('waiting');
+      loader.attr('class', 'logo loading');
     }
 
-    loader.classList.add('loading');
+    loader.attr('class', 'logo loading');
     console.log("WTF!");
     loader.one('animationend transitionend', function(e){
       loop();

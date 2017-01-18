@@ -167,6 +167,7 @@ jQuery(document).ready(function(event){
     }
 
     loader.addClass('loading');
+    console.log("WTF!");
     loader.one('animationend transitionend', function(e){
       loop();
       $(this).off(e);

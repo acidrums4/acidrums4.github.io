@@ -225,11 +225,11 @@ jQuery(document).ready(function(event){
 
     var section = $('div.main-wrapper');
 
-    section.load(url + ' .main-wrapper > *', function(event){
+    section.load(url + ' .main-wrapper > *', function(result){
       if(url!=window.location && bool){
       window.history.pushState({path: url},null,url);
-      //window.history.pushState(null,null,url);
-      }
+      document.title = $(result).filter('title').text();
+    }
 
       $('main').html(section);
       if ($('body').hasClass('item-page')) doExpandableGallery($('article'));

@@ -103,6 +103,8 @@ jQuery(document).ready(function(event){
 
 		loadingCrc.style.strokeDasharray = loadingCrc.style.strokeDashoffset = loadingCrc.getTotalLength();
 
+    console.log("Estamos aquí?");
+
     function progressComplete(){
       percentage = 100;
 			loadingCrc.style.strokeDashoffset = 0;

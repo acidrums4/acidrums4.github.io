@@ -36,6 +36,7 @@ jQuery(document).ready(function(event){
   // Filtrar por categorías
   $('ul.filter-menu a').on('click', function(event){
     event.preventDefault();
+    console.log("Filtrando...");
     var $this = $(this);
     // No hacer nada si uno hace click en el activo
     if ( !$this.hasClass('nav-filter-active') ) {
@@ -227,10 +228,11 @@ jQuery(document).ready(function(event){
 
     section.load(url + ' .main-wrapper > *', function(result){
       if(url!=window.location && bool){
-      window.history.pushState({path: url},null,url);
-      document.title = $(result).filter('title').text();
-    }
+        window.history.pushState({path: url},null,url);
+        document.title = $(result).filter('title').text();
+      }
 
+      console.log("Cambiando página...");
       $('main').html(section);
       if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
       if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();

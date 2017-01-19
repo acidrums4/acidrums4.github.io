@@ -61,7 +61,7 @@ body.item-hdv div.intro-container{background-color:var(--color-hdv)}
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;opacity:1;transition:transform 1s var(--trans-cbk)}
 svg.logo{width:112px;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transform-origin:50% 50%;transition:all 1s var(--trans-cbk)}
 
-svg.logo.waiting path#logo-fg{animation:waiting .5s linear infinite}
+svg.logo.waiting path#logo-fg{animation:waiting 1s ease infinite}
 path#circle-bg,path#logo-fg{transform-origin:50% 50%;transform:scale(0,0)}
 path#logo-fg{transition:opacity .5s ease-out,transform .5s var(--trans-cbk)}
 path#circle-bg,path#circle-fg{fill:none;stroke-linecap:round}
@@ -426,15 +426,8 @@ article.slider-active ul.slider-navigation li,article.slider-active ul.slider-pa
 }
 
 @keyframes waiting{
-10%{transform: translateX(3px) rotate(2deg)}
-20%{transform: translateX(-3px) rotate(-2deg)}
-30%{transform: translateX(3px) rotate(2deg)}
-40%{transform: translateX(-3px) rotate(-2deg)}
-50%{transform: translateX(2px) rotate(1deg)}
-60%{transform: translateX(-2px) rotate(-1deg)}
-70%{transform: translateX(2px) rotate(1deg)}
-80%{transform: translateX(-2px) rotate(-1deg)}
-90%{transform: translateX(1px) rotate(0)}
-100%{transform: translateX(-1px) rotate(0)}
+0%{transform:rotate(0deg)}
+33%{transform:rotate(180deg)}
+100%{transform:rotate(180deg)}
 }
 

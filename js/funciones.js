@@ -1,25 +1,10 @@
 jQuery(document).ready(function(event){
 
-  var docElem = window.document.documentElement,
-  newLocation = '';
+  var newLocation = '';
   isAnimating = false,
   support = { animations : Modernizr.cssanimations },
   container = $('div.body-wrapper'),
-  loader = $('svg.logo'),
-  pathHeight = loader.get(0).getAttribute('viewBox').split(/\s+|,/).slice(-1),
-  transEndEventNames = {
-    'WebkitTransition' : 'webkitTransitionEnd',
-    'MozTransition'    : 'transitionend',
-    'transition'       : 'transitionend'
-  },
-  transEndEventName = transEndEventNames[ Modernizr.prefixed('transition') ],
-  animEndEventNames = {
-    'WebkitAnimation' : 'webkitAnimationEnd',
-    'OAnimation' : 'oAnimationEnd',
-    'msAnimation' : 'MSAnimationEnd',
-    'animation' : 'animationend'
-  },
-  animEndEventName = animEndEventNames[ Modernizr.prefixed('animation') ];
+  loader = $('svg.logo');
 
   // Activar el cambio de página
   $('body').on('click', '[data-item-type^="item-"]', function(event){
@@ -34,7 +19,7 @@ jQuery(document).ready(function(event){
   });
 
   // Filtrar por categorías
-  $('ul.filter-menu a').on('click', function(event){
+  $('body').on('click', '[data-filter^="item-"]', function(event){
     event.preventDefault();
     console.log("Filtrando...");
     var $this = $(this);
@@ -81,7 +66,6 @@ jQuery(document).ready(function(event){
     isAnimating = true;
 
     if( support.animations ) {
-
       container.one('animationend transitionend', function(e){
         if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
         if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();

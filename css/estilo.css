@@ -236,11 +236,15 @@ body.item-hdv div.item-details>a>span{color:var(--color-hdv)}
 body.item-web div.item-details>a:hover>span,body.item-fto div.item-details>a:hover>span,body.item-ils div.item-details>a:hover>span,body.item-otr div.item-details>a:hover>span,body.item-hdv div.item-details>a:hover>span{color:var(--color-bck)}
 
 div.item-cat-icon{float:left;display:inline;position:relative;margin-right:16px;margin-top:calc(1em + 10px);border-width:0 1px 0 0;border-style:dashed}
-div.item-cat-icon svg{margin-right:16px;stroke:var(--color-txt);opacity:.75;vertical-align:0}
+div.item-cat-icon svg{margin-right:16px;opacity:.75;vertical-align:0}
 body.item-web div.item-cat-icon{border-color:var(--color-web)}
 body.item-fto div.item-cat-icon{border-color:var(--color-fto)}
 body.item-ils div.item-cat-icon{border-color:var(--color-ils)}
 body.item-otr div.item-cat-icon{border-color:var(--color-otr)}
+body.item-web div.item-cat-icon svg{stroke:var(--color-web)}
+body.item-fto div.item-cat-icon svg{stroke:var(--color-fto)}
+body.item-ils div.item-cat-icon svg{stroke:var(--color-ils)}
+body.item-otr div.item-cat-icon svg{stroke:var(--color-otr)}
 
 article blockquote,article blockquote>p{transition:all .25s var(--trans-cbk)}
 article blockquote{margin:2em 0 0;display:inline-block;position:relative;border-width:0 0 0 1px;border-style:dashed}
@@ -408,10 +412,10 @@ article.slider-active ul.slider svg.icon,article.slider-active ul.slider:before{
 ul.slider svg.icon{position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;z-index:5;opacity:0;transition:opacity .5s ease-out}
 ul.slider:hover svg.icon{opacity:1}
 
-body.item-web ul.slider svg.icon{stroke:var(--color-web)}
-body.item-fto ul.slider svg.icon{stroke:var(--color-fto)}
-body.item-ils ul.slider svg.icon{stroke:var(--color-ils)}
-body.item-otr ul.slider svg.icon{stroke:var(--color-otr)}
+body.item-web ul.slider svg.icon{stroke:var(--cdlor-web)}
+body.item-fto ul.slider svg.icon{stroke:var(--cdlor-fto)}
+body.item-ils ul.slider svg.icon{stroke:var(--cdlor-ils)}
+body.item-otr ul.slider svg.icon{stroke:var(--cdlor-otr)}
 
 ul.slider-navigation{order:3;flex-grow:2;display:flex;flex-direction-row;justify-content:flex-end}
 ul.slider-navigation,ul.slider-pagination li{opacity:0;transition:opacity 0.4s 0s}

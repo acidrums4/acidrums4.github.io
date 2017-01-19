@@ -387,8 +387,8 @@ article.slider-active div.item-details>p{margin:0 0 1em}
 footer{width:80px;height:100%;order:1;position:relative;bottom:unset;left:unset;right:unset;background-color:transparent;border-top:none}
 div.footer-wrapper{display:block;overflow:hidden;;width:80px;height:100%;position:fixed;top:0;bottom:0;left:0;margin:0;border-width:0 1px 0 0;border-style:dashed;border-color:#d6d0da}
 footer,footer>div{transition:width .5s var(--trans-cbk)}
-footer:hover{width:320px}
-footer:hover>div{width:240px}
+div.loaded footer:hover{width:320px}
+div.loaded footer:hover>div{width:240px}
 div.footer-links{width:80px;height:168px;position:absolute;top:238px}
 footer a{display:block;margin:0 0 24px 24px;width:296px}
 footer hr{width:32px;height:0;display:block;margin:24px;border-width:1px 0 0;border-style:dashed;border-color:#bcb7bf}

@@ -21,7 +21,6 @@ jQuery(document).ready(function(event){
   // Filtrar por categorías
   $('body').on('click', '[data-filter^="item-"]', function(event){
     event.preventDefault();
-    console.log("Filtrando...");
     var $this = $(this);
     // No hacer nada si uno hace click en el activo
     if ( !$this.hasClass('nav-filter-active') ) {
@@ -216,7 +215,6 @@ jQuery(document).ready(function(event){
         document.title = $(result).filter('title').text();
       }
 
-      console.log("Cambiando página...");
       $('main').html(section);
       if ($('body').hasClass('item-page')) doExpandableGallery($('article'));
       if ($('body').hasClass('biop-page') || $('body').hasClass('sysp-page')) animateAvatar();

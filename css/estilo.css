@@ -12,7 +12,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}
 ol,ul{list-style:none}
-html{font-family:'Affogato',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html{font-family:'Affogato',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizelegibility}
 h1{font-size:2em;margin:0}
 a:hover,a:active,a:focus{outline:0}
 b,strong{font-weight:bold}
@@ -27,12 +27,15 @@ html,body{height:100%}
 html{font-size:62.5%}
 body{margin:0;font-size:1.6rem;line-height:1;font-family:"Affogato",sans-serif;background-color:#f9f8f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;position:relative;top:0}
 
-body.item-all div.intro-container{background-color:#e84a5f}
-body.item-web div.intro-container{background-color:#4d95e1}
-body.item-fto div.intro-container{background-color:#37ba7a}
-body.item-ils div.intro-container{background-color:#f07050}
-body.item-otr div.intro-container{background-color:#c83771}
-body.item-hdv div.intro-container{background-color:#16b3c2}
+/* Variables */
+:root{--color-all:#e84a5f;--color-web:#4d95e1;--color-fto:#37ba7a;--color-ils:#f07050;--color-otr:#c83771;--color-hdv:#16b3c2;}
+
+body.item-all div.intro-container{background-color:var(--color-all)}
+body.item-web div.intro-container{background-color:var(--color-web)}
+body.item-fto div.intro-container{background-color:var(--color-fto)}
+body.item-ils div.intro-container{background-color:var(--color-ils)}
+body.item-otr div.intro-container{background-color:var(--color-otr)}
+body.item-hdv div.intro-container{background-color:var(--color-hdv)}
 
 div.intro-container{top:0;bottom:0;left:0;right:0;margin:auto;width:100%;height:100%;position:fixed;z-index:100;background-color:#e84a5f;opacity:1;transition:transform 1s cubic-bezier(0.7,0,0.3,1)}
 svg.logo{width:112px;height:auto;position:absolute;display:block;top:0;bottom:0;left:0;right:0;margin:auto;transition:all 1s cubic-bezier(0.7,0,0.3,1)}

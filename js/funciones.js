@@ -245,6 +245,7 @@ jQuery(document).ready(function(event){
       container.find('a.item-close').on('click', function(event){
         //shrink slider images 
         event.preventDefault();
+        $('body,html').animate({'scrollTop':0}, 200);
         container.removeClass('slider-active');
       });
 

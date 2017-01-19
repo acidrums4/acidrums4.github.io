@@ -100,7 +100,7 @@ div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}
 div.home-content-wrapper,article{display:flex;flex-direction:row;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
 
-main{opacity:1;order:1;margin:50px auto 84px;width:100%;position:relative;transition:all 1s var(--trans-cbk)}
+main{opacity:1;order:1;margin:50px auto 84px;width:100%;position:relative;transition:margin-top .5s var(--trans-cbk),opacity .25s ease-out}
 div.loading main,div.unload main{opacity:0;margin-top:300px}
 div.loaded main{opacity:1;margin-top:24px}
 header{width:100%}

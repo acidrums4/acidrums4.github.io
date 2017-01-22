@@ -245,7 +245,7 @@ ul.slider svg.icon{display:none}
 ul.slider-navigation{display:none}
 ul.slider-navigation li{margin-left:32px}
 ul.slider-navigation a{display:block}
-ul.slider-navigation path{stroke:#968f9b}
+ul.slider-navigation svg{stroke:#968f9b}
 body.item-web ul.slider-navigation a:hover path{stroke:#4d95e1}
 body.item-fto ul.slider-navigation a:hover path{stroke:#37ba7a}
 body.item-ils ul.slider-navigation a:hover path{stroke:#f07050}

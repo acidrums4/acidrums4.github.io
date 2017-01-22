@@ -301,8 +301,8 @@ main{order:2}
 div.loaded main{margin-top:50px}
 div.main-container{flex-direction:row}
 div.main-wrapper{max-width:960px;margin:50px auto}
-header,div.item-txt{flex-basis:320px}
-header{width:320px;position:fixed;top:100px}
+header,div.item-txt{flex:1 1 320px}
+div.header-wrapper{width:320px;position:fixed;top:100px}
 section.grid-wrap,div.item-img{order:2;flex-basis:610px;margin-left:30px}
 section.grid-wrap{max-width:1260px}
 body.scrolled main{margin:0 auto}

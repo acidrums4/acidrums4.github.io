@@ -350,34 +350,37 @@ jQuery(document).ready(function(event){
   function animateAvatar(){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
-		var animateL = document.createElementNS("http://www.w3.org/2000/svg","animate");
-		var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
-    animateL.setAttribute('attributeName','d');
-    animateR.setAttribute('attributeName','d');
-    animateL.setAttribute('repeatCount','indefinite');
-    animateR.setAttribute('repeatCount','indefinite');
+		
+		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
+			var animateL = document.createElementNS("http://www.w3.org/2000/svg","animate");
+			var animateR = document.createElementNS("http://www.w3.org/2000/svg","animate");
+			animateL.setAttribute('attributeName','d');
+			animateR.setAttribute('attributeName','d');
+			animateL.setAttribute('repeatCount','indefinite');
+			animateR.setAttribute('repeatCount','indefinite');
 
-    if ($('body').hasClass('biop-page')){
-      animateL.setAttribute('dur','3s');
-      animateR.setAttribute('dur','3s');
-      animateL.setAttribute('keyTimes','0;0.02;0.04;1');
-      animateR.setAttribute('keyTimes','0;0.02;0.04;1');
-      animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-      animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
-    }
-    else if ($('body').hasClass('sysp-page')){
-      animateL.setAttribute('dur','3s');
-      animateR.setAttribute('dur','3s');
-      animateL.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
-      animateR.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
-      animateL.setAttribute('values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
-      animateR.setAttribute('values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
-    }
+			if ($('body').hasClass('biop-page')){
+				animateL.setAttribute('dur','3s');
+				animateR.setAttribute('dur','3s');
+				animateL.setAttribute('keyTimes','0;0.02;0.04;1');
+				animateR.setAttribute('keyTimes','0;0.02;0.04;1');
+				animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
+				animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+			}
+			else if ($('body').hasClass('sysp-page')){
+				animateL.setAttribute('dur','3s');
+				animateR.setAttribute('dur','3s');
+				animateL.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
+				animateR.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
+				animateL.setAttribute('values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
+				animateR.setAttribute('values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
+			}
 
-		eyeL.appendChild(animateL);
-		eyeR.appendChild(animateR);
-		animateL.beginElement();
-		animateR.beginElement();
+			eyeL.appendChild(animateL);
+			eyeR.appendChild(animateR);
+			animateL.beginElement();
+			animateR.beginElement();
+		}
   }
 
   init();

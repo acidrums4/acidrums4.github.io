@@ -290,7 +290,7 @@ div.grid{text-align:center}
 div.grid img{max-width:480px}
 div.footer-wrapper{width:unset;margin:32px}
 div.item-txt{flex-direction:row}
-article h1{flex-basis:240px}
+article h1{flex:0 0 240px}
 div.item-cat-icon{margin-top:10px}
 article p{font-size:100%;line-height:1.625;margin:0 0 .75em}
 article p+p{margin:0}

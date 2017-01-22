@@ -350,7 +350,7 @@ article{margin:0}
 body.noscroll article{margin-top:0}
 body.scrolled article{margin-top:200px}
 body.scrolled article.slider-active{margin-top:170px}
-body.scrolled article h2{margin:16px 0;line-height:1.5}
+body.scrolled article h2{margin:22px 0;line-height:1.5}
 div.item-cat-icon{margin-top:calc(2em + 10px)}
 article h2{flex-grow:1;text-align:left;transition:all .5s ease-out}
 article p{font-size:102.5%;line-height:1.75;margin:2em 0 0}

@@ -356,26 +356,26 @@ jQuery(document).ready(function(event){
       //console.log("Sirva, carajo!");
 			var animateL = document.createElementNS("http://www.w3.org/2000/svg","animateMotion");
 			var animateR = document.createElementNS("http://www.w3.org/2000/svg","animateMotion");
-			animateL.setAttribute('attributeName','d');
-			animateR.setAttribute('attributeName','d');
-			animateL.setAttribute('repeatCount','indefinite');
-			animateR.setAttribute('repeatCount','indefinite');
+			animateL.setAttributeNS(null,'attributeName','d');
+			animateR.setAttributeNS(null,'attributeName','d');
+			animateL.setAttributeNS(null,'repeatCount','indefinite');
+			animateR.setAttributeNS(null,'repeatCount','indefinite');
 
 			if ($('body').hasClass('biop-page')){
-				animateL.setAttribute('dur','3s');
-				animateR.setAttribute('dur','3s');
-				animateL.setAttribute('keyTimes','0;0.02;0.04;1');
-				animateR.setAttribute('keyTimes','0;0.02;0.04;1');
-				animateL.setAttribute('values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-				animateR.setAttribute('values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+				animateL.setAttributeNS(null,'dur','3s');
+				animateR.setAttributeNS(null,'dur','3s');
+				animateL.setAttributeNS(null,'keyTimes','0;0.02;0.04;1');
+				animateR.setAttributeNS(null,'keyTimes','0;0.02;0.04;1');
+				animateL.setAttributeNS(null,'values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
+				animateR.setAttributeNS(null,'values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
 			}
 			else if ($('body').hasClass('sysp-page')){
-				animateL.setAttribute('dur','3s');
-				animateR.setAttribute('dur','3s');
-				animateL.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
-				animateR.setAttribute('keyTimes','0;0.48;0.5;0.98;1');
-				animateL.setAttribute('values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
-				animateR.setAttribute('values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
+				animateL.setAttributeNS(null,'dur','3s');
+				animateR.setAttributeNS(null,'dur','3s');
+				animateL.setAttributeNS(null,'keyTimes','0;0.48;0.5;0.98;1');
+				animateR.setAttributeNS(null,'keyTimes','0;0.48;0.5;0.98;1');
+				animateL.setAttributeNS(null,'values','M159 168l-16.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M199 168l-56.75-19l36.75,0l38,0z;M159 168l-16.75-19l36.75,0l38,0z');
+				animateR.setAttributeNS(null,'values','M271 168l56.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M311 168l16.75-19l-36.75,0l-38,0z;M271 168l56.75-19l-36.75,0l-38,0z');
 			}
 
 			eyeL.appendChild(animateL);

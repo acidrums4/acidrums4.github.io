@@ -353,8 +353,8 @@ jQuery(document).ready(function(event){
 		
 		//if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
       console.log("Sirva, carajo!");
-			var animateL = document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
-			var animateR = document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
+			var animateL = document.createElementNS('http://www.w3.org/2000/svg','animate');
+			var animateR = document.createElementNS('http://www.w3.org/2000/svg','animate');
 			animateL.setAttribute('attributeName','d');
 			animateR.setAttribute('attributeName','d');
 			animateL.setAttribute('repeatCount','indefinite');

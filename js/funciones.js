@@ -355,8 +355,8 @@ jQuery(document).ready(function(event){
       console.log("Sirva, carajo!");
 			var animateL = document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
 			var animateR = document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
-			//animateL.setAttributeNS(null,'attributeName','d');
-			//animateR.setAttributeNS(null,'attributeName','d');
+			animateL.setAttributeNS(null,'attributeName','d');
+			animateR.setAttributeNS(null,'attributeName','d');
 			animateL.setAttributeNS(null,'repeatCount','indefinite');
 			animateR.setAttributeNS(null,'repeatCount','indefinite');
 
@@ -365,10 +365,8 @@ jQuery(document).ready(function(event){
 				animateR.setAttributeNS(null,'dur','3s');
 				animateL.setAttributeNS(null,'keyTimes','0;0.02;0.04;1');
 				animateR.setAttributeNS(null,'keyTimes','0;0.02;0.04;1');
-				//animateL.setAttributeNS(null,'values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-				//animateR.setAttributeNS(null,'values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
-				animateL.setAttributeNS(null,'path','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
-				animateR.setAttributeNS(null,'path','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
+				animateL.setAttributeNS(null,'values','M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,10l38,-10z;M179 168l-36.75-19l36.75,0l38,0z;M179 168l-36.75-19l36.75,0l38,0z');
+				animateR.setAttributeNS(null,'values','M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,10l-38,-10z;M291 168l36.75-19l-36.75,0l-38,0z;M291 168l36.75-19l-36.75,0l-38,0z');
 			}
 			else if ($('body').hasClass('sysp-page')){
 				animateL.setAttributeNS(null,'dur','3s');

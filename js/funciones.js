@@ -350,6 +350,7 @@ jQuery(document).ready(function(event){
   function animateAvatar(){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
+    console.log("¿Estamos acá?");
 		
 		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
       console.log("Sirva, carajo!");

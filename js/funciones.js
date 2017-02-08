@@ -352,7 +352,7 @@ jQuery(document).ready(function(event){
     eyeR = document.getElementById('eye-r');
     console.log("¿Estamos acá?");
 		
-		if (('beginElement' in eyeL)){
+		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
       console.log("Sirva, carajo!");
 			var animateL = document.createElementNS("http://www.w3.org/2000/svg","animateElement");
 			var animateR = document.createElementNS("http://www.w3.org/2000/svg","animateElement");
@@ -382,7 +382,9 @@ jQuery(document).ready(function(event){
 			eyeR.appendChild(animateR);
 			animateL.beginElement();
 			animateR.beginElement();
-		}
+		} else {
+      console.log("Pailander");
+    }
   }
 
   init();

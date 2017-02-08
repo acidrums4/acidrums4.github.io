@@ -351,8 +351,7 @@ jQuery(document).ready(function(event){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
 		
-		//if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
-      console.log("Sirva, carajo!");
+		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
 			var animateL = document.createElementNS('http://www.w3.org/2000/svg','animate');
 			var animateR = document.createElementNS('http://www.w3.org/2000/svg','animate');
 			animateL.setAttribute('attributeName','d');
@@ -381,7 +380,7 @@ jQuery(document).ready(function(event){
 			eyeR.appendChild(animateR);
 			animateL.beginElement();
 			animateR.beginElement();
-		//}
+		}
   }
 
   init();

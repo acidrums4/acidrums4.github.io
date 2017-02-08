@@ -352,7 +352,7 @@ jQuery(document).ready(function(event){
     eyeR = document.getElementById('eye-r');
     console.log("¿Estamos acá?");
 		
-		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
+		if (('beginElement' in eyeL)){
       console.log("Sirva, carajo!");
 			var animateL = document.createElementNS("http://www.w3.org/2000/svg","animateElement");
 			var animateR = document.createElementNS("http://www.w3.org/2000/svg","animateElement");

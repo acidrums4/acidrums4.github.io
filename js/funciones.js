@@ -350,10 +350,9 @@ jQuery(document).ready(function(event){
   function animateAvatar(){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
-    //console.log("¿Estamos acá?");
 		
-		//if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
-      //console.log("Sirva, carajo!");
+		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
+      console.log("Sirva, carajo!");
 			var animateL = document.createElementNS("http://www.w3.org/2000/svg","animateMotion");
 			var animateR = document.createElementNS("http://www.w3.org/2000/svg","animateMotion");
 			animateL.setAttributeNS(null,'attributeName','d');
@@ -382,7 +381,7 @@ jQuery(document).ready(function(event){
 			eyeR.appendChild(animateR);
 			animateL.beginElement();
 			animateR.beginElement();
-		//}
+		}
   }
 
   init();

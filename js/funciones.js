@@ -351,7 +351,8 @@ jQuery(document).ready(function(event){
     eyeL = document.getElementById('eye-l');
     eyeR = document.getElementById('eye-r');
 		
-		if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
+		//if (('beginElement' in eyeL) && ('beginElement' in eyeR)){
+		if (eyeL.beginElement) && (eyeR.beginElement){
 			var animateL = document.createElementNS('http://www.w3.org/2000/svg','animate');
 			var animateR = document.createElementNS('http://www.w3.org/2000/svg','animate');
 			animateL.setAttribute('attributeName','d');

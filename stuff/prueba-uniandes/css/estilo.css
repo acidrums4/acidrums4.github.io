@@ -57,7 +57,7 @@ div.nav-icon-wrapper{display:inline;float:left;margin:0 5.572240769% 0 0}
 nav svg{fill:none;stroke:#515151;width:16px;height:16px;transition:fill .25s ease-out}
 nav a:hover svg{fill:#00b4ff}
 
-div.about-pentagono{text-align:center;overflow:hidden;background-image:url(../img/pentagono-isotipo.svg);background-repeat:no-repeat;background-position:61.804697157% 61.804697157%;background-size:38.195302843%}
+div.about-pentagono{text-align:center;overflow:hidden;background-image:url(../img/pentagono-isotipo.svg);background-repeat:no-repeat;background-position:105.572240769% 61.804697157%;background-size:38.195302843%}
 div.about-pentagono>svg{position:absolute;width:38.195302843%;bottom:0;left:0}
 
 div.text-wrapper{display:block}

@@ -71,6 +71,9 @@ body.item-ils path#logo-fg{fill:#b03010}
 body.item-otr path#logo-fg{fill:#880031}
 body.item-hdv path#logo-fg{fill:#007382}
 
+/* Cursores */
+div.loading,div.unload{cursor:wait}
+
 /* Contenido */
 div.main-container{display:flex;width:100%;flex-direction:column}
 div.main-wrapper{position:relative}

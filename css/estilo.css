@@ -1,3 +1,11 @@
+/*
+BOTONES
+
+https://codepen.io/chrisdothtml/full/xbmddV/
+https://codyhouse.co/demo/smart-fixed-navigation/index.html
+
+*/
+
 @font-face{font-family:'Affogato';src:url('../fonts/Affogato-Regular.eot');src:url('../fonts/Affogato-Regular.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Regular.woff')format('woff'),url('../fonts/Affogato-Regular.woff2')format('woff2'),url('../fonts/Affogato-Regular.ttf')format('truetype'),url('../fonts/Affogato-Regular.svg')format('svg')}
 @font-face{font-family:'Affogato';src:url('../fonts/Affogato-Bold.eot');src:url('../fonts/Affogato-Bold.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Bold.woff')format('woff'),url('../fonts/Affogato-Bold.woff2')format('woff2'),url('../fonts/Affogato-Bold.ttf')format('truetype'),url('../fonts/Affogato-Bold.svg')format('svg');font-weight:bold;font-style:normal}
 @font-face{font-family:'Affogato-Black';src:url('../fonts/Affogato-Black.eot');src:url('../fonts/Affogato-Black.eot?#iefix')format('embedded-opentype'),url('../fonts/Affogato-Black.woff')format('woff'),url('../fonts/Affogato-Black.woff2')format('woff2'),url('../fonts/Affogato-Black.ttf')format('truetype'),url('../fonts/Affogato-Black.svg')format('svg');font-weight:normal;font-style:normal}
